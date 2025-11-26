@@ -40,19 +40,19 @@
 @layer components {
   /* Hero Section Styles */
   .hero-gradient {
-    background: linear-gradient(135deg, #052e16 0%, #0a2818 20%, #0f3d22 40%, #1a5d3a 60%, #166534 80%, #0f3d22 100%);
+    background: #0a2818;
+    background-image: linear-gradient(135deg, #052e16 0%, #0a2818 30%, #0f3d22 50%, #0a2818 70%, #052e16 100%);
     position: relative;
   }
 
-  .hero-gradient::before {
+  .hero-gradient::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(ellipse at 30% 20%, rgba(26, 93, 58, 0.3) 0%, transparent 50%),
-                radial-gradient(ellipse at 70% 80%, rgba(22, 101, 52, 0.2) 0%, transparent 50%);
+    background: linear-gradient(to right, transparent 0%, rgba(255,255,255,0.03) 50%, transparent 100%);
     pointer-events: none;
   }
 
@@ -63,11 +63,14 @@
   /* Hero text styles for better contrast */
   .hero-gradient h1,
   .hero-gradient h2 {
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.4);
   }
 
-  .hero-gradient p {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  .hero-gradient p,
+  .hero-gradient span,
+  .hero-gradient a,
+  .hero-gradient nav {
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
   }
   
   /* Card Styles */
