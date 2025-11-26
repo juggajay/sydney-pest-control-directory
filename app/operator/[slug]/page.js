@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { 
-  MapPin, Shield, Star, Clock, Phone, ChevronRight, 
+import {
+  MapPin, Shield, Star, Clock, Phone, ChevronRight,
   Bug, CheckCircle, Globe, Mail, Calendar, Award,
   ArrowRight, ExternalLink, MessageSquare, Zap
 } from 'lucide-react';
@@ -12,12 +12,13 @@ import {
   getOperatorBySlug,
   getReviewsForOperator
 } from '../../../lib/data';
-import { 
-  generateMetadata as genMeta, 
+import {
+  generateMetadata as genMeta,
   generateOperatorSchema,
   generateBreadcrumbSchema,
-  siteConfig 
+  siteConfig
 } from '../../../lib/seo';
+import GoogleMap from '../../../components/GoogleMap';
 
 // Generate static params for all operators
 export async function generateStaticParams() {
@@ -357,7 +358,7 @@ export default function OperatorPage({ params }) {
                       <span className="text-sm">{operator.email}</span>
                     </a>
                   )}
-                  
+
                   {operator.website && (
                     <a
                       href={operator.website}
@@ -372,6 +373,14 @@ export default function OperatorPage({ params }) {
                   )}
                 </div>
               </div>
+
+              {/* Google Map for SEO */}
+              <GoogleMap
+                address={operator.address}
+                businessName={operator.businessName}
+                suburb={operator.serviceAreas[0] ? suburbs.find(s => s.slug === operator.serviceAreas[0])?.name : ''}
+                postcode={operator.postcode}
+              />
 
               {/* Working Hours */}
               {operator.operatingHours && (
