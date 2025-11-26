@@ -152,24 +152,24 @@ export default function Footer() {
       </div>
 
       {/* Trust Bar */}
-      <div className="border-t border-neutral-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-neutral-500">
-            <div className="flex items-center gap-2">
-              <Shield className="w-4 h-4 text-emerald-500" />
-              <span>EPA Licensed Operators</span>
+      <div className="border-t border-neutral-800 bg-neutral-900/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+          <div className="flex flex-wrap items-center justify-center gap-8 text-sm">
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-neutral-800/50 border border-neutral-700/50">
+              <Shield className="w-5 h-5 text-emerald-400" />
+              <span className="text-neutral-300 font-medium">EPA Licensed</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="text-accent-500">★★★★★</span>
-              <span>500+ Verified Reviews</span>
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-neutral-800/50 border border-neutral-700/50">
+              <span className="text-amber-400">★★★★★</span>
+              <span className="text-neutral-300 font-medium">500+ Reviews</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="text-primary-400">✓</span>
-              <span>Free Quotes</span>
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-neutral-800/50 border border-neutral-700/50">
+              <span className="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-xs font-bold">✓</span>
+              <span className="text-neutral-300 font-medium">Free Quotes</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="text-primary-400">✓</span>
-              <span>No Obligation</span>
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-neutral-800/50 border border-neutral-700/50">
+              <span className="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-xs font-bold">✓</span>
+              <span className="text-neutral-300 font-medium">No Obligation</span>
             </div>
           </div>
         </div>

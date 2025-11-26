@@ -62,12 +62,12 @@ function OperatorCard({ operator, services }) {
       {/* Services */}
       <div className="flex flex-wrap gap-2 mb-4">
         {operatorServices.slice(0, 4).map((service) => (
-          <span key={service.slug} className="px-2 py-1 bg-primary-50 rounded-md text-xs text-primary-700">
+          <span key={service.slug} className="px-2.5 py-1 bg-primary-50 border border-primary-100 rounded-lg text-xs font-medium text-primary-700">
             {service.shortName || service.name}
           </span>
         ))}
         {operatorServices.length > 4 && (
-          <span className="px-2 py-1 bg-neutral-100 rounded-md text-xs text-neutral-600">
+          <span className="px-2.5 py-1 bg-neutral-100 border border-neutral-200 rounded-lg text-xs font-medium text-neutral-600">
             +{operatorServices.length - 4} more
           </span>
         )}
@@ -76,14 +76,14 @@ function OperatorCard({ operator, services }) {
       {/* Badges */}
       <div className="flex flex-wrap gap-2 mb-4">
         {operator.features?.includes('same-day-service') && (
-          <span className="inline-flex items-center gap-1 text-xs text-emerald-700 bg-emerald-50 px-2 py-1 rounded-md">
-            <Clock className="w-3 h-3" />
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200 px-2.5 py-1 rounded-lg">
+            <Clock className="w-3.5 h-3.5" />
             Same Day
           </span>
         )}
         {operator.features?.includes('response-guarantee') && (
-          <span className="inline-flex items-center gap-1 text-xs text-blue-700 bg-blue-50 px-2 py-1 rounded-md">
-            <CheckCircle className="w-3 h-3" />
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-700 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 px-2.5 py-1 rounded-lg">
+            <CheckCircle className="w-3.5 h-3.5" />
             2hr Response
           </span>
         )}

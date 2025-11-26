@@ -61,7 +61,7 @@ function OperatorCard({ operator, featured = false }) {
 
       <div className="flex flex-wrap gap-2 mb-4">
         {operator.services?.slice(0, 3).map((service, i) => (
-          <span key={i} className="px-2 py-1 bg-neutral-100 rounded-md text-xs text-neutral-600">
+          <span key={i} className="px-2.5 py-1 bg-primary-50 border border-primary-100 rounded-lg text-xs font-medium text-primary-700 capitalize">
             {service.replace(/-/g, ' ')}
           </span>
         ))}
@@ -88,20 +88,23 @@ function ServiceCard({ service }) {
   return (
     <Link
       href={`/services/${service.id || service.slug}`}
-      className="card p-6 group hover:border-primary-200"
+      className="card p-6 group hover:border-primary-300"
     >
-      <div className="w-12 h-12 rounded-xl bg-primary-50 flex items-center justify-center mb-4 group-hover:bg-primary-100 transition-colors">
-        <Bug className="w-6 h-6 text-primary-500" />
+      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary-50 to-emerald-50 border border-primary-100 flex items-center justify-center mb-4 group-hover:from-primary-100 group-hover:to-emerald-100 group-hover:border-primary-200 transition-all group-hover:scale-105">
+        <Bug className="w-7 h-7 text-primary-600" />
       </div>
       <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-2 group-hover:text-primary-600 transition-colors">
         {service.name}
       </h3>
-      <p className="text-sm text-neutral-600 mb-4">
+      <p className="text-sm text-neutral-600 mb-4 leading-relaxed">
         {service.description}
       </p>
-      <div className="flex items-center justify-between">
-        <span className="text-lg font-semibold text-primary-600">{service.priceRange}</span>
-        <ChevronRight className="w-5 h-5 text-neutral-400 group-hover:text-primary-500 group-hover:translate-x-1 transition-all" />
+      <div className="flex items-center justify-between pt-4 border-t border-neutral-100">
+        <span className="text-lg font-bold text-primary-600">{service.priceRange}</span>
+        <span className="flex items-center gap-1 text-sm font-medium text-primary-600 group-hover:text-primary-700">
+          Learn more
+          <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+        </span>
       </div>
     </Link>
   );
@@ -110,14 +113,14 @@ function ServiceCard({ service }) {
 // Region Card Component
 function RegionCard({ region, icon: Icon, suburbCount, regionSuburbs }) {
   return (
-    <div className="card p-6">
+    <div className="card p-6 group">
       <div className="flex items-center gap-3 mb-4">
-        <div className="w-10 h-10 rounded-lg bg-primary-50 flex items-center justify-center">
-          <Icon className="w-5 h-5 text-primary-500" />
+        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary-50 to-emerald-50 border border-primary-100 flex items-center justify-center group-hover:from-primary-100 group-hover:to-emerald-100 transition-colors">
+          <Icon className="w-6 h-6 text-primary-600" />
         </div>
         <div>
-          <h3 className="font-heading font-semibold text-neutral-900">{region}</h3>
-          <span className="text-sm text-neutral-500">{suburbCount} suburbs</span>
+          <h3 className="font-heading font-semibold text-lg text-neutral-900">{region}</h3>
+          <span className="text-sm text-neutral-500">{suburbCount} suburbs covered</span>
         </div>
       </div>
       <div className="flex flex-wrap gap-2">
@@ -125,14 +128,14 @@ function RegionCard({ region, icon: Icon, suburbCount, regionSuburbs }) {
           <Link
             key={suburb.id || suburb.slug}
             href={`/pest-control/${suburb.id || suburb.slug}`}
-            className="px-3 py-1.5 rounded-full text-sm bg-neutral-100 text-neutral-600 hover:bg-primary-100 hover:text-primary-700 transition-colors"
+            className="px-3 py-1.5 rounded-full text-sm bg-neutral-100 border border-neutral-200 text-neutral-700 hover:bg-primary-50 hover:border-primary-200 hover:text-primary-700 transition-all"
           >
             {suburb.name}
           </Link>
         ))}
         <Link
           href={`/locations/${region.toLowerCase().replace(/\s+/g, '-')}`}
-          className="px-3 py-1.5 rounded-full text-sm text-primary-600 hover:text-primary-700 font-medium"
+          className="px-3 py-1.5 rounded-full text-sm text-primary-600 hover:text-primary-700 font-semibold hover:bg-primary-50 transition-colors"
         >
           View all →
         </Link>
@@ -211,43 +214,43 @@ export default function HomePage() {
       </section>
 
       {/* Trust Indicators */}
-      <section className="bg-neutral-50 py-8 border-b border-neutral-200">
+      <section className="bg-white py-10 border-b border-neutral-100 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-xl bg-primary-100 flex items-center justify-center">
-                <Shield className="w-6 h-6 text-primary-600" />
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gradient-to-br from-primary-50/50 to-emerald-50/50 border border-primary-100/50">
+              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center shadow-lg shadow-primary-500/20">
+                <Shield className="w-7 h-7 text-white" />
               </div>
               <div>
-                <div className="font-heading font-bold text-2xl text-neutral-900">100+</div>
-                <div className="text-sm text-neutral-600">Licensed Operators</div>
+                <div className="font-heading font-bold text-3xl text-neutral-900">100+</div>
+                <div className="text-sm font-medium text-neutral-600">Licensed Operators</div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-xl bg-accent-100 flex items-center justify-center">
-                <Star className="w-6 h-6 text-accent-600" />
+            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gradient-to-br from-amber-50/50 to-yellow-50/50 border border-amber-100/50">
+              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-accent-500 to-amber-500 flex items-center justify-center shadow-lg shadow-accent-500/20">
+                <Star className="w-7 h-7 text-white" />
               </div>
               <div>
-                <div className="font-heading font-bold text-2xl text-neutral-900">4.8★</div>
-                <div className="text-sm text-neutral-600">Average Rating</div>
+                <div className="font-heading font-bold text-3xl text-neutral-900">4.8★</div>
+                <div className="text-sm font-medium text-neutral-600">Average Rating</div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center">
-                <Users className="w-6 h-6 text-emerald-600" />
+            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gradient-to-br from-emerald-50/50 to-teal-50/50 border border-emerald-100/50">
+              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center shadow-lg shadow-emerald-500/20">
+                <Users className="w-7 h-7 text-white" />
               </div>
               <div>
-                <div className="font-heading font-bold text-2xl text-neutral-900">10K+</div>
-                <div className="text-sm text-neutral-600">Happy Customers</div>
+                <div className="font-heading font-bold text-3xl text-neutral-900">10K+</div>
+                <div className="text-sm font-medium text-neutral-600">Happy Customers</div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center">
-                <MapPin className="w-6 h-6 text-blue-600" />
+            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gradient-to-br from-blue-50/50 to-indigo-50/50 border border-blue-100/50">
+              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center shadow-lg shadow-blue-500/20">
+                <MapPin className="w-7 h-7 text-white" />
               </div>
               <div>
-                <div className="font-heading font-bold text-2xl text-neutral-900">{suburbs.length}+</div>
-                <div className="text-sm text-neutral-600">Sydney Suburbs</div>
+                <div className="font-heading font-bold text-3xl text-neutral-900">{suburbs.length}+</div>
+                <div className="text-sm font-medium text-neutral-600">Sydney Suburbs</div>
               </div>
             </div>
           </div>
@@ -315,39 +318,42 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
             {[
               {
                 step: '01',
                 title: 'Search Your Suburb',
                 description: 'Enter your suburb or postcode to find licensed pest control operators serving your area.',
                 icon: Search,
+                color: 'from-primary-500 to-emerald-500',
               },
               {
                 step: '02',
                 title: 'Compare & Choose',
                 description: 'Review operator profiles, check EPA licenses, read verified reviews, and compare pricing.',
                 icon: Users,
+                color: 'from-blue-500 to-indigo-500',
               },
               {
                 step: '03',
                 title: 'Get Free Quotes',
                 description: 'Request free, no-obligation quotes from up to 3 operators. Choose the best fit for your needs.',
                 icon: CheckCircle,
+                color: 'from-accent-500 to-amber-500',
               },
             ].map((item, index) => (
               <div key={item.step} className="relative text-center group">
                 {index < 2 && (
-                  <div className="hidden md:block absolute top-16 left-1/2 w-full h-0.5 bg-neutral-200 -z-10">
-                    <div className="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 border-t-2 border-r-2 border-neutral-300 rotate-45" />
+                  <div className="hidden md:block absolute top-16 left-1/2 w-full h-0.5 bg-gradient-to-r from-neutral-200 via-neutral-300 to-neutral-200 -z-10">
+                    <div className="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 border-t-2 border-r-2 border-primary-300 rotate-45" />
                   </div>
                 )}
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary-50 text-primary-600 mb-6 group-hover:bg-primary-100 transition-colors">
-                  <item.icon className="w-7 h-7" />
+                <div className={`inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br ${item.color} text-white mb-6 shadow-lg group-hover:scale-110 transition-transform`}>
+                  <item.icon className="w-9 h-9" />
                 </div>
-                <div className="text-sm font-semibold text-primary-500 mb-2">Step {item.step}</div>
-                <h3 className="text-xl font-heading font-semibold text-neutral-900 mb-3">{item.title}</h3>
-                <p className="text-neutral-600">{item.description}</p>
+                <div className="inline-block px-3 py-1 rounded-full bg-primary-50 border border-primary-100 text-sm font-bold text-primary-600 mb-3">Step {item.step}</div>
+                <h3 className="text-xl font-heading font-bold text-neutral-900 mb-3">{item.title}</h3>
+                <p className="text-neutral-600 leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -395,30 +401,38 @@ export default function HomePage() {
                     icon: Shield,
                     title: 'EPA License Verification',
                     description: 'Every operator is verified against the NSW EPA public register. Look for the verified badge.',
+                    color: 'from-emerald-500 to-teal-500',
+                    bg: 'from-emerald-50 to-teal-50',
                   },
                   {
                     icon: Star,
                     title: 'Genuine Customer Reviews',
                     description: 'Read real reviews from verified customers. We don\'t allow fake or incentivized reviews.',
+                    color: 'from-amber-500 to-orange-500',
+                    bg: 'from-amber-50 to-orange-50',
                   },
                   {
                     icon: Zap,
                     title: 'Fast Response Times',
                     description: 'Featured operators commit to responding within 2 hours. Get same-day service when you need it.',
+                    color: 'from-blue-500 to-indigo-500',
+                    bg: 'from-blue-50 to-indigo-50',
                   },
                   {
                     icon: Award,
                     title: 'No Hidden Costs',
                     description: 'Get transparent pricing upfront. Compare quotes from multiple operators before you decide.',
+                    color: 'from-purple-500 to-pink-500',
+                    bg: 'from-purple-50 to-pink-50',
                   },
                 ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary-50 flex items-center justify-center">
-                      <item.icon className="w-6 h-6 text-primary-600" />
+                  <div key={item.title} className="flex gap-4 p-4 rounded-2xl bg-gradient-to-r from-neutral-50 to-white border border-neutral-100 hover:shadow-md transition-shadow">
+                    <div className={`flex-shrink-0 w-14 h-14 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center shadow-lg`}>
+                      <item.icon className="w-7 h-7 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-heading font-semibold text-neutral-900 mb-1">{item.title}</h3>
-                      <p className="text-neutral-600">{item.description}</p>
+                      <h3 className="font-heading font-bold text-neutral-900 mb-1">{item.title}</h3>
+                      <p className="text-neutral-600 leading-relaxed">{item.description}</p>
                     </div>
                   </div>
                 ))}

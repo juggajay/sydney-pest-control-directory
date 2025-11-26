@@ -66,9 +66,12 @@ module.exports = {
       },
       boxShadow: {
         'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
-        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05)',
-        'elevated': '0 10px 40px -10px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)',
-        'glow': '0 0 40px rgba(26, 93, 58, 0.15)',
+        'card': '0 1px 3px rgba(0, 0, 0, 0.04), 0 6px 16px rgba(0, 0, 0, 0.04)',
+        'card-hover': '0 4px 12px rgba(0, 0, 0, 0.08), 0 20px 40px rgba(0, 0, 0, 0.06)',
+        'elevated': '0 10px 40px -10px rgba(0, 0, 0, 0.12), 0 4px 6px -4px rgba(0, 0, 0, 0.08)',
+        'glow': '0 0 40px rgba(26, 93, 58, 0.2)',
+        'glow-accent': '0 0 40px rgba(245, 158, 11, 0.2)',
+        'inner-light': 'inset 0 1px 0 rgba(255, 255, 255, 0.1)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
