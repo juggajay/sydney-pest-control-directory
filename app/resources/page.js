@@ -245,7 +245,7 @@ export default function ResourcesPage() {
             <span>/</span>
             <span className="text-white">Resources</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Pest Control Resources & Guides
           </h1>
           <p className="text-xl text-primary-100 max-w-3xl">
