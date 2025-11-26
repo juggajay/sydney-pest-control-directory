@@ -1,0 +1,47 @@
+{
+  "id": "south-turramurra",
+  "name": "South Turramurra",
+  "slug": "south-turramurra",
+  "postcode": "2074",
+  "region": "Upper North Shore",
+  "regionSlug": "upper-north-shore",
+  "council": "Ku-ring-gai / Hornsby Council",
+  "coordinates": {
+    "lat": -33.745,
+    "lng": 151.124
+  },
+  "population": 5500,
+  "propertyTypes": [
+    "houses",
+    "acreage",
+    "townhouses"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Bushland proximity increases spider and possum encounters",
+    "Native vegetation attracts termites and other wood-boring pests",
+    "South Turramurra properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "South Turramurra is located in the Upper North Shore, featuring established homes surrounded by bushland. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "lindfield",
+    "east-lindfield",
+    "roseville",
+    "roseville-chase"
+  ],
+  "seoTitle": "Pest Control South Turramurra - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in South Turramurra 2074. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$216 - $384",
+    "termiteInspection": "$300 - $540",
+    "termiteTreatment": "$3000 - $6000",
+    "rodentControl": "$240 - $456"
+  }
+}

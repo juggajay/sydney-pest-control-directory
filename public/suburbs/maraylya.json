@@ -1,0 +1,47 @@
+{
+  "id": "maraylya",
+  "name": "Maraylya",
+  "slug": "maraylya",
+  "postcode": "2765",
+  "region": "Hills District",
+  "regionSlug": "hills-district",
+  "council": "The Hills Shire Council",
+  "coordinates": {
+    "lat": -33.598,
+    "lng": 150.925
+  },
+  "population": 2000,
+  "propertyTypes": [
+    "houses",
+    "acreage",
+    "townhouses"
+  ],
+  "commonPests": [
+    "termites",
+    "spiders",
+    "rodents",
+    "possums",
+    "ants",
+    "wasps"
+  ],
+  "pestRiskFactors": [
+    "Bushland proximity increases spider and possum encounters",
+    "Native vegetation attracts termites and other wood-boring pests",
+    "Maraylya properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Maraylya is located in Sydney's Hills District, featuring family homes and semi-rural properties. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "castle-hill",
+    "west-pennant-hills",
+    "baulkham-hills",
+    "bella-vista"
+  ],
+  "seoTitle": "Pest Control Maraylya - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Maraylya 2765. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

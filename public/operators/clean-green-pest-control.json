@@ -1,0 +1,69 @@
+{
+  "id": 11,
+  "slug": "clean-green-pest-control",
+  "businessName": "Clean & Green Pest Control",
+  "tradingName": "Clean & Green Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2023-314975",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-12-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9977 4455",
+  "email": "info@cleangreenpest.com.au",
+  "website": "https://cleangreenpest.com.au",
+  "address": "213 Park Street, Manly NSW",
+  "suburb": "Manly",
+  "postcode": "2525",
+  "region": "northern-beaches",
+  "description": "Sydney's trusted pest control experts. Serving Manly and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Manly. Licensed & insured.",
+  "services": [
+    "possum-removal",
+    "ant-control",
+    "rodent-control",
+    "general-pest-control",
+    "termite-inspection",
+    "termite-treatment"
+  ],
+  "serviceAreas": [
+    "newport",
+    "avalon",
+    "mona-vale",
+    "marrickville",
+    "randwick",
+    "bondi",
+    "brookvale",
+    "collaroy",
+    "bondi-junction",
+    "dee-why",
+    "manly",
+    "curl-curl"
+  ],
+  "rating": 4.2,
+  "reviewCount": 188,
+  "yearsInBusiness": 13,
+  "featured": true,
+  "tier": "premium",
+  "features": [
+    "free-quotes",
+    "epa-verified",
+    "warranty-guarantee",
+    "licensed-insured",
+    "family-safe"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$215 - $343",
+    "termiteInspection": "$306 - $413",
+    "rodentControl": "$240 - $443"
+  }
+}

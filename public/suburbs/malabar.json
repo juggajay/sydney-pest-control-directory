@@ -1,0 +1,48 @@
+{
+  "id": "malabar",
+  "name": "Malabar",
+  "slug": "malabar",
+  "postcode": "2036",
+  "region": "Eastern Suburbs",
+  "regionSlug": "eastern-suburbs",
+  "council": "Waverley / Randwick Council",
+  "coordinates": {
+    "lat": -33.962,
+    "lng": 151.248
+  },
+  "population": 4000,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "ants",
+    "spiders",
+    "mosquitoes",
+    "silverfish"
+  ],
+  "pestRiskFactors": [
+    "Coastal humidity increases termite and cockroach activity",
+    "Sandy soils provide ideal termite nesting conditions",
+    "Malabar properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Malabar is a sought-after Eastern Suburbs location known for its coastal lifestyle and mix of residential properties. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "bondi",
+    "bondi-beach",
+    "bondi-junction",
+    "tamarama"
+  ],
+  "seoTitle": "Pest Control Malabar - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Malabar 2036. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$216 - $384",
+    "termiteInspection": "$300 - $540",
+    "termiteTreatment": "$3000 - $6000",
+    "rodentControl": "$240 - $456"
+  }
+}

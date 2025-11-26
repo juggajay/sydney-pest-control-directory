@@ -1,0 +1,64 @@
+{
+  "id": 9,
+  "slug": "dawsons-pest-control",
+  "businessName": "Dawson's Pest Control",
+  "tradingName": "Dawson's Pest Control Pty Ltd",
+  "licenseNumber": "P-2022-199008",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-02-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9449 5288",
+  "email": "info@dawsonspest.com.au",
+  "website": "https://dawsonspest.com.au",
+  "address": "202 Queen Street, Chatswood NSW",
+  "suburb": "Chatswood",
+  "postcode": "2212",
+  "region": "north-shore",
+  "description": "Trusted pest control solutions in Chatswood. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Chatswood. Licensed & insured.",
+  "services": [
+    "ant-control",
+    "bed-bug-treatment",
+    "termite-treatment",
+    "bird-control",
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "artarmon",
+    "chatswood",
+    "neutral-bay",
+    "marrickville",
+    "lane-cove",
+    "st-leonards",
+    "cremorne",
+    "newtown",
+    "crows-nest",
+    "north-sydney"
+  ],
+  "rating": 4.9,
+  "reviewCount": 58,
+  "yearsInBusiness": 37,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "same-day-service",
+    "warranty-guarantee"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$167 - $351",
+    "termiteInspection": "$287 - $494",
+    "rodentControl": "$275 - $368"
+  }
+}

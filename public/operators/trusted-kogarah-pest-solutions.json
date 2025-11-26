@@ -1,0 +1,68 @@
+{
+  "id": 81,
+  "slug": "trusted-kogarah-pest-solutions",
+  "businessName": "Trusted Kogarah Pest Solutions",
+  "tradingName": "Trusted Kogarah Pest Solutions Pty Ltd",
+  "licenseNumber": "P-2021-513698",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-03-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9795 8074",
+  "email": "info@trusted-kogarah-pest-solutions.com.au",
+  "website": "https://trusted-kogarah-pest-solutions.com.au",
+  "address": "141 High Street, Kogarah NSW",
+  "suburb": "Kogarah",
+  "postcode": "2797",
+  "region": "southern",
+  "description": "Expert pest control services across Kogarah. 8+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Kogarah. Licensed & insured.",
+  "services": [
+    "ant-control",
+    "wasp-removal",
+    "spider-control",
+    "cockroach-control",
+    "rodent-control",
+    "possum-removal",
+    "termite-inspection"
+  ],
+  "serviceAreas": [
+    "cronulla",
+    "marrickville",
+    "miranda",
+    "sutherland",
+    "bondi-junction",
+    "menai",
+    "sans-souci",
+    "hurstville",
+    "kogarah",
+    "rockdale",
+    "leichhardt"
+  ],
+  "rating": 4.5,
+  "reviewCount": 70,
+  "yearsInBusiness": 8,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "same-day-service",
+    "licensed-insured",
+    "24-7-emergency"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$241 - $391",
+    "termiteInspection": "$265 - $410",
+    "rodentControl": "$281 - $357"
+  }
+}

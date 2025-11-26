@@ -1,0 +1,69 @@
+{
+  "id": 73,
+  "slug": "pro-hurstville-pest-services",
+  "businessName": "Pro Hurstville Pest Services",
+  "tradingName": "Pro Hurstville Pest Services Pty Ltd",
+  "licenseNumber": "PMT-2024-816251",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-11-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9693 7514",
+  "email": "info@pro-hurstville-pest-services.com.au",
+  "website": "https://pro-hurstville-pest-services.com.au",
+  "address": "317 High Street, Hurstville NSW",
+  "suburb": "Hurstville",
+  "postcode": "2095",
+  "region": "southern",
+  "description": "Family-owned pest control business serving the Hurstville region for over 8 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Hurstville. Licensed & insured.",
+  "services": [
+    "possum-removal",
+    "bed-bug-treatment",
+    "spider-control",
+    "termite-inspection",
+    "ant-control",
+    "rodent-control",
+    "termite-treatment",
+    "flea-treatment"
+  ],
+  "serviceAreas": [
+    "engadine",
+    "newtown",
+    "sutherland",
+    "rockdale",
+    "leichhardt",
+    "miranda",
+    "marrickville",
+    "kogarah",
+    "bondi",
+    "bondi-junction",
+    "sans-souci"
+  ],
+  "rating": 4.6,
+  "reviewCount": 175,
+  "yearsInBusiness": 8,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "24-7-emergency",
+    "warranty-guarantee",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$248 - $346",
+    "termiteInspection": "$345 - $497",
+    "rodentControl": "$215 - $413"
+  }
+}

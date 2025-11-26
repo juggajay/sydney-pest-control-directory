@@ -1,0 +1,47 @@
+{
+  "id": "berowra-waters",
+  "name": "Berowra Waters",
+  "slug": "berowra-waters",
+  "postcode": "2082",
+  "region": "Upper North Shore",
+  "regionSlug": "upper-north-shore",
+  "council": "Ku-ring-gai / Hornsby Council",
+  "coordinates": {
+    "lat": -33.589,
+    "lng": 151.128
+  },
+  "population": 500,
+  "propertyTypes": [
+    "houses",
+    "acreage",
+    "townhouses"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Bushland proximity increases spider and possum encounters",
+    "Native vegetation attracts termites and other wood-boring pests",
+    "Berowra Waters properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Berowra Waters is located in the Upper North Shore, featuring established homes surrounded by bushland. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "lindfield",
+    "east-lindfield",
+    "roseville",
+    "roseville-chase"
+  ],
+  "seoTitle": "Pest Control Berowra Waters - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Berowra Waters 2082. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$216 - $384",
+    "termiteInspection": "$300 - $540",
+    "termiteTreatment": "$3000 - $6000",
+    "rodentControl": "$240 - $456"
+  }
+}

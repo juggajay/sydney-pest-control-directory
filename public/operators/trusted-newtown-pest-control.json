@@ -1,0 +1,68 @@
+{
+  "id": 68,
+  "slug": "trusted-newtown-pest-control",
+  "businessName": "Trusted Newtown Pest Control",
+  "tradingName": "Trusted Newtown Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2021-990112",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-02-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9930 6067",
+  "email": "info@trusted-newtown-pest-control.com.au",
+  "website": "https://trusted-newtown-pest-control.com.au",
+  "address": "430 Station Street, Newtown NSW",
+  "suburb": "Newtown",
+  "postcode": "2772",
+  "region": "inner-west",
+  "description": "Family-owned pest control business serving the Newtown region for over 19 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Newtown. Licensed & insured.",
+  "services": [
+    "spider-control",
+    "bird-control",
+    "ant-control",
+    "rodent-control",
+    "general-pest-control",
+    "termite-inspection",
+    "flea-treatment",
+    "termite-treatment"
+  ],
+  "serviceAreas": [
+    "balmain",
+    "chatswood",
+    "leichhardt",
+    "mosman",
+    "north-sydney",
+    "bondi",
+    "summer-hill",
+    "newtown",
+    "dulwich-hill"
+  ],
+  "rating": 4.7,
+  "reviewCount": 30,
+  "yearsInBusiness": 19,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "licensed-insured",
+    "free-quotes",
+    "warranty-guarantee",
+    "family-safe"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$214 - $363",
+    "termiteInspection": "$295 - $429",
+    "rodentControl": "$218 - $422"
+  }
+}

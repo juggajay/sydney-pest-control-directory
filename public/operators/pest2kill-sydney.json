@@ -1,0 +1,63 @@
+{
+  "id": 10,
+  "slug": "pest2kill-sydney",
+  "businessName": "Pest2Kill Sydney",
+  "tradingName": "Pest2Kill Sydney Pty Ltd",
+  "licenseNumber": "PMT-2020-706968",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-09-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9601 9411",
+  "email": "info@pest2kill.com.au",
+  "website": "https://pest2kill.com.au",
+  "address": "486 Station Street, Liverpool NSW",
+  "suburb": "Liverpool",
+  "postcode": "2727",
+  "region": "south-west",
+  "description": "Family-owned pest control business serving the Liverpool region for over 15 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Liverpool. Licensed & insured.",
+  "services": [
+    "bird-control",
+    "termite-inspection",
+    "ant-control",
+    "possum-removal",
+    "wasp-removal",
+    "spider-control",
+    "cockroach-control"
+  ],
+  "serviceAreas": [
+    "campbelltown",
+    "bankstown",
+    "newtown",
+    "bondi-junction",
+    "liverpool",
+    "narellan",
+    "leppington",
+    "cabramatta"
+  ],
+  "rating": 4.3,
+  "reviewCount": 127,
+  "yearsInBusiness": 15,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "epa-verified",
+    "family-safe"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$230 - $370",
+    "termiteInspection": "$329 - $493",
+    "rodentControl": "$286 - $429"
+  }
+}

@@ -5,12 +5,12 @@ import {
   Bug, CheckCircle, Globe, Mail, Calendar, Award,
   ArrowRight, ExternalLink, MessageSquare, Zap
 } from 'lucide-react';
-import { 
-  operators, 
-  services, 
+import {
+  operators,
+  services,
   suburbs,
   getOperatorBySlug,
-  getReviewsForOperator 
+  getReviewsForOperator
 } from '../../../lib/data';
 import { 
   generateMetadata as genMeta, 
@@ -140,7 +140,7 @@ export default function OperatorPage({ params }) {
             <div className="flex-1">
               {/* Business Name & Badges */}
               <div className="flex flex-wrap items-center gap-3 mb-4">
-                {operator.badges.includes('epa-verified') && (
+                {(operator.features?.includes('epa-verified') || operator.epaVerified) && (
                   <span className="badge bg-emerald-500/20 text-emerald-100 border border-emerald-400/30">
                     <Shield className="w-3 h-3" />
                     EPA Verified
@@ -152,7 +152,7 @@ export default function OperatorPage({ params }) {
                     Featured
                   </span>
                 )}
-                {operator.badges.includes('same-day-service') && (
+                {operator.features?.includes('same-day-service') && (
                   <span className="badge bg-white/10 text-white/80 border border-white/20">
                     <Zap className="w-3 h-3" />
                     Same Day Service
@@ -182,13 +182,15 @@ export default function OperatorPage({ params }) {
 
               {/* Quick Actions */}
               <div className="flex flex-wrap gap-4">
-                <a
-                  href={`tel:${operator.phone.replace(/\s/g, '')}`}
-                  className="btn btn-accent btn-lg gap-2"
-                >
-                  <Phone className="w-5 h-5" />
-                  {operator.phone}
-                </a>
+                {operator.phone && (
+                  <a
+                    href={`tel:${operator.phone.replace(/\s/g, '')}`}
+                    className="btn btn-accent btn-lg gap-2"
+                  >
+                    <Phone className="w-5 h-5" />
+                    {operator.phone}
+                  </a>
+                )}
                 <Link
                   href={`/quote?operator=${operator.slug}`}
                   className="btn btn-lg bg-white text-primary-600 hover:bg-neutral-100 gap-2"
@@ -336,14 +338,16 @@ export default function OperatorPage({ params }) {
               <div className="card p-6">
                 <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-4">Contact</h3>
                 <div className="space-y-4">
-                  <a
-                    href={`tel:${operator.phone.replace(/\s/g, '')}`}
-                    className="flex items-center gap-3 p-3 rounded-xl bg-primary-50 text-primary-700 hover:bg-primary-100 transition-colors"
-                  >
-                    <Phone className="w-5 h-5" />
-                    <span className="font-medium">{operator.phone}</span>
-                  </a>
-                  
+                  {operator.phone && (
+                    <a
+                      href={`tel:${operator.phone.replace(/\s/g, '')}`}
+                      className="flex items-center gap-3 p-3 rounded-xl bg-primary-50 text-primary-700 hover:bg-primary-100 transition-colors"
+                    >
+                      <Phone className="w-5 h-5" />
+                      <span className="font-medium">{operator.phone}</span>
+                    </a>
+                  )}
+
                   {operator.email && (
                     <a
                       href={`mailto:${operator.email}`}
@@ -370,19 +374,21 @@ export default function OperatorPage({ params }) {
               </div>
 
               {/* Working Hours */}
-              <div className="card p-6">
-                <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-4">Working Hours</h3>
-                <div className="space-y-2 text-sm">
-                  {Object.entries(operator.workingHours).map(([day, hours]) => (
-                    <div key={day} className="flex justify-between py-2 border-b border-neutral-100 last:border-0">
-                      <span className="text-neutral-500 capitalize">{day}</span>
-                      <span className={`font-medium ${hours === 'Closed' ? 'text-neutral-400' : 'text-neutral-900'}`}>
-                        {hours}
-                      </span>
-                    </div>
-                  ))}
+              {operator.operatingHours && (
+                <div className="card p-6">
+                  <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-4">Working Hours</h3>
+                  <div className="space-y-2 text-sm">
+                    {Object.entries(operator.operatingHours).map(([day, hours]) => (
+                      <div key={day} className="flex justify-between py-2 border-b border-neutral-100 last:border-0">
+                        <span className="text-neutral-500 capitalize">{day}</span>
+                        <span className={`font-medium ${hours === 'Closed' ? 'text-neutral-400' : 'text-neutral-900'}`}>
+                          {hours}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Quick Stats */}
               <div className="card p-6">

@@ -1,0 +1,81 @@
+{
+  "id": "termite-inspection",
+  "name": "Termite Inspection",
+  "slug": "termite-inspection",
+  "shortDescription": "Professional termite inspections to detect and prevent timber pest damage",
+  "longDescription": "A comprehensive termite inspection is essential for every Sydney property owner. Our licensed inspectors use thermal imaging cameras, moisture meters, and decades of experience to detect termite activity, damage, and conditions conducive to infestation. Australian Standard AS 3660 recommends annual termite inspections for all properties in termite-prone areas - and most of Sydney falls into this high-risk category. A professional inspection can save you thousands in potential repair costs by catching problems early.",
+  "priceRange": "$250 - $500",
+  "searchVolume": "very-high",
+  "urgency": "medium",
+  "commonIn": [
+    "houses",
+    "townhouses",
+    "older-apartments",
+    "commercial"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "spring-summer",
+  "timeToComplete": "1-2 hours",
+  "warrantyTypical": "Inspection report valid for 3 months",
+  "signs": [
+    "Mud tubes on walls, foundations, or in subfloor",
+    "Hollow-sounding timber when tapped",
+    "Discarded wings near windows or doors",
+    "Tight-fitting doors or windows that previously worked fine",
+    "Bubbling, cracking, or distorted paint on timber surfaces",
+    "Visible damage to skirting boards or door frames"
+  ],
+  "process": [
+    "Visual inspection of all accessible interior areas",
+    "Thermal imaging camera scan to detect hidden activity",
+    "Moisture meter readings to identify high-risk areas",
+    "Roof void inspection (where accessible)",
+    "Subfloor inspection (where accessible)",
+    "External perimeter and garden bed inspection",
+    "Detailed written report with photos and recommendations"
+  ],
+  "faqs": [
+    {
+      "question": "How often should I get a termite inspection?",
+      "answer": "Australian Standard AS 3660 recommends annual termite inspections for properties in termite-prone areas. Most of Sydney is classified as high-risk due to our warm, humid climate and soil conditions. Properties with previous termite history or those near bushland may benefit from 6-monthly inspections."
+    },
+    {
+      "question": "What happens if termites are found during the inspection?",
+      "answer": "If termites are found, your inspector will document the extent of activity and damage, then provide treatment recommendations. Options typically include chemical soil treatments, baiting systems, or physical barriers depending on the situation. The inspector will explain all options and provide quotes for treatment."
+    },
+    {
+      "question": "Is a termite inspection required when buying a property?",
+      "answer": "While not legally mandatory in NSW, a pre-purchase timber pest inspection is strongly recommended and most conveyancers advise it. Termite damage is not covered by standard home insurance and repairs can cost tens of thousands of dollars. The inspection cost is minimal compared to the potential risk."
+    },
+    {
+      "question": "What's included in the inspection report?",
+      "answer": "A comprehensive report includes findings from all inspected areas, photos of any damage or activity, thermal images, a risk assessment, and specific recommendations. The report follows Australian Standard AS 4349.3 format and can be used for insurance or legal purposes."
+    },
+    {
+      "question": "Can termites be detected behind walls?",
+      "answer": "Yes, thermal imaging cameras can detect termite activity behind walls by identifying temperature variations caused by termite nests and activity. Moisture meters also help identify areas of concern. However, some concealed areas may require invasive inspection for definitive detection."
+    }
+  ],
+  "seoTitle": "Termite Inspection Sydney - From $250 | Licensed Inspectors",
+  "seoDescription": "Book a termite inspection in Sydney from $250. Licensed inspectors with thermal imaging. Same-day reports available. Protect your property - get a free quote today.",
+  "relatedServices": [
+    "termite-treatment",
+    "general-pest-control",
+    "pre-purchase-inspection"
+  ],
+  "keywords": [
+    "termite inspection sydney",
+    "white ant inspection",
+    "timber pest inspection",
+    "pre purchase pest inspection",
+    "termite check",
+    "termite inspection cost"
+  ],
+  "description": "Professional termite inspections to detect and prevent timber pest damage",
+  "commonPests": [
+    "Termites",
+    "White Ants",
+    "Timber Pests"
+  ],
+  "frequency": "Annual inspection"
+}

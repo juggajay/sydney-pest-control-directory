@@ -1,0 +1,78 @@
+{
+  "id": "wasp-bee-removal",
+  "name": "Wasp & Bee Removal",
+  "slug": "wasp-bee-removal",
+  "shortDescription": "Safe removal of wasp nests and bee hives",
+  "longDescription": "Wasps and bees near high-traffic areas of your property pose a real sting risk, particularly for those with allergies. Paper wasps, European wasps, and native bees are common in Sydney. Professional removal ensures safety and, where possible for bees, humane relocation. European wasp nests in particular can contain thousands of aggressive wasps and require expert treatment.",
+  "priceRange": "$150 - $400",
+  "searchVolume": "medium",
+  "urgency": "high",
+  "commonIn": [
+    "houses",
+    "gardens",
+    "commercial",
+    "schools"
+  ],
+  "seasonality": "spring-autumn",
+  "peakSeason": "summer",
+  "timeToComplete": "30 minutes - 2 hours",
+  "warrantyTypical": "Nest removal warranty",
+  "signs": [
+    "Visible wasp nest (paper-like structure)",
+    "High wasp activity around a specific area",
+    "European wasps entering a wall cavity or ground hole",
+    "Bee swarm on property",
+    "Established bee hive in structure",
+    "Aggressive wasp behaviour near entry points"
+  ],
+  "process": [
+    "Safe approach and identification of species",
+    "Assessment of nest size and location",
+    "Selection of appropriate removal method",
+    "Treatment and/or removal of nest",
+    "For bees: assessment of relocation options",
+    "Removal of physical nest structure",
+    "Advice on deterring future nesting"
+  ],
+  "faqs": [
+    {
+      "question": "What's the difference between wasps and bees?",
+      "answer": "Wasps are generally slimmer with bright yellow and black markings and can sting multiple times. Bees are furrier, less aggressive, and die after stinging. Paper wasps build exposed umbrella-shaped nests while European wasps nest in cavities. Honey bees form larger hives in cavities."
+    },
+    {
+      "question": "Should I try to remove a wasp nest myself?",
+      "answer": "We strongly advise against DIY wasp nest removal, especially for European wasp nests which can be extremely aggressive. Disturbing a nest can trigger mass stinging. Professional pest controllers have protective equipment and effective treatments for safe removal."
+    },
+    {
+      "question": "Can bees be relocated instead of killed?",
+      "answer": "Where possible, we prefer to relocate bee colonies to beekeepers. However, this depends on location, species, and accessibility. Sometimes safe removal isn't possible and treatment is necessary. We'll discuss options and prioritise bee preservation where viable."
+    },
+    {
+      "question": "What's the risk of European wasps?",
+      "answer": "European wasps are highly aggressive when disturbed, can sting multiple times, and nests can contain thousands of wasps. They're attracted to food and drinks, making outdoor eating areas dangerous. Their ground nests are often disturbed accidentally. Professional removal is essential."
+    }
+  ],
+  "seoTitle": "Wasp & Bee Removal Sydney - Fast & Safe | From $150",
+  "seoDescription": "Professional wasp nest removal and bee relocation in Sydney. Fast response for paper wasps & European wasps. Safe for families. Call for urgent service.",
+  "relatedServices": [
+    "spider-control",
+    "general-pest-control"
+  ],
+  "keywords": [
+    "wasp removal sydney",
+    "wasp nest removal",
+    "bee removal",
+    "european wasp",
+    "paper wasp",
+    "bee swarm"
+  ],
+  "description": "Safe removal of wasp nests and bee hives",
+  "commonPests": [
+    "European Wasps",
+    "Paper Wasps",
+    "Mud Wasps",
+    "Native Bees",
+    "Honey Bees"
+  ],
+  "frequency": "One-time removal"
+}

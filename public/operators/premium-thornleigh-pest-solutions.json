@@ -1,0 +1,65 @@
+{
+  "id": 58,
+  "slug": "premium-thornleigh-pest-solutions",
+  "businessName": "Premium Thornleigh Pest Solutions",
+  "tradingName": "Premium Thornleigh Pest Solutions Pty Ltd",
+  "licenseNumber": "P-2020-463057",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-09-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9501 1627",
+  "email": "info@premium-thornleigh-pest-solutions.com.au",
+  "website": "https://premium-thornleigh-pest-solutions.com.au",
+  "address": "170 Queen Street, Thornleigh NSW",
+  "suburb": "Thornleigh",
+  "postcode": "2214",
+  "region": "hills-district",
+  "description": "Expert pest control services across Thornleigh. 13+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Thornleigh. Licensed & insured.",
+  "services": [
+    "flea-treatment",
+    "possum-removal",
+    "cockroach-control",
+    "rodent-control",
+    "termite-inspection"
+  ],
+  "serviceAreas": [
+    "castle-hill",
+    "leichhardt",
+    "dural",
+    "thornleigh",
+    "randwick",
+    "baulkham-hills",
+    "bondi",
+    "kellyville",
+    "west-pennant-hills"
+  ],
+  "rating": 4.1,
+  "reviewCount": 86,
+  "yearsInBusiness": 13,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "24-7-emergency",
+    "free-quotes",
+    "eco-friendly",
+    "same-day-service",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$162 - $312",
+    "termiteInspection": "$261 - $417",
+    "rodentControl": "$269 - $426"
+  }
+}

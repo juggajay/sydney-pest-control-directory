@@ -1,0 +1,69 @@
+{
+  "id": 92,
+  "slug": "elite-marrickville-pest-services",
+  "businessName": "Elite Marrickville Pest Services",
+  "tradingName": "Elite Marrickville Pest Services Pty Ltd",
+  "licenseNumber": "PMT-2024-277742",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-04-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9905 3027",
+  "email": "info@elite-marrickville-pest-services.com.au",
+  "website": "https://elite-marrickville-pest-services.com.au",
+  "address": "303 Park Street, Marrickville NSW",
+  "suburb": "Marrickville",
+  "postcode": "2006",
+  "region": "inner-west",
+  "description": "Professional pest control services for Marrickville and surrounding areas. Licensed and insured with 3 years of experience.",
+  "shortDescription": "Professional pest control in Marrickville. Licensed & insured.",
+  "services": [
+    "bird-control",
+    "rodent-control",
+    "termite-inspection",
+    "flea-treatment",
+    "possum-removal",
+    "spider-control",
+    "cockroach-control",
+    "termite-treatment"
+  ],
+  "serviceAreas": [
+    "summer-hill",
+    "balmain",
+    "newtown",
+    "burwood",
+    "dulwich-hill",
+    "ashfield",
+    "marrickville",
+    "leichhardt",
+    "chatswood",
+    "bondi-junction"
+  ],
+  "rating": 4.5,
+  "reviewCount": 122,
+  "yearsInBusiness": 3,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "same-day-service",
+    "eco-friendly",
+    "24-7-emergency",
+    "family-safe"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$207 - $389",
+    "termiteInspection": "$328 - $417",
+    "rodentControl": "$212 - $414"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "kensington",
+  "name": "Kensington",
+  "slug": "kensington",
+  "postcode": "2033",
+  "region": "Eastern Suburbs",
+  "regionSlug": "eastern-suburbs",
+  "council": "Waverley / Randwick Council",
+  "coordinates": {
+    "lat": -33.921,
+    "lng": 151.226
+  },
+  "population": 10500,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "ants",
+    "spiders",
+    "mosquitoes",
+    "silverfish"
+  ],
+  "pestRiskFactors": [
+    "Coastal humidity increases termite and cockroach activity",
+    "Sandy soils provide ideal termite nesting conditions",
+    "Kensington properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Kensington is a sought-after Eastern Suburbs location known for its coastal lifestyle and mix of residential properties. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "bondi",
+    "bondi-beach",
+    "bondi-junction",
+    "tamarama"
+  ],
+  "seoTitle": "Pest Control Kensington - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Kensington 2033. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$216 - $384",
+    "termiteInspection": "$300 - $540",
+    "termiteTreatment": "$3000 - $6000",
+    "rodentControl": "$240 - $456"
+  }
+}

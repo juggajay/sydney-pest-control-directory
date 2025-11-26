@@ -1,0 +1,62 @@
+{
+  "id": 4,
+  "slug": "termite-solutions-sydney",
+  "businessName": "Termite Solutions Sydney",
+  "tradingName": "Termite Solutions Sydney Pty Ltd",
+  "licenseNumber": "P-2020-275632",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-10-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9456 7890",
+  "email": "info@termitesolutions.com.au",
+  "website": "https://termitesolutions.com.au",
+  "address": "81 Park Street, Parramatta NSW",
+  "suburb": "Parramatta",
+  "postcode": "2562",
+  "region": "western",
+  "description": "Family-owned pest control business serving the Parramatta region for over 20 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Parramatta. Licensed & insured.",
+  "services": [
+    "termite-inspection",
+    "termite-treatment",
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "auburn",
+    "penrith",
+    "merrylands",
+    "ryde",
+    "bondi",
+    "bondi-junction",
+    "randwick",
+    "leichhardt"
+  ],
+  "rating": 4.1,
+  "reviewCount": 59,
+  "yearsInBusiness": 20,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "same-day-service",
+    "warranty-guarantee",
+    "24-7-emergency",
+    "free-quotes",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$166 - $351",
+    "termiteInspection": "$285 - $482",
+    "rodentControl": "$259 - $436"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 95,
+  "slug": "local-merrylands-pest-management",
+  "businessName": "Local Merrylands Pest Management",
+  "tradingName": "Local Merrylands Pest Management Pty Ltd",
+  "licenseNumber": "P-2024-369904",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-10-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9162 9352",
+  "email": "info@local-merrylands-pest-management.com.au",
+  "website": "https://local-merrylands-pest-management.com.au",
+  "address": "464 Main Street, Merrylands NSW",
+  "suburb": "Merrylands",
+  "postcode": "2597",
+  "region": "western",
+  "description": "Expert pest control services across Merrylands. 7+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Merrylands. Licensed & insured.",
+  "services": [
+    "termite-inspection",
+    "possum-removal",
+    "ant-control",
+    "bed-bug-treatment",
+    "rodent-control",
+    "wasp-removal",
+    "spider-control",
+    "bird-control"
+  ],
+  "serviceAreas": [
+    "marrickville",
+    "parramatta",
+    "auburn",
+    "bondi-junction",
+    "lidcombe",
+    "homebush",
+    "blacktown",
+    "granville",
+    "castle-hill",
+    "penrith",
+    "bondi"
+  ],
+  "rating": 4,
+  "reviewCount": 205,
+  "yearsInBusiness": 7,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "licensed-insured",
+    "24-7-emergency"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$193 - $333",
+    "termiteInspection": "$319 - $431",
+    "rodentControl": "$231 - $397"
+  }
+}

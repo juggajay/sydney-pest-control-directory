@@ -1,0 +1,66 @@
+{
+  "id": 70,
+  "slug": "local-avalon-pest-services",
+  "businessName": "Local Avalon Pest Services",
+  "tradingName": "Local Avalon Pest Services Pty Ltd",
+  "licenseNumber": "P-2022-286225",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-10-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9130 8013",
+  "email": "info@local-avalon-pest-services.com.au",
+  "website": "https://local-avalon-pest-services.com.au",
+  "address": "223 Station Street, Avalon NSW",
+  "suburb": "Avalon",
+  "postcode": "2339",
+  "region": "northern-beaches",
+  "description": "Family-owned pest control business serving the Avalon region for over 21 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Avalon. Licensed & insured.",
+  "services": [
+    "spider-control",
+    "bed-bug-treatment",
+    "possum-removal",
+    "termite-treatment"
+  ],
+  "serviceAreas": [
+    "collaroy",
+    "manly",
+    "randwick",
+    "leichhardt",
+    "bondi-junction",
+    "newtown",
+    "marrickville",
+    "freshwater",
+    "dee-why",
+    "brookvale",
+    "curl-curl",
+    "bondi"
+  ],
+  "rating": 4,
+  "reviewCount": 87,
+  "yearsInBusiness": 21,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "eco-friendly",
+    "epa-verified",
+    "warranty-guarantee",
+    "family-safe"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$228 - $399",
+    "termiteInspection": "$253 - $413",
+    "rodentControl": "$289 - $407"
+  }
+}

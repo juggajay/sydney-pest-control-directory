@@ -1,0 +1,47 @@
+{
+  "id": "sandy-point",
+  "name": "Sandy Point",
+  "slug": "sandy-point",
+  "postcode": "2172",
+  "region": "South West Sydney",
+  "regionSlug": "south-west-sydney",
+  "council": "Liverpool / Camden / Campbelltown Council",
+  "coordinates": {
+    "lat": -33.978,
+    "lng": 150.977
+  },
+  "population": 800,
+  "propertyTypes": [
+    "apartments",
+    "terraces",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Hot summers drive pests indoors seeking water and shelter",
+    "New developments disturb existing pest colonies",
+    "Sandy Point properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Sandy Point is part of South West Sydney, one of the fastest-growing regions with many new estates. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "liverpool",
+    "warwick-farm",
+    "chipping-norton",
+    "moorebank"
+  ],
+  "seoTitle": "Pest Control Sandy Point - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Sandy Point 2172. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

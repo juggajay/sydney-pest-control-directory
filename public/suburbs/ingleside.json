@@ -1,0 +1,48 @@
+{
+  "id": "ingleside",
+  "name": "Ingleside",
+  "slug": "ingleside",
+  "postcode": "2101",
+  "region": "Northern Beaches",
+  "regionSlug": "northern-beaches",
+  "council": "Northern Beaches Council",
+  "coordinates": {
+    "lat": -33.684,
+    "lng": 151.265
+  },
+  "population": 3000,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "ants",
+    "spiders",
+    "mosquitoes",
+    "silverfish"
+  ],
+  "pestRiskFactors": [
+    "Coastal humidity increases termite and cockroach activity",
+    "Sandy soils provide ideal termite nesting conditions",
+    "Ingleside properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Ingleside is part of Sydney's Northern Beaches, offering a coastal lifestyle with proximity to bushland reserves. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "manly",
+    "manly-vale",
+    "fairlight",
+    "balgowlah"
+  ],
+  "seoTitle": "Pest Control Ingleside - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Ingleside 2101. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

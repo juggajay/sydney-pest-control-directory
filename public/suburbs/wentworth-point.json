@@ -1,0 +1,47 @@
+{
+  "id": "wentworth-point",
+  "name": "Wentworth Point",
+  "slug": "wentworth-point",
+  "postcode": "2127",
+  "region": "Inner West",
+  "regionSlug": "inner-west",
+  "council": "Inner West Council",
+  "coordinates": {
+    "lat": -33.835,
+    "lng": 151.076
+  },
+  "population": 14000,
+  "propertyTypes": [
+    "apartments",
+    "terraces",
+    "commercial"
+  ],
+  "commonPests": [
+    "cockroaches",
+    "rodents",
+    "ants",
+    "bed bugs",
+    "fleas",
+    "spiders"
+  ],
+  "pestRiskFactors": [
+    "High density living increases cockroach and rodent spread",
+    "Older building stock prone to termite damage and rodent entry",
+    "Wentworth Point properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Wentworth Point is part of Sydney's vibrant Inner West, featuring a mix of Federation homes, terraces, and newer developments. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "leichhardt",
+    "lilyfield",
+    "rozelle",
+    "balmain"
+  ],
+  "seoTitle": "Pest Control Wentworth Point - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Wentworth Point 2127. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

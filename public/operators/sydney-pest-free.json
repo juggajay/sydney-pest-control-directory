@@ -1,0 +1,65 @@
+{
+  "id": 38,
+  "slug": "sydney-pest-free",
+  "businessName": "Sydney Pest Free",
+  "tradingName": "Sydney Pest Free Pty Ltd",
+  "licenseNumber": "PMT-2021-396949",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-08-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9558 9900",
+  "email": "info@sydneypestfree.com.au",
+  "website": "https://sydneypestfree.com.au",
+  "address": "297 High Street, Marrickville NSW",
+  "suburb": "Marrickville",
+  "postcode": "2590",
+  "region": "inner-west",
+  "description": "Sydney's trusted pest control experts. Serving Marrickville and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Marrickville. Licensed & insured.",
+  "services": [
+    "general-pest-control",
+    "bed-bug-treatment",
+    "possum-removal",
+    "rodent-control",
+    "termite-inspection",
+    "wasp-removal",
+    "flea-treatment"
+  ],
+  "serviceAreas": [
+    "dulwich-hill",
+    "ashfield",
+    "randwick",
+    "burwood",
+    "marrickville",
+    "glebe",
+    "bondi",
+    "leichhardt",
+    "bondi-junction"
+  ],
+  "rating": 4.3,
+  "reviewCount": 134,
+  "yearsInBusiness": 10,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "free-quotes",
+    "warranty-guarantee",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$249 - $340",
+    "termiteInspection": "$326 - $463",
+    "rodentControl": "$255 - $431"
+  }
+}

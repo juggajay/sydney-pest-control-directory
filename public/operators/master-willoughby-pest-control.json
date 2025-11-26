@@ -1,0 +1,68 @@
+{
+  "id": 53,
+  "slug": "master-willoughby-pest-control",
+  "businessName": "Master Willoughby Pest Control",
+  "tradingName": "Master Willoughby Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2023-176305",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-07-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9750 9411",
+  "email": "info@master-willoughby-pest-control.com.au",
+  "website": "https://master-willoughby-pest-control.com.au",
+  "address": "145 Park Street, Willoughby NSW",
+  "suburb": "Willoughby",
+  "postcode": "2645",
+  "region": "north-shore",
+  "description": "Professional pest control services for Willoughby and surrounding areas. Licensed and insured with 3 years of experience.",
+  "shortDescription": "Professional pest control in Willoughby. Licensed & insured.",
+  "services": [
+    "possum-removal",
+    "termite-inspection",
+    "rodent-control",
+    "cockroach-control",
+    "spider-control",
+    "bed-bug-treatment",
+    "bird-control"
+  ],
+  "serviceAreas": [
+    "randwick",
+    "bondi-junction",
+    "neutral-bay",
+    "cremorne",
+    "bondi",
+    "mosman",
+    "leichhardt",
+    "lane-cove",
+    "marrickville",
+    "north-sydney",
+    "crows-nest"
+  ],
+  "rating": 4.2,
+  "reviewCount": 23,
+  "yearsInBusiness": 3,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "same-day-service",
+    "24-7-emergency",
+    "epa-verified",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$186 - $310",
+    "termiteInspection": "$328 - $418",
+    "rodentControl": "$217 - $392"
+  }
+}

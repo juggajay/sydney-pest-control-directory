@@ -1,0 +1,67 @@
+{
+  "id": 91,
+  "slug": "master-maroubra-exterminators",
+  "businessName": "Master Maroubra Exterminators",
+  "tradingName": "Master Maroubra Exterminators Pty Ltd",
+  "licenseNumber": "P-2023-320298",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-10-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9624 5597",
+  "email": "info@master-maroubra-exterminators.com.au",
+  "website": "https://master-maroubra-exterminators.com.au",
+  "address": "107 Station Street, Maroubra NSW",
+  "suburb": "Maroubra",
+  "postcode": "2370",
+  "region": "eastern",
+  "description": "Expert pest control services across Maroubra. 18+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Maroubra. Licensed & insured.",
+  "services": [
+    "bed-bug-treatment",
+    "spider-control",
+    "flea-treatment",
+    "possum-removal",
+    "wasp-removal",
+    "termite-inspection",
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "bondi-junction",
+    "leichhardt",
+    "coogee",
+    "north-sydney",
+    "maroubra",
+    "double-bay",
+    "paddington",
+    "newtown",
+    "chatswood",
+    "bondi"
+  ],
+  "rating": 4.7,
+  "reviewCount": 64,
+  "yearsInBusiness": 18,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "epa-verified",
+    "same-day-service",
+    "24-7-emergency",
+    "family-safe"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$163 - $342",
+    "termiteInspection": "$328 - $491",
+    "rodentControl": "$286 - $375"
+  }
+}

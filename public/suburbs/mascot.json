@@ -1,0 +1,47 @@
+{
+  "id": "mascot",
+  "name": "Mascot",
+  "slug": "mascot",
+  "postcode": "2020",
+  "region": "Inner City",
+  "regionSlug": "inner-city",
+  "council": "City of Sydney",
+  "coordinates": {
+    "lat": -33.926,
+    "lng": 151.193
+  },
+  "population": 16000,
+  "propertyTypes": [
+    "apartments",
+    "terraces",
+    "commercial"
+  ],
+  "commonPests": [
+    "cockroaches",
+    "rodents",
+    "ants",
+    "bed bugs",
+    "fleas",
+    "spiders"
+  ],
+  "pestRiskFactors": [
+    "High density living increases cockroach and rodent spread",
+    "Older building stock prone to termite damage and rodent entry",
+    "Mascot properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Mascot is located in Sydney's inner city, featuring a mix of heritage buildings, modern apartments, and commercial properties. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "sydney",
+    "surry-hills",
+    "darlinghurst",
+    "potts-point"
+  ],
+  "seoTitle": "Pest Control Mascot - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Mascot 2020. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$216 - $384",
+    "termiteInspection": "$300 - $540",
+    "termiteTreatment": "$3000 - $6000",
+    "rodentControl": "$240 - $456"
+  }
+}

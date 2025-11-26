@@ -1,0 +1,65 @@
+{
+  "id": 77,
+  "slug": "fast-north-sydney-pest-services",
+  "businessName": "Fast North Sydney Pest Services",
+  "tradingName": "Fast North Sydney Pest Services Pty Ltd",
+  "licenseNumber": "PMT-2023-689292",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-02-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9572 5644",
+  "email": "info@fast-north-sydney-pest-services.com.au",
+  "website": "https://fast-north-sydney-pest-services.com.au",
+  "address": "394 Station Street, North Sydney NSW",
+  "suburb": "North Sydney",
+  "postcode": "2294",
+  "region": "north-shore",
+  "description": "Sydney's trusted pest control experts. Serving North Sydney and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in North Sydney. Licensed & insured.",
+  "services": [
+    "termite-inspection",
+    "rodent-control",
+    "bird-control",
+    "spider-control"
+  ],
+  "serviceAreas": [
+    "chatswood",
+    "north-sydney",
+    "mosman",
+    "artarmon",
+    "bondi",
+    "crows-nest",
+    "st-leonards",
+    "marrickville",
+    "willoughby",
+    "bondi-junction"
+  ],
+  "rating": 4.8,
+  "reviewCount": 181,
+  "yearsInBusiness": 13,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "epa-verified",
+    "warranty-guarantee",
+    "licensed-insured",
+    "family-safe",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$172 - $331",
+    "termiteInspection": "$340 - $407",
+    "rodentControl": "$250 - $383"
+  }
+}

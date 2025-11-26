@@ -1,0 +1,69 @@
+{
+  "id": 85,
+  "slug": "expert-north-sydney-exterminators",
+  "businessName": "Expert North Sydney Exterminators",
+  "tradingName": "Expert North Sydney Exterminators Pty Ltd",
+  "licenseNumber": "P-2022-576555",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-06-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9624 4975",
+  "email": "info@expert-north-sydney-exterminators.com.au",
+  "website": "https://expert-north-sydney-exterminators.com.au",
+  "address": "97 Station Street, North Sydney NSW",
+  "suburb": "North Sydney",
+  "postcode": "2263",
+  "region": "north-shore",
+  "description": "Expert pest control services across North Sydney. 6+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in North Sydney. Licensed & insured.",
+  "services": [
+    "spider-control",
+    "bird-control",
+    "general-pest-control",
+    "bed-bug-treatment",
+    "wasp-removal",
+    "ant-control",
+    "rodent-control"
+  ],
+  "serviceAreas": [
+    "marrickville",
+    "cremorne",
+    "artarmon",
+    "st-leonards",
+    "newtown",
+    "bondi",
+    "mosman",
+    "neutral-bay",
+    "lane-cove",
+    "randwick",
+    "north-sydney"
+  ],
+  "rating": 4.8,
+  "reviewCount": 179,
+  "yearsInBusiness": 6,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "same-day-service",
+    "family-safe",
+    "warranty-guarantee",
+    "epa-verified",
+    "licensed-insured"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$204 - $313",
+    "termiteInspection": "$344 - $499",
+    "rodentControl": "$231 - $435"
+  }
+}

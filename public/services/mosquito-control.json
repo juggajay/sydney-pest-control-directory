@@ -1,0 +1,77 @@
+{
+  "id": "mosquito-control",
+  "name": "Mosquito Control",
+  "slug": "mosquito-control",
+  "shortDescription": "Reduce mosquito populations around your property",
+  "longDescription": "Sydney's warm climate and waterways create ideal breeding conditions for mosquitoes. Beyond the irritation of bites, mosquitoes can carry diseases including Ross River virus. Professional mosquito control targets adult mosquitoes, treats breeding sites, and provides advice on reducing mosquito-friendly conditions around your property. Perfect for outdoor living areas, pools, and properties near water.",
+  "priceRange": "$200 - $400",
+  "searchVolume": "medium",
+  "urgency": "medium",
+  "commonIn": [
+    "houses",
+    "pools",
+    "near-water",
+    "outdoor-venues"
+  ],
+  "seasonality": "spring-autumn",
+  "peakSeason": "summer",
+  "timeToComplete": "1-2 hours",
+  "warrantyTypical": "Treatment effective 4-6 weeks",
+  "signs": [
+    "Regular mosquito bites when outdoors",
+    "Mosquitoes entering inside through doors",
+    "Standing water around property",
+    "Near creek, pond, or other water source",
+    "Outdoor entertaining areas unusable",
+    "Property with extensive gardens or bushland"
+  ],
+  "process": [
+    "Property inspection for breeding sites",
+    "Identification of mosquito harbourage areas",
+    "Treatment of adult resting sites",
+    "Larvicide application to water features",
+    "Barrier treatment around outdoor areas",
+    "Advice on reducing breeding sites",
+    "Recommendations for ongoing management"
+  ],
+  "faqs": [
+    {
+      "question": "How long does mosquito treatment last?",
+      "answer": "A professional mosquito treatment provides relief for approximately 4-6 weeks. Effectiveness depends on rainfall, nearby breeding sites beyond your property, and mosquito pressure in your area. Regular treatments during mosquito season provide the best ongoing control."
+    },
+    {
+      "question": "Can you treat near fish ponds?",
+      "answer": "Yes, we use products and methods safe for use near ornamental fish ponds. We can apply fish-safe larvicides to prevent mosquito breeding in ponds while protecting your fish. Please let us know about any water features during booking."
+    },
+    {
+      "question": "What can I do to reduce mosquitoes myself?",
+      "answer": "Eliminate standing water - empty saucers, old tyres, blocked gutters, and any containers. Change pet water frequently. Keep pools properly maintained. Ensure rainwater tanks have mosquito-proof screens. These steps significantly reduce breeding sites on your property."
+    },
+    {
+      "question": "Is mosquito treatment safe for outdoor dining areas?",
+      "answer": "Yes, once dry (typically 1-2 hours), treated areas are safe for normal use including outdoor dining. We'll advise on timing for any specific precautions. The products used are designed for residential environments with families and pets."
+    }
+  ],
+  "seoTitle": "Mosquito Control Sydney - Outdoor Relief | From $200",
+  "seoDescription": "Professional mosquito control in Sydney. Reduce biting insects around your home. Perfect for pools & outdoor areas. Enjoy your backyard again. Book now.",
+  "relatedServices": [
+    "general-pest-control",
+    "spider-control",
+    "outdoor-treatments"
+  ],
+  "keywords": [
+    "mosquito control sydney",
+    "mosquito treatment",
+    "mosquito spray",
+    "reduce mosquitoes",
+    "backyard mosquito control",
+    "mosquito prevention"
+  ],
+  "description": "Reduce mosquito populations around your property",
+  "commonPests": [
+    "Aedes Mosquitoes",
+    "Anopheles Mosquitoes",
+    "Culex Mosquitoes"
+  ],
+  "frequency": "Seasonal treatment"
+}

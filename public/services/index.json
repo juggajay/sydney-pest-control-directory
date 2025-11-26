@@ -1,0 +1,169 @@
+{
+  "total": 15,
+  "lastUpdated": "2025-11-26T03:21:26.977Z",
+  "categories": {
+    "termite-services": [
+      "termite-inspection",
+      "termite-treatment"
+    ],
+    "common-pests": [
+      "general-pest-control",
+      "cockroach-control",
+      "ant-control",
+      "spider-control",
+      "rodent-control"
+    ],
+    "specialty-services": [
+      "bed-bug-treatment",
+      "flea-treatment",
+      "possum-removal",
+      "bird-control",
+      "wasp-bee-removal",
+      "mosquito-control"
+    ],
+    "commercial": [
+      "commercial-pest-control"
+    ],
+    "inspections": [
+      "pre-purchase-inspection",
+      "termite-inspection"
+    ]
+  },
+  "services": [
+    {
+      "id": "termite-inspection",
+      "name": "Termite Inspection",
+      "slug": "termite-inspection",
+      "shortDescription": "Professional termite inspections to detect and prevent timber pest damage",
+      "priceRange": "$250 - $500",
+      "searchVolume": "very-high",
+      "urgency": "medium"
+    },
+    {
+      "id": "termite-treatment",
+      "name": "Termite Treatment",
+      "slug": "termite-treatment",
+      "shortDescription": "Effective termite elimination and prevention treatments for Sydney homes",
+      "priceRange": "$2,000 - $5,000+",
+      "searchVolume": "medium-high",
+      "urgency": "high"
+    },
+    {
+      "id": "general-pest-control",
+      "name": "General Pest Control",
+      "slug": "general-pest-control",
+      "shortDescription": "Comprehensive pest control for cockroaches, spiders, ants, and silverfish",
+      "priceRange": "$150 - $350",
+      "searchVolume": "very-high",
+      "urgency": "medium"
+    },
+    {
+      "id": "cockroach-control",
+      "name": "Cockroach Control",
+      "slug": "cockroach-control",
+      "shortDescription": "Targeted cockroach elimination for homes and businesses",
+      "priceRange": "$150 - $300",
+      "searchVolume": "high",
+      "urgency": "medium-high"
+    },
+    {
+      "id": "rodent-control",
+      "name": "Rodent Control",
+      "slug": "rodent-control",
+      "shortDescription": "Effective rat and mouse control for Sydney properties",
+      "priceRange": "$200 - $400",
+      "searchVolume": "high",
+      "urgency": "high"
+    },
+    {
+      "id": "spider-control",
+      "name": "Spider Control",
+      "slug": "spider-control",
+      "shortDescription": "Professional spider treatment for safer Sydney homes",
+      "priceRange": "$150 - $300",
+      "searchVolume": "medium-high",
+      "urgency": "medium"
+    },
+    {
+      "id": "ant-control",
+      "name": "Ant Control",
+      "slug": "ant-control",
+      "shortDescription": "Effective ant elimination targeting the colony",
+      "priceRange": "$150 - $280",
+      "searchVolume": "high",
+      "urgency": "medium"
+    },
+    {
+      "id": "bed-bug-treatment",
+      "name": "Bed Bug Treatment",
+      "slug": "bed-bug-treatment",
+      "shortDescription": "Specialist bed bug elimination for Sydney homes and hotels",
+      "priceRange": "$300 - $1,500",
+      "searchVolume": "medium",
+      "urgency": "very-high"
+    },
+    {
+      "id": "flea-treatment",
+      "name": "Flea Treatment",
+      "slug": "flea-treatment",
+      "shortDescription": "Complete flea elimination for homes with pets",
+      "priceRange": "$180 - $350",
+      "searchVolume": "medium",
+      "urgency": "high"
+    },
+    {
+      "id": "possum-removal",
+      "name": "Possum Removal",
+      "slug": "possum-removal",
+      "shortDescription": "Humane possum removal and exclusion services",
+      "priceRange": "$250 - $600",
+      "searchVolume": "medium",
+      "urgency": "medium"
+    },
+    {
+      "id": "bird-control",
+      "name": "Bird Control",
+      "slug": "bird-control",
+      "shortDescription": "Professional bird deterrent and removal solutions",
+      "priceRange": "$200 - $800",
+      "searchVolume": "low-medium",
+      "urgency": "medium"
+    },
+    {
+      "id": "wasp-bee-removal",
+      "name": "Wasp & Bee Removal",
+      "slug": "wasp-bee-removal",
+      "shortDescription": "Safe removal of wasp nests and bee hives",
+      "priceRange": "$150 - $400",
+      "searchVolume": "medium",
+      "urgency": "high"
+    },
+    {
+      "id": "commercial-pest-control",
+      "name": "Commercial Pest Control",
+      "slug": "commercial-pest-control",
+      "shortDescription": "Integrated pest management for Sydney businesses",
+      "priceRange": "$300 - $2,000+/month",
+      "searchVolume": "medium",
+      "urgency": "varies"
+    },
+    {
+      "id": "pre-purchase-inspection",
+      "name": "Pre-Purchase Pest Inspection",
+      "slug": "pre-purchase-inspection",
+      "shortDescription": "Comprehensive pest inspections for property buyers",
+      "priceRange": "$300 - $600",
+      "searchVolume": "high",
+      "urgency": "high"
+    },
+    {
+      "id": "mosquito-control",
+      "name": "Mosquito Control",
+      "slug": "mosquito-control",
+      "shortDescription": "Reduce mosquito populations around your property",
+      "priceRange": "$200 - $400",
+      "searchVolume": "medium",
+      "urgency": "medium"
+    }
+  ]
+}

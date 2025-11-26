@@ -1,13 +1,11 @@
-'use client';
-
-import { useState } from 'react';
 import Link from 'next/link';
-import { 
-  Search, MapPin, Shield, Star, Clock, Phone, ChevronRight, 
+import {
+  Search, MapPin, Shield, Star, Clock, Phone, ChevronRight,
   Bug, CheckCircle, Users, Award, Zap, ArrowRight, Building,
   Home, TreeDeciduous, Waves
 } from 'lucide-react';
 import { suburbs, services, getFeaturedOperators, getRegions } from '../lib/data';
+import SearchBox from '../components/SearchBox';
 
 // Star Rating Component
 function StarRating({ rating, size = 'sm' }) {
@@ -36,7 +34,7 @@ function OperatorCard({ operator, featured = false }) {
             <h3 className="font-heading font-semibold text-lg text-neutral-900">
               {operator.businessName}
             </h3>
-            {operator.badges.includes('epa-verified') && (
+            {operator.features?.includes('epa-verified') && (
               <span className="badge badge-verified">
                 <Shield className="w-3 h-3" />
                 Verified
@@ -58,13 +56,13 @@ function OperatorCard({ operator, featured = false }) {
       </div>
 
       <p className="text-sm text-neutral-600 mb-4 line-clamp-2">
-        {operator.description}
+        {operator.description || operator.shortDescription}
       </p>
 
       <div className="flex flex-wrap gap-2 mb-4">
-        {operator.specialties.slice(0, 3).map((specialty, i) => (
+        {operator.services?.slice(0, 3).map((service, i) => (
           <span key={i} className="px-2 py-1 bg-neutral-100 rounded-md text-xs text-neutral-600">
-            {specialty}
+            {service.replace(/-/g, ' ')}
           </span>
         ))}
       </div>
@@ -89,7 +87,7 @@ function OperatorCard({ operator, featured = false }) {
 function ServiceCard({ service }) {
   return (
     <Link
-      href={`/services/${service.slug}`}
+      href={`/services/${service.id || service.slug}`}
       className="card p-6 group hover:border-primary-200"
     >
       <div className="w-12 h-12 rounded-xl bg-primary-50 flex items-center justify-center mb-4 group-hover:bg-primary-100 transition-colors">
@@ -110,8 +108,7 @@ function ServiceCard({ service }) {
 }
 
 // Region Card Component
-function RegionCard({ region, icon: Icon, suburbCount }) {
-  const regionSuburbs = suburbs.filter(s => s.region === region).slice(0, 4);
+function RegionCard({ region, icon: Icon, suburbCount, regionSuburbs }) {
   return (
     <div className="card p-6">
       <div className="flex items-center gap-3 mb-4">
@@ -124,10 +121,10 @@ function RegionCard({ region, icon: Icon, suburbCount }) {
         </div>
       </div>
       <div className="flex flex-wrap gap-2">
-        {regionSuburbs.map((suburb) => (
+        {regionSuburbs.slice(0, 4).map((suburb) => (
           <Link
-            key={suburb.slug}
-            href={`/pest-control/${suburb.slug}`}
+            key={suburb.id || suburb.slug}
+            href={`/pest-control/${suburb.id || suburb.slug}`}
             className="px-3 py-1.5 rounded-full text-sm bg-neutral-100 text-neutral-600 hover:bg-primary-100 hover:text-primary-700 transition-colors"
           >
             {suburb.name}
@@ -145,27 +142,16 @@ function RegionCard({ region, icon: Icon, suburbCount }) {
 }
 
 export default function HomePage() {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [searchFocused, setSearchFocused] = useState(false);
-
   const featuredOperators = getFeaturedOperators().slice(0, 3);
   const topServices = services.slice(0, 6);
-  
-  // Filter suburbs for search
-  const filteredSuburbs = searchQuery.length > 1
-    ? suburbs.filter(s => 
-        s.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        s.postcode.includes(searchQuery)
-      ).slice(0, 6)
-    : [];
 
   const regions = [
-    { name: 'Eastern Suburbs', icon: Waves, count: suburbs.filter(s => s.region === 'Eastern Suburbs').length },
-    { name: 'Inner West', icon: Building, count: suburbs.filter(s => s.region === 'Inner West').length },
-    { name: 'Lower North Shore', icon: TreeDeciduous, count: suburbs.filter(s => s.region === 'Lower North Shore').length },
-    { name: 'Northern Beaches', icon: Waves, count: suburbs.filter(s => s.region === 'Northern Beaches').length },
-    { name: 'Western Sydney', icon: Home, count: suburbs.filter(s => s.region === 'Western Sydney').length },
-    { name: 'Hills District', icon: TreeDeciduous, count: suburbs.filter(s => s.region === 'Hills District').length },
+    { name: 'Eastern Suburbs', icon: Waves, suburbs: suburbs.filter(s => s.region === 'Eastern Suburbs') },
+    { name: 'Inner West', icon: Building, suburbs: suburbs.filter(s => s.region === 'Inner West') },
+    { name: 'Lower North Shore', icon: TreeDeciduous, suburbs: suburbs.filter(s => s.region === 'Lower North Shore') },
+    { name: 'Northern Beaches', icon: Waves, suburbs: suburbs.filter(s => s.region === 'Northern Beaches') },
+    { name: 'Western Sydney', icon: Home, suburbs: suburbs.filter(s => s.region === 'Western Sydney') },
+    { name: 'Hills District', icon: TreeDeciduous, suburbs: suburbs.filter(s => s.region === 'Hills District') },
   ];
 
   return (
@@ -183,7 +169,7 @@ export default function HomePage() {
             {/* Trust Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur rounded-full text-white/90 text-sm mb-8 animate-fade-in">
               <Shield className="w-4 h-4 text-accent-400" />
-              <span>500+ EPA Licensed Operators Across Sydney</span>
+              <span>{suburbs.length}+ Suburbs Covered Across Sydney</span>
             </div>
 
             {/* Headline */}
@@ -193,51 +179,12 @@ export default function HomePage() {
             </h1>
 
             <p className="text-xl text-white/80 mb-10 max-w-2xl animate-fade-in-up animate-delay-100">
-              Compare quotes from verified pest control experts in your suburb. 
+              Compare quotes from verified pest control experts in your suburb.
               All operators are EPA licensed and reviewed by real customers.
             </p>
 
-            {/* Search Box */}
-            <div className="relative max-w-2xl animate-fade-in-up animate-delay-200">
-              <div className={`search-box ${searchFocused ? 'ring-2 ring-white/30' : ''}`}>
-                <div className="flex items-center gap-2 px-5 text-neutral-400">
-                  <MapPin className="w-5 h-5" />
-                </div>
-                <input
-                  type="text"
-                  placeholder="Enter your suburb or postcode..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  onFocus={() => setSearchFocused(true)}
-                  onBlur={() => setTimeout(() => setSearchFocused(false), 200)}
-                  className="flex-1 py-5 pr-4 text-lg bg-transparent border-none outline-none text-neutral-800 placeholder:text-neutral-400"
-                />
-                <button className="btn btn-primary m-2 gap-2">
-                  <Search className="w-5 h-5" />
-                  <span className="hidden sm:inline">Search</span>
-                </button>
-              </div>
-
-              {/* Search Results Dropdown */}
-              {searchFocused && filteredSuburbs.length > 0 && (
-                <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-elevated border border-neutral-100 overflow-hidden z-50 animate-fade-in">
-                  {filteredSuburbs.map((suburb) => (
-                    <Link
-                      key={suburb.slug}
-                      href={`/pest-control/${suburb.slug}`}
-                      className="flex items-center gap-3 px-5 py-3 hover:bg-primary-50 transition-colors"
-                    >
-                      <MapPin className="w-4 h-4 text-primary-500" />
-                      <div>
-                        <span className="font-medium text-neutral-900">{suburb.name}</span>
-                        <span className="text-sm text-neutral-500 ml-2">{suburb.postcode}</span>
-                      </div>
-                      <span className="ml-auto text-sm text-neutral-400">{suburb.region}</span>
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
+            {/* Search Box (Client Component) */}
+            <SearchBox suburbs={suburbs} />
 
             {/* Popular Searches */}
             <div className="flex flex-wrap items-center gap-3 mt-6 animate-fade-in-up animate-delay-300">
@@ -272,7 +219,7 @@ export default function HomePage() {
                 <Shield className="w-6 h-6 text-primary-600" />
               </div>
               <div>
-                <div className="font-heading font-bold text-2xl text-neutral-900">500+</div>
+                <div className="font-heading font-bold text-2xl text-neutral-900">100+</div>
                 <div className="text-sm text-neutral-600">Licensed Operators</div>
               </div>
             </div>
@@ -299,7 +246,7 @@ export default function HomePage() {
                 <MapPin className="w-6 h-6 text-blue-600" />
               </div>
               <div>
-                <div className="font-heading font-bold text-2xl text-neutral-900">100+</div>
+                <div className="font-heading font-bold text-2xl text-neutral-900">{suburbs.length}+</div>
                 <div className="text-sm text-neutral-600">Sydney Suburbs</div>
               </div>
             </div>
@@ -322,7 +269,7 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredOperators.map((operator) => (
-              <OperatorCard key={operator.id} operator={operator} featured />
+              <OperatorCard key={operator.id || operator.slug} operator={operator} featured />
             ))}
           </div>
 
@@ -346,7 +293,7 @@ export default function HomePage() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {topServices.map((service) => (
-              <ServiceCard key={service.slug} service={service} />
+              <ServiceCard key={service.id || service.slug} service={service} />
             ))}
           </div>
 
@@ -423,7 +370,8 @@ export default function HomePage() {
                 key={region.name}
                 region={region.name}
                 icon={region.icon}
-                suburbCount={region.count}
+                suburbCount={region.suburbs.length}
+                regionSuburbs={region.suburbs}
               />
             ))}
           </div>
@@ -437,7 +385,7 @@ export default function HomePage() {
             <div>
               <h2 className="section-heading">Why Choose Sydney Pest Control Directory?</h2>
               <p className="text-lg text-neutral-600 mb-8">
-                We make finding trusted pest control simple. Every operator on our platform is verified 
+                We make finding trusted pest control simple. Every operator on our platform is verified
                 against the NSW EPA register, ensuring you're always dealing with licensed professionals.
               </p>
 
@@ -485,7 +433,7 @@ export default function HomePage() {
                   <p className="mt-4 text-white/80">Average customer rating across all operators</p>
                 </div>
               </div>
-              
+
               {/* Floating Cards */}
               <div className="absolute -bottom-6 -left-6 card p-4 shadow-elevated animate-float">
                 <div className="flex items-center gap-3">
@@ -519,13 +467,13 @@ export default function HomePage() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 hero-gradient" />
         <div className="absolute inset-0 hero-pattern" />
-        
+
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-white mb-6">
             Ready to Get Rid of Pests?
           </h2>
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
-            Get free quotes from licensed pest control operators in your area. 
+            Get free quotes from licensed pest control operators in your area.
             Compare prices, read reviews, and choose the best fit for your needs.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

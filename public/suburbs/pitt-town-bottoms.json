@@ -1,0 +1,46 @@
+{
+  "id": "pitt-town-bottoms",
+  "name": "Pitt Town Bottoms",
+  "slug": "pitt-town-bottoms",
+  "postcode": "2756",
+  "region": "Penrith Region",
+  "regionSlug": "penrith-region",
+  "council": "Penrith City / Blue Mountains Council",
+  "coordinates": {
+    "lat": -33.57,
+    "lng": 150.858
+  },
+  "population": 300,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Pitt Town Bottoms properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Pitt Town Bottoms is located in the Penrith region at the foot of the Blue Mountains. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "penrith",
+    "kingswood",
+    "werrington",
+    "werrington-downs"
+  ],
+  "seoTitle": "Pest Control Pitt Town Bottoms - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Pitt Town Bottoms 2756. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

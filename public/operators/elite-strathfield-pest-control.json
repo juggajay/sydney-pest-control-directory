@@ -1,0 +1,61 @@
+{
+  "id": 60,
+  "slug": "elite-strathfield-pest-control",
+  "businessName": "Elite Strathfield Pest Control",
+  "tradingName": "Elite Strathfield Pest Control Pty Ltd",
+  "licenseNumber": "P-2023-188504",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-06-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9654 5067",
+  "email": "info@elite-strathfield-pest-control.com.au",
+  "website": "https://elite-strathfield-pest-control.com.au",
+  "address": "304 Park Street, Strathfield NSW",
+  "suburb": "Strathfield",
+  "postcode": "2521",
+  "region": "inner-west",
+  "description": "Trusted pest control solutions in Strathfield. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Strathfield. Licensed & insured.",
+  "services": [
+    "termite-treatment",
+    "general-pest-control",
+    "termite-inspection",
+    "flea-treatment"
+  ],
+  "serviceAreas": [
+    "burwood",
+    "mosman",
+    "bondi",
+    "glebe",
+    "newtown",
+    "summer-hill",
+    "chatswood",
+    "ashfield"
+  ],
+  "rating": 4.3,
+  "reviewCount": 30,
+  "yearsInBusiness": 13,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "epa-verified",
+    "licensed-insured",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$198 - $375",
+    "termiteInspection": "$311 - $495",
+    "rodentControl": "$273 - $362"
+  }
+}

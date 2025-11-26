@@ -1,0 +1,65 @@
+{
+  "id": 63,
+  "slug": "fast-granville-exterminators",
+  "businessName": "Fast Granville Exterminators",
+  "tradingName": "Fast Granville Exterminators Pty Ltd",
+  "licenseNumber": "PMT-2022-308774",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-04-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9731 6578",
+  "email": "info@fast-granville-exterminators.com.au",
+  "website": "https://fast-granville-exterminators.com.au",
+  "address": "87 Queen Street, Granville NSW",
+  "suburb": "Granville",
+  "postcode": "2558",
+  "region": "western",
+  "description": "Expert pest control services across Granville. 17+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Granville. Licensed & insured.",
+  "services": [
+    "possum-removal",
+    "flea-treatment",
+    "bed-bug-treatment",
+    "cockroach-control",
+    "bird-control"
+  ],
+  "serviceAreas": [
+    "blacktown",
+    "marrickville",
+    "lidcombe",
+    "newtown",
+    "granville",
+    "homebush",
+    "bondi-junction",
+    "bondi",
+    "auburn",
+    "merrylands",
+    "castle-hill"
+  ],
+  "rating": 4.4,
+  "reviewCount": 45,
+  "yearsInBusiness": 17,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "24-7-emergency",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$236 - $302",
+    "termiteInspection": "$256 - $428",
+    "rodentControl": "$226 - $361"
+  }
+}

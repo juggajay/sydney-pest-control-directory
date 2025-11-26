@@ -1,0 +1,79 @@
+{
+  "id": "ant-control",
+  "name": "Ant Control",
+  "slug": "ant-control",
+  "shortDescription": "Effective ant elimination targeting the colony",
+  "longDescription": "Ants are social insects that live in large colonies, making DIY treatments often ineffective. Professional ant control identifies the species (crucial for effective treatment), locates nests, and uses targeted products that workers carry back to the colony. Sydney homes commonly deal with Black house ants, Coastal brown ants, and occasionally destructive species like Carpenter ants.",
+  "priceRange": "$150 - $280",
+  "searchVolume": "high",
+  "urgency": "medium",
+  "commonIn": [
+    "houses",
+    "apartments",
+    "gardens",
+    "commercial"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "spring-summer",
+  "timeToComplete": "30-60 minutes",
+  "warrantyTypical": "3-6 month warranty",
+  "signs": [
+    "Ant trails, especially leading to food sources",
+    "Ants in kitchen, pantry, or around pet bowls",
+    "Small piles of dirt indicating nest entry points",
+    "Winged ants (swarmers) appearing indoors",
+    "Large numbers of ants after rain",
+    "Carpenter ant damage (frass near timber)"
+  ],
+  "process": [
+    "Identification of ant species",
+    "Trailing ants back to locate nests",
+    "Application of targeted ant baits",
+    "Perimeter spray treatment",
+    "Direct nest treatment where accessible",
+    "Advice on reducing attractants",
+    "Follow-up treatment if required"
+  ],
+  "faqs": [
+    {
+      "question": "Why do ants keep coming back after I spray them?",
+      "answer": "Surface sprays only kill the ants you see, which is a tiny fraction of the colony. The queen continues producing eggs. Professional treatments use baits that foraging ants carry back to the nest, eventually eliminating the colony including the queen. This provides lasting control."
+    },
+    {
+      "question": "Are there ants in Sydney that damage timber?",
+      "answer": "Yes, Carpenter ants can cause significant damage to timber structures. Unlike termites, they don't eat wood but excavate it for nesting, leaving behind sawdust-like frass. If you see large black ants near timber with small piles of debris, contact a professional for inspection."
+    },
+    {
+      "question": "How long does ant treatment take to work?",
+      "answer": "You should notice a significant reduction in ant activity within 1-2 weeks. The baits take time to be carried back to the nest and spread through the colony. Avoid spraying ants yourself during this period as it can interfere with the bait's effectiveness."
+    },
+    {
+      "question": "Why do I get ants inside after it rains?",
+      "answer": "Rain floods ant nests, forcing them to seek dry shelter - often your home. This is common in Sydney, especially in areas with clay soils. A perimeter treatment creates a barrier that intercepts ants trying to enter, rain or shine."
+    }
+  ],
+  "seoTitle": "Ant Control Sydney - Colony Elimination | From $150",
+  "seoDescription": "Professional ant control in Sydney. Targets the colony, not just visible ants. Effective against all species. 3-6 month warranty. Get a free quote today.",
+  "relatedServices": [
+    "general-pest-control",
+    "cockroach-control",
+    "spider-control"
+  ],
+  "keywords": [
+    "ant control sydney",
+    "ant treatment",
+    "ant exterminator",
+    "get rid of ants",
+    "carpenter ants",
+    "black ants"
+  ],
+  "description": "Effective ant elimination targeting the colony",
+  "commonPests": [
+    "Black Ants",
+    "Coastal Brown Ants",
+    "Bull Ants",
+    "Carpenter Ants",
+    "Fire Ants"
+  ],
+  "frequency": "Every 6-12 months"
+}

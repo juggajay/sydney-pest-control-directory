@@ -1,0 +1,47 @@
+{
+  "id": "kenthurst",
+  "name": "Kenthurst",
+  "slug": "kenthurst",
+  "postcode": "2156",
+  "region": "Hills District",
+  "regionSlug": "hills-district",
+  "council": "The Hills Shire Council",
+  "coordinates": {
+    "lat": -33.655,
+    "lng": 151
+  },
+  "population": 5000,
+  "propertyTypes": [
+    "houses",
+    "acreage",
+    "townhouses"
+  ],
+  "commonPests": [
+    "termites",
+    "spiders",
+    "rodents",
+    "possums",
+    "ants",
+    "wasps"
+  ],
+  "pestRiskFactors": [
+    "Bushland proximity increases spider and possum encounters",
+    "Native vegetation attracts termites and other wood-boring pests",
+    "Kenthurst properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Kenthurst is located in Sydney's Hills District, featuring family homes and semi-rural properties. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "castle-hill",
+    "west-pennant-hills",
+    "baulkham-hills",
+    "bella-vista"
+  ],
+  "seoTitle": "Pest Control Kenthurst - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Kenthurst 2156. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 59,
+  "slug": "trusted-randwick-pest-solutions",
+  "businessName": "Trusted Randwick Pest Solutions",
+  "tradingName": "Trusted Randwick Pest Solutions Pty Ltd",
+  "licenseNumber": "PMT-2024-624535",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-03-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9032 7640",
+  "email": "info@trusted-randwick-pest-solutions.com.au",
+  "website": "https://trusted-randwick-pest-solutions.com.au",
+  "address": "241 Station Street, Randwick NSW",
+  "suburb": "Randwick",
+  "postcode": "2455",
+  "region": "eastern",
+  "description": "Family-owned pest control business serving the Randwick region for over 14 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Randwick. Licensed & insured.",
+  "services": [
+    "ant-control",
+    "flea-treatment",
+    "possum-removal",
+    "bird-control"
+  ],
+  "serviceAreas": [
+    "rose-bay",
+    "newtown",
+    "mosman",
+    "paddington",
+    "bondi-junction",
+    "kingsford",
+    "maroubra",
+    "chatswood",
+    "double-bay",
+    "bondi",
+    "marrickville",
+    "leichhardt"
+  ],
+  "rating": 4.4,
+  "reviewCount": 214,
+  "yearsInBusiness": 14,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "same-day-service",
+    "licensed-insured",
+    "epa-verified",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$160 - $383",
+    "termiteInspection": "$277 - $485",
+    "rodentControl": "$203 - $367"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "hornsby",
+  "name": "Hornsby",
+  "slug": "hornsby",
+  "postcode": "2077",
+  "region": "Upper North Shore",
+  "regionSlug": "upper-north-shore",
+  "council": "Ku-ring-gai / Hornsby Council",
+  "coordinates": {
+    "lat": -33.703,
+    "lng": 151.099
+  },
+  "population": 21000,
+  "propertyTypes": [
+    "houses",
+    "acreage",
+    "townhouses"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Bushland proximity increases spider and possum encounters",
+    "Native vegetation attracts termites and other wood-boring pests",
+    "Hornsby properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Hornsby is located in the Upper North Shore, featuring established homes surrounded by bushland. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "lindfield",
+    "east-lindfield",
+    "roseville",
+    "roseville-chase"
+  ],
+  "seoTitle": "Pest Control Hornsby - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Hornsby 2077. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$216 - $384",
+    "termiteInspection": "$300 - $540",
+    "termiteTreatment": "$3000 - $6000",
+    "rodentControl": "$240 - $456"
+  }
+}

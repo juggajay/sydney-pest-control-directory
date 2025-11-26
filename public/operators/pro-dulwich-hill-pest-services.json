@@ -1,0 +1,66 @@
+{
+  "id": 76,
+  "slug": "pro-dulwich-hill-pest-services",
+  "businessName": "Pro Dulwich Hill Pest Services",
+  "tradingName": "Pro Dulwich Hill Pest Services Pty Ltd",
+  "licenseNumber": "P-2024-988227",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-12-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9502 8108",
+  "email": "info@pro-dulwich-hill-pest-services.com.au",
+  "website": "https://pro-dulwich-hill-pest-services.com.au",
+  "address": "175 Queen Street, Dulwich Hill NSW",
+  "suburb": "Dulwich Hill",
+  "postcode": "2087",
+  "region": "inner-west",
+  "description": "Family-owned pest control business serving the Dulwich Hill region for over 3 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Dulwich Hill. Licensed & insured.",
+  "services": [
+    "bird-control",
+    "spider-control",
+    "ant-control",
+    "rodent-control",
+    "wasp-removal",
+    "termite-inspection"
+  ],
+  "serviceAreas": [
+    "dulwich-hill",
+    "randwick",
+    "bondi",
+    "balmain",
+    "ashfield",
+    "leichhardt",
+    "mosman",
+    "bondi-junction",
+    "summer-hill",
+    "strathfield",
+    "newtown"
+  ],
+  "rating": 4.2,
+  "reviewCount": 150,
+  "yearsInBusiness": 3,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "eco-friendly",
+    "epa-verified",
+    "24-7-emergency"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$153 - $310",
+    "termiteInspection": "$268 - $439",
+    "rodentControl": "$272 - $353"
+  }
+}

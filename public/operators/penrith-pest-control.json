@@ -1,0 +1,65 @@
+{
+  "id": 48,
+  "slug": "penrith-pest-control",
+  "businessName": "Penrith Pest Control",
+  "tradingName": "Penrith Pest Control Pty Ltd",
+  "licenseNumber": "P-2024-509301",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-09-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 4721 9900",
+  "email": "info@penrithpestcontrol.com.au",
+  "website": "https://penrithpestcontrol.com.au",
+  "address": "60 Park Street, Penrith NSW",
+  "suburb": "Penrith",
+  "postcode": "2479",
+  "region": "western",
+  "description": "Sydney's trusted pest control experts. Serving Penrith and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Penrith. Licensed & insured.",
+  "services": [
+    "termite-inspection",
+    "general-pest-control",
+    "termite-treatment",
+    "cockroach-control",
+    "possum-removal"
+  ],
+  "serviceAreas": [
+    "leichhardt",
+    "lidcombe",
+    "newtown",
+    "granville",
+    "randwick",
+    "bondi-junction",
+    "merrylands",
+    "marrickville",
+    "ryde",
+    "castle-hill"
+  ],
+  "rating": 4.5,
+  "reviewCount": 78,
+  "yearsInBusiness": 16,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "same-day-service",
+    "epa-verified",
+    "eco-friendly",
+    "licensed-insured"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$186 - $322",
+    "termiteInspection": "$260 - $476",
+    "rodentControl": "$243 - $418"
+  }
+}

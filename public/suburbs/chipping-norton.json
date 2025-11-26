@@ -1,0 +1,48 @@
+{
+  "id": "chipping-norton",
+  "name": "Chipping Norton",
+  "slug": "chipping-norton",
+  "postcode": "2170",
+  "region": "South West Sydney",
+  "regionSlug": "south-west-sydney",
+  "council": "Liverpool / Camden / Campbelltown Council",
+  "coordinates": {
+    "lat": -33.927,
+    "lng": 150.959
+  },
+  "population": 6000,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Hot summers drive pests indoors seeking water and shelter",
+    "New developments disturb existing pest colonies",
+    "Chipping Norton properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Chipping Norton is part of South West Sydney, one of the fastest-growing regions with many new estates. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "liverpool",
+    "warwick-farm",
+    "moorebank",
+    "hammondville"
+  ],
+  "seoTitle": "Pest Control Chipping Norton - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Chipping Norton 2170. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

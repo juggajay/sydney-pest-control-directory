@@ -1,0 +1,67 @@
+{
+  "id": 13,
+  "slug": "eastern-suburbs-pest-control",
+  "businessName": "Eastern Suburbs Pest Control",
+  "tradingName": "Eastern Suburbs Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2023-977330",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-11-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9399 7877",
+  "email": "info@easternsuburbspest.com.au",
+  "website": "https://easternsuburbspest.com.au",
+  "address": "6 King Street, Randwick NSW",
+  "suburb": "Randwick",
+  "postcode": "2248",
+  "region": "eastern",
+  "description": "Sydney's trusted pest control experts. Serving Randwick and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Randwick. Licensed & insured.",
+  "services": [
+    "wasp-removal",
+    "cockroach-control",
+    "ant-control",
+    "flea-treatment",
+    "possum-removal",
+    "bed-bug-treatment"
+  ],
+  "serviceAreas": [
+    "randwick",
+    "double-bay",
+    "marrickville",
+    "woollahra",
+    "paddington",
+    "mosman",
+    "leichhardt",
+    "coogee",
+    "newtown",
+    "rose-bay",
+    "kingsford",
+    "north-sydney"
+  ],
+  "rating": 4.3,
+  "reviewCount": 46,
+  "yearsInBusiness": 21,
+  "featured": true,
+  "tier": "premium",
+  "features": [
+    "epa-verified",
+    "eco-friendly",
+    "licensed-insured"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$244 - $311",
+    "termiteInspection": "$290 - $495",
+    "rodentControl": "$220 - $422"
+  }
+}

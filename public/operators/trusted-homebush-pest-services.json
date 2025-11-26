@@ -1,0 +1,64 @@
+{
+  "id": 79,
+  "slug": "trusted-homebush-pest-services",
+  "businessName": "Trusted Homebush Pest Services",
+  "tradingName": "Trusted Homebush Pest Services Pty Ltd",
+  "licenseNumber": "PMT-2024-933483",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-01-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9737 2534",
+  "email": "info@trusted-homebush-pest-services.com.au",
+  "website": "https://trusted-homebush-pest-services.com.au",
+  "address": "439 High Street, Homebush NSW",
+  "suburb": "Homebush",
+  "postcode": "2690",
+  "region": "western",
+  "description": "Trusted pest control solutions in Homebush. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Homebush. Licensed & insured.",
+  "services": [
+    "flea-treatment",
+    "termite-inspection",
+    "bird-control",
+    "termite-treatment",
+    "rodent-control",
+    "cockroach-control"
+  ],
+  "serviceAreas": [
+    "randwick",
+    "ryde",
+    "parramatta",
+    "blacktown",
+    "merrylands",
+    "bondi",
+    "castle-hill",
+    "newtown",
+    "leichhardt"
+  ],
+  "rating": 4.1,
+  "reviewCount": 113,
+  "yearsInBusiness": 14,
+  "featured": true,
+  "tier": "premium",
+  "features": [
+    "epa-verified",
+    "warranty-guarantee",
+    "licensed-insured"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$193 - $359",
+    "termiteInspection": "$282 - $414",
+    "rodentControl": "$272 - $368"
+  }
+}

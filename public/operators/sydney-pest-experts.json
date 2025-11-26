@@ -1,0 +1,67 @@
+{
+  "id": 43,
+  "slug": "sydney-pest-experts",
+  "businessName": "Sydney Pest Experts",
+  "tradingName": "Sydney Pest Experts Pty Ltd",
+  "licenseNumber": "P-2021-947859",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-02-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9692 9900",
+  "email": "info@sydneypestexperts.com.au",
+  "website": "https://sydneypestexperts.com.au",
+  "address": "499 Main Street, Glebe NSW",
+  "suburb": "Glebe",
+  "postcode": "2779",
+  "region": "inner-west",
+  "description": "Trusted pest control solutions in Glebe. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Glebe. Licensed & insured.",
+  "services": [
+    "wasp-removal",
+    "rodent-control",
+    "flea-treatment",
+    "termite-inspection",
+    "spider-control",
+    "termite-treatment",
+    "possum-removal",
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "summer-hill",
+    "bondi-junction",
+    "marrickville",
+    "randwick",
+    "dulwich-hill",
+    "chatswood",
+    "ashfield",
+    "bondi"
+  ],
+  "rating": 4.3,
+  "reviewCount": 100,
+  "yearsInBusiness": 9,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "warranty-guarantee",
+    "eco-friendly",
+    "24-7-emergency",
+    "family-safe"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$181 - $323",
+    "termiteInspection": "$340 - $414",
+    "rodentControl": "$242 - $411"
+  }
+}

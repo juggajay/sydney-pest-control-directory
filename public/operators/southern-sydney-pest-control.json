@@ -1,0 +1,64 @@
+{
+  "id": 5,
+  "slug": "southern-sydney-pest-control",
+  "businessName": "Southern Sydney Pest Control",
+  "tradingName": "Southern Sydney Pest Control Pty Ltd",
+  "licenseNumber": "P-2022-646985",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-10-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9890 1234",
+  "email": "info@southernsydneypest.com.au",
+  "website": "https://southernsydneypest.com.au",
+  "address": "186 King Street, Sutherland NSW",
+  "suburb": "Sutherland",
+  "postcode": "2056",
+  "region": "southern",
+  "description": "Sydney's trusted pest control experts. Serving Sutherland and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Sutherland. Licensed & insured.",
+  "services": [
+    "possum-removal",
+    "termite-inspection",
+    "general-pest-control",
+    "spider-control"
+  ],
+  "serviceAreas": [
+    "hurstville",
+    "menai",
+    "bondi-junction",
+    "sutherland",
+    "newtown",
+    "bondi",
+    "kogarah",
+    "randwick"
+  ],
+  "rating": 4.5,
+  "reviewCount": 47,
+  "yearsInBusiness": 14,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "eco-friendly",
+    "free-quotes",
+    "same-day-service",
+    "licensed-insured",
+    "warranty-guarantee"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$180 - $397",
+    "termiteInspection": "$261 - $462",
+    "rodentControl": "$225 - $389"
+  }
+}

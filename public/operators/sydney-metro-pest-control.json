@@ -1,0 +1,63 @@
+{
+  "id": 26,
+  "slug": "sydney-metro-pest-control",
+  "businessName": "Sydney Metro Pest Control",
+  "tradingName": "Sydney Metro Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2020-686369",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-09-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9749 5566",
+  "email": "info@sydneymetropest.com.au",
+  "website": "https://sydneymetropest.com.au",
+  "address": "486 Station Street, Auburn NSW",
+  "suburb": "Auburn",
+  "postcode": "2253",
+  "region": "western",
+  "description": "Family-owned pest control business serving the Auburn region for over 10 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Auburn. Licensed & insured.",
+  "services": [
+    "termite-treatment",
+    "bed-bug-treatment",
+    "spider-control",
+    "bird-control"
+  ],
+  "serviceAreas": [
+    "homebush",
+    "newtown",
+    "bondi",
+    "marrickville",
+    "ryde",
+    "randwick",
+    "castle-hill",
+    "lidcombe",
+    "penrith"
+  ],
+  "rating": 4.2,
+  "reviewCount": 182,
+  "yearsInBusiness": 10,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "24-7-emergency",
+    "eco-friendly",
+    "epa-verified",
+    "warranty-guarantee"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$172 - $374",
+    "termiteInspection": "$278 - $441",
+    "rodentControl": "$208 - $365"
+  }
+}

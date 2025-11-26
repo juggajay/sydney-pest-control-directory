@@ -1,0 +1,66 @@
+{
+  "id": 12,
+  "slug": "hills-pest-control",
+  "businessName": "Hills Pest Control",
+  "tradingName": "Hills Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2022-974689",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-02-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 8850 2324",
+  "email": "info@hillspestcontrol.com.au",
+  "website": "https://hillspestcontrol.com.au",
+  "address": "114 Station Street, Castle Hill NSW",
+  "suburb": "Castle Hill",
+  "postcode": "2392",
+  "region": "hills-district",
+  "description": "Professional pest control services for Castle Hill and surrounding areas. Licensed and insured with 19 years of experience.",
+  "shortDescription": "Professional pest control in Castle Hill. Licensed & insured.",
+  "services": [
+    "general-pest-control",
+    "rodent-control",
+    "termite-treatment",
+    "bed-bug-treatment",
+    "flea-treatment",
+    "ant-control",
+    "cockroach-control"
+  ],
+  "serviceAreas": [
+    "pennant-hills",
+    "bella-vista",
+    "baulkham-hills",
+    "carlingford",
+    "randwick",
+    "kellyville",
+    "newtown",
+    "castle-hill",
+    "bondi-junction"
+  ],
+  "rating": 4.7,
+  "reviewCount": 149,
+  "yearsInBusiness": 19,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "eco-friendly",
+    "licensed-insured",
+    "warranty-guarantee",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$152 - $313",
+    "termiteInspection": "$289 - $465",
+    "rodentControl": "$285 - $358"
+  }
+}

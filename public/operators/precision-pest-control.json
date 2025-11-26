@@ -1,0 +1,70 @@
+{
+  "id": 40,
+  "slug": "precision-pest-control",
+  "businessName": "Precision Pest Control",
+  "tradingName": "Precision Pest Control Pty Ltd",
+  "licenseNumber": "P-2020-190033",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-03-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9953 3344",
+  "email": "info@precisionpestsydney.com.au",
+  "website": "https://precisionpestsydney.com.au",
+  "address": "314 Main Street, Neutral Bay NSW",
+  "suburb": "Neutral Bay",
+  "postcode": "2629",
+  "region": "north-shore",
+  "description": "Sydney's trusted pest control experts. Serving Neutral Bay and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Neutral Bay. Licensed & insured.",
+  "services": [
+    "wasp-removal",
+    "possum-removal",
+    "termite-inspection",
+    "spider-control",
+    "flea-treatment",
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "randwick",
+    "chatswood",
+    "north-sydney",
+    "leichhardt",
+    "cremorne",
+    "st-leonards",
+    "crows-nest",
+    "lane-cove",
+    "mosman",
+    "willoughby",
+    "marrickville",
+    "newtown"
+  ],
+  "rating": 4.8,
+  "reviewCount": 34,
+  "yearsInBusiness": 16,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "same-day-service",
+    "licensed-insured",
+    "family-safe",
+    "eco-friendly",
+    "warranty-guarantee"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$185 - $376",
+    "termiteInspection": "$319 - $477",
+    "rodentControl": "$214 - $365"
+  }
+}

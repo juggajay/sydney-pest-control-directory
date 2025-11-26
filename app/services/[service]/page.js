@@ -5,8 +5,8 @@ import {
   Bug, CheckCircle, AlertCircle, Calendar, ArrowRight,
   DollarSign, Repeat, Users
 } from 'lucide-react';
-import { 
-  services, 
+import {
+  services,
   suburbs,
   operators,
   getServiceBySlug,
@@ -22,19 +22,19 @@ import {
 // Generate static params for all services
 export async function generateStaticParams() {
   return services.map((service) => ({
-    service: service.slug,
+    service: service.slug || service.id,
   }));
 }
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }) {
   const service = getServiceBySlug(params.service);
-  
+
   if (!service) {
     return { title: 'Service Not Found' };
   }
 
-  const serviceOperators = getOperatorsByService(service.slug);
+  const serviceOperators = getOperatorsByService(service.slug || service.id);
   
   return genMeta({
     title: `${service.name} Sydney - ${service.priceRange} | Find Licensed Operators`,
@@ -72,7 +72,7 @@ function OperatorCard({ operator }) {
             <h3 className="font-heading font-semibold text-neutral-900 truncate group-hover:text-primary-600 transition-colors">
               {operator.businessName}
             </h3>
-            {operator.badges.includes('epa-verified') && (
+            {(operator.features?.includes('epa-verified') || operator.epaVerified) && (
               <CheckCircle className="w-4 h-4 text-emerald-500 flex-shrink-0" />
             )}
           </div>
@@ -91,12 +91,12 @@ function OperatorCard({ operator }) {
 
 export default function ServicePage({ params }) {
   const service = getServiceBySlug(params.service);
-  
+
   if (!service) {
     notFound();
   }
 
-  const serviceOperators = getOperatorsByService(service.slug);
+  const serviceOperators = getOperatorsByService(service.slug || service.id);
 
   // Schema data
   const breadcrumbs = [

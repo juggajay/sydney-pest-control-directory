@@ -1,0 +1,48 @@
+{
+  "id": "kellyville-ridge",
+  "name": "Kellyville Ridge",
+  "slug": "kellyville-ridge",
+  "postcode": "2155",
+  "region": "Western Sydney",
+  "regionSlug": "western-sydney",
+  "council": "Cumberland / Blacktown Council",
+  "coordinates": {
+    "lat": -33.702,
+    "lng": 150.934
+  },
+  "population": 11000,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Hot summers drive pests indoors seeking water and shelter",
+    "New developments disturb existing pest colonies",
+    "Kellyville Ridge properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Kellyville Ridge is a growing Western Sydney suburb with a mix of established homes and new developments. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "parramatta",
+    "north-parramatta",
+    "westmead",
+    "harris-park"
+  ],
+  "seoTitle": "Pest Control Kellyville Ridge - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Kellyville Ridge 2155. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

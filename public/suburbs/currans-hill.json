@@ -1,0 +1,48 @@
+{
+  "id": "currans-hill",
+  "name": "Currans Hill",
+  "slug": "currans-hill",
+  "postcode": "2567",
+  "region": "South West Sydney",
+  "regionSlug": "south-west-sydney",
+  "council": "Liverpool / Camden / Campbelltown Council",
+  "coordinates": {
+    "lat": -34.044,
+    "lng": 150.756
+  },
+  "population": 4500,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Hot summers drive pests indoors seeking water and shelter",
+    "New developments disturb existing pest colonies",
+    "Currans Hill properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Currans Hill is part of South West Sydney, one of the fastest-growing regions with many new estates. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "liverpool",
+    "warwick-farm",
+    "chipping-norton",
+    "moorebank"
+  ],
+  "seoTitle": "Pest Control Currans Hill - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Currans Hill 2567. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

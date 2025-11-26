@@ -1,0 +1,46 @@
+{
+  "id": "rockdale",
+  "name": "Rockdale",
+  "slug": "rockdale",
+  "postcode": "2216",
+  "region": "South Sydney",
+  "regionSlug": "south-sydney",
+  "council": "Bayside / Canterbury-Bankstown Council",
+  "coordinates": {
+    "lat": -33.953,
+    "lng": 151.137
+  },
+  "population": 12500,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Rockdale properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Rockdale is located in South Sydney, featuring established residential areas with good transport links. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "arncliffe",
+    "wolli-creek",
+    "turrella",
+    "bardwell-park"
+  ],
+  "seoTitle": "Pest Control Rockdale - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Rockdale 2216. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "burwood-heights",
+  "name": "Burwood Heights",
+  "slug": "burwood-heights",
+  "postcode": "2136",
+  "region": "Inner West",
+  "regionSlug": "inner-west",
+  "council": "Inner West Council",
+  "coordinates": {
+    "lat": -33.887,
+    "lng": 151.096
+  },
+  "population": 3000,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "cockroaches",
+    "rodents",
+    "ants",
+    "bed bugs",
+    "fleas",
+    "spiders"
+  ],
+  "pestRiskFactors": [
+    "High density living increases cockroach and rodent spread",
+    "Older building stock prone to termite damage and rodent entry",
+    "Burwood Heights properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Burwood Heights is part of Sydney's vibrant Inner West, featuring a mix of Federation homes, terraces, and newer developments. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "leichhardt",
+    "lilyfield",
+    "rozelle",
+    "balmain"
+  ],
+  "seoTitle": "Pest Control Burwood Heights - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Burwood Heights 2136. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

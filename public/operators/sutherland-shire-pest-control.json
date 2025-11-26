@@ -1,0 +1,69 @@
+{
+  "id": 47,
+  "slug": "sutherland-shire-pest-control",
+  "businessName": "Sutherland Shire Pest Control",
+  "tradingName": "Sutherland Shire Pest Control Pty Ltd",
+  "licenseNumber": "P-2022-536137",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-09-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9525 7788",
+  "email": "info@sutherlandshirepest.com.au",
+  "website": "https://sutherlandshirepest.com.au",
+  "address": "443 High Street, Miranda NSW",
+  "suburb": "Miranda",
+  "postcode": "2235",
+  "region": "southern",
+  "description": "Trusted pest control solutions in Miranda. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Miranda. Licensed & insured.",
+  "services": [
+    "ant-control",
+    "spider-control",
+    "cockroach-control",
+    "wasp-removal",
+    "bed-bug-treatment",
+    "general-pest-control",
+    "flea-treatment"
+  ],
+  "serviceAreas": [
+    "sutherland",
+    "menai",
+    "engadine",
+    "bondi-junction",
+    "cronulla",
+    "marrickville",
+    "sans-souci",
+    "newtown",
+    "leichhardt",
+    "caringbah",
+    "miranda"
+  ],
+  "rating": 4.4,
+  "reviewCount": 53,
+  "yearsInBusiness": 13,
+  "featured": true,
+  "tier": "premium",
+  "features": [
+    "epa-verified",
+    "same-day-service",
+    "warranty-guarantee",
+    "licensed-insured",
+    "eco-friendly"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$241 - $339",
+    "termiteInspection": "$255 - $480",
+    "rodentControl": "$256 - $425"
+  }
+}

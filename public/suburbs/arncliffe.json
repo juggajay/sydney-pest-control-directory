@@ -1,0 +1,46 @@
+{
+  "id": "arncliffe",
+  "name": "Arncliffe",
+  "slug": "arncliffe",
+  "postcode": "2205",
+  "region": "South Sydney",
+  "regionSlug": "south-sydney",
+  "council": "Bayside / Canterbury-Bankstown Council",
+  "coordinates": {
+    "lat": -33.938,
+    "lng": 151.147
+  },
+  "population": 10500,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Arncliffe properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Arncliffe is located in South Sydney, featuring established residential areas with good transport links. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "wolli-creek",
+    "turrella",
+    "bardwell-park",
+    "bardwell-valley"
+  ],
+  "seoTitle": "Pest Control Arncliffe - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Arncliffe 2205. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 33,
+  "slug": "budget-pest-control-sydney",
+  "businessName": "Budget Pest Control Sydney",
+  "tradingName": "Budget Pest Control Sydney Pty Ltd",
+  "licenseNumber": "P-2021-460654",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-01-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9602 9900",
+  "email": "info@budgetpestsydney.com.au",
+  "website": "https://budgetpestsydney.com.au",
+  "address": "21 Main Street, Liverpool NSW",
+  "suburb": "Liverpool",
+  "postcode": "2705",
+  "region": "south-west",
+  "description": "Professional pest control services for Liverpool and surrounding areas. Licensed and insured with 9 years of experience.",
+  "shortDescription": "Professional pest control in Liverpool. Licensed & insured.",
+  "services": [
+    "general-pest-control",
+    "termite-inspection",
+    "possum-removal",
+    "rodent-control"
+  ],
+  "serviceAreas": [
+    "narellan",
+    "bankstown",
+    "randwick",
+    "liverpool",
+    "leppington",
+    "newtown",
+    "macarthur",
+    "bondi-junction",
+    "camden",
+    "leichhardt",
+    "ingleburn",
+    "campbelltown"
+  ],
+  "rating": 4.5,
+  "reviewCount": 54,
+  "yearsInBusiness": 9,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "family-safe",
+    "24-7-emergency",
+    "licensed-insured",
+    "free-quotes",
+    "eco-friendly"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$162 - $394",
+    "termiteInspection": "$299 - $477",
+    "rodentControl": "$298 - $384"
+  }
+}

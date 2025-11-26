@@ -1,0 +1,64 @@
+{
+  "id": 8,
+  "slug": "jims-pest-control-sydney",
+  "businessName": "Jim's Pest Control Sydney",
+  "tradingName": "Jim's Pest Control Sydney Pty Ltd",
+  "licenseNumber": "PMT-2020-496796",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-04-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "131 546",
+  "email": "info@jimspestcontrol.com.au",
+  "website": "https://jimspestcontrol.com.au",
+  "address": "289 Park Street, Homebush NSW",
+  "suburb": "Homebush",
+  "postcode": "2402",
+  "region": "western",
+  "description": "Professional pest control services for Homebush and surrounding areas. Licensed and insured with 18 years of experience.",
+  "shortDescription": "Professional pest control in Homebush. Licensed & insured.",
+  "services": [
+    "bed-bug-treatment",
+    "termite-treatment",
+    "rodent-control",
+    "spider-control",
+    "wasp-removal",
+    "cockroach-control"
+  ],
+  "serviceAreas": [
+    "castle-hill",
+    "lidcombe",
+    "leichhardt",
+    "randwick",
+    "blacktown",
+    "penrith",
+    "newtown",
+    "merrylands",
+    "parramatta"
+  ],
+  "rating": 4.1,
+  "reviewCount": 46,
+  "yearsInBusiness": 18,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "24-7-emergency",
+    "licensed-insured",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$171 - $339",
+    "termiteInspection": "$282 - $449",
+    "rodentControl": "$230 - $432"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 44,
+  "slug": "professional-pest-services",
+  "businessName": "Professional Pest Services",
+  "tradingName": "Professional Pest Services Pty Ltd",
+  "licenseNumber": "P-2022-925404",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-07-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9527 1122",
+  "email": "info@propestservices.com.au",
+  "website": "https://propestservices.com.au",
+  "address": "389 High Street, Cronulla NSW",
+  "suburb": "Cronulla",
+  "postcode": "2175",
+  "region": "southern",
+  "description": "Trusted pest control solutions in Cronulla. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Cronulla. Licensed & insured.",
+  "services": [
+    "bird-control",
+    "rodent-control",
+    "spider-control",
+    "termite-inspection",
+    "cockroach-control"
+  ],
+  "serviceAreas": [
+    "hurstville",
+    "kogarah",
+    "leichhardt",
+    "bondi-junction",
+    "sans-souci",
+    "bondi",
+    "newtown",
+    "caringbah"
+  ],
+  "rating": 4.7,
+  "reviewCount": 125,
+  "yearsInBusiness": 17,
+  "featured": true,
+  "tier": "premium",
+  "features": [
+    "free-quotes",
+    "epa-verified",
+    "warranty-guarantee",
+    "same-day-service"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$179 - $385",
+    "termiteInspection": "$335 - $419",
+    "rodentControl": "$259 - $446"
+  }
+}

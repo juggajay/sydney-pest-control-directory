@@ -1,0 +1,67 @@
+{
+  "id": 54,
+  "slug": "fast-dee-why-exterminators",
+  "businessName": "Fast Dee Why Exterminators",
+  "tradingName": "Fast Dee Why Exterminators Pty Ltd",
+  "licenseNumber": "PMT-2022-836632",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-08-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9129 8370",
+  "email": "info@fast-dee-why-exterminators.com.au",
+  "website": "https://fast-dee-why-exterminators.com.au",
+  "address": "401 High Street, Dee Why NSW",
+  "suburb": "Dee Why",
+  "postcode": "2023",
+  "region": "northern-beaches",
+  "description": "Trusted pest control solutions in Dee Why. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Dee Why. Licensed & insured.",
+  "services": [
+    "possum-removal",
+    "bed-bug-treatment",
+    "termite-treatment",
+    "cockroach-control",
+    "flea-treatment",
+    "ant-control",
+    "spider-control"
+  ],
+  "serviceAreas": [
+    "manly",
+    "curl-curl",
+    "bondi-junction",
+    "newtown",
+    "mona-vale",
+    "randwick",
+    "freshwater",
+    "marrickville",
+    "avalon"
+  ],
+  "rating": 4.6,
+  "reviewCount": 142,
+  "yearsInBusiness": 15,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "24-7-emergency",
+    "same-day-service",
+    "epa-verified",
+    "eco-friendly",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$241 - $351",
+    "termiteInspection": "$293 - $490",
+    "rodentControl": "$208 - $386"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "parramatta",
+  "name": "Parramatta",
+  "slug": "parramatta",
+  "postcode": "2150",
+  "region": "Western Sydney",
+  "regionSlug": "western-sydney",
+  "council": "Cumberland / Blacktown Council",
+  "coordinates": {
+    "lat": -33.815,
+    "lng": 151.001
+  },
+  "population": 30000,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Hot summers drive pests indoors seeking water and shelter",
+    "New developments disturb existing pest colonies",
+    "Parramatta properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Parramatta is a growing Western Sydney suburb with a mix of established homes and new developments. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "north-parramatta",
+    "westmead",
+    "harris-park",
+    "rosehill"
+  ],
+  "seoTitle": "Pest Control Parramatta - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Parramatta 2150. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "spider-control",
+  "name": "Spider Control",
+  "slug": "spider-control",
+  "shortDescription": "Professional spider treatment for safer Sydney homes",
+  "longDescription": "Sydney is home to several spider species including venomous ones like the Funnel-web and Redback. Professional spider control reduces populations and creates a protective barrier around your property. Treatment targets webs, egg sacs, and spider harbourage areas. Regular treatment is especially important for properties with children, in bushland areas, or where dangerous spiders have been sighted.",
+  "priceRange": "$150 - $300",
+  "searchVolume": "medium-high",
+  "urgency": "medium",
+  "commonIn": [
+    "houses",
+    "gardens",
+    "sheds",
+    "garages"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "summer-autumn",
+  "timeToComplete": "30-60 minutes",
+  "warrantyTypical": "6-12 month warranty",
+  "signs": [
+    "Increasing spider webs around property",
+    "Regular spider sightings indoors",
+    "Dangerous spider sightings (Funnel-web, Redback)",
+    "Spider egg sacs in corners or sheltered areas",
+    "Property near bushland with high spider activity"
+  ],
+  "process": [
+    "Property inspection for spider activity",
+    "Identification of spider species present",
+    "Web removal and treatment",
+    "External perimeter spray treatment",
+    "Treatment of common harbourage areas",
+    "Roof void and subfloor treatment if accessible",
+    "Advice on reducing spider-friendly conditions"
+  ],
+  "faqs": [
+    {
+      "question": "Will spider treatment kill Funnel-web spiders?",
+      "answer": "Yes, professional spider treatments are effective against Funnel-web spiders. We pay particular attention to areas where Funnel-webs are commonly found including rockeries, garden beds, and around pools. Regular treatment significantly reduces encounters with these dangerous spiders."
+    },
+    {
+      "question": "How long does spider treatment last?",
+      "answer": "A professional spider treatment typically provides 6-12 months of protection. Properties with high spider pressure (near bushland, with gardens) may require more frequent treatment. We'll recommend an appropriate schedule based on your property's conditions."
+    },
+    {
+      "question": "Is spider treatment safe for other insects like bees?",
+      "answer": "Spider treatments target spiders specifically and are applied in areas spiders inhabit, not flowering plants. We take care to minimise impact on beneficial insects. If you have bee hives on your property, let us know so we can take appropriate precautions."
+    },
+    {
+      "question": "Should I remove spider webs before treatment?",
+      "answer": "No, we recommend leaving webs in place. Webs indicate active spider locations and treating them directly is more effective. We remove webs as part of the treatment process. New webs appearing after treatment are typically from spiders that have encountered the treatment."
+    }
+  ],
+  "seoTitle": "Spider Control Sydney - From $150 | Funnel-web Specialists",
+  "seoDescription": "Professional spider control in Sydney. Treatment for Funnel-webs, Redbacks & all common spiders. Safe for families. 6-12 month warranty. Book online now.",
+  "relatedServices": [
+    "general-pest-control",
+    "ant-control",
+    "cockroach-control"
+  ],
+  "keywords": [
+    "spider control sydney",
+    "spider treatment",
+    "funnel web spider",
+    "redback spider",
+    "spider exterminator",
+    "spider spray"
+  ],
+  "description": "Professional spider treatment for safer Sydney homes",
+  "commonPests": [
+    "Redback Spiders",
+    "Huntsman Spiders",
+    "Funnel-web Spiders",
+    "White-tail Spiders"
+  ],
+  "frequency": "Every 6-12 months"
+}

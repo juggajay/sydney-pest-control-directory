@@ -1,0 +1,66 @@
+{
+  "id": 1,
+  "slug": "sydneys-best-pest-control",
+  "businessName": "Sydney's Best Pest Control",
+  "tradingName": "Sydney's Best Pest Control Pty Ltd",
+  "licenseNumber": "P-2024-809873",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-12-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9369 3889",
+  "email": "info@sydneysbestpest.com.au",
+  "website": "https://sydneysbestpest.com.au",
+  "address": "111 Station Street, Bondi NSW",
+  "suburb": "Bondi",
+  "postcode": "2283",
+  "region": "eastern",
+  "description": "Expert pest control services across Bondi. 16+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Bondi. Licensed & insured.",
+  "services": [
+    "spider-control",
+    "general-pest-control",
+    "bed-bug-treatment",
+    "termite-treatment",
+    "wasp-removal",
+    "termite-inspection"
+  ],
+  "serviceAreas": [
+    "woollahra",
+    "kingsford",
+    "randwick",
+    "marrickville",
+    "paddington",
+    "maroubra",
+    "bondi-junction",
+    "bondi",
+    "mosman",
+    "leichhardt"
+  ],
+  "rating": 4.2,
+  "reviewCount": 212,
+  "yearsInBusiness": 16,
+  "featured": true,
+  "tier": "premium",
+  "features": [
+    "epa-verified",
+    "same-day-service",
+    "eco-friendly",
+    "family-safe"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$162 - $328",
+    "termiteInspection": "$275 - $448",
+    "rodentControl": "$299 - $434"
+  }
+}

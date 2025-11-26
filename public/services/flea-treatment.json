@@ -1,0 +1,77 @@
+{
+  "id": "flea-treatment",
+  "name": "Flea Treatment",
+  "slug": "flea-treatment",
+  "shortDescription": "Complete flea elimination for homes with pets",
+  "longDescription": "Fleas can quickly become a major problem in homes with pets, but they can also affect pet-free households if previous occupants had animals or wildlife visits the property. Adult fleas represent only 5% of the population - the rest are eggs, larvae, and pupae hidden in carpets and furnishings. Professional treatment targets all life stages and includes advice on treating pets and preventing re-infestation.",
+  "priceRange": "$180 - $350",
+  "searchVolume": "medium",
+  "urgency": "high",
+  "commonIn": [
+    "houses",
+    "apartments",
+    "pet-owners",
+    "rentals"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "spring-summer",
+  "timeToComplete": "1-2 hours",
+  "warrantyTypical": "30-60 day warranty",
+  "signs": [
+    "Bites on ankles and lower legs",
+    "Pet scratching excessively",
+    "Small dark insects jumping",
+    "Flea dirt (dark specks) in pet bedding",
+    "Moving into home that previously had pets",
+    "Bites appearing after time away from home"
+  ],
+  "process": [
+    "Inspection to confirm fleas and assess extent",
+    "Treatment of all floor areas including carpets",
+    "Targeted treatment of pet resting areas",
+    "Treatment of outdoor areas pets frequent",
+    "Advice on pet treatment coordination",
+    "Guidance on vacuuming and washing routines",
+    "Follow-up treatment if required"
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to treat my pet as well?",
+      "answer": "Yes, successful flea control requires treating pets with veterinary-approved products at the same time as the home treatment. Without this, pets will continue to bring fleas inside. Your vet can recommend appropriate flea treatments for your specific pets."
+    },
+    {
+      "question": "Why am I seeing more fleas after treatment?",
+      "answer": "This is actually normal. Pupae (cocoons) are resistant to treatments and hatch when they detect vibration and warmth - like people walking around. Increased activity post-treatment stimulates hatching, and these new fleas contact the treatment and die. This typically resolves within 2-3 weeks."
+    },
+    {
+      "question": "I don't have pets - why do I have fleas?",
+      "answer": "Fleas can come from previous pet-owning occupants (pupae can survive months without hatching), visiting animals, or wildlife like possums or rats. Rental properties and newly purchased homes commonly have this issue. Professional treatment is effective regardless of the source."
+    },
+    {
+      "question": "How long until I can walk on treated carpets?",
+      "answer": "Most flea treatments dry within 1-2 hours, after which it's safe to walk on carpets. However, avoid vacuuming or mopping for at least 7 days to allow the treatment to work effectively. We'll provide specific guidance based on the products used."
+    }
+  ],
+  "seoTitle": "Flea Treatment Sydney - Complete Elimination | From $180",
+  "seoDescription": "Professional flea treatment in Sydney for homes with & without pets. Targets all life stages. Fast, effective results. Book your flea treatment today.",
+  "relatedServices": [
+    "general-pest-control",
+    "bed-bug-treatment",
+    "rodent-control"
+  ],
+  "keywords": [
+    "flea treatment sydney",
+    "flea control",
+    "flea exterminator",
+    "get rid of fleas",
+    "flea spray",
+    "flea bomb"
+  ],
+  "description": "Complete flea elimination for homes with pets",
+  "commonPests": [
+    "Cat Fleas",
+    "Dog Fleas",
+    "Human Fleas"
+  ],
+  "frequency": "As needed"
+}

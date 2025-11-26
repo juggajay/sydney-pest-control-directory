@@ -1,0 +1,64 @@
+{
+  "id": 45,
+  "slug": "no-more-pests-sydney",
+  "businessName": "No More Pests Sydney",
+  "tradingName": "No More Pests Sydney Pty Ltd",
+  "licenseNumber": "PMT-2021-236189",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-05-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9982 3344",
+  "email": "info@nomorepestssydney.com.au",
+  "website": "https://nomorepestssydney.com.au",
+  "address": "416 Main Street, Dee Why NSW",
+  "suburb": "Dee Why",
+  "postcode": "2677",
+  "region": "northern-beaches",
+  "description": "Trusted pest control solutions in Dee Why. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Dee Why. Licensed & insured.",
+  "services": [
+    "termite-inspection",
+    "rodent-control",
+    "cockroach-control",
+    "flea-treatment",
+    "bird-control",
+    "ant-control",
+    "termite-treatment",
+    "possum-removal"
+  ],
+  "serviceAreas": [
+    "curl-curl",
+    "newtown",
+    "collaroy",
+    "mona-vale",
+    "brookvale",
+    "avalon",
+    "randwick",
+    "leichhardt"
+  ],
+  "rating": 5,
+  "reviewCount": 205,
+  "yearsInBusiness": 11,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "epa-verified",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$236 - $374",
+    "termiteInspection": "$333 - $444",
+    "rodentControl": "$279 - $384"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "wentworth-falls",
+  "name": "Wentworth Falls",
+  "slug": "wentworth-falls",
+  "postcode": "2782",
+  "region": "Penrith Region",
+  "regionSlug": "penrith-region",
+  "council": "Penrith City / Blue Mountains Council",
+  "coordinates": {
+    "lat": -33.71,
+    "lng": 150.375
+  },
+  "population": 6500,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Wentworth Falls properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Wentworth Falls is located in the Penrith region at the foot of the Blue Mountains. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "penrith",
+    "kingswood",
+    "werrington",
+    "werrington-downs"
+  ],
+  "seoTitle": "Pest Control Wentworth Falls - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Wentworth Falls 2782. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

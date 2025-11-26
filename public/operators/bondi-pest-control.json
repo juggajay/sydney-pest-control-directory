@@ -1,0 +1,67 @@
+{
+  "id": 17,
+  "slug": "bondi-pest-control",
+  "businessName": "Bondi Pest Control",
+  "tradingName": "Bondi Pest Control Pty Ltd",
+  "licenseNumber": "P-2020-527373",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-06-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9369 5544",
+  "email": "info@bondipestcontrol.com.au",
+  "website": "https://bondipestcontrol.com.au",
+  "address": "469 Park Street, Bondi NSW",
+  "suburb": "Bondi",
+  "postcode": "2595",
+  "region": "eastern",
+  "description": "Family-owned pest control business serving the Bondi region for over 9 years. Specialists in all types of pest management.",
+  "shortDescription": "Professional pest control in Bondi. Licensed & insured.",
+  "services": [
+    "ant-control",
+    "general-pest-control",
+    "cockroach-control",
+    "termite-inspection",
+    "possum-removal",
+    "bird-control",
+    "bed-bug-treatment"
+  ],
+  "serviceAreas": [
+    "mosman",
+    "marrickville",
+    "rose-bay",
+    "paddington",
+    "kingsford",
+    "double-bay",
+    "maroubra",
+    "coogee",
+    "newtown"
+  ],
+  "rating": 4.3,
+  "reviewCount": 39,
+  "yearsInBusiness": 9,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "eco-friendly",
+    "family-safe",
+    "same-day-service",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$187 - $374",
+    "termiteInspection": "$252 - $438",
+    "rodentControl": "$203 - $417"
+  }
+}

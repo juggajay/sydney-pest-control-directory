@@ -1,0 +1,75 @@
+{
+  "id": "termite-treatment",
+  "name": "Termite Treatment",
+  "slug": "termite-treatment",
+  "shortDescription": "Effective termite elimination and prevention treatments for Sydney homes",
+  "longDescription": "Termite treatment involves eliminating active termite colonies and creating barriers to prevent future infestations. Sydney's climate makes properties particularly vulnerable to termites, with damage costing Australian homeowners over $1.5 billion annually. Professional treatments include chemical soil barriers, baiting systems, and physical barriers. The right treatment depends on your property type, construction style, and the extent of any existing infestation.",
+  "priceRange": "$2,000 - $5,000+",
+  "searchVolume": "medium-high",
+  "urgency": "high",
+  "commonIn": [
+    "houses",
+    "townhouses",
+    "commercial"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "spring-summer",
+  "timeToComplete": "1-3 days",
+  "warrantyTypical": "5-10 year warranty on barrier treatments",
+  "signs": [
+    "Active termites found during inspection",
+    "Extensive mud tubes or shelter tubes",
+    "Significant timber damage visible",
+    "Swarmers (flying termites) inside property",
+    "Previous termite history requiring prevention"
+  ],
+  "process": [
+    "Detailed assessment of infestation extent",
+    "Treatment plan development and quote",
+    "Installation of chemical barrier or baiting system",
+    "Treatment of active colonies",
+    "Repair recommendations for damaged timber",
+    "Ongoing monitoring schedule establishment",
+    "Warranty documentation provided"
+  ],
+  "faqs": [
+    {
+      "question": "What's the difference between chemical barriers and baiting systems?",
+      "answer": "Chemical barriers create a treated zone in the soil around your property that kills or repels termites. Baiting systems use strategically placed stations containing slow-acting toxins that termites carry back to the colony. Chemical barriers provide immediate protection while baiting systems can eliminate entire colonies. Many pest controllers recommend a combination approach."
+    },
+    {
+      "question": "How long does termite treatment last?",
+      "answer": "Chemical soil treatments typically last 5-10 years depending on the product used and soil conditions. Baiting systems require ongoing monitoring and maintenance but can provide indefinite protection. Physical barriers installed during construction are permanent but should be inspected regularly."
+    },
+    {
+      "question": "Is termite treatment safe for my family and pets?",
+      "answer": "Modern termite treatments use products that are specifically designed to be low-risk for humans and pets when applied correctly. Chemical barriers are applied to the soil, not inside living areas. Your pest controller will advise on any precautions needed, which are typically minimal."
+    },
+    {
+      "question": "Will I need to leave my home during treatment?",
+      "answer": "For most termite treatments, you don't need to vacate your home. Chemical barrier installation is done externally around the property perimeter. Some situations may require brief vacating of specific areas, but this is uncommon and your pest controller will advise in advance."
+    }
+  ],
+  "seoTitle": "Termite Treatment Sydney - Expert Solutions | 5-10 Year Warranty",
+  "seoDescription": "Professional termite treatment in Sydney. Chemical barriers, baiting systems & colony elimination. Licensed technicians, up to 10 year warranty. Free quotes available.",
+  "relatedServices": [
+    "termite-inspection",
+    "pre-purchase-inspection",
+    "general-pest-control"
+  ],
+  "keywords": [
+    "termite treatment sydney",
+    "termite control",
+    "white ant treatment",
+    "termite barrier",
+    "termite baiting system",
+    "termite exterminator"
+  ],
+  "description": "Effective termite elimination and prevention treatments for Sydney homes",
+  "commonPests": [
+    "Subterranean Termites",
+    "Drywood Termites",
+    "Dampwood Termites"
+  ],
+  "frequency": "One-time + monitoring"
+}

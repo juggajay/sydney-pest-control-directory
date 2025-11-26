@@ -1,0 +1,47 @@
+{
+  "id": "gymea-bay",
+  "name": "Gymea Bay",
+  "slug": "gymea-bay",
+  "postcode": "2227",
+  "region": "Sutherland Shire",
+  "regionSlug": "sutherland-shire",
+  "council": "Sutherland Shire Council",
+  "coordinates": {
+    "lat": -34.047,
+    "lng": 151.086
+  },
+  "population": 4500,
+  "propertyTypes": [
+    "apartments",
+    "terraces",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Bushland proximity increases spider and possum encounters",
+    "Native vegetation attracts termites and other wood-boring pests",
+    "Gymea Bay properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Gymea Bay is part of the Sutherland Shire, known as 'The Shire', with a mix of bushland and beaches. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "sutherland",
+    "kirrawee",
+    "gymea",
+    "grays-point"
+  ],
+  "seoTitle": "Pest Control Gymea Bay - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Gymea Bay 2227. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sutherland",
+  "name": "Sutherland",
+  "slug": "sutherland",
+  "postcode": "2232",
+  "region": "Sutherland Shire",
+  "regionSlug": "sutherland-shire",
+  "council": "Sutherland Shire Council",
+  "coordinates": {
+    "lat": -34.031,
+    "lng": 151.057
+  },
+  "population": 12000,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Bushland proximity increases spider and possum encounters",
+    "Native vegetation attracts termites and other wood-boring pests",
+    "Sutherland properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Sutherland is part of the Sutherland Shire, known as 'The Shire', with a mix of bushland and beaches. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "kirrawee",
+    "gymea",
+    "gymea-bay",
+    "grays-point"
+  ],
+  "seoTitle": "Pest Control Sutherland - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Sutherland 2232. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

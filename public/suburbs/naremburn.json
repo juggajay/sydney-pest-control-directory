@@ -1,0 +1,46 @@
+{
+  "id": "naremburn",
+  "name": "Naremburn",
+  "slug": "naremburn",
+  "postcode": "2065",
+  "region": "North Shore",
+  "regionSlug": "north-shore",
+  "council": "North Sydney / Lane Cove Council",
+  "coordinates": {
+    "lat": -33.821,
+    "lng": 151.2
+  },
+  "population": 6500,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Naremburn properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Naremburn is situated on Sydney's prestigious North Shore, known for its leafy streets and quality housing. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "north-sydney",
+    "lavender-bay",
+    "mcmahons-point",
+    "kirribilli"
+  ],
+  "seoTitle": "Pest Control Naremburn - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Naremburn 2065. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$216 - $384",
+    "termiteInspection": "$300 - $540",
+    "termiteTreatment": "$3000 - $6000",
+    "rodentControl": "$240 - $456"
+  }
+}

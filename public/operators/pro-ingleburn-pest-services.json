@@ -1,0 +1,64 @@
+{
+  "id": 88,
+  "slug": "pro-ingleburn-pest-services",
+  "businessName": "Pro Ingleburn Pest Services",
+  "tradingName": "Pro Ingleburn Pest Services Pty Ltd",
+  "licenseNumber": "P-2024-747167",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-01-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9209 7468",
+  "email": "info@pro-ingleburn-pest-services.com.au",
+  "website": "https://pro-ingleburn-pest-services.com.au",
+  "address": "497 King Street, Ingleburn NSW",
+  "suburb": "Ingleburn",
+  "postcode": "2527",
+  "region": "south-west",
+  "description": "Expert pest control services across Ingleburn. 13+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Ingleburn. Licensed & insured.",
+  "services": [
+    "termite-treatment",
+    "termite-inspection",
+    "spider-control",
+    "bird-control",
+    "possum-removal"
+  ],
+  "serviceAreas": [
+    "camden",
+    "campbelltown",
+    "macarthur",
+    "cabramatta",
+    "bankstown",
+    "narellan",
+    "newtown",
+    "leppington",
+    "liverpool"
+  ],
+  "rating": 5,
+  "reviewCount": 169,
+  "yearsInBusiness": 13,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "epa-verified",
+    "24-7-emergency",
+    "warranty-guarantee",
+    "same-day-service"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$206 - $387",
+    "termiteInspection": "$295 - $428",
+    "rodentControl": "$228 - $381"
+  }
+}

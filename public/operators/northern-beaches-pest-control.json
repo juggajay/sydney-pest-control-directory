@@ -1,0 +1,63 @@
+{
+  "id": 19,
+  "slug": "northern-beaches-pest-control",
+  "businessName": "Northern Beaches Pest Control",
+  "tradingName": "Northern Beaches Pest Control Pty Ltd",
+  "licenseNumber": "P-2023-715572",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-12-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9971 6655",
+  "email": "info@nbpestcontrol.com.au",
+  "website": "https://nbpestcontrol.com.au",
+  "address": "424 High Street, Dee Why NSW",
+  "suburb": "Dee Why",
+  "postcode": "2039",
+  "region": "northern-beaches",
+  "description": "Trusted pest control solutions in Dee Why. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Dee Why. Licensed & insured.",
+  "services": [
+    "bird-control",
+    "flea-treatment",
+    "possum-removal",
+    "rodent-control",
+    "cockroach-control"
+  ],
+  "serviceAreas": [
+    "narrabeen",
+    "newport",
+    "bondi",
+    "avalon",
+    "brookvale",
+    "marrickville",
+    "bondi-junction",
+    "leichhardt",
+    "curl-curl"
+  ],
+  "rating": 4.3,
+  "reviewCount": 192,
+  "yearsInBusiness": 15,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "free-quotes",
+    "warranty-guarantee"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$152 - $342",
+    "termiteInspection": "$297 - $459",
+    "rodentControl": "$252 - $431"
+  }
+}

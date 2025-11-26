@@ -1,0 +1,66 @@
+{
+  "id": 41,
+  "slug": "hills-district-pest-control",
+  "businessName": "Hills District Pest Control",
+  "tradingName": "Hills District Pest Control Pty Ltd",
+  "licenseNumber": "P-2023-491626",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-09-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9639 5566",
+  "email": "info@hillsdistrictpest.com.au",
+  "website": "https://hillsdistrictpest.com.au",
+  "address": "303 King Street, Baulkham Hills NSW",
+  "suburb": "Baulkham Hills",
+  "postcode": "2752",
+  "region": "hills-district",
+  "description": "Professional pest control services for Baulkham Hills and surrounding areas. Licensed and insured with 12 years of experience.",
+  "shortDescription": "Professional pest control in Baulkham Hills. Licensed & insured.",
+  "services": [
+    "termite-inspection",
+    "rodent-control",
+    "bird-control",
+    "possum-removal",
+    "general-pest-control",
+    "spider-control",
+    "wasp-removal"
+  ],
+  "serviceAreas": [
+    "randwick",
+    "dural",
+    "bondi",
+    "pennant-hills",
+    "marrickville",
+    "thornleigh",
+    "baulkham-hills",
+    "carlingford",
+    "west-pennant-hills",
+    "castle-hill"
+  ],
+  "rating": 4.8,
+  "reviewCount": 186,
+  "yearsInBusiness": 12,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "family-safe",
+    "warranty-guarantee",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$217 - $311",
+    "termiteInspection": "$347 - $439",
+    "rodentControl": "$213 - $437"
+  }
+}

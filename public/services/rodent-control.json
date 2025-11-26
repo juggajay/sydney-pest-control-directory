@@ -1,0 +1,80 @@
+{
+  "id": "rodent-control",
+  "name": "Rodent Control",
+  "slug": "rodent-control",
+  "shortDescription": "Effective rat and mouse control for Sydney properties",
+  "longDescription": "Rodents pose serious health risks and can cause significant property damage by gnawing through wires, pipes, and structural materials. Sydney's urban environment provides ideal conditions for rats and mice to thrive. Our rodent control service includes identification of species, location of entry points, baiting programs, and exclusion advice to prevent future infestations. We use tamper-resistant bait stations safe for properties with children and pets.",
+  "priceRange": "$200 - $400",
+  "searchVolume": "high",
+  "urgency": "high",
+  "commonIn": [
+    "houses",
+    "commercial",
+    "restaurants",
+    "warehouses"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "autumn-winter",
+  "timeToComplete": "1-2 hours initial visit",
+  "warrantyTypical": "30-90 day warranty with monitoring",
+  "signs": [
+    "Droppings - small dark pellets",
+    "Gnaw marks on food packaging, wires, or timber",
+    "Scratching or scurrying sounds, especially at night",
+    "Grease marks along walls from fur",
+    "Nests made of shredded materials",
+    "Unusual pet behaviour (staring at walls)",
+    "Musky odour"
+  ],
+  "process": [
+    "Property inspection to identify species and extent",
+    "Location of entry points and harbourage areas",
+    "Installation of tamper-resistant bait stations",
+    "Placement of snap traps in key areas",
+    "Advice on exclusion (sealing entry points)",
+    "Sanitation recommendations",
+    "Follow-up visits to monitor and replenish",
+    "Removal of deceased rodents"
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if I have rats or mice?",
+      "answer": "The easiest way to tell is by droppings. Mouse droppings are small (3-8mm) with pointed ends. Rat droppings are larger (10-20mm) with blunt ends. Rats also leave larger gnaw marks and grease trails. A professional inspection can confirm the species and extent of infestation."
+    },
+    {
+      "question": "Are rodent baits safe around children and pets?",
+      "answer": "We use tamper-resistant bait stations that prevent access by children and pets while allowing rodents to enter. The stations are locked and secured. However, we still recommend keeping bait stations in areas less accessible to curious children and pets where possible."
+    },
+    {
+      "question": "How long does it take to get rid of rodents?",
+      "answer": "A rodent problem can typically be controlled within 2-4 weeks with professional treatment. However, complete elimination and prevention requires addressing entry points and food sources. Ongoing monitoring may be recommended for severe infestations or commercial properties."
+    },
+    {
+      "question": "Will dead rodents smell in my walls?",
+      "answer": "There is a possibility rodents may die in concealed areas after consuming bait. Modern rodenticides contain ingredients that reduce odour and dry out carcasses. If a smell does occur, it typically lasts 1-2 weeks. We can advise on odour control methods if needed."
+    }
+  ],
+  "seoTitle": "Rodent Control Sydney - Rat & Mouse Removal | From $200",
+  "seoDescription": "Professional rodent control in Sydney. Safe, effective rat and mouse removal for homes & businesses. Tamper-resistant baits. Book your inspection today.",
+  "relatedServices": [
+    "general-pest-control",
+    "commercial-pest-control",
+    "possum-removal"
+  ],
+  "keywords": [
+    "rodent control sydney",
+    "rat control",
+    "mouse control",
+    "rat exterminator",
+    "mice removal",
+    "rat problem sydney"
+  ],
+  "description": "Effective rat and mouse control for Sydney properties",
+  "commonPests": [
+    "Rats",
+    "Mice",
+    "Roof Rats",
+    "Norway Rats"
+  ],
+  "frequency": "As needed + prevention"
+}

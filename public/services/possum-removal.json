@@ -1,0 +1,77 @@
+{
+  "id": "possum-removal",
+  "name": "Possum Removal",
+  "slug": "possum-removal",
+  "shortDescription": "Humane possum removal and exclusion services",
+  "longDescription": "Possums are protected native animals in NSW, making professional, humane removal essential. Brushtail and Ringtail possums commonly take up residence in Sydney roof spaces, causing noise disturbance, odour issues, and potential damage. Licensed operators use one-way exit systems and exclusion methods to humanely encourage possums to relocate, then seal entry points to prevent return.",
+  "priceRange": "$250 - $600",
+  "searchVolume": "medium",
+  "urgency": "medium",
+  "commonIn": [
+    "houses",
+    "near-bushland",
+    "older-homes"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "autumn-winter",
+  "timeToComplete": "2-4 hours plus follow-up",
+  "warrantyTypical": "12 month exclusion warranty",
+  "signs": [
+    "Heavy thumping or running sounds in roof at night",
+    "Stained ceilings from urine",
+    "Strong ammonia smell",
+    "Visible damage to roof or eaves",
+    "Possum droppings (similar to large olive)",
+    "Sightings at dusk entering roof space",
+    "Damage to garden plants and fruit trees"
+  ],
+  "process": [
+    "Inspection to confirm possum presence",
+    "Species identification (affects approach)",
+    "Location of entry points",
+    "Installation of one-way exit system",
+    "Monitoring period for possum to exit",
+    "Sealing of all entry points",
+    "Installation of possum box alternative",
+    "Clean-up recommendations"
+  ],
+  "faqs": [
+    {
+      "question": "Is it legal to trap or relocate possums?",
+      "answer": "Possums are protected in NSW and cannot be trapped or relocated more than 150m from where they were caught. It's illegal to harm them. Licensed pest controllers use humane exclusion methods - encouraging possums to leave, then sealing entry points. Alternative housing (possum boxes) must be provided."
+    },
+    {
+      "question": "Will the possum come back after removal?",
+      "answer": "Once all entry points are properly sealed, possums cannot physically return to your roof space. Our exclusion service includes a warranty on the sealing work. However, possums may still visit your garden and trees - they're part of Sydney's ecosystem."
+    },
+    {
+      "question": "How long does the removal process take?",
+      "answer": "The initial visit installs one-way exits and takes 2-4 hours. The possum typically vacates within 2-3 nights. A follow-up visit then seals all entry points permanently. The entire process usually takes 1-2 weeks to complete properly."
+    },
+    {
+      "question": "Can possums cause damage to my house?",
+      "answer": "Yes, possums can damage insulation, chew on electrical wires (fire risk), stain ceilings with urine, and compromise roof materials. Their droppings and urine also create unpleasant odours. Prompt, professional removal prevents escalating damage."
+    }
+  ],
+  "seoTitle": "Possum Removal Sydney - Humane & Licensed | From $250",
+  "seoDescription": "Licensed possum removal in Sydney. Humane exclusion methods for roof possums. 12 month warranty on exclusion work. Protect your home - book an inspection.",
+  "relatedServices": [
+    "bird-control",
+    "rodent-control",
+    "roof-cleaning"
+  ],
+  "keywords": [
+    "possum removal sydney",
+    "possum in roof",
+    "possum control",
+    "possum catcher",
+    "get rid of possums",
+    "possum exclusion"
+  ],
+  "description": "Humane possum removal and exclusion services",
+  "commonPests": [
+    "Brushtail Possums",
+    "Ringtail Possums"
+  ],
+  "frequency": "One-time service"
+}

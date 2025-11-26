@@ -1,0 +1,67 @@
+{
+  "id": 69,
+  "slug": "master-north-sydney-pest-solutions",
+  "businessName": "Master North Sydney Pest Solutions",
+  "tradingName": "Master North Sydney Pest Solutions Pty Ltd",
+  "licenseNumber": "PMT-2020-746376",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-03-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9359 6671",
+  "email": "info@master-north-sydney-pest-solutions.com.au",
+  "website": "https://master-north-sydney-pest-solutions.com.au",
+  "address": "309 King Street, North Sydney NSW",
+  "suburb": "North Sydney",
+  "postcode": "2150",
+  "region": "north-shore",
+  "description": "Trusted pest control solutions in North Sydney. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in North Sydney. Licensed & insured.",
+  "services": [
+    "general-pest-control",
+    "spider-control",
+    "termite-inspection",
+    "possum-removal",
+    "bed-bug-treatment",
+    "rodent-control",
+    "bird-control",
+    "cockroach-control"
+  ],
+  "serviceAreas": [
+    "leichhardt",
+    "chatswood",
+    "newtown",
+    "artarmon",
+    "lane-cove",
+    "st-leonards",
+    "mosman",
+    "randwick",
+    "cremorne"
+  ],
+  "rating": 4.6,
+  "reviewCount": 54,
+  "yearsInBusiness": 20,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "licensed-insured",
+    "free-quotes",
+    "warranty-guarantee"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$224 - $350",
+    "termiteInspection": "$272 - $449",
+    "rodentControl": "$241 - $402"
+  }
+}

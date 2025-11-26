@@ -1,0 +1,66 @@
+{
+  "id": 28,
+  "slug": "express-pest-control",
+  "businessName": "Express Pest Control",
+  "tradingName": "Express Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2023-476286",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-12-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9580 9900",
+  "email": "info@expresspestsydney.com.au",
+  "website": "https://expresspestsydney.com.au",
+  "address": "205 Queen Street, Hurstville NSW",
+  "suburb": "Hurstville",
+  "postcode": "2702",
+  "region": "southern",
+  "description": "Sydney's trusted pest control experts. Serving Hurstville and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Hurstville. Licensed & insured.",
+  "services": [
+    "general-pest-control",
+    "termite-treatment",
+    "bird-control",
+    "bed-bug-treatment"
+  ],
+  "serviceAreas": [
+    "miranda",
+    "bondi",
+    "rockdale",
+    "cronulla",
+    "kogarah",
+    "caringbah",
+    "menai",
+    "sans-souci",
+    "engadine",
+    "sutherland",
+    "randwick"
+  ],
+  "rating": 4.5,
+  "reviewCount": 104,
+  "yearsInBusiness": 12,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "24-7-emergency",
+    "family-safe",
+    "warranty-guarantee",
+    "same-day-service"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$188 - $321",
+    "termiteInspection": "$325 - $402",
+    "rodentControl": "$250 - $351"
+  }
+}

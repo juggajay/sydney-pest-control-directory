@@ -5,12 +5,12 @@ import {
   Bug, CheckCircle, AlertTriangle, Calendar, ArrowRight,
   Home, Building, Thermometer
 } from 'lucide-react';
-import { 
-  suburbs, 
-  services, 
-  getSuburbBySlug, 
+import {
+  suburbs,
+  services,
+  getSuburbBySlug,
   getOperatorsForSuburb,
-  getReviewsForOperator 
+  getReviewsForOperator
 } from '../../../lib/data';
 import { 
   generateMetadata as genMeta, 
@@ -23,19 +23,19 @@ import {
 // Generate static params for all suburbs
 export async function generateStaticParams() {
   return suburbs.map((suburb) => ({
-    suburb: suburb.slug,
+    suburb: suburb.slug || suburb.id,
   }));
 }
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }) {
   const suburb = getSuburbBySlug(params.suburb);
-  
+
   if (!suburb) {
     return { title: 'Suburb Not Found' };
   }
 
-  const operators = getOperatorsForSuburb(suburb.slug);
+  const operators = getOperatorsForSuburb(suburb.slug || suburb.id);
   
   return genMeta({
     title: `Pest Control ${suburb.name} - ${operators.length} Licensed Operators`,
@@ -70,7 +70,7 @@ function OperatorCard({ operator, suburb }) {
             <h3 className="font-heading font-semibold text-lg text-neutral-900">
               {operator.businessName}
             </h3>
-            {operator.badges.includes('epa-verified') && (
+            {(operator.features?.includes('epa-verified') || operator.epaVerified) && (
               <span className="badge badge-verified">
                 <Shield className="w-3 h-3" />
                 EPA Verified
@@ -117,13 +117,13 @@ function OperatorCard({ operator, suburb }) {
 
       {/* Badges */}
       <div className="flex flex-wrap gap-2 mb-4">
-        {operator.badges.includes('same-day-service') && (
+        {operator.features?.includes('same-day-service') && (
           <span className="inline-flex items-center gap-1 text-xs text-emerald-700 bg-emerald-50 px-2 py-1 rounded-md">
             <Clock className="w-3 h-3" />
             Same Day Service
           </span>
         )}
-        {operator.badges.includes('response-guarantee') && (
+        {operator.features?.includes('response-guarantee') && (
           <span className="inline-flex items-center gap-1 text-xs text-blue-700 bg-blue-50 px-2 py-1 rounded-md">
             <CheckCircle className="w-3 h-3" />
             2hr Response
@@ -135,15 +135,17 @@ function OperatorCard({ operator, suburb }) {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1.5 text-sm text-neutral-500">
             <Clock className="w-4 h-4" />
-            <span>{operator.yearsInBusiness}+ yrs</span>
+            <span>{operator.yearsInBusiness || '5'}+ yrs</span>
           </div>
-          <a 
-            href={`tel:${operator.phone.replace(/\s/g, '')}`}
-            className="flex items-center gap-1.5 text-sm text-primary-600 hover:text-primary-700 font-medium"
-          >
-            <Phone className="w-4 h-4" />
-            Call Now
-          </a>
+          {operator.phone && (
+            <a
+              href={`tel:${operator.phone.replace(/\s/g, '')}`}
+              className="flex items-center gap-1.5 text-sm text-primary-600 hover:text-primary-700 font-medium"
+            >
+              <Phone className="w-4 h-4" />
+              Call Now
+            </a>
+          )}
         </div>
         <Link
           href={`/operator/${operator.slug}`}
@@ -186,12 +188,12 @@ function PestCard({ pest }) {
 
 export default function SuburbPage({ params }) {
   const suburb = getSuburbBySlug(params.suburb);
-  
+
   if (!suburb) {
     notFound();
   }
 
-  const operators = getOperatorsForSuburb(suburb.slug);
+  const operators = getOperatorsForSuburb(suburb.slug || suburb.id);
   const featuredOperators = operators.filter(o => o.featured);
   const regularOperators = operators.filter(o => !o.featured);
   const sortedOperators = [...featuredOperators, ...regularOperators];

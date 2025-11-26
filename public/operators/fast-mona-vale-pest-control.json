@@ -1,0 +1,66 @@
+{
+  "id": 78,
+  "slug": "fast-mona-vale-pest-control",
+  "businessName": "Fast Mona Vale Pest Control",
+  "tradingName": "Fast Mona Vale Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2024-249822",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-04-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9052 3633",
+  "email": "info@fast-mona-vale-pest-control.com.au",
+  "website": "https://fast-mona-vale-pest-control.com.au",
+  "address": "371 High Street, Mona Vale NSW",
+  "suburb": "Mona Vale",
+  "postcode": "2085",
+  "region": "northern-beaches",
+  "description": "Sydney's trusted pest control experts. Serving Mona Vale and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Mona Vale. Licensed & insured.",
+  "services": [
+    "termite-inspection",
+    "termite-treatment",
+    "general-pest-control",
+    "bird-control"
+  ],
+  "serviceAreas": [
+    "mona-vale",
+    "brookvale",
+    "avalon",
+    "dee-why",
+    "manly",
+    "bondi-junction",
+    "freshwater",
+    "curl-curl",
+    "newport",
+    "bondi",
+    "newtown"
+  ],
+  "rating": 4.8,
+  "reviewCount": 135,
+  "yearsInBusiness": 19,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "free-quotes",
+    "family-safe",
+    "eco-friendly",
+    "licensed-insured",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$226 - $392",
+    "termiteInspection": "$286 - $473",
+    "rodentControl": "$286 - $421"
+  }
+}

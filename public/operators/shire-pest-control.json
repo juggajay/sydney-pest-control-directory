@@ -1,0 +1,69 @@
+{
+  "id": 21,
+  "slug": "shire-pest-control",
+  "businessName": "Shire Pest Control",
+  "tradingName": "Shire Pest Control Pty Ltd",
+  "licenseNumber": "P-2020-440027",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-11-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9523 3344",
+  "email": "info@shirepestcontrol.com.au",
+  "website": "https://shirepestcontrol.com.au",
+  "address": "55 Station Street, Cronulla NSW",
+  "suburb": "Cronulla",
+  "postcode": "2290",
+  "region": "southern",
+  "description": "Sydney's trusted pest control experts. Serving Cronulla and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Cronulla. Licensed & insured.",
+  "services": [
+    "flea-treatment",
+    "cockroach-control",
+    "general-pest-control",
+    "termite-treatment",
+    "spider-control",
+    "rodent-control",
+    "bird-control"
+  ],
+  "serviceAreas": [
+    "newtown",
+    "bondi",
+    "randwick",
+    "hurstville",
+    "kogarah",
+    "sans-souci",
+    "cronulla",
+    "caringbah",
+    "leichhardt",
+    "sutherland",
+    "marrickville",
+    "rockdale"
+  ],
+  "rating": 4.6,
+  "reviewCount": 160,
+  "yearsInBusiness": 13,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "24-7-emergency",
+    "epa-verified",
+    "free-quotes",
+    "licensed-insured"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$230 - $321",
+    "termiteInspection": "$343 - $485",
+    "rodentControl": "$269 - $438"
+  }
+}

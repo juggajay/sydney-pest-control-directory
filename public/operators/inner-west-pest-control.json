@@ -1,0 +1,65 @@
+{
+  "id": 18,
+  "slug": "inner-west-pest-control",
+  "businessName": "Inner West Pest Control",
+  "tradingName": "Inner West Pest Control Pty Ltd",
+  "licenseNumber": "PMT-2022-378990",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-11-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9568 4455",
+  "email": "info@innerwestpest.com.au",
+  "website": "https://innerwestpest.com.au",
+  "address": "294 Queen Street, Leichhardt NSW",
+  "suburb": "Leichhardt",
+  "postcode": "2507",
+  "region": "inner-west",
+  "description": "Expert pest control services across Leichhardt. 12+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Leichhardt. Licensed & insured.",
+  "services": [
+    "spider-control",
+    "possum-removal",
+    "flea-treatment",
+    "bird-control"
+  ],
+  "serviceAreas": [
+    "glebe",
+    "balmain",
+    "chatswood",
+    "dulwich-hill",
+    "summer-hill",
+    "ashfield",
+    "mosman",
+    "bondi",
+    "burwood",
+    "strathfield",
+    "newtown",
+    "randwick"
+  ],
+  "rating": 4.4,
+  "reviewCount": 73,
+  "yearsInBusiness": 12,
+  "featured": true,
+  "tier": "featured",
+  "features": [
+    "epa-verified",
+    "family-safe",
+    "licensed-insured"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$236 - $336",
+    "termiteInspection": "$306 - $456",
+    "rodentControl": "$269 - $358"
+  }
+}

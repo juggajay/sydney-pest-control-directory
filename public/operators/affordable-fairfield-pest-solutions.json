@@ -1,0 +1,68 @@
+{
+  "id": 64,
+  "slug": "affordable-fairfield-pest-solutions",
+  "businessName": "Affordable Fairfield Pest Solutions",
+  "tradingName": "Affordable Fairfield Pest Solutions Pty Ltd",
+  "licenseNumber": "P-2023-788355",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-06-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9075 3088",
+  "email": "info@affordable-fairfield-pest-solutions.com.au",
+  "website": "https://affordable-fairfield-pest-solutions.com.au",
+  "address": "143 High Street, Fairfield NSW",
+  "suburb": "Fairfield",
+  "postcode": "2354",
+  "region": "south-west",
+  "description": "Expert pest control services across Fairfield. 15+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Fairfield. Licensed & insured.",
+  "services": [
+    "bed-bug-treatment",
+    "flea-treatment",
+    "wasp-removal",
+    "rodent-control",
+    "termite-inspection"
+  ],
+  "serviceAreas": [
+    "marrickville",
+    "randwick",
+    "bondi",
+    "liverpool",
+    "narellan",
+    "macarthur",
+    "cabramatta",
+    "leichhardt",
+    "newtown",
+    "bankstown",
+    "fairfield",
+    "ingleburn"
+  ],
+  "rating": 4.6,
+  "reviewCount": 90,
+  "yearsInBusiness": 15,
+  "featured": true,
+  "tier": "premium",
+  "features": [
+    "epa-verified",
+    "family-safe",
+    "free-quotes",
+    "24-7-emergency",
+    "warranty-guarantee"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "9:00 AM - 2:00 PM"
+  },
+  "pricing": {
+    "generalPest": "$195 - $370",
+    "termiteInspection": "$331 - $421",
+    "rodentControl": "$298 - $390"
+  }
+}

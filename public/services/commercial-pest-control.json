@@ -1,0 +1,82 @@
+{
+  "id": "commercial-pest-control",
+  "name": "Commercial Pest Control",
+  "slug": "commercial-pest-control",
+  "shortDescription": "Integrated pest management for Sydney businesses",
+  "longDescription": "Commercial properties have specific pest control requirements often driven by health regulations, industry standards, and customer expectations. Our commercial pest management includes regular scheduled services, detailed documentation for compliance, rapid response for urgent issues, and tailored solutions for restaurants, offices, warehouses, healthcare facilities, and retail spaces.",
+  "priceRange": "$300 - $2,000+/month",
+  "searchVolume": "medium",
+  "urgency": "varies",
+  "commonIn": [
+    "restaurants",
+    "offices",
+    "warehouses",
+    "healthcare",
+    "retail",
+    "hotels"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "year-round",
+  "timeToComplete": "varies by property",
+  "warrantyTypical": "Ongoing service agreement",
+  "signs": [
+    "Any pest sighting in commercial premises",
+    "Health inspection requirements",
+    "Customer complaints",
+    "Audit or compliance requirements",
+    "Moving to new premises",
+    "New food business licence"
+  ],
+  "process": [
+    "Comprehensive site inspection",
+    "Risk assessment and pest pressure analysis",
+    "Customised pest management plan",
+    "Regular scheduled treatments",
+    "Documentation and compliance reports",
+    "24/7 emergency response availability",
+    "Staff awareness training",
+    "Regular review and adjustment"
+  ],
+  "faqs": [
+    {
+      "question": "How often do commercial premises need pest control?",
+      "answer": "Frequency depends on your industry and pest pressure. Food businesses typically require monthly service as a minimum. Offices might need quarterly treatments. We'll assess your specific situation and recommend an appropriate schedule that meets both regulatory requirements and practical needs."
+    },
+    {
+      "question": "Can you provide documentation for health inspections?",
+      "answer": "Yes, we provide comprehensive service reports including dates, treatments performed, products used, and pest activity findings. These reports are designed to meet NSW Food Authority and council inspection requirements. Digital reports can be provided for easy record-keeping."
+    },
+    {
+      "question": "Do you offer emergency call-outs for businesses?",
+      "answer": "Yes, we understand that pest issues in commercial settings can't wait. We offer rapid response for urgent situations like rodent sightings in food premises or wasp nests near customer areas. Many service agreements include priority emergency response."
+    },
+    {
+      "question": "Can treatment be done outside business hours?",
+      "answer": "Yes, we regularly service businesses after hours to minimise disruption to operations. For restaurants, healthcare facilities, and retail, after-hours service is often preferred. We'll work with your schedule to find the least disruptive timing."
+    }
+  ],
+  "seoTitle": "Commercial Pest Control Sydney - Business Solutions | Free Quote",
+  "seoDescription": "Professional commercial pest control in Sydney. Tailored programs for restaurants, offices & warehouses. Compliance documentation included. Contact us today.",
+  "relatedServices": [
+    "rodent-control",
+    "cockroach-control",
+    "bird-control"
+  ],
+  "keywords": [
+    "commercial pest control sydney",
+    "business pest control",
+    "restaurant pest control",
+    "office pest control",
+    "industrial pest control",
+    "pest management plan"
+  ],
+  "description": "Integrated pest management for Sydney businesses",
+  "commonPests": [
+    "Cockroaches",
+    "Rodents",
+    "Stored Product Pests",
+    "Flies",
+    "Birds"
+  ],
+  "frequency": "Monthly or quarterly"
+}

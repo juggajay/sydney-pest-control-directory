@@ -1,0 +1,79 @@
+{
+  "id": "pre-purchase-inspection",
+  "name": "Pre-Purchase Pest Inspection",
+  "slug": "pre-purchase-inspection",
+  "shortDescription": "Comprehensive pest inspections for property buyers",
+  "longDescription": "A pre-purchase pest inspection is essential due diligence when buying property in Sydney. Our inspections identify existing pest activity, previous pest damage, and conditions conducive to future problems. The detailed report helps you make informed purchase decisions and can be used for negotiation. We inspect for termites, borers, and other wood-destroying pests as per Australian Standard AS 4349.3.",
+  "priceRange": "$300 - $600",
+  "searchVolume": "high",
+  "urgency": "high",
+  "commonIn": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "spring-autumn",
+  "timeToComplete": "1-3 hours",
+  "warrantyTypical": "Report valid for settlement period",
+  "signs": [
+    "Buying a property in Sydney",
+    "Concerned about termite history",
+    "Purchasing older property",
+    "Property near bushland",
+    "Previous reports mention pest issues",
+    "Building inspection found timber damage"
+  ],
+  "process": [
+    "Visual inspection of all accessible areas",
+    "Thermal imaging for hidden activity",
+    "Moisture meter readings",
+    "Roof void and subfloor inspection",
+    "External grounds and landscaping check",
+    "Assessment of termite risk factors",
+    "Detailed written report with photos",
+    "Phone consultation to explain findings"
+  ],
+  "faqs": [
+    {
+      "question": "When should I book a pre-purchase inspection?",
+      "answer": "Book as soon as your offer is accepted, during the cooling-off period. This gives you time to receive the report, understand the findings, and make decisions before the purchase becomes unconditional. We offer rapid turnaround times to meet tight settlement deadlines."
+    },
+    {
+      "question": "What's the difference between building and pest inspections?",
+      "answer": "Building inspections assess structural elements, compliance, and general condition. Pest inspections specifically look for evidence of termites and other wood-destroying pests, past damage, and risk factors. Both are recommended for a complete picture. We can often coordinate with building inspectors."
+    },
+    {
+      "question": "Can past termite damage be a deal-breaker?",
+      "answer": "Not necessarily. Well-treated past damage may be acceptable if structural repairs were done properly and ongoing protection is in place. Our report identifies the extent of damage and whether treatment appears adequate. This information helps you make an informed decision or negotiate."
+    },
+    {
+      "question": "What areas can't be inspected?",
+      "answer": "We can only inspect accessible areas. Furniture, stored items, fixed linings, and concealed spaces can't be visually assessed without moving or removing them. Our reports clearly note areas that couldn't be inspected and any associated risks. Sellers should provide access where possible."
+    }
+  ],
+  "seoTitle": "Pre-Purchase Pest Inspection Sydney - From $300 | Fast Reports",
+  "seoDescription": "Pre-purchase timber pest inspections in Sydney. Thorough termite inspection before you buy. Same-day reports available. Essential buyer protection.",
+  "relatedServices": [
+    "termite-inspection",
+    "termite-treatment",
+    "building-inspection"
+  ],
+  "keywords": [
+    "pre purchase pest inspection",
+    "timber pest inspection",
+    "pest inspection before buying",
+    "property pest inspection",
+    "pre settlement pest check",
+    "pest report sydney"
+  ],
+  "description": "Comprehensive pest inspections for property buyers",
+  "commonPests": [
+    "Termites",
+    "Timber Borers",
+    "Wood Decay Fungi",
+    "Timber Pests"
+  ],
+  "frequency": "Pre-purchase"
+}

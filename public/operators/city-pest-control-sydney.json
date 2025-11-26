@@ -1,0 +1,66 @@
+{
+  "id": 46,
+  "slug": "city-pest-control-sydney",
+  "businessName": "City Pest Control Sydney",
+  "tradingName": "City Pest Control Sydney Pty Ltd",
+  "licenseNumber": "PMT-2020-192617",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-12-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9231 5566",
+  "email": "info@citypestsydney.com.au",
+  "website": "https://citypestsydney.com.au",
+  "address": "199 Station Street, Sydney CBD NSW",
+  "suburb": "Sydney CBD",
+  "postcode": "2642",
+  "region": "inner-west",
+  "description": "Trusted pest control solutions in Sydney CBD. EPA licensed technicians providing safe, effective treatments.",
+  "shortDescription": "Professional pest control in Sydney CBD. Licensed & insured.",
+  "services": [
+    "rodent-control",
+    "general-pest-control",
+    "cockroach-control",
+    "ant-control"
+  ],
+  "serviceAreas": [
+    "newtown",
+    "marrickville",
+    "bondi-junction",
+    "strathfield",
+    "dulwich-hill",
+    "balmain",
+    "leichhardt",
+    "summer-hill",
+    "chatswood",
+    "glebe",
+    "bondi",
+    "burwood"
+  ],
+  "rating": 4.1,
+  "reviewCount": 83,
+  "yearsInBusiness": 14,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "family-safe",
+    "24-7-emergency",
+    "free-quotes"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$168 - $392",
+    "termiteInspection": "$283 - $422",
+    "rodentControl": "$273 - $440"
+  }
+}

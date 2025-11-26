@@ -1,0 +1,77 @@
+{
+  "id": "general-pest-control",
+  "name": "General Pest Control",
+  "slug": "general-pest-control",
+  "shortDescription": "Comprehensive pest control for cockroaches, spiders, ants, and silverfish",
+  "longDescription": "General pest control treatments target the most common household pests in Sydney including cockroaches, spiders, ants, and silverfish. A professional treatment creates a protective barrier around your home and targets pest harbourage areas. Most Sydney homes benefit from regular pest control every 6-12 months to maintain a pest-free environment. Our treatments are safe for families and pets once dry.",
+  "priceRange": "$150 - $350",
+  "searchVolume": "very-high",
+  "urgency": "medium",
+  "commonIn": [
+    "houses",
+    "apartments",
+    "townhouses",
+    "commercial"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "summer",
+  "timeToComplete": "30-60 minutes",
+  "warrantyTypical": "6-12 month warranty",
+  "signs": [
+    "Regular sightings of cockroaches, especially at night",
+    "Spider webs accumulating around property",
+    "Ant trails in kitchen or bathroom areas",
+    "Silverfish damage to books, papers, or clothing",
+    "General pest activity increasing"
+  ],
+  "process": [
+    "Property inspection to identify pest activity",
+    "Treatment of internal harbourage areas",
+    "External perimeter spray barrier",
+    "Roof void dusting (if accessible)",
+    "Targeted treatments for specific pest problems",
+    "Advice on prevention measures",
+    "Service report and warranty provided"
+  ],
+  "faqs": [
+    {
+      "question": "How long does a general pest treatment take?",
+      "answer": "A standard general pest treatment for an average home takes 30-60 minutes. Larger properties or those with significant pest problems may take longer. The treatment is quick and minimally disruptive."
+    },
+    {
+      "question": "How soon can I expect to see results?",
+      "answer": "You may see increased pest activity in the first few days as pests are flushed from hiding spots. This is normal and means the treatment is working. Most pest activity should significantly reduce within 1-2 weeks as the treatment takes full effect."
+    },
+    {
+      "question": "Is the treatment safe for children and pets?",
+      "answer": "Yes, modern pest control products are designed to be safe for families and pets once dry, which typically takes 1-2 hours. We recommend keeping children and pets away from treated areas until dry. Fish tanks should be covered during treatment."
+    },
+    {
+      "question": "How often should I get pest control?",
+      "answer": "For most Sydney homes, annual pest control is recommended as a minimum. Properties with recurring problems, those near bushland, or in pest-prone areas may benefit from 6-monthly treatments. Regular treatment prevents infestations from establishing."
+    }
+  ],
+  "seoTitle": "General Pest Control Sydney - From $150 | Same Day Service",
+  "seoDescription": "Professional pest control in Sydney from $150. Targets cockroaches, spiders, ants & silverfish. Safe for families. 6-12 month warranty. Book online today.",
+  "relatedServices": [
+    "cockroach-control",
+    "spider-control",
+    "ant-control"
+  ],
+  "keywords": [
+    "pest control sydney",
+    "general pest control",
+    "pest treatment",
+    "pest exterminator",
+    "home pest control",
+    "pest spray"
+  ],
+  "description": "Comprehensive pest control for cockroaches, spiders, ants, and silverfish",
+  "commonPests": [
+    "Cockroaches",
+    "Spiders",
+    "Ants",
+    "Silverfish"
+  ],
+  "frequency": "Every 6-12 months"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "bird-control",
+  "name": "Bird Control",
+  "slug": "bird-control",
+  "shortDescription": "Professional bird deterrent and removal solutions",
+  "longDescription": "Pest birds like pigeons, Indian Mynas, and starlings cause significant problems for Sydney properties - from noise and droppings to health hazards and building damage. Bird droppings are acidic and can damage paint, metal, and stonework. Professional bird control includes deterrent installation (spikes, netting, wire systems), roosting site modifications, and removal of nesting materials.",
+  "priceRange": "$200 - $800",
+  "searchVolume": "low-medium",
+  "urgency": "medium",
+  "commonIn": [
+    "commercial",
+    "warehouses",
+    "houses",
+    "apartment-balconies"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "spring",
+  "timeToComplete": "2-8 hours depending on solution",
+  "warrantyTypical": "2-5 years on deterrent systems",
+  "signs": [
+    "Birds roosting on ledges, signs, or beams",
+    "Accumulation of bird droppings",
+    "Nests in unwanted locations",
+    "Bird noise causing disturbance",
+    "Birds entering buildings",
+    "Damage to goods or produce",
+    "Health concerns from droppings"
+  ],
+  "process": [
+    "Site inspection and bird identification",
+    "Assessment of roosting and nesting sites",
+    "Recommendation of appropriate deterrent systems",
+    "Installation of spikes, netting, or wire systems",
+    "Nest removal and clean-up",
+    "Sanitisation of affected areas",
+    "Ongoing maintenance advice"
+  ],
+  "faqs": [
+    {
+      "question": "What deterrent methods are available?",
+      "answer": "Options include bird spikes (physical barrier), netting (exclusion), wire systems (prevents landing), visual deterrents, and sonic devices. The best solution depends on the bird species, location, and your specific situation. We'll recommend the most effective and cost-efficient option for your property."
+    },
+    {
+      "question": "Are bird deterrents humane?",
+      "answer": "Yes, modern bird deterrents are designed to discourage birds without harming them. Spikes and wire systems simply prevent landing and are not sharp enough to injure birds. Netting excludes birds from areas. The goal is to make your property less attractive than alternative roosting sites."
+    },
+    {
+      "question": "Can bird droppings be dangerous?",
+      "answer": "Yes, bird droppings can carry over 60 diseases transmissible to humans, including Histoplasmosis and Cryptococcosis. Dried droppings become airborne and can be inhaled. Additionally, droppings are highly acidic and cause damage to building materials, paint, and vehicles."
+    },
+    {
+      "question": "Will the birds just move somewhere else on my building?",
+      "answer": "Good bird control anticipates this. We assess your entire property and recommend protection for all potential roosting sites. Simply treating one area often moves the problem elsewhere. A comprehensive solution addresses all vulnerable areas."
+    }
+  ],
+  "seoTitle": "Bird Control Sydney - Pigeons, Mynas & More | From $200",
+  "seoDescription": "Professional bird control in Sydney. Spikes, netting & deterrent systems for pigeons and pest birds. Protect your property from bird damage. Free quotes.",
+  "relatedServices": [
+    "possum-removal",
+    "commercial-pest-control",
+    "cleaning-services"
+  ],
+  "keywords": [
+    "bird control sydney",
+    "pigeon control",
+    "bird spikes",
+    "bird netting",
+    "bird deterrent",
+    "indian myna control"
+  ],
+  "description": "Professional bird deterrent and removal solutions",
+  "commonPests": [
+    "Pigeons",
+    "Indian Mynas",
+    "Starlings",
+    "Sparrows"
+  ],
+  "frequency": "Installation + maintenance"
+}

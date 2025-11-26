@@ -1,0 +1,77 @@
+{
+  "id": "bed-bug-treatment",
+  "name": "Bed Bug Treatment",
+  "slug": "bed-bug-treatment",
+  "shortDescription": "Specialist bed bug elimination for Sydney homes and hotels",
+  "longDescription": "Bed bugs are expert hitchhikers that have made a significant comeback worldwide, including in Sydney. These blood-feeding insects hide in mattresses, furniture, and cracks during the day and emerge at night to bite. Bed bug treatment requires specialist knowledge and often multiple visits due to their resilient nature. Our treatments include thorough inspection, targeted applications, and heat treatment options.",
+  "priceRange": "$300 - $1,500",
+  "searchVolume": "medium",
+  "urgency": "very-high",
+  "commonIn": [
+    "houses",
+    "apartments",
+    "hotels",
+    "backpackers"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "summer",
+  "timeToComplete": "2-4 hours",
+  "warrantyTypical": "30-60 day warranty with follow-ups",
+  "signs": [
+    "Itchy bites in lines or clusters, often on exposed skin",
+    "Small blood spots on sheets",
+    "Dark faecal spots on mattress seams",
+    "Live bed bugs (small, flat, reddish-brown)",
+    "Sweet musty odour in severe infestations",
+    "Cast skins and eggs in hiding spots"
+  ],
+  "process": [
+    "Thorough inspection to confirm bed bugs",
+    "Assessment of infestation extent",
+    "Preparation advice (washing, decluttering)",
+    "Treatment of mattresses, furniture, and harbourage areas",
+    "Crack and crevice treatment throughout room",
+    "Optional heat treatment for severe cases",
+    "Follow-up inspections and treatments",
+    "Preventative advice for future"
+  ],
+  "faqs": [
+    {
+      "question": "How did I get bed bugs?",
+      "answer": "Bed bugs are excellent hitchhikers. They commonly travel in luggage from hotels, in second-hand furniture, or from adjacent apartments in multi-unit buildings. Having bed bugs is not a reflection of cleanliness - they're found in all types of accommodation from budget to 5-star."
+    },
+    {
+      "question": "Will one treatment eliminate bed bugs?",
+      "answer": "Most bed bug infestations require 2-3 treatments spaced about 2 weeks apart. This is because eggs are resistant to many treatments and hatch over time. Follow-up treatments catch newly hatched bed bugs before they can reproduce. We'll advise on the specific treatment plan for your situation."
+    },
+    {
+      "question": "Do I need to throw away my mattress?",
+      "answer": "In most cases, no. Professional treatment can effectively eliminate bed bugs from mattresses. However, severely infested or damaged mattresses may be better replaced. We'll advise based on inspection findings. Using mattress encasements after treatment helps prevent future problems."
+    },
+    {
+      "question": "Can bed bugs spread disease?",
+      "answer": "While bed bug bites are irritating and can cause allergic reactions in some people, bed bugs are not known to transmit diseases to humans. The main concerns are the physical and psychological discomfort they cause, plus the difficulty of elimination without professional help."
+    }
+  ],
+  "seoTitle": "Bed Bug Treatment Sydney - Expert Elimination | From $300",
+  "seoDescription": "Professional bed bug treatment in Sydney. Thorough inspection & targeted elimination. Multiple treatment options including heat. Discrete service. Call now.",
+  "relatedServices": [
+    "general-pest-control",
+    "flea-treatment",
+    "mattress-cleaning"
+  ],
+  "keywords": [
+    "bed bug treatment sydney",
+    "bed bug removal",
+    "bed bug exterminator",
+    "get rid of bed bugs",
+    "bed bug spray",
+    "bed bug heat treatment"
+  ],
+  "description": "Specialist bed bug elimination for Sydney homes and hotels",
+  "commonPests": [
+    "Bed Bugs",
+    "Cimex lectularius"
+  ],
+  "frequency": "One-time treatment"
+}

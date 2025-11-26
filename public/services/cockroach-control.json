@@ -1,0 +1,78 @@
+{
+  "id": "cockroach-control",
+  "name": "Cockroach Control",
+  "slug": "cockroach-control",
+  "shortDescription": "Targeted cockroach elimination for homes and businesses",
+  "longDescription": "Cockroaches are one of Sydney's most common and persistent pests. They carry diseases, trigger allergies, and contaminate food. Professional cockroach control targets both German cockroaches (smaller, found indoors) and Australian cockroaches (larger, often enter from outside). Our treatments include gel baits, residual sprays, and advice on eliminating food and water sources that attract these pests.",
+  "priceRange": "$150 - $300",
+  "searchVolume": "high",
+  "urgency": "medium-high",
+  "commonIn": [
+    "apartments",
+    "restaurants",
+    "houses",
+    "commercial-kitchens"
+  ],
+  "seasonality": "year-round",
+  "peakSeason": "summer",
+  "timeToComplete": "30-60 minutes",
+  "warrantyTypical": "3-6 month warranty",
+  "signs": [
+    "Live cockroaches, especially at night",
+    "Cockroach droppings (small dark specks)",
+    "Egg cases in hidden areas",
+    "Musty odour in severe infestations",
+    "Dead cockroaches appearing",
+    "Smear marks along walls or surfaces"
+  ],
+  "process": [
+    "Identification of cockroach species",
+    "Inspection of harbourage areas",
+    "Gel bait application in key areas",
+    "Residual spray treatment",
+    "Crack and crevice treatment",
+    "Advice on sanitation improvements",
+    "Follow-up treatment if required"
+  ],
+  "faqs": [
+    {
+      "question": "Why do I have cockroaches even though my house is clean?",
+      "answer": "Cockroaches can enter the cleanest homes through drains, gaps around pipes, or in groceries and packaging. German cockroaches in particular can hitchhike into properties. While cleanliness helps, professional treatment is often needed to eliminate established populations."
+    },
+    {
+      "question": "What's the difference between German and Australian cockroaches?",
+      "answer": "German cockroaches are small (12-15mm), light brown, and live entirely indoors, often in kitchens and bathrooms. They breed rapidly and are harder to control. Australian cockroaches are larger (30-35mm), darker, and typically live outdoors but enter homes seeking food and water."
+    },
+    {
+      "question": "Will one treatment eliminate all cockroaches?",
+      "answer": "For German cockroaches, multiple treatments are often needed due to their rapid breeding cycle. The first treatment kills adults and nymphs, but eggs may hatch afterward. Follow-up treatments ensure complete elimination. Australian cockroaches often respond well to a single treatment with ongoing prevention."
+    },
+    {
+      "question": "Are cockroach treatments safe for food preparation areas?",
+      "answer": "Yes, professional cockroach treatments are designed to be safe for use in kitchens. Gel baits are applied in concealed areas away from food contact surfaces. We'll advise on any brief waiting period before using treated areas."
+    }
+  ],
+  "seoTitle": "Cockroach Control Sydney - Fast & Effective | From $150",
+  "seoDescription": "Professional cockroach control in Sydney. Eliminate German & Australian cockroaches fast. Safe treatments for homes & businesses. Get a free quote today.",
+  "relatedServices": [
+    "general-pest-control",
+    "commercial-pest-control",
+    "ant-control"
+  ],
+  "keywords": [
+    "cockroach control sydney",
+    "cockroach treatment",
+    "german cockroach",
+    "cockroach exterminator",
+    "cockroach spray",
+    "get rid of cockroaches"
+  ],
+  "description": "Targeted cockroach elimination for homes and businesses",
+  "commonPests": [
+    "German Cockroaches",
+    "American Cockroaches",
+    "Australian Cockroaches",
+    "Smokybrown Cockroaches"
+  ],
+  "frequency": "Every 3-6 months"
+}

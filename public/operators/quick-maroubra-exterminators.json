@@ -1,0 +1,63 @@
+{
+  "id": 83,
+  "slug": "quick-maroubra-exterminators",
+  "businessName": "Quick Maroubra Exterminators",
+  "tradingName": "Quick Maroubra Exterminators Pty Ltd",
+  "licenseNumber": "PMT-2024-771969",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-08-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9395 7519",
+  "email": "info@quick-maroubra-exterminators.com.au",
+  "website": "https://quick-maroubra-exterminators.com.au",
+  "address": "141 King Street, Maroubra NSW",
+  "suburb": "Maroubra",
+  "postcode": "2628",
+  "region": "eastern",
+  "description": "Expert pest control services across Maroubra. 18+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Maroubra. Licensed & insured.",
+  "services": [
+    "bed-bug-treatment",
+    "rodent-control",
+    "termite-treatment",
+    "general-pest-control",
+    "spider-control"
+  ],
+  "serviceAreas": [
+    "double-bay",
+    "mosman",
+    "newtown",
+    "paddington",
+    "randwick",
+    "marrickville",
+    "bondi-junction",
+    "chatswood",
+    "leichhardt"
+  ],
+  "rating": 4.2,
+  "reviewCount": 86,
+  "yearsInBusiness": 18,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "same-day-service",
+    "warranty-guarantee"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$227 - $386",
+    "termiteInspection": "$308 - $491",
+    "rodentControl": "$276 - $415"
+  }
+}

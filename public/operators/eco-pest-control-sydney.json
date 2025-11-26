@@ -1,0 +1,69 @@
+{
+  "id": 23,
+  "slug": "eco-pest-control-sydney",
+  "businessName": "Eco Pest Control Sydney",
+  "tradingName": "Eco Pest Control Sydney Pty Ltd",
+  "licenseNumber": "PMT-2023-703940",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-10-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9818 9900",
+  "email": "info@ecopestsydney.com.au",
+  "website": "https://ecopestsydney.com.au",
+  "address": "158 High Street, Balmain NSW",
+  "suburb": "Balmain",
+  "postcode": "2090",
+  "region": "inner-west",
+  "description": "Expert pest control services across Balmain. 8+ years protecting Sydney homes and businesses.",
+  "shortDescription": "Professional pest control in Balmain. Licensed & insured.",
+  "services": [
+    "possum-removal",
+    "termite-inspection",
+    "spider-control",
+    "rodent-control",
+    "general-pest-control",
+    "cockroach-control",
+    "wasp-removal"
+  ],
+  "serviceAreas": [
+    "summer-hill",
+    "mosman",
+    "leichhardt",
+    "marrickville",
+    "dulwich-hill",
+    "randwick",
+    "balmain",
+    "ashfield",
+    "newtown",
+    "north-sydney",
+    "glebe"
+  ],
+  "rating": 4.4,
+  "reviewCount": 92,
+  "yearsInBusiness": 8,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "eco-friendly",
+    "free-quotes",
+    "family-safe",
+    "licensed-insured",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$172 - $382",
+    "termiteInspection": "$257 - $454",
+    "rodentControl": "$280 - $401"
+  }
+}

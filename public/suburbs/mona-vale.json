@@ -1,0 +1,48 @@
+{
+  "id": "mona-vale",
+  "name": "Mona Vale",
+  "slug": "mona-vale",
+  "postcode": "2103",
+  "region": "Northern Beaches",
+  "regionSlug": "northern-beaches",
+  "council": "Northern Beaches Council",
+  "coordinates": {
+    "lat": -33.678,
+    "lng": 151.303
+  },
+  "population": 10500,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "ants",
+    "spiders",
+    "mosquitoes",
+    "silverfish"
+  ],
+  "pestRiskFactors": [
+    "Coastal humidity increases termite and cockroach activity",
+    "Sandy soils provide ideal termite nesting conditions",
+    "Mona Vale properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Mona Vale is part of Sydney's Northern Beaches, offering a coastal lifestyle with proximity to bushland reserves. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "manly",
+    "manly-vale",
+    "fairlight",
+    "balgowlah"
+  ],
+  "seoTitle": "Pest Control Mona Vale - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Mona Vale 2103. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

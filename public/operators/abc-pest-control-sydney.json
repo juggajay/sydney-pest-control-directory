@@ -1,0 +1,61 @@
+{
+  "id": 3,
+  "slug": "abc-pest-control-sydney",
+  "businessName": "ABC Pest Control Sydney",
+  "tradingName": "ABC Pest Control Sydney Pty Ltd",
+  "licenseNumber": "PMT-2023-533239",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-06-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9012 3456",
+  "email": "info@abcpestcontrol.com.au",
+  "website": "https://abcpestcontrol.com.au",
+  "address": "129 Queen Street, North Sydney NSW",
+  "suburb": "North Sydney",
+  "postcode": "2463",
+  "region": "north-shore",
+  "description": "Professional pest control services for North Sydney and surrounding areas. Licensed and insured with 12 years of experience.",
+  "shortDescription": "Professional pest control in North Sydney. Licensed & insured.",
+  "services": [
+    "termite-inspection",
+    "rodent-control",
+    "wasp-removal",
+    "ant-control",
+    "cockroach-control"
+  ],
+  "serviceAreas": [
+    "artarmon",
+    "leichhardt",
+    "bondi",
+    "chatswood",
+    "st-leonards",
+    "lane-cove",
+    "newtown",
+    "north-sydney"
+  ],
+  "rating": 4.1,
+  "reviewCount": 96,
+  "yearsInBusiness": 12,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "eco-friendly",
+    "epa-verified"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$187 - $395",
+    "termiteInspection": "$308 - $472",
+    "rodentControl": "$225 - $440"
+  }
+}

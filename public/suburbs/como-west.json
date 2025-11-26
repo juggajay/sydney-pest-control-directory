@@ -1,0 +1,48 @@
+{
+  "id": "como-west",
+  "name": "Como West",
+  "slug": "como-west",
+  "postcode": "2226",
+  "region": "Sutherland Shire",
+  "regionSlug": "sutherland-shire",
+  "council": "Sutherland Shire Council",
+  "coordinates": {
+    "lat": -33.996,
+    "lng": 151.059
+  },
+  "population": 2500,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "rodents",
+    "ants",
+    "spiders",
+    "fleas"
+  ],
+  "pestRiskFactors": [
+    "Bushland proximity increases spider and possum encounters",
+    "Native vegetation attracts termites and other wood-boring pests",
+    "Como West properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "Como West is part of the Sutherland Shire, known as 'The Shire', with a mix of bushland and beaches. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "sutherland",
+    "kirrawee",
+    "gymea",
+    "gymea-bay"
+  ],
+  "seoTitle": "Pest Control Como West - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in Como West 2226. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$180 - $320",
+    "termiteInspection": "$250 - $450",
+    "termiteTreatment": "$2500 - $5000",
+    "rodentControl": "$200 - $380"
+  }
+}

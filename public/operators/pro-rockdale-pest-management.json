@@ -1,0 +1,67 @@
+{
+  "id": 65,
+  "slug": "pro-rockdale-pest-management",
+  "businessName": "Pro Rockdale Pest Management",
+  "tradingName": "Pro Rockdale Pest Management Pty Ltd",
+  "licenseNumber": "PMT-2024-160385",
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": "2025-06-30",
+  "epaVerified": true,
+  "verifiedAt": "2024-11-15",
+  "phone": "02 9000 6976",
+  "email": "info@pro-rockdale-pest-management.com.au",
+  "website": "https://pro-rockdale-pest-management.com.au",
+  "address": "447 Park Street, Rockdale NSW",
+  "suburb": "Rockdale",
+  "postcode": "2116",
+  "region": "southern",
+  "description": "Sydney's trusted pest control experts. Serving Rockdale and nearby suburbs with fast, reliable service.",
+  "shortDescription": "Professional pest control in Rockdale. Licensed & insured.",
+  "services": [
+    "bed-bug-treatment",
+    "bird-control",
+    "cockroach-control",
+    "flea-treatment",
+    "wasp-removal",
+    "spider-control",
+    "ant-control",
+    "rodent-control"
+  ],
+  "serviceAreas": [
+    "rockdale",
+    "newtown",
+    "menai",
+    "bondi-junction",
+    "bondi",
+    "kogarah",
+    "hurstville",
+    "randwick",
+    "sans-souci",
+    "leichhardt"
+  ],
+  "rating": 4.8,
+  "reviewCount": 106,
+  "yearsInBusiness": 6,
+  "featured": false,
+  "tier": "basic",
+  "features": [
+    "epa-verified",
+    "family-safe",
+    "licensed-insured"
+  ],
+  "operatingHours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "pricing": {
+    "generalPest": "$159 - $307",
+    "termiteInspection": "$279 - $443",
+    "rodentControl": "$224 - $413"
+  }
+}

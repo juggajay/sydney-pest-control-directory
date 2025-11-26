@@ -1,0 +1,48 @@
+{
+  "id": "north-bondi",
+  "name": "North Bondi",
+  "slug": "north-bondi",
+  "postcode": "2026",
+  "region": "Eastern Suburbs",
+  "regionSlug": "eastern-suburbs",
+  "council": "Waverley / Randwick Council",
+  "coordinates": {
+    "lat": -33.883,
+    "lng": 151.279
+  },
+  "population": 5000,
+  "propertyTypes": [
+    "houses",
+    "townhouses",
+    "apartments",
+    "commercial"
+  ],
+  "commonPests": [
+    "termites",
+    "cockroaches",
+    "ants",
+    "spiders",
+    "mosquitoes",
+    "silverfish"
+  ],
+  "pestRiskFactors": [
+    "Coastal humidity increases termite and cockroach activity",
+    "Sandy soils provide ideal termite nesting conditions",
+    "North Bondi properties require regular termite inspections due to Sydney's high-risk termite zone classification"
+  ],
+  "localInfo": "North Bondi is a sought-after Eastern Suburbs location known for its coastal lifestyle and mix of residential properties. The area experiences common Sydney pest issues including termites, cockroaches, and rodents. Regular pest inspections are recommended for all property types in this area.",
+  "nearbySuburbs": [
+    "bondi",
+    "bondi-beach",
+    "bondi-junction",
+    "tamarama"
+  ],
+  "seoTitle": "Pest Control North Bondi - Licensed Local Exterminators | Compare & Save",
+  "seoDescription": "Find licensed pest control in North Bondi 2026. Compare local operators, read reviews, get free quotes. Termite inspections from $250.",
+  "averagePrices": {
+    "generalPest": "$216 - $384",
+    "termiteInspection": "$300 - $540",
+    "termiteTreatment": "$3000 - $6000",
+    "rodentControl": "$240 - $456"
+  }
+}
