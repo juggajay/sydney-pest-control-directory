@@ -181,7 +181,7 @@ function QuoteFormContent({ suburbs = [], services = [] }) {
                         formData.service === service.slug ? 'text-primary-600' : 'text-neutral-400'
                       }`} />
                       <div>
-                        <div className="font-medium text-neutral-900">{service.shortName}</div>
+                        <div className="font-medium text-neutral-900">{service.name}</div>
                         <div className="text-sm text-neutral-500">{service.priceRange}</div>
                       </div>
                     </button>
