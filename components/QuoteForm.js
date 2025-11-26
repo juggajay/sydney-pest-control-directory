@@ -63,15 +63,47 @@ function QuoteFormContent({ suburbs = [], services = [] }) {
     if (currentStep > 1) setCurrentStep(currentStep - 1);
   };
 
+  const [submitError, setSubmitError] = useState(null);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    setIsSubmitting(false);
-    setIsSubmitted(true);
+    setSubmitError(null);
+
+    try {
+      const response = await fetch('/api/quote', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          service: formData.service,
+          suburb: formData.suburb,
+          postcode: formData.postcode,
+          propertyType: formData.propertyType,
+          urgency: formData.urgency,
+          problemDescription: formData.problemDescription,
+          preferredTime: formData.preferredTime,
+          preferredContact: formData.preferredContact,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.error || 'Failed to submit quote request');
+      }
+
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error('Submit error:', error);
+      setSubmitError(error.message || 'Something went wrong. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const canProceed = () => {
@@ -478,6 +510,13 @@ function QuoteFormContent({ suburbs = [], services = [] }) {
             </button>
           )}
         </div>
+
+        {/* Error Message */}
+        {submitError && (
+          <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm">
+            {submitError}
+          </div>
+        )}
       </form>
 
       {/* Trust Indicators */}
