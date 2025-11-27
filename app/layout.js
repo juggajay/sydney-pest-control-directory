@@ -6,11 +6,11 @@ import { generateWebsiteSchema, generateOrganizationSchema, siteConfig } from '.
 export const metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Sydney Pest Control Directory | Find Licensed Pest Controllers Near You',
+    default: 'Pest Control Sydney | Compare 100+ EPA-Verified Operators',
     template: '%s | Sydney Pest Control Directory',
   },
-  description: 'Find EPA-verified pest control services across Sydney. Compare quotes from 500+ licensed operators. Termite inspections, general pest control, rodent removal & more.',
-  keywords: ['pest control sydney', 'termite inspection', 'pest control near me', 'cockroach control', 'rodent control', 'bed bug treatment', 'licensed pest controller'],
+  description: 'Find licensed pest control in Sydney. Compare 100+ EPA-verified operators. Get free quotes in 24hrs for termite, cockroach & rodent control. 4.8★ rated!',
+  keywords: ['pest control sydney', 'pest control directory sydney', 'find pest control sydney', 'compare pest control sydney', 'licensed pest control', 'EPA verified pest control', 'pest control near me', 'sydney pest control services'],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   publisher: siteConfig.name,

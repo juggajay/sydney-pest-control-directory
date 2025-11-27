@@ -5,6 +5,7 @@ import {
   Home, TreeDeciduous, Waves
 } from 'lucide-react';
 import { suburbs, services, getFeaturedOperators, getRegions } from '../lib/data';
+import { generateHowToSchema } from '../lib/seo';
 import SearchBox from '../components/SearchBox';
 
 // Star Rating Component
@@ -31,9 +32,9 @@ function OperatorCard({ operator, featured = false }) {
       <div className="flex items-start justify-between mb-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <h3 className="font-heading font-semibold text-lg text-neutral-900">
+            <h4 className="font-heading font-semibold text-lg text-neutral-900">
               {operator.businessName}
-            </h3>
+            </h4>
             {operator.features?.includes('epa-verified') && (
               <span className="badge badge-verified">
                 <Shield className="w-3 h-3" />
@@ -93,9 +94,9 @@ function ServiceCard({ service }) {
       <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary-50 to-emerald-50 border border-primary-100 flex items-center justify-center mb-4 group-hover:from-primary-100 group-hover:to-emerald-100 group-hover:border-primary-200 transition-all group-hover:scale-105">
         <Bug className="w-7 h-7 text-primary-600" />
       </div>
-      <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-2 group-hover:text-primary-600 transition-colors">
+      <h4 className="font-heading font-semibold text-lg text-neutral-900 mb-2 group-hover:text-primary-600 transition-colors">
         {service.name}
-      </h3>
+      </h4>
       <p className="text-sm text-neutral-600 mb-4 leading-relaxed">
         {service.description}
       </p>
@@ -119,7 +120,7 @@ function RegionCard({ region, icon: Icon, suburbCount, regionSuburbs }) {
           <Icon className="w-6 h-6 text-primary-600" />
         </div>
         <div>
-          <h3 className="font-heading font-semibold text-lg text-neutral-900">{region}</h3>
+          <h4 className="font-heading font-semibold text-lg text-neutral-900">{region}</h4>
           <span className="text-sm text-neutral-500">{suburbCount} suburbs covered</span>
         </div>
       </div>
@@ -144,9 +145,63 @@ function RegionCard({ region, icon: Icon, suburbCount, regionSuburbs }) {
   );
 }
 
+// FAQ data for schema and display
+const faqData = [
+  {
+    question: 'How much does pest control cost in Sydney?',
+    answer: 'General pest control in Sydney typically costs $150-$350 for a standard 3-4 bedroom home. Termite inspections range from $250-$500, while termite treatments can cost $2,000-$5,000+ depending on the property size and treatment method required. Factors affecting price include property size, pest type, severity of infestation, and whether it\'s a one-time treatment or ongoing service plan.',
+  },
+  {
+    question: 'Are all operators on this site licensed?',
+    answer: 'Yes, all operators listed on our platform are verified against the NSW EPA pesticide license register. We verify each operator\'s license status before they can appear in our directory, and continuously monitor for any changes. Look for the "EPA Verified" badge on operator profiles to confirm their license is current and valid.',
+  },
+  {
+    question: 'How do I get a quote for pest control?',
+    answer: 'Simply enter your suburb to find operators in your area. You can request quotes directly through operator profiles, or use our quote request form to receive quotes from up to 3 operators at once. All quotes are free and no-obligation. Most operators respond within 2 hours during business hours.',
+  },
+  {
+    question: 'What should I look for when choosing a pest controller?',
+    answer: 'Look for the EPA Verified badge, read customer reviews, check their years of experience, and ensure they offer the specific service you need. We also recommend getting multiple quotes to compare pricing and service inclusions. Ask about warranties, what chemicals they use, and whether they offer ongoing maintenance plans.',
+  },
+  {
+    question: 'How long does pest control treatment last?',
+    answer: 'The effectiveness of pest control treatment varies by pest type and treatment method. General pest control typically provides protection for 3-6 months. Termite barriers can last 5-8 years. For best results, most professionals recommend annual pest inspections and treatments 2-3 times per year for ongoing protection.',
+  },
+  {
+    question: 'Is pest control safe for pets and children?',
+    answer: 'Modern pest control treatments are designed to be safe when applied correctly by licensed professionals. Most treatments require you to vacate the property for 2-4 hours and keep pets away from treated areas until dry. Always inform your pest controller about pets, children, or anyone with sensitivities so they can use appropriate products.',
+  },
+  {
+    question: 'Do I need to prepare my home before pest control?',
+    answer: 'Yes, basic preparation helps ensure effective treatment. This typically includes: clearing items away from walls and under sinks, covering or removing food and pet bowls, vacuuming floors, and providing access to all rooms including roof spaces. Your pest controller will provide specific instructions based on the treatment type.',
+  },
+  {
+    question: 'What is the best time of year for pest control in Sydney?',
+    answer: 'Spring (September-November) is ideal for preventative treatments before summer pest activity peaks. However, pest control can be done year-round. Summer brings more cockroaches, ants, and termites. Winter sees increased rodent activity as they seek shelter indoors. Regular treatments every 3-4 months provide the best year-round protection.',
+  },
+];
+
+// Generate FAQ Schema for SEO
+function generateFAQSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqData.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
 export default function HomePage() {
   const featuredOperators = getFeaturedOperators().slice(0, 3);
   const topServices = services.slice(0, 6);
+  const faqSchema = generateFAQSchema();
+  const howToSchema = generateHowToSchema();
 
   const regions = [
     { name: 'Eastern Suburbs', icon: Waves, suburbs: suburbs.filter(s => s.region === 'Eastern Suburbs') },
@@ -159,6 +214,17 @@ export default function HomePage() {
 
   return (
     <>
+      {/* FAQ Schema for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      {/* HowTo Schema for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center hero-gradient hero-pattern overflow-hidden">
         {/* Decorative Elements */}
@@ -177,13 +243,14 @@ export default function HomePage() {
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight animate-fade-in-up">
-              Find Trusted Pest Control
-              <span className="block text-accent-400">Near You</span>
+              Pest Control Sydney
+              <span className="block text-accent-400">100+ EPA-Verified Operators</span>
             </h1>
 
             <p className="text-xl text-white/80 mb-10 max-w-2xl animate-fade-in-up animate-delay-100">
-              Compare quotes from verified pest control experts in your suburb.
-              All operators are EPA licensed and reviewed by real customers.
+              Compare quotes from Sydney's verified pest control experts in your suburb.
+              All operators are NSW EPA licensed for termites, cockroaches, rodents, and more.
+              Same-day service available across Greater Sydney.
             </p>
 
             {/* Search Box (Client Component) */}
@@ -262,8 +329,8 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <h2 className="section-heading">Featured Pest Controllers</h2>
-              <p className="section-subheading">Top-rated operators verified by the NSW EPA</p>
+              <h2 className="section-heading">Featured Sydney Pest Controllers</h2>
+              <p className="section-subheading">Top-rated pest control operators in Sydney, verified by NSW EPA</p>
             </div>
             <Link href="/operators" className="hidden sm:flex btn btn-secondary">
               View All Operators
@@ -288,9 +355,9 @@ export default function HomePage() {
       <section className="section bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
-            <h2 className="section-heading">Pest Control Services</h2>
+            <h2 className="section-heading">Sydney Pest Control Services</h2>
             <p className="section-subheading mx-auto">
-              From termite inspections to rodent control, find the right service for your pest problem
+              From termite inspections to rodent control in Sydney. Find urgent same-day pest removal or scheduled treatments.
             </p>
           </div>
 
@@ -364,9 +431,9 @@ export default function HomePage() {
       <section className="section bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
-            <h2 className="section-heading">Find Pest Control By Region</h2>
+            <h2 className="section-heading">Find Pest Control Across Sydney</h2>
             <p className="section-subheading mx-auto">
-              Browse pest control services across all Sydney regions
+              Browse local pest control services across Greater Sydney regions - Eastern Suburbs, North Shore, Western Sydney & more
             </p>
           </div>
 
@@ -484,11 +551,11 @@ export default function HomePage() {
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-white mb-6">
-            Ready to Get Rid of Pests?
+            Need Pest Control in Sydney Today?
           </h2>
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
-            Get free quotes from licensed pest control operators in your area.
-            Compare prices, read reviews, and choose the best fit for your needs.
+            Get free quotes from licensed Sydney pest control operators. Same-day emergency service available.
+            Compare prices, read reviews, and book your pest treatment today.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/quote" className="btn btn-accent btn-lg gap-2 w-full sm:w-auto">
@@ -514,30 +581,13 @@ export default function HomePage() {
           </div>
 
           <div className="space-y-4">
-            {[
-              {
-                q: 'How much does pest control cost in Sydney?',
-                a: 'General pest control in Sydney typically costs $150-$350 for a standard 3-4 bedroom home. Termite inspections range from $250-$500, while termite treatments can cost $2,000-$5,000+ depending on the property size and treatment method required.',
-              },
-              {
-                q: 'Are all operators on this site licensed?',
-                a: 'Yes, all operators listed on our platform are verified against the NSW EPA pesticide license register. We verify each operator\'s license status before they can appear in our directory, and continuously monitor for any changes.',
-              },
-              {
-                q: 'How do I get a quote?',
-                a: 'Simply enter your suburb to find operators in your area. You can request quotes directly through operator profiles, or use our quote request form to receive quotes from up to 3 operators at once. All quotes are free and no-obligation.',
-              },
-              {
-                q: 'What should I look for when choosing a pest controller?',
-                a: 'Look for the EPA Verified badge, read customer reviews, check their years of experience, and ensure they offer the specific service you need. We also recommend getting multiple quotes to compare pricing and service inclusions.',
-              },
-            ].map((faq, index) => (
+            {faqData.map((faq, index) => (
               <details key={index} className="group card p-6">
                 <summary className="flex items-center justify-between cursor-pointer list-none">
-                  <span className="font-heading font-semibold text-neutral-900 pr-4">{faq.q}</span>
+                  <span className="font-heading font-semibold text-neutral-900 pr-4">{faq.question}</span>
                   <ChevronRight className="w-5 h-5 text-neutral-400 transition-transform group-open:rotate-90" />
                 </summary>
-                <p className="mt-4 text-neutral-600 leading-relaxed">{faq.a}</p>
+                <p className="mt-4 text-neutral-600 leading-relaxed">{faq.answer}</p>
               </details>
             ))}
           </div>

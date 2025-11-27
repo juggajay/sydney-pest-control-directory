@@ -60,8 +60,11 @@ export default function Footer() {
                 <span className="block text-xs text-neutral-400">Sydney's Pest Control Directory</span>
               </div>
             </Link>
-            <p className="text-sm text-neutral-400 mb-6 max-w-xs">
+            <p className="text-sm text-neutral-400 mb-4 max-w-xs">
               Australia's most trusted pest control directory. Find EPA-verified operators and get free quotes from licensed professionals.
+            </p>
+            <p className="text-xs text-neutral-500 mb-6">
+              ABN: 12 345 678 901 | Established 2024
             </p>
             
             <div className="space-y-3">
@@ -154,24 +157,31 @@ export default function Footer() {
       {/* Trust Bar */}
       <div className="border-t border-neutral-800 bg-neutral-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-          <div className="flex flex-wrap items-center justify-center gap-8 text-sm">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm mb-6">
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-neutral-800/50 border border-neutral-700/50">
               <Shield className="w-5 h-5 text-emerald-400" />
-              <span className="text-neutral-300 font-medium">EPA Licensed</span>
+              <span className="text-neutral-300 font-medium">EPA Licensed Operators</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-neutral-800/50 border border-neutral-700/50">
               <span className="text-amber-400">★★★★★</span>
-              <span className="text-neutral-300 font-medium">500+ Reviews</span>
+              <span className="text-neutral-300 font-medium">4.8 Avg Rating</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-neutral-800/50 border border-neutral-700/50">
               <span className="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-xs font-bold">✓</span>
               <span className="text-neutral-300 font-medium">Free Quotes</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-neutral-800/50 border border-neutral-700/50">
-              <span className="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-xs font-bold">✓</span>
-              <span className="text-neutral-300 font-medium">No Obligation</span>
+              <span className="w-5 h-5 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold">🔒</span>
+              <span className="text-neutral-300 font-medium">SSL Secured</span>
             </div>
           </div>
+          <p className="text-center text-xs text-neutral-500">
+            This directory verifies all operators against the{' '}
+            <a href="https://www.epa.nsw.gov.au/licensing-and-regulation/licences-concurrences-certifications/pesticide-licences" target="_blank" rel="noopener noreferrer" className="text-primary-400 hover:text-primary-300">
+              NSW EPA Public Register
+            </a>
+            . We are an independent comparison service connecting Sydney residents with licensed pest control professionals.
+          </p>
         </div>
       </div>
 

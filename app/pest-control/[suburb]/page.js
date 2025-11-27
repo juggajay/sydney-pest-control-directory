@@ -36,12 +36,19 @@ export async function generateMetadata({ params }) {
   }
 
   const operators = getOperatorsForSuburb(suburb.slug || suburb.id);
-  
-  return genMeta({
-    title: `Pest Control ${suburb.name} - ${operators.length} Licensed Operators`,
-    description: `Find licensed pest control in ${suburb.name} ${suburb.postcode}. Compare ${operators.length}+ EPA-verified operators. ${suburb.commonPests.slice(0, 3).join(', ')} treatment. Get free quotes today!`,
+
+  const baseMeta = genMeta({
+    title: `Pest Control ${suburb.name} ${suburb.postcode} - ${operators.length}+ Licensed Operators`,
+    description: `Find licensed pest control in ${suburb.name} ${suburb.postcode}. Compare ${operators.length}+ EPA-verified operators for ${suburb.commonPests.slice(0, 2).join(' & ')} treatment. Free quotes today!`,
     path: `/pest-control/${suburb.slug}`,
   });
+
+  return {
+    ...baseMeta,
+    alternates: {
+      canonical: `https://sydneypestcontrol.com.au/pest-control/${suburb.slug}`,
+    },
+  };
 }
 
 // Star Rating Component
@@ -67,9 +74,9 @@ function OperatorCard({ operator, suburb }) {
       <div className="flex items-start justify-between mb-4">
         <div className="flex-1">
           <div className="flex items-center gap-2 mb-1 flex-wrap">
-            <h3 className="font-heading font-semibold text-lg text-neutral-900">
+            <h4 className="font-heading font-semibold text-lg text-neutral-900">
               {operator.businessName}
-            </h3>
+            </h4>
             {(operator.features?.includes('epa-verified') || operator.epaVerified) && (
               <span className="badge badge-verified">
                 <Shield className="w-3 h-3" />
@@ -342,7 +349,7 @@ export default function SuburbPage({ params }) {
             </div>
 
             {/* Sidebar */}
-            <div className="space-y-6">
+            <aside className="space-y-6" aria-label="Related information">
               {/* Quick Quote CTA */}
               <div className="card p-6 bg-gradient-to-br from-primary-500 to-primary-700 text-white">
                 <h3 className="font-heading font-bold text-xl mb-2">Get Free Quotes</h3>
@@ -351,6 +358,52 @@ export default function SuburbPage({ params }) {
                 </p>
                 <Link href={`/quote?suburb=${suburb.slug}`} className="btn bg-white text-primary-600 hover:bg-neutral-100 w-full">
                   Request Quotes
+                </Link>
+              </div>
+
+              {/* Recommended Services - Internal Linking */}
+              <div className="card p-6 bg-gradient-to-br from-blue-50 to-cyan-50 border-blue-200">
+                <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-2">
+                  Recommended Services for {suburb.name}
+                </h3>
+                <p className="text-sm text-neutral-600 mb-4">
+                  Based on common pest issues in {suburb.name}:
+                </p>
+                <div className="space-y-2">
+                  {suburb.commonPests.slice(0, 4).map((pest) => {
+                    const pestServiceMap = {
+                      'termites': { slug: 'termite-inspection', name: 'Termite Inspection' },
+                      'cockroaches': { slug: 'cockroach-control', name: 'Cockroach Control' },
+                      'rodents': { slug: 'rodent-control', name: 'Rodent Control' },
+                      'ants': { slug: 'ant-control', name: 'Ant Control' },
+                      'spiders': { slug: 'spider-control', name: 'Spider Control' },
+                      'bed-bugs': { slug: 'bed-bug-treatment', name: 'Bed Bug Treatment' },
+                      'mosquitoes': { slug: 'mosquito-control', name: 'Mosquito Control' },
+                      'possums': { slug: 'possum-removal', name: 'Possum Removal' },
+                    };
+                    const serviceInfo = pestServiceMap[pest];
+                    if (!serviceInfo) return null;
+                    const service = services.find(s => s.slug === serviceInfo.slug);
+                    return service ? (
+                      <Link
+                        key={pest}
+                        href={`/services/${service.slug}`}
+                        className="flex items-center justify-between p-3 bg-white rounded-lg border border-blue-100 hover:border-primary-300 hover:shadow-sm transition-all"
+                      >
+                        <div className="flex items-center gap-2">
+                          <Bug className="w-4 h-4 text-primary-600" />
+                          <span className="font-medium text-neutral-900">{service.name}</span>
+                        </div>
+                        <span className="text-sm text-primary-600 font-medium">{service.priceRange}</span>
+                      </Link>
+                    ) : null;
+                  })}
+                </div>
+                <Link
+                  href="/services"
+                  className="block text-center text-sm text-primary-600 font-medium mt-4 hover:text-primary-700"
+                >
+                  View all services →
                 </Link>
               </div>
 
@@ -407,7 +460,7 @@ export default function SuburbPage({ params }) {
                   View all services →
                 </Link>
               </div>
-            </div>
+            </aside>
           </div>
         </div>
       </section>

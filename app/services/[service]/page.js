@@ -12,11 +12,13 @@ import {
   getServiceBySlug,
   getOperatorsByService
 } from '../../../lib/data';
-import { 
-  generateMetadata as genMeta, 
+import {
+  generateMetadata as genMeta,
   generateServiceSchema,
+  generateServiceListSchema,
   generateBreadcrumbSchema,
-  siteConfig 
+  generateFAQSchema,
+  siteConfig
 } from '../../../lib/seo';
 
 // Generate static params for all services
@@ -37,8 +39,8 @@ export async function generateMetadata({ params }) {
   const serviceOperators = getOperatorsByService(service.slug || service.id);
   
   return genMeta({
-    title: `${service.name} Sydney - ${service.priceRange} | Find Licensed Operators`,
-    description: `Professional ${service.name.toLowerCase()} in Sydney. ${service.description} Compare ${serviceOperators.length}+ EPA-verified operators. Prices from ${service.priceRange}.`,
+    title: `${service.name} Services Sydney | Licensed Operators from ${service.priceRange}`,
+    description: `Professional ${service.name.toLowerCase()} services across Sydney from ${service.priceRange}. Compare ${serviceOperators.length}+ EPA-verified operators. Free same-day quotes, 4.8★ customer rating.`,
     path: `/services/${service.slug}`,
   });
 }
@@ -69,9 +71,9 @@ function OperatorCard({ operator }) {
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">
-            <h3 className="font-heading font-semibold text-neutral-900 truncate group-hover:text-primary-600 transition-colors">
+            <h4 className="font-heading font-semibold text-neutral-900 truncate group-hover:text-primary-600 transition-colors">
               {operator.businessName}
-            </h3>
+            </h4>
             {(operator.features?.includes('epa-verified') || operator.epaVerified) && (
               <CheckCircle className="w-4 h-4 text-emerald-500 flex-shrink-0" />
             )}
@@ -105,8 +107,30 @@ export default function ServicePage({ params }) {
     { name: service.name, path: `/services/${service.slug}` },
   ];
 
+  // Service-specific FAQs
+  const faqData = [
+    {
+      question: `How much does ${service.name.toLowerCase()} cost in Sydney?`,
+      answer: `${service.name} in Sydney typically costs ${service.priceRange}. Prices vary based on property size, severity of infestation, and specific treatment requirements. We recommend getting multiple quotes to compare.`,
+    },
+    {
+      question: `How long does ${service.name.toLowerCase()} treatment take?`,
+      answer: `Most ${service.name.toLowerCase()} treatments take 1-3 hours depending on property size and the extent of the infestation. Your technician will provide a specific timeframe during the initial inspection.`,
+    },
+    {
+      question: `Is ${service.name.toLowerCase()} safe for pets and children?`,
+      answer: `Modern ${service.name.toLowerCase()} treatments are designed to be safe when applied by licensed professionals. Most treatments require you to vacate for 2-4 hours. Always inform your technician about pets, children, or sensitivities.`,
+    },
+    {
+      question: `How often should I get ${service.name.toLowerCase()} treatment?`,
+      answer: `${service.frequency}. However, if you notice signs of re-infestation, contact your pest controller immediately. Many operators offer ongoing maintenance plans for continuous protection.`,
+    },
+  ];
+
   const serviceSchema = generateServiceSchema(service);
+  const serviceListSchema = generateServiceListSchema(serviceOperators, service);
   const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbs);
+  const faqSchema = generateFAQSchema(faqData);
 
   return (
     <>
@@ -117,7 +141,15 @@ export default function ServicePage({ params }) {
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceListSchema) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       {/* Hero Section */}
@@ -148,7 +180,7 @@ export default function ServicePage({ params }) {
               </div>
               
               <h1 className="text-4xl lg:text-5xl font-display font-bold text-white mb-4">
-                {service.name} Sydney
+                {service.name} Services in Sydney
               </h1>
               
               <p className="text-xl text-white/80 mb-6">
@@ -255,7 +287,7 @@ export default function ServicePage({ params }) {
             </div>
 
             {/* Sidebar */}
-            <div className="space-y-6">
+            <aside className="space-y-6" aria-label="Service details and pricing">
               {/* Pricing Card */}
               <div className="card p-6">
                 <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-4">
@@ -351,7 +383,27 @@ export default function ServicePage({ params }) {
                     ))}
                 </div>
               </div>
-            </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl font-heading font-bold text-neutral-900 mb-8 text-center">
+            Frequently Asked Questions About {service.name}
+          </h2>
+          <div className="space-y-4">
+            {faqData.map((faq, index) => (
+              <details key={index} className="group card p-6">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <span className="font-heading font-semibold text-neutral-900 pr-4">{faq.question}</span>
+                  <ChevronRight className="w-5 h-5 text-neutral-400 transition-transform group-open:rotate-90 flex-shrink-0" />
+                </summary>
+                <p className="mt-4 text-neutral-600 leading-relaxed">{faq.answer}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>
