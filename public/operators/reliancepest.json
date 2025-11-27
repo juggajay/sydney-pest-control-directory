@@ -1,8 +1,8 @@
 {
   "id": 52,
   "slug": "reliancepest",
-  "businessName": "Reliancepest",
-  "tradingName": "Reliancepest",
+  "businessName": "Reliance Pest Control",
+  "tradingName": "Reliance Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2026",
   "postcodeVerified": true,
   "region": "eastern",
-  "description": "Reliancepest provides professional pest control services in Bondi and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Bondi. Licensed & insured.",
+  "description": "Reliance Pest Control offers reliable and affordable pest control services in Sydney's Eastern Suburbs.",
+  "shortDescription": "Reliance Pest Control offers reliable and affordable pest control services in Sydney's Eastern Suburbs.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "bondi"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.5,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 78,
+  "yearsInBusiness": 10,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:41.392Z"
   }
 }

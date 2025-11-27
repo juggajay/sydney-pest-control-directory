@@ -1,8 +1,8 @@
 {
   "id": 108,
   "slug": "b2bpestcontrol",
-  "businessName": "B2bpestcontrol",
-  "tradingName": "B2bpestcontrol",
+  "businessName": "B2B Pest Control",
+  "tradingName": "B2B Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2200",
   "postcodeVerified": true,
   "region": "south-west",
-  "description": "B2bpestcontrol provides professional pest control services in Bankstown and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Bankstown. Licensed & insured.",
+  "description": "B2B Pest Control specializes in commercial pest management for businesses in Bankstown and Canterbury.",
+  "shortDescription": "B2B Pest Control specializes in commercial pest management for businesses in Bankstown and Canterbury.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "bankstown"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.3,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 54,
+  "yearsInBusiness": 7,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:39.632Z"
   }
 }

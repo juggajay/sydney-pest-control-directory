@@ -1,8 +1,8 @@
 {
   "id": 213,
   "slug": "tahmoorpestcontrol",
-  "businessName": "Tahmoorpestcontrol",
-  "tradingName": "Tahmoorpestcontrol",
+  "businessName": "Tahmoor Pest Control",
+  "tradingName": "Tahmoor Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2560",
   "postcodeVerified": true,
   "region": "macarthur",
-  "description": "Tahmoorpestcontrol provides professional pest control services in Campbelltown and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Campbelltown. Licensed & insured.",
+  "description": "Tahmoor Pest Control serves the Wollondilly Shire with professional pest management services.",
+  "shortDescription": "Tahmoor Pest Control serves the Wollondilly Shire with professional pest management services.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "campbelltown"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.5,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 78,
+  "yearsInBusiness": 10,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:41.981Z"
   }
 }

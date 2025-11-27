@@ -1,8 +1,8 @@
 {
   "id": 95,
   "slug": "knockdownpestcontrol",
-  "businessName": "Knockdownpestcontrol",
-  "tradingName": "Knockdownpestcontrol",
+  "businessName": "Knockdown Pest Control",
+  "tradingName": "Knockdown Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2077",
   "postcodeVerified": true,
   "region": "north-shore",
-  "description": "Knockdownpestcontrol provides professional pest control services in Hornsby and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Hornsby. Licensed & insured.",
+  "description": "Knockdown Pest Control delivers effective pest elimination services in Hornsby and the Upper North Shore.",
+  "shortDescription": "Knockdown Pest Control delivers effective pest elimination services in Hornsby and the Upper North Shore.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "hornsby"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.6,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 112,
+  "yearsInBusiness": 14,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:40.296Z"
   }
 }

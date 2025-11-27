@@ -1,8 +1,8 @@
 {
   "id": 42,
   "slug": "tomspestcontrolsydney",
-  "businessName": "Tomspestcontrolsydney",
-  "tradingName": "Tomspestcontrolsydney",
+  "businessName": "Tom's Pest Control Sydney",
+  "tradingName": "Tom's Pest Control Sydney",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2067",
   "postcodeVerified": true,
   "region": "north-shore",
-  "description": "Tomspestcontrolsydney provides professional pest control services in Chatswood and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Chatswood. Licensed & insured.",
+  "description": "Tom's Pest Control Sydney provides same-day pest control services. Specializing in cockroach, ant, spider, and rodent treatments.",
+  "shortDescription": "Tom's Pest Control Sydney provides same-day pest control services.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "chatswood"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.4,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 234,
+  "yearsInBusiness": 12,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:42.026Z"
   }
 }

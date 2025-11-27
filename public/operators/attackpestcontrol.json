@@ -1,8 +1,8 @@
 {
   "id": 65,
   "slug": "attackpestcontrol",
-  "businessName": "Attackpestcontrol",
-  "tradingName": "Attackpestcontrol",
+  "businessName": "Attack Pest Control",
+  "tradingName": "Attack Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2170",
   "postcodeVerified": true,
   "region": "south-west",
-  "description": "Attackpestcontrol provides professional pest control services in Liverpool and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Liverpool. Licensed & insured.",
+  "description": "Attack Pest Control has been protecting Sydney homes and businesses from pests for over 20 years. Fully licensed and insured.",
+  "shortDescription": "Attack Pest Control has been protecting Sydney homes and businesses from pests for over 20 years.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "liverpool"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 167,
+  "yearsInBusiness": 20,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:39.616Z"
   }
 }

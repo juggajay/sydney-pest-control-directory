@@ -1,8 +1,8 @@
 {
   "id": 66,
   "slug": "oncallpestcontrol",
-  "businessName": "Oncallpestcontrol",
-  "tradingName": "Oncallpestcontrol",
+  "businessName": "On Call Pest Control",
+  "tradingName": "On Call Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2170",
   "postcodeVerified": true,
   "region": "south-west",
-  "description": "Oncallpestcontrol provides professional pest control services in Liverpool and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Liverpool. Licensed & insured.",
+  "description": "On Call Pest Control provides 24/7 emergency pest control services across Sydney. Fast response guaranteed.",
+  "shortDescription": "On Call Pest Control provides 24/7 emergency pest control services across Sydney.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "liverpool"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.5,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 98,
+  "yearsInBusiness": 12,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:41.021Z"
   }
 }

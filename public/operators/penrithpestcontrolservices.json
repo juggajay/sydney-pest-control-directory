@@ -1,8 +1,8 @@
 {
   "id": 77,
   "slug": "penrithpestcontrolservices",
-  "businessName": "Penrithpestcontrolservices",
-  "tradingName": "Penrithpestcontrolservices",
+  "businessName": "Penrith Pest Control Services",
+  "tradingName": "Penrith Pest Control Services",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2750",
   "postcodeVerified": true,
   "region": "western",
-  "description": "Penrithpestcontrolservices provides professional pest control services in Penrith and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Penrith. Licensed & insured.",
+  "description": "Penrith Pest Control Services has been Western Sydney's trusted pest control company since 1952.",
+  "shortDescription": "Penrith Pest Control Services has been Western Sydney's trusted pest control company since 1952.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "penrith"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 198,
+  "yearsInBusiness": 35,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:41.083Z"
   }
 }

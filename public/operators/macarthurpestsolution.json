@@ -1,8 +1,8 @@
 {
   "id": 214,
   "slug": "macarthurpestsolution",
-  "businessName": "Macarthurpestsolution",
-  "tradingName": "Macarthurpestsolution",
+  "businessName": "Macarthur Pest Solutions",
+  "tradingName": "Macarthur Pest Solutions",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2560",
   "postcodeVerified": true,
   "region": "macarthur",
-  "description": "Macarthurpestsolution provides professional pest control services in Campbelltown and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Campbelltown. Licensed & insured.",
+  "description": "Macarthur Pest Solutions provides effective pest control in Campbelltown and surrounding suburbs.",
+  "shortDescription": "Macarthur Pest Solutions provides effective pest control in Campbelltown and surrounding suburbs.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "campbelltown"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.4,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 67,
+  "yearsInBusiness": 9,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:40.588Z"
   }
 }

@@ -1,8 +1,8 @@
 {
   "id": 64,
   "slug": "samedaypestcontrolliverpool",
-  "businessName": "Samedaypestcontrolliverpool",
-  "tradingName": "Samedaypestcontrolliverpool",
+  "businessName": "Same Day Pest Control Liverpool",
+  "tradingName": "Same Day Pest Control Liverpool",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2170",
   "postcodeVerified": true,
   "region": "south-west",
-  "description": "Samedaypestcontrolliverpool provides professional pest control services in Liverpool and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Liverpool. Licensed & insured.",
+  "description": "Same Day Pest Control Liverpool offers emergency pest control services in Liverpool and South West Sydney.",
+  "shortDescription": "Same Day Pest Control Liverpool offers emergency pest control services in Liverpool and South West Sydney.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "liverpool"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.4,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 89,
+  "yearsInBusiness": 6,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:41.638Z"
   }
 }

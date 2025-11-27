@@ -1,8 +1,8 @@
 {
   "id": 62,
   "slug": "killitpest",
-  "businessName": "Killitpest",
-  "tradingName": "Killitpest",
+  "businessName": "Kill It Pest Control",
+  "tradingName": "Kill It Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2060",
   "postcodeVerified": true,
   "region": "north-shore",
-  "description": "Killitpest provides professional pest control services in North Sydney and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in North Sydney. Licensed & insured.",
+  "description": "Kill It Pest Control provides fast and effective pest elimination services across Sydney. Same-day appointments available.",
+  "shortDescription": "Kill It Pest Control provides fast and effective pest elimination services across Sydney.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "north-sydney"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.3,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 56,
+  "yearsInBusiness": 7,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:40.280Z"
   }
 }

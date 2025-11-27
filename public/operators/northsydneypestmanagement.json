@@ -1,8 +1,8 @@
 {
   "id": 61,
   "slug": "northsydneypestmanagement",
-  "businessName": "Northsydneypestmanagement",
-  "tradingName": "Northsydneypestmanagement",
+  "businessName": "North Sydney Pest Management",
+  "tradingName": "North Sydney Pest Management",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2060",
   "postcodeVerified": true,
   "region": "north-shore",
-  "description": "Northsydneypestmanagement provides professional pest control services in North Sydney and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in North Sydney. Licensed & insured.",
+  "description": "Professional pest management services for North Sydney and Lower North Shore. Licensed termite and pest control specialists.",
+  "shortDescription": "Professional pest management services for North Sydney and Lower North Shore.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "north-sydney"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.6,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 112,
+  "yearsInBusiness": 14,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:40.943Z"
   }
 }

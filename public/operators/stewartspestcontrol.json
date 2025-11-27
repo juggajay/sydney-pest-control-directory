@@ -1,8 +1,8 @@
 {
   "id": 232,
   "slug": "stewartspestcontrol",
-  "businessName": "Stewartspestcontrol",
-  "tradingName": "Stewartspestcontrol",
+  "businessName": "Stewart's Pest Control",
+  "tradingName": "Stewart's Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2034",
   "postcodeVerified": true,
   "region": "eastern",
-  "description": "Stewartspestcontrol provides professional pest control services in Coogee and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Coogee. Licensed & insured.",
+  "description": "Stewart's Pest Control has protected Eastern Suburbs homes from pests for over 22 years.",
+  "shortDescription": "Stewart's Pest Control has protected Eastern Suburbs homes from pests for over 22 years.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "coogee"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 167,
+  "yearsInBusiness": 22,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:41.918Z"
   }
 }

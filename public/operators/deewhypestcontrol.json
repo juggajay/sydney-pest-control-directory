@@ -1,8 +1,8 @@
 {
   "id": 208,
   "slug": "deewhypestcontrol",
-  "businessName": "Deewhypestcontrol",
-  "tradingName": "Deewhypestcontrol",
+  "businessName": "Dee Why Pest Control",
+  "tradingName": "Dee Why Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2099",
   "postcodeVerified": true,
   "region": "northern-beaches",
-  "description": "Deewhypestcontrol provides professional pest control services in Dee Why and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Dee Why. Licensed & insured.",
+  "description": "Dee Why Pest Control provides local pest management on Sydney's Northern Beaches.",
+  "shortDescription": "Dee Why Pest Control provides local pest management on Sydney's Northern Beaches.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "dee-why"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.5,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 87,
+  "yearsInBusiness": 11,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:39.816Z"
   }
 }

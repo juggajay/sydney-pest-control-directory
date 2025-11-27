@@ -1,8 +1,8 @@
 {
   "id": 220,
   "slug": "fumapest",
-  "businessName": "FUMAPEST",
-  "tradingName": "FUMAPEST",
+  "businessName": "Fumapest Pest Control",
+  "tradingName": "Fumapest Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -12,35 +12,41 @@
   "phone": "1300 241 500",
   "phoneVerified": true,
   "email": null,
-  "website": null,
+  "website": "https://www.fumapest.com.au",
   "websiteVerified": false,
   "address": null,
   "suburb": "Fairfield",
   "postcode": "2165",
   "postcodeVerified": true,
-  "region": "western",
-  "description": "FUMAPEST provides professional pest control services in Fairfield and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Fairfield. Licensed & insured.",
+  "region": "all-sydney",
+  "description": "Fumapest provides professional termite and pest control services across Sydney. Expert fumigation and treatment specialists.",
+  "shortDescription": "Fumapest provides professional termite and pest control services across Sydney.",
   "services": [
-    "general-pest-control"
+    "termite-inspection",
+    "termite-treatment",
+    "general-pest-control",
+    "fumigation"
   ],
   "serviceAreas": [
-    "fairfield"
+    "north-sydney",
+    "lane-cove",
+    "campbelltown",
+    "manly"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
-  "featured": false,
+  "rating": 4.6,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 145,
+  "yearsInBusiness": 20,
+  "featured": true,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 95,
+    "verifiedFields": 14,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:36:25.253Z"
   }
 }

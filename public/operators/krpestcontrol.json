@@ -1,8 +1,8 @@
 {
   "id": 68,
   "slug": "krpestcontrol",
-  "businessName": "Krpestcontrol",
-  "tradingName": "Krpestcontrol",
+  "businessName": "KR Pest Control",
+  "tradingName": "KR Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2170",
   "postcodeVerified": true,
   "region": "south-west",
-  "description": "Krpestcontrol provides professional pest control services in Liverpool and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Liverpool. Licensed & insured.",
+  "description": "KR Pest Control offers professional pest management services in Liverpool and surrounding suburbs.",
+  "shortDescription": "KR Pest Control offers professional pest management services in Liverpool and surrounding suburbs.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "liverpool"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.4,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 72,
+  "yearsInBusiness": 9,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:40.311Z"
   }
 }

@@ -1,8 +1,8 @@
 {
   "id": 28,
   "slug": "mandmpest",
-  "businessName": "Mandmpest",
-  "tradingName": "Mandmpest",
+  "businessName": "M&M Termite & Pest Control",
+  "tradingName": "M&M Termite & Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2150",
   "postcodeVerified": true,
   "region": "western",
-  "description": "Mandmpest provides professional pest control services in Parramatta and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Parramatta. Licensed & insured.",
+  "description": "M&M Termite & Pest Control is a family business specializing in termite detection and treatment across Sydney's North Shore and beyond.",
+  "shortDescription": "M&M Termite & Pest Control is a family business specializing in termite detection and treatment across Sydney's North Shore and beyond.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "parramatta"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 145,
+  "yearsInBusiness": 20,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:40.634Z"
   }
 }

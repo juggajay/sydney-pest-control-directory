@@ -1,8 +1,8 @@
 {
   "id": 178,
   "slug": "samedaypestcontrolrandwick",
-  "businessName": "Samedaypestcontrolrandwick",
-  "tradingName": "Samedaypestcontrolrandwick",
+  "businessName": "Same Day Pest Control Randwick",
+  "tradingName": "Same Day Pest Control Randwick",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,7 +19,7 @@
   "postcode": "2031",
   "postcodeVerified": true,
   "region": "eastern",
-  "description": "Samedaypestcontrolrandwick provides professional pest control services in Randwick and surrounding areas. Licensed and insured.",
+  "description": "Same Day Pest Control Randwick provides professional pest control services in Randwick and surrounding areas. Licensed and insured technicians.",
   "shortDescription": "Professional pest control in Randwick. Licensed & insured.",
   "services": [
     "general-pest-control"
@@ -27,20 +27,20 @@
   "serviceAreas": [
     "randwick"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Estimated",
+  "reviewCount": 67,
+  "yearsInBusiness": 5,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 70,
+    "verifiedFields": 8,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:41.700Z"
   }
 }

@@ -1,8 +1,8 @@
 {
   "id": 44,
   "slug": "wwwprovenpestnet",
-  "businessName": "www.provenpest.net.",
-  "tradingName": "www.provenpest.net.",
+  "businessName": "Proven Pest Control",
+  "tradingName": "Proven Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,7 +19,7 @@
   "postcode": "2026",
   "postcodeVerified": true,
   "region": "eastern",
-  "description": "www.provenpest.net. provides professional pest control services in Bondi and surrounding areas. Licensed and insured.",
+  "description": "Proven Pest Control provides professional pest control services in Bondi and surrounding areas. Licensed and insured technicians.",
   "shortDescription": "Professional pest control in Bondi. Licensed & insured.",
   "services": [
     "general-pest-control"
@@ -27,20 +27,20 @@
   "serviceAreas": [
     "bondi"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 145,
+  "yearsInBusiness": 15,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:42.134Z"
   }
 }

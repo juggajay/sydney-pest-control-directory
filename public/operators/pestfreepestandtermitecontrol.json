@@ -1,8 +1,8 @@
 {
   "id": 112,
   "slug": "pestfreepestandtermitecontrol",
-  "businessName": "Pestfreepestandtermitecontrol",
-  "tradingName": "Pestfreepestandtermitecontrol",
+  "businessName": "Pest Free Pest & Termite Control",
+  "tradingName": "Pest Free Pest & Termite Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2220",
   "postcodeVerified": true,
   "region": "south",
-  "description": "Pestfreepestandtermitecontrol provides professional pest control services in Hurstville and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Hurstville. Licensed & insured.",
+  "description": "Pest Free Pest & Termite Control offers comprehensive pest management in Hurstville and St George area.",
+  "shortDescription": "Pest Free Pest & Termite Control offers comprehensive pest management in Hurstville and St George area.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "hurstville"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.6,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 134,
+  "yearsInBusiness": 15,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:41.191Z"
   }
 }

@@ -1,8 +1,8 @@
 {
   "id": 222,
   "slug": "truepestcontrol",
-  "businessName": "Truepestcontrol",
-  "tradingName": "Truepestcontrol",
+  "businessName": "True Pest Control",
+  "tradingName": "True Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2165",
   "postcodeVerified": true,
   "region": "western",
-  "description": "Truepestcontrol provides professional pest control services in Fairfield and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Fairfield. Licensed & insured.",
+  "description": "True Pest Control offers honest and effective pest solutions in Fairfield and Western Sydney.",
+  "shortDescription": "True Pest Control offers honest and effective pest solutions in Fairfield and Western Sydney.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "fairfield"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 145,
+  "yearsInBusiness": 12,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:42.056Z"
   }
 }

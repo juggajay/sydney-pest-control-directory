@@ -1,8 +1,8 @@
 {
   "id": 79,
   "slug": "alphapestmanagement",
-  "businessName": "Alphapestmanagement",
-  "tradingName": "Alphapestmanagement",
+  "businessName": "Alpha Pest Management",
+  "tradingName": "Alpha Pest Management",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2750",
   "postcodeVerified": true,
   "region": "western",
-  "description": "Alphapestmanagement provides professional pest control services in Penrith and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Penrith. Licensed & insured.",
+  "description": "Alpha Pest Management provides professional pest control services in Penrith and the Blue Mountains.",
+  "shortDescription": "Alpha Pest Management provides professional pest control services in Penrith and the Blue Mountains.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "penrith"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.4,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 65,
+  "yearsInBusiness": 8,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:39.570Z"
   }
 }

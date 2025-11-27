@@ -1,8 +1,8 @@
 {
   "id": 104,
   "slug": "impactpestcontrol",
-  "businessName": "Impactpestcontrol",
-  "tradingName": "Impactpestcontrol",
+  "businessName": "Impact Pest Control",
+  "tradingName": "Impact Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2232",
   "postcodeVerified": true,
   "region": "south",
-  "description": "Impactpestcontrol provides professional pest control services in Sutherland and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Sutherland. Licensed & insured.",
+  "description": "Impact Pest Control provides fast and effective pest solutions in the Sutherland Shire and St George area.",
+  "shortDescription": "Impact Pest Control provides fast and effective pest solutions in the Sutherland Shire and St George area.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "sutherland"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.4,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 67,
+  "yearsInBusiness": 9,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:40.234Z"
   }
 }

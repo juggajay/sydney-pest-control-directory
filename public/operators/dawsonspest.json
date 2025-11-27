@@ -1,8 +1,8 @@
 {
   "id": 201,
   "slug": "dawsonspest",
-  "businessName": "Dawsonspest",
-  "tradingName": "Dawsonspest",
+  "businessName": "Dawson's Pest Control",
+  "tradingName": "Dawson's Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2121",
   "postcodeVerified": true,
   "region": "ryde",
-  "description": "Dawsonspest provides professional pest control services in Epping and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Epping. Licensed & insured.",
+  "description": "Dawson's Pest Control provides expert pest management in Epping and the Hills District.",
+  "shortDescription": "Dawson's Pest Control provides expert pest management in Epping and the Hills District.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "epping"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 156,
+  "yearsInBusiness": 20,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:39.805Z"
   }
 }

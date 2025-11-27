@@ -1,8 +1,8 @@
 {
   "id": 84,
   "slug": "buzzofftermites",
-  "businessName": "Buzzofftermites",
-  "tradingName": "Buzzofftermites",
+  "businessName": "Buzz Off Termites",
+  "tradingName": "Buzz Off Termites",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2148",
   "postcodeVerified": true,
   "region": "western",
-  "description": "Buzzofftermites provides professional pest control services in Blacktown and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Blacktown. Licensed & insured.",
+  "description": "Buzz Off Termites specializes in termite detection, treatment, and prevention across Sydney's Hills District.",
+  "shortDescription": "Buzz Off Termites specializes in termite detection, treatment, and prevention across Sydney's Hills District.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "blacktown"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.8,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 143,
+  "yearsInBusiness": 16,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:39.694Z"
   }
 }

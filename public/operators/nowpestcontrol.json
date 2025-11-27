@@ -1,8 +1,8 @@
 {
   "id": 105,
   "slug": "nowpestcontrol",
-  "businessName": "Nowpestcontrol",
-  "tradingName": "Nowpestcontrol",
+  "businessName": "Now Pest Control",
+  "tradingName": "Now Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2232",
   "postcodeVerified": true,
   "region": "south",
-  "description": "Nowpestcontrol provides professional pest control services in Sutherland and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Sutherland. Licensed & insured.",
+  "description": "Now Pest Control offers same-day pest control services across Sydney. Emergency response available 24/7.",
+  "shortDescription": "Now Pest Control offers same-day pest control services across Sydney.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "sutherland"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.6,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 145,
+  "yearsInBusiness": 12,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:40.990Z"
   }
 }

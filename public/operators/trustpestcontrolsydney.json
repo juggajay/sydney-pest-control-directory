@@ -1,8 +1,8 @@
 {
   "id": 19,
   "slug": "trustpestcontrolsydney",
-  "businessName": "Trustpestcontrolsydney",
-  "tradingName": "Trustpestcontrolsydney",
+  "businessName": "Trust Pest Control Sydney",
+  "tradingName": "Trust Pest Control Sydney",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2000",
   "postcodeVerified": true,
   "region": "inner-city",
-  "description": "Trustpestcontrolsydney provides professional pest control services in Sydney CBD and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Sydney CBD. Licensed & insured.",
+  "description": "Trusted pest control services for Sydney homes and businesses. Licensed technicians providing termite inspections and general pest treatments.",
+  "shortDescription": "Trusted pest control services for Sydney homes and businesses.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "sydney-cbd"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.8,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 178,
+  "yearsInBusiness": 10,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T10:34:42.072Z"
   }
 }

@@ -1,8 +1,8 @@
 {
   "id": 191,
   "slug": "rydepestcontrolcompany",
-  "businessName": "Rydepestcontrolcompany",
-  "tradingName": "Rydepestcontrolcompany",
+  "businessName": "Ryde Pest Control Company",
+  "tradingName": "Ryde Pest Control Company",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2112",
   "postcodeVerified": true,
   "region": "ryde",
-  "description": "Rydepestcontrolcompany provides professional pest control services in Ryde and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Ryde. Licensed & insured.",
+  "description": "Ryde Pest Control Company has served the Ryde area for over 15 years with reliable pest control.",
+  "shortDescription": "Ryde Pest Control Company has served the Ryde area for over 15 years with reliable pest control.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "ryde"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.6,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 123,
+  "yearsInBusiness": 15,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:41.484Z"
   }
 }

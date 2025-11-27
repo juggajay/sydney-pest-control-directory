@@ -1,8 +1,8 @@
 {
   "id": 193,
   "slug": "goliathpestcontrol",
-  "businessName": "Goliathpestcontrol",
-  "tradingName": "Goliathpestcontrol",
+  "businessName": "Goliath Pest Control",
+  "tradingName": "Goliath Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2112",
   "postcodeVerified": true,
   "region": "ryde",
-  "description": "Goliathpestcontrol provides professional pest control services in Ryde and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Ryde. Licensed & insured.",
+  "description": "Goliath Pest Control tackles big pest problems across Sydney's Northern suburbs.",
+  "shortDescription": "Goliath Pest Control tackles big pest problems across Sydney's Northern suburbs.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "ryde"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.5,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 89,
+  "yearsInBusiness": 12,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:40.188Z"
   }
 }

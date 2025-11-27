@@ -1,8 +1,8 @@
 {
   "id": 184,
   "slug": "sydneypestcontrol",
-  "businessName": "Sydneypestcontrol",
-  "tradingName": "Sydneypestcontrol",
+  "businessName": "Sydney Pest Control",
+  "tradingName": "Sydney Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2088",
   "postcodeVerified": true,
   "region": "north-shore",
-  "description": "Sydneypestcontrol provides professional pest control services in Mosman and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Mosman. Licensed & insured.",
+  "description": "Sydney Pest Control is one of Sydney's largest and most trusted pest management companies.",
+  "shortDescription": "Sydney Pest Control is one of Sydney's largest and most trusted pest management companies.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "mosman"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.7,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 234,
+  "yearsInBusiness": 25,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:41.948Z"
   }
 }

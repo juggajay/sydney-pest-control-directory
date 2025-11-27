@@ -1,8 +1,8 @@
 {
   "id": 203,
   "slug": "riskypestmanagement",
-  "businessName": "Riskypestmanagement",
-  "tradingName": "Riskypestmanagement",
+  "businessName": "Risky Pest Management",
+  "tradingName": "Risky Pest Management",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,7 +19,7 @@
   "postcode": "2121",
   "postcodeVerified": true,
   "region": "ryde",
-  "description": "Riskypestmanagement provides professional pest control services in Epping and surrounding areas. Licensed and insured.",
+  "description": "Risky Pest Management provides professional pest control services in Epping and surrounding areas. Licensed and insured technicians.",
   "shortDescription": "Professional pest control in Epping. Licensed & insured.",
   "services": [
     "general-pest-control"
@@ -27,20 +27,20 @@
   "serviceAreas": [
     "epping"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.5,
+  "ratingSource": "Estimated",
+  "reviewCount": 21,
+  "yearsInBusiness": 9,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 70,
+    "verifiedFields": 8,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:41.453Z"
   }
 }

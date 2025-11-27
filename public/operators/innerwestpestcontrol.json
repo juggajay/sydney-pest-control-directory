@@ -1,8 +1,8 @@
 {
   "id": 149,
   "slug": "innerwestpestcontrol",
-  "businessName": "Innerwestpestcontrol",
-  "tradingName": "Innerwestpestcontrol",
+  "businessName": "Inner West Pest Control",
+  "tradingName": "Inner West Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2042",
   "postcodeVerified": true,
   "region": "inner-west",
-  "description": "Innerwestpestcontrol provides professional pest control services in Newtown and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Newtown. Licensed & insured.",
+  "description": "Inner West Pest Control is your local pest management expert in Newtown, Marrickville, and surrounds.",
+  "shortDescription": "Inner West Pest Control is your local pest management expert in Newtown, Marrickville, and surrounds.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "newtown"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.6,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 112,
+  "yearsInBusiness": 12,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 50,
-    "verifiedFields": 5,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:40.249Z"
   }
 }

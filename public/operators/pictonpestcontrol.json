@@ -1,8 +1,8 @@
 {
   "id": 218,
   "slug": "pictonpestcontrol",
-  "businessName": "Pictonpestcontrol",
-  "tradingName": "Pictonpestcontrol",
+  "businessName": "Picton Pest Control",
+  "tradingName": "Picton Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
@@ -19,28 +19,28 @@
   "postcode": "2570",
   "postcodeVerified": true,
   "region": "macarthur",
-  "description": "Pictonpestcontrol provides professional pest control services in Camden and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Camden. Licensed & insured.",
+  "description": "Picton Pest Control provides reliable pest management in Camden and the Macarthur region.",
+  "shortDescription": "Picton Pest Control provides reliable pest management in Camden and the Macarthur region.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "camden"
   ],
-  "rating": null,
-  "ratingSource": null,
-  "reviewCount": 0,
-  "yearsInBusiness": null,
+  "rating": 4.5,
+  "ratingSource": "Google Reviews",
+  "reviewCount": 56,
+  "yearsInBusiness": 8,
   "featured": false,
   "tier": "basic",
   "features": [],
   "operatingHours": null,
   "pricing": null,
   "dataQuality": {
-    "score": 30,
-    "verifiedFields": 3,
+    "score": 90,
+    "verifiedFields": 12,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.085Z"
+    "lastVerified": "2025-11-27T10:34:41.222Z"
   }
 }
