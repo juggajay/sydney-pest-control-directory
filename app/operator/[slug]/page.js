@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import {
   MapPin, Shield, Star, Clock, Phone, ChevronRight,
   Bug, CheckCircle, Globe, Mail, Calendar, Award,
-  ArrowRight, ExternalLink, MessageSquare, Zap
+  ArrowRight, ExternalLink, MessageSquare, Zap, ChevronDown
 } from 'lucide-react';
 import {
   operators,
@@ -19,6 +19,8 @@ import {
   siteConfig
 } from '../../../lib/seo';
 import GoogleMap from '../../../components/GoogleMap';
+import ServiceAreasCard from '../../../components/ServiceAreasCard';
+import ReviewsSection from '../../../components/ReviewsSection';
 
 // Generate static params for all operators
 export async function generateStaticParams() {
@@ -330,49 +332,17 @@ export default function OperatorPage({ params }) {
                 </div>
               </div>
 
-              {/* Service Areas */}
-              <div className="card p-6">
-                <h2 className="text-xl font-heading font-bold text-neutral-900 mb-6">Service Areas</h2>
-                <div className="flex flex-wrap gap-2">
-                  {serviceAreas.map((suburb) => (
-                    <Link
-                      key={suburb.slug}
-                      href={`/pest-control/${suburb.slug}`}
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-neutral-100 text-neutral-700 hover:bg-primary-100 hover:text-primary-700 transition-colors text-sm"
-                    >
-                      <MapPin className="w-3 h-3" />
-                      {suburb.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
+              {/* Service Areas - Collapsible */}
+              <ServiceAreasCard serviceAreas={serviceAreas} />
 
               {/* Reviews */}
-              <div className="card p-6">
-                <div className="flex items-center justify-between mb-6">
-                  <h2 className="text-xl font-heading font-bold text-neutral-900">Customer Reviews</h2>
-                  {rating > 0 && (
-                    <div className="flex items-center gap-2">
-                      <StarRating rating={rating} />
-                      <span className="font-semibold text-neutral-900">{rating}</span>
-                      <span className="text-neutral-500">({reviewCount})</span>
-                    </div>
-                  )}
-                </div>
-
-                {reviews.length > 0 ? (
-                  <div className="space-y-4">
-                    {reviews.map((review) => (
-                      <ReviewCard key={review.id} review={review} />
-                    ))}
-                  </div>
-                ) : (
-                  <div className="text-center py-8">
-                    <MessageSquare className="w-12 h-12 text-neutral-300 mx-auto mb-4" />
-                    <p className="text-neutral-500">No reviews yet. Be the first to leave a review!</p>
-                  </div>
-                )}
-              </div>
+              <ReviewsSection
+                reviews={reviews}
+                rating={rating}
+                reviewCount={reviewCount}
+                operatorName={operator.businessName}
+                serviceAreas={serviceAreas}
+              />
             </div>
 
             {/* Sidebar */}
