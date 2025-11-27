@@ -1,53 +1,62 @@
 'use client';
 
-import { MapPin, Navigation } from 'lucide-react';
+import { MapPin, Navigation, Phone, ExternalLink } from 'lucide-react';
 
 /**
- * Google Maps Embed Component
+ * Google Maps Embed Component - SEO Optimized
  *
- * Uses the free Google Maps Embed API which doesn't require an API key
- * for basic place/search embeds. For production with high traffic,
- * consider adding an API key for better quotas.
+ * Uses the standard Google Maps iframe embed code for maximum SEO benefit.
  *
- * Benefits for SEO:
+ * SEO Benefits:
  * - Improves local relevance signals for search engines
  * - Links to Google Business Profile
  * - Increases user engagement and dwell time
  * - Builds trust with visible location
+ * - Supports NAP (Name, Address, Phone) consistency
+ *
+ * Best Practices Implemented:
+ * - Responsive iframe with CSS
+ * - loading="lazy" for performance
+ * - Get Directions link opens in Google Maps app on mobile
+ * - Click-to-call functionality
+ * - Crawlable NAP text
  */
 export default function GoogleMap({
   address,
   businessName,
   suburb,
   postcode,
+  phone,
+  state = 'NSW',
   className = '',
-  height = '300px'
+  height = '300px',
+  showNAP = true
 }) {
   // Construct the full address for the map query
   const fullAddress = address
-    ? `${address}${postcode ? `, ${postcode}` : ''}, Australia`
-    : `${businessName}, ${suburb} NSW Australia`;
+    ? `${address}, ${suburb || ''} ${state} ${postcode || ''}, Australia`.replace(/\s+/g, ' ').trim()
+    : `${businessName}, ${suburb || 'Sydney'} ${state} Australia`;
 
-  // URL encode the address for the embed
+  // URL encode for the embed
   const encodedAddress = encodeURIComponent(fullAddress);
-  const encodedBusinessName = encodeURIComponent(businessName);
+  const encodedBusinessName = encodeURIComponent(businessName || '');
+  const encodedSuburb = encodeURIComponent(suburb || 'Sydney');
 
-  // Google Maps Embed URL (free, no API key required for basic embeds)
-  // Using 'place' mode to show a marker at the location
+  // Google Maps Embed URL - using place mode for business marker
   const mapUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodedAddress}`;
 
-  // Alternative: Search mode if you want to show the business name
-  // const mapUrl = `https://www.google.com/maps/embed/v1/search?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodedBusinessName}+${encodeURIComponent(suburb)}+NSW`;
-
-  // Google Maps directions URL for the button
+  // Google Maps directions URL - opens in Google Maps app on mobile
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodedAddress}`;
 
   // Google Maps search URL to find the business
-  const searchUrl = `https://www.google.com/maps/search/?api=1&query=${encodedBusinessName}+${encodeURIComponent(suburb)}+NSW`;
+  const searchUrl = `https://www.google.com/maps/search/?api=1&query=${encodedBusinessName}+${encodedSuburb}+${state}`;
+
+  // Format phone for tel: link
+  const phoneClean = phone?.replace(/\s/g, '') || '';
 
   return (
-    <div className={`rounded-xl overflow-hidden border border-neutral-200 bg-white ${className}`}>
-      {/* Map Header */}
+    <div className={`rounded-xl overflow-hidden border border-neutral-200 bg-white shadow-sm ${className}`}>
+      {/* Map Header with Get Directions */}
       <div className="flex items-center justify-between p-4 border-b border-neutral-100">
         <div className="flex items-center gap-2">
           <MapPin className="w-5 h-5 text-primary-600" />
@@ -57,43 +66,77 @@ export default function GoogleMap({
           href={directionsUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 text-sm text-primary-600 hover:text-primary-700 font-medium"
+          className="flex items-center gap-1.5 text-sm text-primary-600 hover:text-primary-700 font-medium transition-colors"
+          aria-label={`Get directions to ${businessName}`}
         >
           <Navigation className="w-4 h-4" />
           Get Directions
         </a>
       </div>
 
-      {/* Map Embed */}
-      <div style={{ height }} className="relative">
+      {/* Responsive Map Embed with lazy loading */}
+      <div
+        style={{ height }}
+        className="relative w-full"
+      >
         <iframe
           src={mapUrl}
           width="100%"
           height="100%"
-          style={{ border: 0 }}
+          style={{ border: 0, width: '100%', height: '100%' }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title={`Map showing location of ${businessName}`}
+          title={`Map showing location of ${businessName} in ${suburb || 'Sydney'}`}
           className="absolute inset-0"
+          aria-label={`Google Map showing ${businessName} location`}
         />
       </div>
 
-      {/* Address Footer */}
-      <div className="p-4 bg-neutral-50">
-        <p className="text-sm text-neutral-600">
-          {address || `${businessName}, ${suburb}`}
-          {postcode && ` ${postcode}`}
-        </p>
-        <a
-          href={searchUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm text-primary-600 hover:text-primary-700 font-medium mt-1 inline-block"
-        >
-          View on Google Maps
-        </a>
-      </div>
+      {/* NAP (Name, Address, Phone) Section - Crawlable text for SEO */}
+      {showNAP && (
+        <div className="p-4 bg-neutral-50 space-y-3">
+          {/* Business Name */}
+          <p className="font-semibold text-neutral-900" itemProp="name">
+            {businessName}
+          </p>
+
+          {/* Address - crawlable plain text */}
+          <address className="text-sm text-neutral-600 not-italic" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+            {address && <span itemProp="streetAddress">{address}</span>}
+            {address && <br />}
+            <span itemProp="addressLocality">{suburb || 'Sydney'}</span>
+            {postcode && <>, <span itemProp="postalCode">{postcode}</span></>}
+            {' '}<span itemProp="addressRegion">{state}</span>
+            {' '}<span itemProp="addressCountry">Australia</span>
+          </address>
+
+          {/* Click-to-call button */}
+          {phone && (
+            <a
+              href={`tel:${phoneClean}`}
+              className="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-medium text-sm"
+              itemProp="telephone"
+              aria-label={`Call ${businessName} at ${phone}`}
+            >
+              <Phone className="w-4 h-4" />
+              {phone}
+            </a>
+          )}
+
+          {/* View on Google Maps link */}
+          <a
+            href={searchUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-sm text-primary-600 hover:text-primary-700 font-medium transition-colors"
+            aria-label={`View ${businessName} on Google Maps`}
+          >
+            <ExternalLink className="w-4 h-4" />
+            View on Google Maps
+          </a>
+        </div>
+      )}
     </div>
   );
 }

@@ -351,14 +351,17 @@ export default function OperatorPage({ params }) {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              {/* Contact Card */}
-              <div className="card p-6">
+              {/* Contact Card - with microdata for NAP consistency */}
+              <div className="card p-6" itemScope itemType="https://schema.org/LocalBusiness">
+                <meta itemProp="name" content={operator.businessName} />
                 <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-4">Contact</h3>
                 <div className="space-y-4">
                   {operator.phone && (
                     <a
                       href={`tel:${operator.phone.replace(/\s/g, '')}`}
                       className="flex items-center gap-3 p-3 rounded-xl bg-primary-50 text-primary-700 hover:bg-primary-100 transition-colors"
+                      itemProp="telephone"
+                      aria-label={`Call ${operator.businessName}`}
                     >
                       <Phone className="w-5 h-5" />
                       <span className="font-medium">{operator.phone}</span>
@@ -369,6 +372,8 @@ export default function OperatorPage({ params }) {
                     <a
                       href={`mailto:${operator.email}`}
                       className="flex items-center gap-3 p-3 rounded-xl bg-neutral-100 text-neutral-700 hover:bg-neutral-200 transition-colors"
+                      itemProp="email"
+                      aria-label={`Email ${operator.businessName}`}
                     >
                       <Mail className="w-5 h-5" />
                       <span className="text-sm">{operator.email}</span>
@@ -381,6 +386,8 @@ export default function OperatorPage({ params }) {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-3 p-3 rounded-xl bg-neutral-100 text-neutral-700 hover:bg-neutral-200 transition-colors"
+                      itemProp="url"
+                      aria-label={`Visit ${operator.businessName} website`}
                     >
                       <Globe className="w-5 h-5" />
                       <span className="text-sm">Visit Website</span>
@@ -390,12 +397,14 @@ export default function OperatorPage({ params }) {
                 </div>
               </div>
 
-              {/* Google Map for SEO */}
+              {/* Google Map for SEO - with NAP consistency */}
               <GoogleMap
                 address={operator.address}
                 businessName={operator.businessName}
-                suburb={operator.serviceAreas[0] ? suburbs.find(s => s.slug === operator.serviceAreas[0])?.name : ''}
+                suburb={operator.suburb || (operator.serviceAreas[0] ? suburbs.find(s => s.slug === operator.serviceAreas[0])?.name : 'Sydney')}
                 postcode={operator.postcode}
+                phone={operator.phone}
+                showNAP={true}
               />
 
               {/* Working Hours */}
