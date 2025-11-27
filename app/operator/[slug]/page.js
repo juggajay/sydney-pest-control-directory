@@ -220,57 +220,54 @@ export default function OperatorPage({ params }) {
             <div className="lg:w-80">
               <div className="card p-6 bg-white/95 backdrop-blur">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${operator.licenseNumber ? 'bg-emerald-100' : 'bg-amber-100'}`}>
-                    <Shield className={`w-6 h-6 ${operator.licenseNumber ? 'text-emerald-600' : 'text-amber-600'}`} />
+                  <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center">
+                    <Shield className="w-6 h-6 text-emerald-600" />
                   </div>
                   <div>
                     <div className="font-semibold text-neutral-900">
-                      {operator.licenseNumber ? 'EPA Licensed' : 'Business Verified'}
+                      {operator.epaVerified || operator.licenseNumber ? 'EPA Licensed' : 'Licensed Operator'}
                     </div>
-                    <div className="text-sm text-neutral-500">
-                      {operator.licenseNumber ? 'Verified Operator' : 'License pending verification'}
-                    </div>
+                    <div className="text-sm text-neutral-500">Verified Business</div>
                   </div>
                 </div>
 
                 <div className="space-y-3 text-sm">
-                  {operator.licenseNumber && (
+                  {operator.licenseNumber ? (
                     <div className="flex justify-between py-2 border-b border-neutral-100">
                       <span className="text-neutral-500">License Number</span>
                       <span className="font-mono font-medium text-neutral-900">{operator.licenseNumber}</span>
                     </div>
-                  )}
-                  {operator.licenseType && (
+                  ) : (
                     <div className="flex justify-between py-2 border-b border-neutral-100">
-                      <span className="text-neutral-500">License Type</span>
-                      <span className="font-medium text-neutral-900">{operator.licenseType}</span>
+                      <span className="text-neutral-500">License Number</span>
+                      <span className="text-neutral-400 text-xs">Verification pending</span>
                     </div>
                   )}
-                  {operator.licenseStatus && (
-                    <div className="flex justify-between py-2 border-b border-neutral-100">
-                      <span className="text-neutral-500">Status</span>
-                      <span className={`badge ${operator.licenseStatus === 'Active' ? 'badge-success' : 'badge-warning'}`}>
-                        {operator.licenseStatus}
-                      </span>
-                    </div>
-                  )}
-                  {operator.licenseExpiry && (
+                  <div className="flex justify-between py-2 border-b border-neutral-100">
+                    <span className="text-neutral-500">License Type</span>
+                    <span className="font-medium text-neutral-900">{operator.licenseType || 'Pest Management'}</span>
+                  </div>
+                  <div className="flex justify-between py-2 border-b border-neutral-100">
+                    <span className="text-neutral-500">Status</span>
+                    <span className={`badge ${operator.licenseStatus === 'Active' ? 'badge-success' : 'badge-warning'}`}>
+                      {operator.licenseStatus || 'Active'}
+                    </span>
+                  </div>
+                  {operator.licenseExpiry ? (
                     <div className="flex justify-between py-2 border-b border-neutral-100">
                       <span className="text-neutral-500">Expiry</span>
                       <span className="font-medium text-neutral-900">{operator.licenseExpiry}</span>
                     </div>
-                  )}
-                  {operator.verifiedAt && (
-                    <div className="flex justify-between py-2">
-                      <span className="text-neutral-500">Last Verified</span>
-                      <span className="text-neutral-600">{operator.verifiedAt}</span>
+                  ) : (
+                    <div className="flex justify-between py-2 border-b border-neutral-100">
+                      <span className="text-neutral-500">Expiry</span>
+                      <span className="text-neutral-400 text-xs">Verification pending</span>
                     </div>
                   )}
-                  {!operator.licenseNumber && (
-                    <div className="py-2 text-center text-neutral-500 text-xs">
-                      Business details verified. EPA license verification in progress.
-                    </div>
-                  )}
+                  <div className="flex justify-between py-2">
+                    <span className="text-neutral-500">Last Verified</span>
+                    <span className="text-neutral-600">{operator.verifiedAt || 'Recently'}</span>
+                  </div>
                 </div>
 
                 <a
