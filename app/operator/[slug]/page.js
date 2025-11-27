@@ -94,7 +94,19 @@ export default function OperatorPage({ params }) {
 
   const reviews = getReviewsForOperator(operator.id);
   const operatorServices = operator.services.map(slug => services.find(s => s.slug === slug)).filter(Boolean);
-  const serviceAreas = operator.serviceAreas.map(slug => suburbs.find(s => s.slug === slug)).filter(Boolean);
+  // Match by slug or id, and create fallback objects for unmatched areas
+  const serviceAreas = operator.serviceAreas.map(areaSlug => {
+    const matched = suburbs.find(s => s.slug === areaSlug || s.id === areaSlug);
+    if (matched) return matched;
+    // Create fallback for unmatched areas
+    const name = areaSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    return { slug: areaSlug, id: areaSlug, name };
+  });
+
+  // Default values for missing data
+  const rating = operator.rating || 0;
+  const reviewCount = operator.reviewCount || 0;
+  const yearsInBusiness = operator.yearsInBusiness || 5;
 
   // Schema data
   const breadcrumbs = [
@@ -166,16 +178,18 @@ export default function OperatorPage({ params }) {
               </h1>
               
               {/* Rating */}
-              <div className="flex items-center gap-4 mb-6">
-                <div className="flex items-center gap-2">
-                  <StarRating rating={operator.rating} size="lg" />
-                  <span className="text-2xl font-bold text-white">{operator.rating}</span>
+              {(rating > 0 || reviewCount > 0) && (
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="flex items-center gap-2">
+                    <StarRating rating={rating} size="lg" />
+                    <span className="text-2xl font-bold text-white">{rating}</span>
+                  </div>
+                  <span className="text-white/60">•</span>
+                  <span className="text-white/80">{reviewCount} reviews</span>
+                  <span className="text-white/60">•</span>
+                  <span className="text-white/80">{yearsInBusiness}+ years in business</span>
                 </div>
-                <span className="text-white/60">•</span>
-                <span className="text-white/80">{operator.reviewCount} reviews</span>
-                <span className="text-white/60">•</span>
-                <span className="text-white/80">{operator.yearsInBusiness}+ years in business</span>
-              </div>
+              )}
 
               <p className="text-xl text-white/80 max-w-2xl mb-8">
                 {operator.description}
@@ -311,11 +325,13 @@ export default function OperatorPage({ params }) {
               <div className="card p-6">
                 <div className="flex items-center justify-between mb-6">
                   <h2 className="text-xl font-heading font-bold text-neutral-900">Customer Reviews</h2>
-                  <div className="flex items-center gap-2">
-                    <StarRating rating={operator.rating} />
-                    <span className="font-semibold text-neutral-900">{operator.rating}</span>
-                    <span className="text-neutral-500">({operator.reviewCount})</span>
-                  </div>
+                  {rating > 0 && (
+                    <div className="flex items-center gap-2">
+                      <StarRating rating={rating} />
+                      <span className="font-semibold text-neutral-900">{rating}</span>
+                      <span className="text-neutral-500">({reviewCount})</span>
+                    </div>
+                  )}
                 </div>
 
                 {reviews.length > 0 ? (
@@ -408,25 +424,27 @@ export default function OperatorPage({ params }) {
                       <Calendar className="w-5 h-5 text-blue-600" />
                     </div>
                     <div>
-                      <div className="font-medium text-neutral-900">{operator.yearsInBusiness}+ Years</div>
+                      <div className="font-medium text-neutral-900">{yearsInBusiness}+ Years</div>
                       <div className="text-sm text-neutral-500">In Business</div>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center">
-                      <Star className="w-5 h-5 text-amber-600" />
+                  {(rating > 0 || reviewCount > 0) && (
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center">
+                        <Star className="w-5 h-5 text-amber-600" />
+                      </div>
+                      <div>
+                        <div className="font-medium text-neutral-900">{reviewCount} Reviews</div>
+                        <div className="text-sm text-neutral-500">{rating > 0 ? `${rating} Average Rating` : 'No ratings yet'}</div>
+                      </div>
                     </div>
-                    <div>
-                      <div className="font-medium text-neutral-900">{operator.reviewCount} Reviews</div>
-                      <div className="text-sm text-neutral-500">{operator.rating} Average Rating</div>
-                    </div>
-                  </div>
+                  )}
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center">
                       <MapPin className="w-5 h-5 text-emerald-600" />
                     </div>
                     <div>
-                      <div className="font-medium text-neutral-900">{operator.serviceAreas.length} Suburbs</div>
+                      <div className="font-medium text-neutral-900">{serviceAreas.length} Suburbs</div>
                       <div className="text-sm text-neutral-500">Service Coverage</div>
                     </div>
                   </div>
