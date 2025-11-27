@@ -37,9 +37,13 @@ export async function generateMetadata({ params }) {
 
   const operators = getOperatorsForSuburb(suburb.slug || suburb.id);
 
+  const commonPestsText = suburb.commonPests?.length > 0
+    ? suburb.commonPests.slice(0, 2).join(' & ') + ' treatment'
+    : 'pest treatment';
+
   const baseMeta = genMeta({
     title: `Pest Control ${suburb.name} ${suburb.postcode} - ${operators.length}+ Licensed Operators`,
-    description: `Find licensed pest control in ${suburb.name} ${suburb.postcode}. Compare ${operators.length}+ EPA-verified operators for ${suburb.commonPests.slice(0, 2).join(' & ')} treatment. Free quotes today!`,
+    description: `Find licensed pest control in ${suburb.name} ${suburb.postcode}. Compare ${operators.length}+ EPA-verified operators for ${commonPestsText}. Free quotes today!`,
     path: `/pest-control/${suburb.slug}`,
   });
 
@@ -107,7 +111,7 @@ function OperatorCard({ operator, suburb }) {
 
       {/* Services offered */}
       <div className="flex flex-wrap gap-2 mb-4">
-        {operator.services.slice(0, 4).map((serviceSlug) => {
+        {(operator.services || []).slice(0, 4).map((serviceSlug) => {
           const service = services.find(s => s.slug === serviceSlug);
           return service ? (
             <span key={serviceSlug} className="px-2 py-1 bg-primary-50 rounded-md text-xs text-primary-700">
@@ -115,7 +119,7 @@ function OperatorCard({ operator, suburb }) {
             </span>
           ) : null;
         })}
-        {operator.services.length > 4 && (
+        {(operator.services?.length || 0) > 4 && (
           <span className="px-2 py-1 bg-neutral-100 rounded-md text-xs text-neutral-600">
             +{operator.services.length - 4} more
           </span>
@@ -220,7 +224,7 @@ export default function SuburbPage({ params }) {
     },
     {
       question: `What are the most common pests in ${suburb.name}?`,
-      answer: `The most common pests in ${suburb.name} include ${suburb.commonPests.join(', ')}. ${suburb.description}`,
+      answer: `The most common pests in ${suburb.name} include ${(suburb.commonPests || ['cockroaches', 'rodents', 'ants', 'spiders']).join(', ')}. ${suburb.description || ''}`,
     },
     {
       question: `How do I find a licensed pest controller in ${suburb.name}?`,
@@ -370,7 +374,7 @@ export default function SuburbPage({ params }) {
                   Based on common pest issues in {suburb.name}:
                 </p>
                 <div className="space-y-2">
-                  {suburb.commonPests.slice(0, 4).map((pest) => {
+                  {(suburb.commonPests || ['cockroaches', 'rodents', 'ants', 'spiders']).slice(0, 4).map((pest) => {
                     const pestServiceMap = {
                       'termites': { slug: 'termite-inspection', name: 'Termite Inspection' },
                       'cockroaches': { slug: 'cockroach-control', name: 'Cockroach Control' },
@@ -413,7 +417,7 @@ export default function SuburbPage({ params }) {
                   Common Pests in {suburb.name}
                 </h3>
                 <div className="space-y-3">
-                  {suburb.commonPests.map((pest) => (
+                  {(suburb.commonPests || ['cockroaches', 'rodents', 'ants', 'spiders']).map((pest) => (
                     <PestCard key={pest} pest={pest} />
                   ))}
                 </div>
