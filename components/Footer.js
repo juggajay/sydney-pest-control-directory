@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Shield, Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Shield, Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Zap } from 'lucide-react';
+import { siteConfig } from '../lib/seo';
 
 const footerLinks = {
   services: [
@@ -53,28 +54,28 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-xl bg-primary-500 flex items-center justify-center">
-                <Shield className="w-5 h-5 text-white" />
+                <Zap className="w-5 h-5 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-lg text-white">PestFind</span>
-                <span className="block text-xs text-neutral-400">Sydney's Pest Control Directory</span>
+                <span className="font-heading font-bold text-lg text-white">Pest<Zap className="inline w-4 h-4 text-amber-400" />Arrest</span>
+                <span className="block text-xs text-neutral-400">Sydney's Trusted Pest Control</span>
               </div>
             </Link>
             <p className="text-sm text-neutral-400 mb-4 max-w-xs">
-              Australia's most trusted pest control directory. Find EPA-verified operators and get free quotes from licensed professionals.
+              Sydney's most trusted pest control directory. Find EPA-verified operators and get free quotes from licensed professionals.
             </p>
             <p className="text-xs text-neutral-500 mb-6">
               ABN: 12 345 678 901 | Established 2024
             </p>
             
             <div className="space-y-3">
-              <a href="tel:1300737834" className="flex items-center gap-3 text-sm hover:text-white transition-colors">
+              <a href="tel:1300277378" className="flex items-center gap-3 text-sm hover:text-white transition-colors">
                 <Phone className="w-4 h-4 text-primary-400" />
-                1300 PEST FIND
+                {siteConfig.phone}
               </a>
-              <a href="mailto:hello@sydneypestcontrol.com.au" className="flex items-center gap-3 text-sm hover:text-white transition-colors">
+              <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-3 text-sm hover:text-white transition-colors">
                 <Mail className="w-4 h-4 text-primary-400" />
-                hello@sydneypestcontrol.com.au
+                {siteConfig.email}
               </a>
               <div className="flex items-center gap-3 text-sm">
                 <MapPin className="w-4 h-4 text-primary-400" />
@@ -189,7 +190,7 @@ export default function Footer() {
       <div className="border-t border-neutral-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-neutral-500">
-            <p>© {new Date().getFullYear()} Sydney Pest Control Directory. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
             <p>
               All pest control operators are independently licensed by the{' '}
               <a href="https://www.epa.nsw.gov.au" target="_blank" rel="noopener noreferrer" className="text-primary-400 hover:text-primary-300 transition-colors">

@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, ChevronDown, Phone, Shield, Bug, Search, MapPin } from 'lucide-react';
+import { Menu, X, ChevronDown, Phone, Shield, Bug, Search, MapPin, Zap } from 'lucide-react';
+import { siteConfig } from '../lib/seo';
 
 const services = [
   { name: 'General Pest Control', href: '/services/general-pest-control', icon: Bug },
@@ -48,18 +49,18 @@ export default function Header() {
             <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${
               isScrolled ? 'bg-primary-500' : 'bg-white/20 backdrop-blur'
             }`}>
-              <Shield className={`w-5 h-5 ${isScrolled ? 'text-white' : 'text-white'}`} />
+              <Zap className={`w-5 h-5 ${isScrolled ? 'text-white' : 'text-white'}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-lg transition-colors ${
                 isScrolled ? 'text-primary-600' : 'text-white'
               }`}>
-                PestFind
+                Pest<Zap className="inline w-4 h-4 text-amber-400" />Arrest
               </span>
               <span className={`hidden sm:block text-xs transition-colors ${
                 isScrolled ? 'text-neutral-500' : 'text-white/70'
               }`}>
-                Sydney's Pest Control Directory
+                Sydney's Trusted Pest Control
               </span>
             </div>
           </Link>
@@ -187,7 +188,7 @@ export default function Header() {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:1300737834"
+              href="tel:1300277378"
               className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm transition-colors ${
                 isScrolled
                   ? 'text-neutral-700 hover:text-primary-600'
@@ -195,7 +196,7 @@ export default function Header() {
               }`}
             >
               <Phone className="w-4 h-4" />
-              <span className="hidden xl:inline">1300 PEST FIND</span>
+              <span className="hidden xl:inline">{siteConfig.phone}</span>
             </a>
             <Link
               href="/quote"
@@ -276,11 +277,11 @@ export default function Header() {
 
             <div className="border-t border-neutral-100 pt-4 flex flex-col gap-3">
               <a
-                href="tel:1300737834"
+                href="tel:1300277378"
                 className="flex items-center justify-center gap-2 p-3 rounded-xl border border-neutral-200 text-neutral-700 font-medium"
               >
                 <Phone className="w-4 h-4" />
-                1300 PEST FIND
+                {siteConfig.phone}
               </a>
               <Link
                 href="/quote"
