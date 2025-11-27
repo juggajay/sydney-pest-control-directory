@@ -24,7 +24,7 @@ function StarRating({ rating }) {
 }
 
 function OperatorCard({ operator, services }) {
-  const operatorServices = operator.services.map(slug => services.find(s => s.slug === slug)).filter(Boolean);
+  const operatorServices = (operator.services || []).map(slug => services.find(s => s.slug === slug)).filter(Boolean);
 
   return (
     <div className={`card p-6 ${operator.featured ? 'card-premium' : ''}`}>
