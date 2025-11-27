@@ -1,31 +1,31 @@
 {
-  "id": 70,
-  "slug": "penrith-pest-control",
-  "businessName": "Penrith Pest Control",
-  "tradingName": "Penrith Pest Control",
+  "id": 224,
+  "slug": "call-pest-blockers-pest-control",
+  "businessName": "Call Pest Blockers Pest Control",
+  "tradingName": "Call Pest Blockers Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
   "licenseExpiry": null,
   "epaVerified": false,
   "verifiedAt": "2025-11-27",
-  "phone": "0427 907 199",
+  "phone": "0488 859 847",
   "phoneVerified": true,
   "email": null,
   "website": null,
   "websiteVerified": false,
   "address": null,
-  "suburb": "Penrith",
-  "postcode": "2750",
+  "suburb": "Auburn",
+  "postcode": "2144",
   "postcodeVerified": true,
   "region": "western",
-  "description": "Penrith Pest Control provides professional pest control services in Penrith and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Penrith. Licensed & insured.",
+  "description": "Call Pest Blockers Pest Control provides professional pest control services in Auburn and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Auburn. Licensed & insured.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
-    "penrith"
+    "auburn"
   ],
   "rating": null,
   "ratingSource": null,
@@ -41,6 +41,6 @@
     "verifiedFields": 5,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T09:06:40.085Z"
   }
 }

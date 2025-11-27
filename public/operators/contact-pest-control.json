@@ -1,31 +1,31 @@
 {
-  "id": 70,
-  "slug": "penrith-pest-control",
-  "businessName": "Penrith Pest Control",
-  "tradingName": "Penrith Pest Control",
+  "id": 125,
+  "slug": "contact-pest-control",
+  "businessName": "Contact Pest Control",
+  "tradingName": "Contact Pest Control",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
   "licenseExpiry": null,
   "epaVerified": false,
   "verifiedAt": "2025-11-27",
-  "phone": "0427 907 199",
+  "phone": "02 3813 8764",
   "phoneVerified": true,
   "email": null,
   "website": null,
   "websiteVerified": false,
   "address": null,
-  "suburb": "Penrith",
-  "postcode": "2750",
+  "suburb": "Manly",
+  "postcode": "2095",
   "postcodeVerified": true,
-  "region": "western",
-  "description": "Penrith Pest Control provides professional pest control services in Penrith and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Penrith. Licensed & insured.",
+  "region": "northern-beaches",
+  "description": "Contact Pest Control provides professional pest control services in Manly and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Manly. Licensed & insured.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
-    "penrith"
+    "manly"
   ],
   "rating": null,
   "ratingSource": null,
@@ -41,6 +41,6 @@
     "verifiedFields": 5,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T09:06:40.085Z"
   }
 }

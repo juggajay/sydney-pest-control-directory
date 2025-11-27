@@ -1,0 +1,46 @@
+{
+  "id": 217,
+  "slug": "rippestcontrol",
+  "businessName": "Rippestcontrol",
+  "tradingName": "Rippestcontrol",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": "2025-11-27",
+  "phone": null,
+  "phoneVerified": false,
+  "email": null,
+  "website": "https://rippestcontrol.com.au",
+  "websiteVerified": true,
+  "address": null,
+  "suburb": "Camden",
+  "postcode": "2570",
+  "postcodeVerified": true,
+  "region": "macarthur",
+  "description": "Rippestcontrol provides professional pest control services in Camden and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Camden. Licensed & insured.",
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "camden"
+  ],
+  "rating": null,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 30,
+    "verifiedFields": 3,
+    "totalFields": 15,
+    "issues": [],
+    "lastVerified": "2025-11-27T09:06:40.085Z"
+  }
+}

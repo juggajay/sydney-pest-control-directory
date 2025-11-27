@@ -1,0 +1,46 @@
+{
+  "id": 130,
+  "slug": "mrpestcontroller",
+  "businessName": "Mrpestcontroller",
+  "tradingName": "Mrpestcontroller",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": "2025-11-27",
+  "phone": null,
+  "phoneVerified": false,
+  "email": null,
+  "website": "https://mrpestcontroller.com.au",
+  "websiteVerified": true,
+  "address": null,
+  "suburb": "Manly",
+  "postcode": "2095",
+  "postcodeVerified": true,
+  "region": "northern-beaches",
+  "description": "Mrpestcontroller provides professional pest control services in Manly and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Manly. Licensed & insured.",
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "manly"
+  ],
+  "rating": null,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 30,
+    "verifiedFields": 3,
+    "totalFields": 15,
+    "issues": [],
+    "lastVerified": "2025-11-27T09:06:40.085Z"
+  }
+}

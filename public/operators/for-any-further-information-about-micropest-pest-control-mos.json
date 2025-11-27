@@ -1,0 +1,46 @@
+{
+  "id": 182,
+  "slug": "for-any-further-information-about-micropest-pest-control-mos",
+  "businessName": "For any further information about Micropest pest control Mosman or the services",
+  "tradingName": "For any further information about Micropest pest control Mosman or the services",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": "2025-11-27",
+  "phone": "1300 243 377",
+  "phoneVerified": true,
+  "email": null,
+  "website": null,
+  "websiteVerified": false,
+  "address": null,
+  "suburb": "Mosman",
+  "postcode": "2088",
+  "postcodeVerified": true,
+  "region": "north-shore",
+  "description": "For any further information about Micropest pest control Mosman or the services provides professional pest control services in Mosman and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Mosman. Licensed & insured.",
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "mosman"
+  ],
+  "rating": null,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 50,
+    "verifiedFields": 5,
+    "totalFields": 15,
+    "issues": [],
+    "lastVerified": "2025-11-27T09:06:40.085Z"
+  }
+}

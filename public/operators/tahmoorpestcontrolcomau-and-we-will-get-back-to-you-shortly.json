@@ -1,0 +1,46 @@
+{
+  "id": 209,
+  "slug": "tahmoorpestcontrolcomau-and-we-will-get-back-to-you-shortly",
+  "businessName": "tahmoorpestcontrol.com.au and we will get back to you shortly.",
+  "tradingName": "tahmoorpestcontrol.com.au and we will get back to you shortly.",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": "2025-11-27",
+  "phone": "0412 286 180",
+  "phoneVerified": true,
+  "email": null,
+  "website": null,
+  "websiteVerified": false,
+  "address": null,
+  "suburb": "Campbelltown",
+  "postcode": "2560",
+  "postcodeVerified": true,
+  "region": "macarthur",
+  "description": "tahmoorpestcontrol.com.au and we will get back to you shortly. provides professional pest control services in Campbelltown and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Campbelltown. Licensed & insured.",
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "campbelltown"
+  ],
+  "rating": null,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 50,
+    "verifiedFields": 5,
+    "totalFields": 15,
+    "issues": [],
+    "lastVerified": "2025-11-27T09:06:40.085Z"
+  }
+}

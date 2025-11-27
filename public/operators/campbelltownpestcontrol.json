@@ -1,0 +1,46 @@
+{
+  "id": 212,
+  "slug": "campbelltownpestcontrol",
+  "businessName": "Campbelltownpestcontrol",
+  "tradingName": "Campbelltownpestcontrol",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": "2025-11-27",
+  "phone": null,
+  "phoneVerified": false,
+  "email": null,
+  "website": "https://www.campbelltownpestcontrol.com.au",
+  "websiteVerified": true,
+  "address": null,
+  "suburb": "Campbelltown",
+  "postcode": "2560",
+  "postcodeVerified": true,
+  "region": "macarthur",
+  "description": "Campbelltownpestcontrol provides professional pest control services in Campbelltown and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Campbelltown. Licensed & insured.",
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "campbelltown"
+  ],
+  "rating": null,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 30,
+    "verifiedFields": 3,
+    "totalFields": 15,
+    "issues": [],
+    "lastVerified": "2025-11-27T09:06:40.085Z"
+  }
+}

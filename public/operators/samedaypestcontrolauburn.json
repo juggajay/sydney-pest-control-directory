@@ -1,0 +1,46 @@
+{
+  "id": 225,
+  "slug": "samedaypestcontrolauburn",
+  "businessName": "Samedaypestcontrolauburn",
+  "tradingName": "Samedaypestcontrolauburn",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": "2025-11-27",
+  "phone": null,
+  "phoneVerified": false,
+  "email": null,
+  "website": "https://samedaypestcontrolauburn.au",
+  "websiteVerified": true,
+  "address": null,
+  "suburb": "Auburn",
+  "postcode": "2144",
+  "postcodeVerified": true,
+  "region": "western",
+  "description": "Samedaypestcontrolauburn provides professional pest control services in Auburn and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Auburn. Licensed & insured.",
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "auburn"
+  ],
+  "rating": null,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 30,
+    "verifiedFields": 3,
+    "totalFields": 15,
+    "issues": [],
+    "lastVerified": "2025-11-27T09:06:40.085Z"
+  }
+}

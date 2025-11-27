@@ -1,0 +1,46 @@
+{
+  "id": 189,
+  "slug": "rippestmanagement",
+  "businessName": "Rippestmanagement",
+  "tradingName": "Rippestmanagement",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": "2025-11-27",
+  "phone": null,
+  "phoneVerified": false,
+  "email": null,
+  "website": "https://www.rippestmanagement.com.au",
+  "websiteVerified": true,
+  "address": null,
+  "suburb": "Lane Cove",
+  "postcode": "2066",
+  "postcodeVerified": true,
+  "region": "north-shore",
+  "description": "Rippestmanagement provides professional pest control services in Lane Cove and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Lane Cove. Licensed & insured.",
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "lane-cove"
+  ],
+  "rating": null,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 30,
+    "verifiedFields": 3,
+    "totalFields": 15,
+    "issues": [],
+    "lastVerified": "2025-11-27T09:06:40.085Z"
+  }
+}

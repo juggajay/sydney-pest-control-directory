@@ -1,31 +1,31 @@
 {
-  "id": 70,
-  "slug": "penrith-pest-control",
-  "businessName": "Penrith Pest Control",
-  "tradingName": "Penrith Pest Control",
+  "id": 193,
+  "slug": "goliathpestcontrol",
+  "businessName": "Goliathpestcontrol",
+  "tradingName": "Goliathpestcontrol",
   "licenseNumber": null,
   "licenseType": "Pest Management Technician",
   "licenseStatus": "Active",
   "licenseExpiry": null,
   "epaVerified": false,
   "verifiedAt": "2025-11-27",
-  "phone": "0427 907 199",
+  "phone": "1300 262 463",
   "phoneVerified": true,
   "email": null,
-  "website": null,
-  "websiteVerified": false,
+  "website": "https://goliathpestcontrol.com.au",
+  "websiteVerified": true,
   "address": null,
-  "suburb": "Penrith",
-  "postcode": "2750",
+  "suburb": "Ryde",
+  "postcode": "2112",
   "postcodeVerified": true,
-  "region": "western",
-  "description": "Penrith Pest Control provides professional pest control services in Penrith and surrounding areas. Licensed and insured.",
-  "shortDescription": "Professional pest control in Penrith. Licensed & insured.",
+  "region": "ryde",
+  "description": "Goliathpestcontrol provides professional pest control services in Ryde and surrounding areas. Licensed and insured.",
+  "shortDescription": "Professional pest control in Ryde. Licensed & insured.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
-    "penrith"
+    "ryde"
   ],
   "rating": null,
   "ratingSource": null,
@@ -41,6 +41,6 @@
     "verifiedFields": 5,
     "totalFields": 15,
     "issues": [],
-    "lastVerified": "2025-11-27T09:06:40.084Z"
+    "lastVerified": "2025-11-27T09:06:40.085Z"
   }
 }
