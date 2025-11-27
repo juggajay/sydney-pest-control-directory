@@ -216,7 +216,7 @@ export default function OperatorPage({ params }) {
               </div>
             </div>
 
-            {/* License Card */}
+            {/* License & Business Card */}
             <div className="lg:w-80">
               <div className="card p-6 bg-white/95 backdrop-blur">
                 <div className="flex items-center gap-3 mb-4">
@@ -225,7 +225,7 @@ export default function OperatorPage({ params }) {
                   </div>
                   <div>
                     <div className="font-semibold text-neutral-900">
-                      {operator.epaVerified || operator.licenseNumber ? 'EPA Licensed' : 'Licensed Operator'}
+                      {operator.licenseNumber ? 'EPA Licensed' : 'Licensed Operator'}
                     </div>
                     <div className="text-sm text-neutral-500">Verified Business</div>
                   </div>
@@ -237,12 +237,7 @@ export default function OperatorPage({ params }) {
                       <span className="text-neutral-500">License Number</span>
                       <span className="font-mono font-medium text-neutral-900">{operator.licenseNumber}</span>
                     </div>
-                  ) : (
-                    <div className="flex justify-between py-2 border-b border-neutral-100">
-                      <span className="text-neutral-500">License Number</span>
-                      <span className="text-neutral-400 text-xs">Verification pending</span>
-                    </div>
-                  )}
+                  ) : null}
                   <div className="flex justify-between py-2 border-b border-neutral-100">
                     <span className="text-neutral-500">License Type</span>
                     <span className="font-medium text-neutral-900">{operator.licenseType || 'Pest Management'}</span>
@@ -253,15 +248,28 @@ export default function OperatorPage({ params }) {
                       {operator.licenseStatus || 'Active'}
                     </span>
                   </div>
-                  {operator.licenseExpiry ? (
+                  {operator.licenseExpiry && (
                     <div className="flex justify-between py-2 border-b border-neutral-100">
                       <span className="text-neutral-500">Expiry</span>
                       <span className="font-medium text-neutral-900">{operator.licenseExpiry}</span>
                     </div>
-                  ) : (
+                  )}
+                  {operator.yearsInBusiness && (
                     <div className="flex justify-between py-2 border-b border-neutral-100">
-                      <span className="text-neutral-500">Expiry</span>
-                      <span className="text-neutral-400 text-xs">Verification pending</span>
+                      <span className="text-neutral-500">Experience</span>
+                      <span className="font-medium text-neutral-900">{operator.yearsInBusiness}+ years</span>
+                    </div>
+                  )}
+                  {operator.reviewCount > 0 && (
+                    <div className="flex justify-between py-2 border-b border-neutral-100">
+                      <span className="text-neutral-500">Reviews</span>
+                      <span className="font-medium text-neutral-900">{operator.reviewCount} verified</span>
+                    </div>
+                  )}
+                  {operator.serviceAreas && (
+                    <div className="flex justify-between py-2 border-b border-neutral-100">
+                      <span className="text-neutral-500">Service Areas</span>
+                      <span className="font-medium text-neutral-900">{operator.serviceAreas.length} suburbs</span>
                     </div>
                   )}
                   <div className="flex justify-between py-2">
