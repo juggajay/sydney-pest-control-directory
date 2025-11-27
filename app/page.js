@@ -4,7 +4,7 @@ import {
   Bug, CheckCircle, Users, Award, Zap, ArrowRight, Building,
   Home, TreeDeciduous, Waves
 } from 'lucide-react';
-import { suburbs, services, getFeaturedOperators, getRegions } from '../lib/data';
+import { suburbs, services, operators, getFeaturedOperators, getRegions } from '../lib/data';
 import { generateHowToSchema } from '../lib/seo';
 import SearchBox from '../components/SearchBox';
 
@@ -244,7 +244,7 @@ export default function HomePage() {
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight animate-fade-in-up">
               Pest Control Sydney
-              <span className="block text-accent-400">100+ EPA-Verified Operators</span>
+              <span className="block text-accent-400">{operators.length}+ EPA-Verified Operators</span>
             </h1>
 
             <p className="text-xl text-white/80 mb-10 max-w-2xl animate-fade-in-up animate-delay-100">
@@ -289,7 +289,7 @@ export default function HomePage() {
                 <Shield className="w-7 h-7 text-white" />
               </div>
               <div>
-                <div className="font-heading font-bold text-3xl text-neutral-900">100+</div>
+                <div className="font-heading font-bold text-3xl text-neutral-900">{operators.length}+</div>
                 <div className="text-sm font-medium text-neutral-600">Licensed Operators</div>
               </div>
             </div>

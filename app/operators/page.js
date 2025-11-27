@@ -3,10 +3,14 @@ import { ChevronRight } from 'lucide-react';
 import { operators, suburbs, services, getRegions } from '../../lib/data';
 import OperatorsList from '../../components/OperatorsList';
 
-export const metadata = {
-  title: 'Find Pest Control Operators Sydney | Sydney Pest Control Directory',
-  description: 'Browse 100+ EPA-licensed pest control operators serving Sydney. All operators verified against the NSW EPA register. Compare ratings, reviews, and services.',
-};
+// Dynamic metadata handled via generateMetadata
+export async function generateMetadata() {
+  const { operators } = await import('../../lib/data');
+  return {
+    title: 'Find Pest Control Operators Sydney | Sydney Pest Control Directory',
+    description: `Browse ${operators.length}+ EPA-licensed pest control operators serving Sydney. All operators verified against the NSW EPA register. Compare ratings, reviews, and services.`,
+  };
+}
 
 export default function OperatorsPage() {
   const regions = getRegions();
