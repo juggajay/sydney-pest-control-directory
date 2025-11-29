@@ -28,7 +28,7 @@ export const metadata = {
     description: 'Find EPA-verified pest control services across Sydney. Compare quotes from 200+ licensed operators.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: siteConfig.name,
@@ -39,7 +39,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: siteConfig.name,
     description: 'Find EPA-verified pest control services across Sydney',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
