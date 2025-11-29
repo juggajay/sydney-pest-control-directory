@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllSuburbs, getAllOperatorSlugs } from '../lib/data';
 
-const BASE_URL = 'https://sydneypestcontrol.com.au';
+const BASE_URL = 'https://pestarrest.com.au';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date().toISOString();

@@ -53,7 +53,7 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: 'c79vysvVsb8e97AKNEJCyBiZtOlAcNtA7EUvO0UjUSw',
   },
 };
 

@@ -1,0 +1,32 @@
+{
+  "name": "Pest Arrest - Sydney Pest Control Directory",
+  "short_name": "Pest Arrest",
+  "description": "Find licensed pest control services in Sydney. Compare quotes from 200+ EPA-verified operators.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a5d3a",
+  "theme_color": "#1a5d3a",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "apple touch icon"
+    }
+  ],
+  "categories": ["business", "utilities"],
+  "lang": "en-AU",
+  "dir": "ltr",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}
