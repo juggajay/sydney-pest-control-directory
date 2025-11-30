@@ -457,31 +457,32 @@ export const blogPosts = [
   // Blog Post 3: Spring Pest Prevention
   {
     slug: 'spring-pest-prevention-checklist-sydney',
-    title: 'Spring Pest Prevention Checklist for Sydney Homeowners (2024)',
+    title: 'Spring Pest Prevention Checklist for Sydney Homeowners (2025)',
     excerpt: 'Spring is peak pest season in Sydney. Our expert checklist covers termite swarm prevention, cockroach control, spider management, and rodent exclusion before summer arrives.',
-    seo_title: 'Spring Pest Prevention Checklist Sydney 2024 | Seasonal Guide',
+    seo_title: 'Spring Pest Prevention Checklist Sydney 2025 | Seasonal Guide',
     seo_description: 'Prepare your Sydney home for spring pest season. Expert checklist for termite swarms, cockroaches, spiders & rodents. Prevention tips from EPA-licensed professionals.',
     category: 'seasonal',
     tags: ['spring pests', 'pest prevention', 'termite season', 'seasonal pest control', 'cockroach season'],
-    author_name: 'Sarah Mitchell',
-    author_role: 'Content Director, Pest Arrest',
-    author_bio: 'Sarah leads content strategy at Pest Arrest, working daily with 700+ EPA-licensed operators across Sydney.',
-    reviewer_name: 'James Wilson',
-    reviewer_role: 'EPA Licensed Pest Controller',
-    reviewer_license: 'PMT-18756',
-    reviewer_license_type: 'Pest Management Technician',
-    reviewer_years_experience: 15,
-    reviewer_specialization: 'Integrated Pest Management',
+    author_name: 'Pest Arrest Team',
+    author_role: null,
+    author_bio: 'Written by the Pest Arrest team in consultation with EPA-licensed pest controllers across Sydney.',
+    author_linkedin: null,
+    reviewer_name: null,
+    reviewer_role: null,
+    reviewer_license: null,
+    reviewer_license_type: null,
+    reviewer_years_experience: null,
+    reviewer_specialization: null,
     published_at: '2024-09-01T09:00:00Z',
-    updated_at: '2024-11-25T11:00:00Z',
-    last_fact_checked: '2024-11-25T11:00:00Z',
+    updated_at: '2024-11-30T10:00:00Z',
+    last_fact_checked: '2024-11-30T10:00:00Z',
     reading_time_minutes: 8,
     word_count: 2000,
     related_services: ['general-pest-control', 'termite-inspection'],
     related_suburbs: ['bondi', 'parramatta', 'newtown', 'manly', 'chatswood'],
     sources: [
-      { title: 'Seasonal Pest Activity in Sydney', publisher: 'CSIRO', url: 'https://www.csiro.au' },
-      { title: 'Climate and Pest Behaviour', publisher: 'Bureau of Meteorology', url: 'http://www.bom.gov.au' },
+      { title: 'Termites in Australia', publisher: 'CSIRO', url: 'https://www.csiro.au/en/research/animals/insects/termites' },
+      { title: 'Pesticide Licensing - Pest Management', publisher: 'NSW Environment Protection Authority', url: 'https://www.epa.nsw.gov.au/licensing-and-regulation/licences-concurrences-certifications/pesticide-licences' },
     ],
     faqs: [
       {
@@ -502,11 +503,21 @@ export const blogPosts = [
       <p>As Sydney temperatures climb from September onwards, pest activity increases dramatically. Warmer weather triggers breeding cycles, while increased humidity creates ideal conditions for many pest species.</p>
       <p>Our platform data shows <strong>pest control enquiries increase 45%</strong> between September and November compared to winter months. Being proactive now saves you from dealing with established infestations later.</p>
 
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/sydney-pest-calendar-seasonal-activity.png" alt="Sydney pest calendar infographic showing seasonal activity levels for termites, cockroaches, spiders, rodents, and ants throughout the year with spring highlighted as best time for preventive treatment" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">When Sydney pests are most active — spring is the ideal time for preventive treatment.</figcaption>
+      </figure>
+
       <h2 id="checklist">Your Spring Prevention Checklist</h2>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/spring-pest-prevention-checklist-sydney.png" alt="Spring pest prevention checklist for Sydney homeowners showing four weeks of tasks including exterior inspection, moisture control, entry point sealing, and professional inspection" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Your 4-week spring pest prevention checklist — save or print for reference.</figcaption>
+      </figure>
 
       <h3>Week 1: Exterior Inspection</h3>
       <ul>
-        <li>☐ Walk around your home and check for termite mud tubes on foundations</li>
+        <li>☐ Walk around your home and check for <a href="/blog/how-to-identify-termites-sydney">termite mud tubes</a> on foundations</li>
         <li>☐ Inspect weep holes - ensure they're not blocked (don't seal them)</li>
         <li>☐ Check for gaps around pipes, cables, and vents entering your home</li>
         <li>☐ Clear debris, leaves, and mulch from against walls (30cm gap minimum)</li>
@@ -535,8 +546,8 @@ export const blogPosts = [
 
       <h3>Week 4: Professional Inspection</h3>
       <ul>
-        <li>☐ Book annual termite inspection before peak swarm season</li>
-        <li>☐ Consider general pest treatment as preventive measure</li>
+        <li>☐ <a href="/services/termite-inspection">Book annual termite inspection</a> before peak swarm season</li>
+        <li>☐ Consider <a href="/services/general-pest-control">general pest treatment</a> as preventive measure</li>
         <li>☐ Request inspection of roof void and subfloor if accessible</li>
       </ul>
 
@@ -555,10 +566,10 @@ export const blogPosts = [
         <li>Don't panic - swarmers themselves don't cause damage</li>
         <li>Try to capture a few for identification</li>
         <li>Note where you saw them (may indicate nearby colony)</li>
-        <li>Book a professional inspection within 1-2 weeks</li>
+        <li><a href="/services/termite-inspection">Book a professional termite inspection</a> within 1-2 weeks</li>
       </ol>
 
-      <h2 id="cockroaches">Cockroach Prevention</h2>
+      <h2 id="cockroaches"><a href="/services/cockroach-control">Cockroach Prevention</a></h2>
       <p>Cockroach activity increases significantly as temperatures rise. German cockroaches in particular breed rapidly in warm conditions.</p>
 
       <h3>Prevention Steps</h3>
@@ -583,7 +594,7 @@ export const blogPosts = [
         <li>Keep garage and shed areas tidy</li>
       </ul>
 
-      <h2 id="rodents">Rodent Exclusion</h2>
+      <h2 id="rodents"><a href="/services/rodent-control">Rodent Exclusion</a></h2>
       <p>As natural food sources increase in spring, rodents may be less visible - but this is the time to prevent them establishing before winter drives them inside.</p>
 
       <h3>Exclusion Checklist</h3>
@@ -600,11 +611,24 @@ export const blogPosts = [
       <ul>
         <li>See any signs of termite activity</li>
         <li>Notice increased cockroach sightings</li>
-        <li>Haven't had a termite inspection in over 12 months</li>
+        <li>Haven't had a <a href="/services/termite-inspection">termite inspection</a> in over 12 months</li>
         <li>Live in a high-risk area (near bushland, older home)</li>
         <li>Are preparing property for sale</li>
       </ul>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/spring-pest-control-warning-signs.png" alt="Infographic showing 5 warning signs you need pest control including termite mud tubes, cockroach sightings, flying insects at dusk, spider webs, and 12 plus months since last inspection" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">5 signs it's time to call a professional pest controller.</figcaption>
+      </figure>
+
       <p>Preventive treatment in spring costs less and is more effective than treating established infestations in summer.</p>
+
+      <div style="background: linear-gradient(135deg, #1a5d3a 0%, #2d8a5e 100%); border-radius: 16px; padding: 32px; margin: 32px 0; text-align: center;">
+        <h2 style="color: white; margin-top: 0; margin-bottom: 12px; font-size: 24px;">Ready to Get Your Home Spring-Ready?</h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 24px; font-size: 18px;">Find EPA-licensed pest controllers in your Sydney suburb.</p>
+        <a href="/operators" style="display: inline-block; background: #fbbf24; color: #1a1a1a; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; margin-right: 12px;">Find Operators Near You</a>
+        <a href="/quote" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; border: 2px solid rgba(255,255,255,0.3);">Get Free Quotes</a>
+      </div>
     `,
   },
 
