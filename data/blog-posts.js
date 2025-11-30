@@ -641,25 +641,26 @@ export const blogPosts = [
     seo_description: 'Identify if you have rats, mice or possums in your Sydney roof. Learn the signs, health risks & solutions. Get quotes from EPA-licensed rodent control experts.',
     category: 'pest-identification',
     tags: ['rodent control', 'rats in roof', 'mouse infestation', 'possum vs rat', 'rodent signs'],
-    author_name: 'Sarah Mitchell',
-    author_role: 'Content Director, Pest Arrest',
-    author_bio: 'Sarah leads content strategy at Pest Arrest, working daily with 700+ EPA-licensed operators across Sydney.',
-    reviewer_name: "Peter O'Brien",
-    reviewer_role: 'EPA Licensed Pest Controller',
-    reviewer_license: 'PMT-14392',
-    reviewer_license_type: 'Pest Management Technician',
-    reviewer_years_experience: 20,
-    reviewer_specialization: 'Rodent Management',
+    author_name: 'Pest Arrest Team',
+    author_role: null,
+    author_bio: 'Written by the Pest Arrest team in consultation with EPA-licensed pest controllers across Sydney.',
+    author_linkedin: null,
+    reviewer_name: null,
+    reviewer_role: null,
+    reviewer_license: null,
+    reviewer_license_type: null,
+    reviewer_years_experience: null,
+    reviewer_specialization: null,
     published_at: '2024-10-20T09:00:00Z',
-    updated_at: '2024-11-26T09:00:00Z',
-    last_fact_checked: '2024-11-26T09:00:00Z',
+    updated_at: '2024-11-30T10:00:00Z',
+    last_fact_checked: '2024-11-30T10:00:00Z',
     reading_time_minutes: 9,
     word_count: 2200,
     related_services: ['rodent-control'],
     related_suburbs: ['sydney-cbd', 'parramatta', 'chatswood', 'bondi'],
     sources: [
-      { title: 'Rodent Biology and Management', publisher: 'NSW Health', url: 'https://www.health.nsw.gov.au' },
-      { title: 'Urban Rodent Control Guidelines', publisher: 'CSIRO', url: 'https://www.csiro.au' },
+      { title: 'Rodents', publisher: 'NSW Health', url: 'https://www.health.nsw.gov.au/environment/pests/Pages/rodents.aspx' },
+      { title: 'Common Brushtail Possum', publisher: 'NSW Environment and Heritage', url: 'https://www.environment.nsw.gov.au/topics/animals-and-plants/native-animals/native-animal-facts/common-brushtail-possum' },
     ],
     faqs: [
       {
@@ -676,7 +677,7 @@ export const blogPosts = [
       },
       {
         question: 'How much does rodent control cost in Sydney?',
-        answer: 'Professional rodent control typically costs $250-$500 for initial treatment with follow-up. More comprehensive programs including exclusion work range from $500-$2,000+ depending on property size and severity of infestation.'
+        answer: 'Professional rodent control typically costs $250-$500 for initial treatment with follow-up. More comprehensive programs including exclusion work range from $500-$2,000+ depending on property size and severity of infestation. See our <a href="/blog/pest-control-cost-sydney-pricing-guide">complete pricing guide</a> for more details.'
       },
     ],
     content: `
@@ -698,6 +699,12 @@ export const blogPosts = [
         <li><strong>Mouse droppings</strong>: 3-6mm, dark, pointed, scattered randomly</li>
         <li><strong>Fresh vs old</strong>: Fresh droppings are dark and shiny; old ones are dry and grey</li>
       </ul>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/rodent-droppings-identification-guide.png" alt="Rodent droppings identification guide comparing rat droppings at 10-15mm, mouse droppings at 3-6mm, and possum droppings at 20-30mm with ruler for scale and 20 cent coin for size reference" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Droppings identification guide — size and shape help identify the pest. 20 cent coin shown for scale.</figcaption>
+      </figure>
+
       <p>Check your roof void (if safely accessible), garage, and behind appliances.</p>
 
       <h3>3. Gnaw Marks</h3>
@@ -734,7 +741,12 @@ export const blogPosts = [
       </ul>
 
       <h2 id="rats-vs-possums">Rats vs Possums: Key Differences</h2>
-      <p>This distinction is important because possums are protected wildlife in NSW and require different handling.</p>
+      <p>This distinction is important because possums are protected wildlife in NSW and require different handling. <strong>Possum removal must be done by a <a href="/operators">licensed operator</a></strong> — it's illegal to harm, trap, or relocate possums without proper authorisation.</p>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/rats-vs-possums-comparison-sydney.png" alt="Infographic comparing rats and possums showing differences in sounds, activity times, droppings size, damage caused, and legal status with note that possums are protected wildlife in NSW" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Rats vs possums — key differences. Remember, possums are protected in NSW.</figcaption>
+      </figure>
 
       <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
         <tr style="background: #1a5d3a; color: white;">
@@ -793,7 +805,7 @@ export const blogPosts = [
       </ul>
 
       <h2 id="diy-steps">Immediate DIY Steps</h2>
-      <p>While professional treatment is recommended, you can take immediate action:</p>
+      <p>While professional <a href="/services/rodent-control">rodent control</a> treatment is recommended, you can take immediate action:</p>
 
       <h3>1. Identify Entry Points</h3>
       <p>Carefully inspect your property for gaps:</p>
@@ -803,6 +815,11 @@ export const blogPosts = [
         <li>Look for gaps around roof tiles</li>
         <li>Examine vent covers</li>
       </ul>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/rodent-roof-entry-points-diagram.png" alt="Diagram of Australian house showing common rodent entry points including gaps around roof tiles, damaged eaves and fascia, vent covers, pipes and cables, wall junctions, tree branches, garage door gaps, and weep holes" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Common rodent entry points on a typical Sydney home.</figcaption>
+      </figure>
 
       <h3>2. Remove Food Sources</h3>
       <ul>
@@ -820,7 +837,7 @@ export const blogPosts = [
       </ul>
 
       <h2 id="professional-solutions">Professional Solutions</h2>
-      <p>An EPA-licensed pest controller will typically:</p>
+      <p>An <a href="/operators">EPA-licensed pest controller</a> will typically:</p>
 
       <h3>Inspection</h3>
       <ul>
@@ -846,12 +863,19 @@ export const blogPosts = [
       <h2 id="prevention">Preventing Future Infestations</h2>
       <p>After treatment, maintain a rodent-free home:</p>
       <ul>
-        <li>Schedule annual inspections</li>
+        <li>Schedule annual inspections with a <a href="/operators">licensed pest controller</a></li>
         <li>Maintain tree trimming (quarterly)</li>
         <li>Regular exterior inspections for new entry points</li>
         <li>Keep garage and storage areas tidy</li>
         <li>Continue food hygiene practices</li>
       </ul>
+
+      <div style="background: linear-gradient(135deg, #1a5d3a 0%, #2d8a5e 100%); border-radius: 16px; padding: 32px; margin: 32px 0; text-align: center;">
+        <h2 style="color: white; margin-top: 0; margin-bottom: 12px; font-size: 24px;">Hearing Noises in Your Roof?</h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 24px; font-size: 18px;">Get a professional inspection from an EPA-licensed pest controller in your area.</p>
+        <a href="/operators" style="display: inline-block; background: #fbbf24; color: #1a1a1a; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; margin-right: 12px;">Find Operators Near You</a>
+        <a href="/quote" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; border: 2px solid rgba(255,255,255,0.3);">Get Free Quotes</a>
+      </div>
     `,
   },
 
