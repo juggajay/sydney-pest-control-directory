@@ -301,6 +301,93 @@ CREATE TRIGGER update_subscriptions_updated_at BEFORE UPDATE ON subscriptions
   FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
 
 -- =============================================
+-- 7. BLOG POSTS TABLE
+-- =============================================
+CREATE TABLE IF NOT EXISTS blog_posts (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+
+  -- Basic Info
+  title VARCHAR(255) NOT NULL,
+  slug VARCHAR(255) UNIQUE NOT NULL,
+  excerpt TEXT,
+  content TEXT NOT NULL,
+
+  -- Featured Image
+  featured_image VARCHAR(500),
+  featured_image_alt VARCHAR(255),
+
+  -- Author Info
+  author_name VARCHAR(255) NOT NULL DEFAULT 'Pest Arrest Editorial Team',
+  author_role VARCHAR(255) DEFAULT 'Content Team',
+  author_bio TEXT,
+  author_image VARCHAR(500),
+  author_linkedin VARCHAR(500),
+
+  -- Expert Reviewer
+  reviewer_name VARCHAR(255),
+  reviewer_role VARCHAR(255),
+  reviewer_license VARCHAR(100),
+  reviewer_license_type VARCHAR(100),
+  reviewer_years_experience INTEGER,
+  reviewer_specialization VARCHAR(255),
+
+  -- SEO
+  seo_title VARCHAR(70),
+  seo_description VARCHAR(160),
+  seo_keywords JSONB DEFAULT '[]'::jsonb,
+  canonical_url VARCHAR(500),
+
+  -- Categorization
+  category VARCHAR(100) DEFAULT 'general',
+  tags JSONB DEFAULT '[]'::jsonb,
+
+  -- Related Content (for internal linking)
+  related_services JSONB DEFAULT '[]'::jsonb,
+  related_suburbs JSONB DEFAULT '[]'::jsonb,
+  related_posts JSONB DEFAULT '[]'::jsonb,
+
+  -- Schema Markup Data
+  schema_type VARCHAR(50) DEFAULT 'Article',
+  faqs JSONB DEFAULT '[]'::jsonb,
+  how_to_steps JSONB DEFAULT '[]'::jsonb,
+
+  -- Publishing
+  status VARCHAR(20) DEFAULT 'draft',
+  published_at TIMESTAMP,
+
+  -- Content Stats
+  reading_time_minutes INTEGER DEFAULT 5,
+  word_count INTEGER,
+
+  -- E-E-A-T Signals
+  sources JSONB DEFAULT '[]'::jsonb,
+  last_fact_checked TIMESTAMP,
+  update_history JSONB DEFAULT '[]'::jsonb,
+
+  -- Timestamps
+  created_at TIMESTAMP DEFAULT NOW(),
+  updated_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Indexes for blog
+CREATE INDEX idx_blog_posts_slug ON blog_posts (slug);
+CREATE INDEX idx_blog_posts_status ON blog_posts (status);
+CREATE INDEX idx_blog_posts_category ON blog_posts (category);
+CREATE INDEX idx_blog_posts_published ON blog_posts (published_at DESC);
+CREATE INDEX idx_blog_posts_tags ON blog_posts USING GIN (tags);
+
+-- Enable RLS
+ALTER TABLE blog_posts ENABLE ROW LEVEL SECURITY;
+
+-- Public read access to published posts
+CREATE POLICY "Public can view published posts" ON blog_posts
+  FOR SELECT USING (status = 'published');
+
+-- Trigger for updated_at
+CREATE TRIGGER update_blog_posts_updated_at BEFORE UPDATE ON blog_posts
+  FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
+
+-- =============================================
 -- DONE!
 -- =============================================
 -- Your database is ready. Tables created:
@@ -310,3 +397,4 @@ CREATE TRIGGER update_subscriptions_updated_at BEFORE UPDATE ON subscriptions
 -- 4. operator_claims - Business claim requests
 -- 5. subscriptions - Future payment tracking
 -- 6. page_views - Analytics tracking
+-- 7. blog_posts - Blog content with E-E-A-T signals

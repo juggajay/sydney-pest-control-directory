@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { getAllSuburbs, getAllOperatorSlugs } from '../lib/data';
+import { blogPosts } from '../data/blog-posts';
 
 const BASE_URL = 'https://pestarrest.com.au';
 
@@ -25,6 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/blog`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
       url: `${BASE_URL}/quote`,
@@ -143,11 +150,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     console.error('Error generating operator sitemap entries:', error);
   }
 
+  // Blog pages
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: post.updated_at || post.published_at || currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
   return [
     ...staticPages,
     ...servicePages,
     ...regionPages,
     ...suburbPages,
     ...operatorPages,
+    ...blogPages,
   ];
 }

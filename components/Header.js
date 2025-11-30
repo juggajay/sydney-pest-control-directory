@@ -174,6 +174,17 @@ export default function Header() {
             </Link>
 
             <Link
+              href="/blog"
+              className={`px-4 py-2 rounded-lg font-medium text-sm transition-colors ${
+                isScrolled
+                  ? 'text-neutral-700 hover:text-primary-600 hover:bg-neutral-100'
+                  : 'text-white/90 hover:text-white hover:bg-white/10'
+              }`}
+            >
+              Blog
+            </Link>
+
+            <Link
               href="/resources"
               className={`px-4 py-2 rounded-lg font-medium text-sm transition-colors ${
                 isScrolled
@@ -265,6 +276,13 @@ export default function Header() {
                 className="block p-3 rounded-lg text-neutral-700 hover:bg-neutral-100 transition-colors"
               >
                 Find Operators
+              </Link>
+              <Link
+                href="/blog"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block p-3 rounded-lg text-neutral-700 hover:bg-neutral-100 transition-colors"
+              >
+                Blog
               </Link>
               <Link
                 href="/resources"
