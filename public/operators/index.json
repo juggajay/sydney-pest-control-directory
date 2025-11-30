@@ -1,9 +1,10 @@
 {
-  "total": 71,
-  "lastUpdated": "2025-11-30T09:15:52.664Z",
+  "total": 75,
+  "lastUpdated": "2025-11-30T10:17:52.886Z",
   "regions": {
     "sydney-cbd": [
       "a1pestcontrol",
+      "attack-pest-control-sydney",
       "dropdeadpest",
       "killitpest",
       "micropest",
@@ -23,10 +24,20 @@
     ],
     "inner-west": [
       "activepestcontrolmanagement",
+      "assassin-pest-control",
       "essentialpestsolutions",
       "innerwestpestcontrol",
       "newtownpestcontrol",
       "samedaypestcontrolmarrickville"
+    ],
+    "sutherland-shire": [
+      "advantage-pest-control",
+      "bugz-pest-control",
+      "dependablepestcontrol",
+      "dylancopepestcontrol",
+      "impactpestcontrol",
+      "nowpestcontrol",
+      "shirepestcontrol"
     ],
     "western-sydney": [
       "alphapestmanagement",
@@ -67,13 +78,6 @@
       "deewhypestcontrol",
       "mrpestcontroller",
       "petriespestcontrol"
-    ],
-    "sutherland-shire": [
-      "dependablepestcontrol",
-      "dylancopepestcontrol",
-      "impactpestcontrol",
-      "nowpestcontrol",
-      "shirepestcontrol"
     ],
     "north-shore": [
       "epest",
@@ -145,6 +149,23 @@
       "website": "https://activepestcontrolmanagement.com.au"
     },
     {
+      "slug": "advantage-pest-control",
+      "businessName": "Advantage Pest Control",
+      "rating": 0,
+      "reviewCount": 0,
+      "suburb": "Sutherland",
+      "featured": false,
+      "serviceAreas": [
+        "sutherland"
+      ],
+      "services": [
+        "general-pest-control"
+      ],
+      "epaVerified": false,
+      "phone": "0411 571 700",
+      "website": "http://www.advantagepestcontrol.com.au/"
+    },
+    {
       "slug": "alphapestmanagement",
       "businessName": "Alphapestmanagement",
       "rating": 0,
@@ -158,6 +179,40 @@
       "epaVerified": false,
       "phone": "0414 790 926",
       "website": "https://alphapestmanagement.com.au"
+    },
+    {
+      "slug": "assassin-pest-control",
+      "businessName": "Assassin Pest Control",
+      "rating": 0,
+      "reviewCount": 0,
+      "suburb": "Glenmore Park",
+      "featured": false,
+      "serviceAreas": [
+        "glenmore-park"
+      ],
+      "services": [
+        "general-pest-control"
+      ],
+      "epaVerified": false,
+      "phone": "0407 737 843",
+      "website": "https://yellowpages.com.au"
+    },
+    {
+      "slug": "attack-pest-control-sydney",
+      "businessName": "ATTACK Pest Control Sydney",
+      "rating": 0,
+      "reviewCount": 0,
+      "suburb": "Sydney",
+      "featured": false,
+      "serviceAreas": [
+        "sydney"
+      ],
+      "services": [
+        "general-pest-control"
+      ],
+      "epaVerified": false,
+      "phone": "1300 300 114",
+      "website": "https://truelocal.com.au"
     },
     {
       "slug": "attackpestcontrol",
@@ -203,6 +258,23 @@
       "epaVerified": false,
       "phone": null,
       "website": "http://www.bugtasticpestmanagement.com"
+    },
+    {
+      "slug": "bugz-pest-control",
+      "businessName": "Bugz Pest Control",
+      "rating": 0,
+      "reviewCount": 0,
+      "suburb": "Cronulla",
+      "featured": false,
+      "serviceAreas": [
+        "cronulla"
+      ],
+      "services": [
+        "general-pest-control"
+      ],
+      "epaVerified": false,
+      "phone": "1800 020 225",
+      "website": "https://bugz.com.au"
     },
     {
       "slug": "buzzofftermites",

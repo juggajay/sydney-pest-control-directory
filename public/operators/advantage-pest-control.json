@@ -1,0 +1,30 @@
+{
+  "slug": "advantage-pest-control",
+  "businessName": "Advantage Pest Control",
+  "tradingName": "Advantage Pest Control",
+  "phone": "0411 571 700",
+  "email": null,
+  "website": "http://www.advantagepestcontrol.com.au/",
+  "address": {
+    "suburb": "Sutherland",
+    "postcode": null,
+    "state": "NSW"
+  },
+  "license": {
+    "number": null,
+    "type": "Pest Management Technician",
+    "status": "active",
+    "verified": false
+  },
+  "rating": 0,
+  "reviewCount": 0,
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "sutherland"
+  ],
+  "description": "Advantage Pest Control provides professional pest control services in Sutherland and surrounding areas.",
+  "shortDescription": "Professional pest control in Sutherland.",
+  "featured": false
+}

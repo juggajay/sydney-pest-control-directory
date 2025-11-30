@@ -1,0 +1,30 @@
+{
+  "slug": "assassin-pest-control",
+  "businessName": "Assassin Pest Control",
+  "tradingName": "Assassin Pest Control",
+  "phone": "0407 737 843",
+  "email": null,
+  "website": "https://yellowpages.com.au",
+  "address": {
+    "suburb": "Glenmore Park",
+    "postcode": "2745",
+    "state": "NSW"
+  },
+  "license": {
+    "number": null,
+    "type": "Pest Management Technician",
+    "status": "active",
+    "verified": false
+  },
+  "rating": 0,
+  "reviewCount": 0,
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "glenmore-park"
+  ],
+  "description": "Assassin Pest Control provides professional pest control services in Glenmore Park and surrounding areas.",
+  "shortDescription": "Professional pest control in Glenmore Park.",
+  "featured": false
+}

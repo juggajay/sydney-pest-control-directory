@@ -1,0 +1,30 @@
+{
+  "slug": "attack-pest-control-sydney",
+  "businessName": "ATTACK Pest Control Sydney",
+  "tradingName": "ATTACK Pest Control Sydney",
+  "phone": "1300 300 114",
+  "email": null,
+  "website": "https://truelocal.com.au",
+  "address": {
+    "suburb": "Sydney",
+    "postcode": "2000",
+    "state": "NSW"
+  },
+  "license": {
+    "number": null,
+    "type": "Pest Management Technician",
+    "status": "active",
+    "verified": false
+  },
+  "rating": 0,
+  "reviewCount": 0,
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "sydney"
+  ],
+  "description": "ATTACK Pest Control Sydney provides professional pest control services in Sydney and surrounding areas.",
+  "shortDescription": "Professional pest control in Sydney.",
+  "featured": false
+}

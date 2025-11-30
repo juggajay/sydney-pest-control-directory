@@ -1,0 +1,30 @@
+{
+  "slug": "bugz-pest-control",
+  "businessName": "Bugz Pest Control",
+  "tradingName": "Bugz Pest Control",
+  "phone": "1800 020 225",
+  "email": null,
+  "website": "https://bugz.com.au",
+  "address": {
+    "suburb": "Cronulla",
+    "postcode": "2230",
+    "state": "NSW"
+  },
+  "license": {
+    "number": null,
+    "type": "Pest Management Technician",
+    "status": "active",
+    "verified": false
+  },
+  "rating": 0,
+  "reviewCount": 0,
+  "services": [
+    "general-pest-control"
+  ],
+  "serviceAreas": [
+    "cronulla"
+  ],
+  "description": "Bugz Pest Control provides professional pest control services in Cronulla and surrounding areas.",
+  "shortDescription": "Professional pest control in Cronulla.",
+  "featured": false
+}
