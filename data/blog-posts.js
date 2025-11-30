@@ -888,25 +888,26 @@ export const blogPosts = [
     seo_description: 'Identify and eliminate cockroaches in your Sydney home. German vs Australian cockroach guide, prevention tips & professional treatment options from EPA-licensed experts.',
     category: 'pest-identification',
     tags: ['cockroach control', 'german cockroach', 'cockroach infestation', 'cockroach treatment', 'cockroach prevention'],
-    author_name: 'Sarah Mitchell',
-    author_role: 'Content Director, Pest Arrest',
-    author_bio: 'Sarah leads content strategy at Pest Arrest, working daily with 700+ EPA-licensed operators across Sydney.',
-    reviewer_name: 'Lisa Wong',
-    reviewer_role: 'EPA Licensed Pest Controller',
-    reviewer_license: 'PMT-16284',
-    reviewer_license_type: 'Pest Management Technician',
-    reviewer_years_experience: 12,
-    reviewer_specialization: 'Urban Pest Management',
+    author_name: 'Pest Arrest Team',
+    author_role: null,
+    author_bio: 'Written by the Pest Arrest team in consultation with EPA-licensed pest controllers across Sydney.',
+    author_linkedin: null,
+    reviewer_name: null,
+    reviewer_role: null,
+    reviewer_license: null,
+    reviewer_license_type: null,
+    reviewer_years_experience: null,
+    reviewer_specialization: null,
     published_at: '2024-11-01T09:00:00Z',
-    updated_at: '2024-11-26T15:00:00Z',
-    last_fact_checked: '2024-11-26T15:00:00Z',
+    updated_at: '2024-11-30T10:00:00Z',
+    last_fact_checked: '2024-11-30T10:00:00Z',
     reading_time_minutes: 10,
     word_count: 2500,
     related_services: ['cockroach-control', 'general-pest-control'],
     related_suburbs: ['sydney-cbd', 'surry-hills', 'newtown', 'parramatta'],
     sources: [
-      { title: 'Cockroach Biology and Management', publisher: 'University of Sydney', url: 'https://www.sydney.edu.au' },
-      { title: 'Urban Pest Management Guidelines', publisher: 'NSW Health', url: 'https://www.health.nsw.gov.au' },
+      { title: 'Cockroaches', publisher: 'NSW Health', url: 'https://www.health.nsw.gov.au/environment/pests/Pages/cockroaches.aspx' },
+      { title: 'Common Cockroach Species', publisher: 'CSIRO', url: 'https://www.csiro.au/en/research/animals/insects/cockroaches' },
     ],
     faqs: [
       {
@@ -928,7 +929,12 @@ export const blogPosts = [
     ],
     content: `
       <h2 id="species">Cockroach Species in Sydney</h2>
-      <p>Sydney homes commonly encounter four cockroach species, each with different behaviours and treatment requirements.</p>
+      <p>Sydney homes commonly encounter four cockroach species, each with different behaviours and <a href="/services/cockroach-control">treatment</a> requirements.</p>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/sydney-cockroach-species-identification-guide.png" alt="Sydney cockroach species identification guide showing German cockroach at 12-15mm, Australian cockroach at 30-35mm, American cockroach at 35-45mm, and Smoky Brown cockroach at 30-35mm with size scale" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Sydney's four common cockroach species — German cockroaches are the most problematic.</figcaption>
+      </figure>
 
       <h3>German Cockroach (Blattella germanica)</h3>
       <p><strong>The most problematic species for Sydney homes.</strong></p>
@@ -965,6 +971,11 @@ export const blogPosts = [
       </ul>
 
       <h2 id="signs">Signs of Cockroach Infestation</h2>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/signs-of-cockroach-infestation.png" alt="Infographic showing five signs of cockroach infestation including live or dead cockroaches, droppings, egg cases called oothecae, musty odour, and damage and staining" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Key signs of cockroach infestation to look for in your home.</figcaption>
+      </figure>
 
       <h3>Visual Sightings</h3>
       <p>Seeing one cockroach often means many more are hidden. Key indicators:</p>
@@ -1049,7 +1060,7 @@ export const blogPosts = [
       </ul>
 
       <h3>Professional Treatment</h3>
-      <p>Professional pest controllers use integrated approaches:</p>
+      <p><a href="/operators">Professional pest controllers</a> use integrated approaches:</p>
 
       <h4>1. Inspection</h4>
       <p>Identifying species, harbourage areas, and infestation level.</p>
@@ -1074,13 +1085,18 @@ export const blogPosts = [
       </ul>
 
       <h2 id="german-cockroach">German Cockroach: Special Considerations</h2>
-      <p>German cockroaches require specialised treatment due to:</p>
+      <p>German cockroaches require specialised <a href="/services/cockroach-control">cockroach treatment</a> due to:</p>
       <ul>
         <li>Rapid reproduction (a single female can lead to thousands in a year)</li>
         <li>Indoor-only lifestyle (won't leave your home voluntarily)</li>
         <li>Insecticide resistance in some populations</li>
         <li>Harbourage in inaccessible areas (motors, electronics, crevices)</li>
       </ul>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/german-cockroach-sydney-worst-pest.png" alt="Infographic showing why German cockroaches are Sydney's worst pest including rapid breeding with 400 plus offspring per year, indoor only habitat, hard to treat due to insecticide resistance, hidden harbourage in electronics and wall cavities, and multiple treatments required over 4-6 weeks" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Why German cockroaches require specialised professional treatment.</figcaption>
+      </figure>
 
       <h3>Effective German Cockroach Control</h3>
       <ol>
@@ -1096,14 +1112,21 @@ export const blogPosts = [
       </div>
 
       <h2 id="costs">Treatment Costs in Sydney</h2>
-      <p>Based on our platform data:</p>
+      <p>Based on our platform data (see our <a href="/blog/pest-control-cost-sydney-pricing-guide">complete pricing guide</a> for more details):</p>
       <ul>
         <li><strong>Light infestation</strong>: $150-$250 (one treatment)</li>
         <li><strong>Moderate infestation</strong>: $250-$400 (1-2 treatments)</li>
         <li><strong>Severe/German cockroach</strong>: $350-$600 (multiple treatments)</li>
         <li><strong>Commercial premises</strong>: $300-$800+ (size dependent)</li>
       </ul>
-      <p>Warranties typically cover 3-6 months depending on species and severity.</p>
+      <p>Warranties typically cover 3-6 months depending on species and severity. For best results, choose an <a href="/operators">EPA-licensed pest controller</a> who offers follow-up visits as part of the treatment plan.</p>
+
+      <div style="background: linear-gradient(135deg, #1a5d3a 0%, #2d8a5e 100%); border-radius: 16px; padding: 32px; margin: 32px 0; text-align: center;">
+        <h2 style="color: white; margin-top: 0; margin-bottom: 12px; font-size: 24px;">Got a Cockroach Problem?</h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 24px; font-size: 18px;">Find EPA-licensed pest controllers in your Sydney suburb for a quote.</p>
+        <a href="/operators" style="display: inline-block; background: #fbbf24; color: #1a1a1a; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; margin-right: 12px;">Find Operators Near You</a>
+        <a href="/quote" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; border: 2px solid rgba(255,255,255,0.3);">Get Free Quotes</a>
+      </div>
     `,
   },
 ];
