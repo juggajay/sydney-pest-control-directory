@@ -395,10 +395,10 @@ export default function OperatorPage({ params }) {
 
               {/* Google Map for SEO - with NAP consistency */}
               <GoogleMap
-                address={typeof operator.address === 'object' ? null : operator.address}
+                address={operator.address && typeof operator.address === 'object' ? null : operator.address}
                 businessName={operator.businessName}
-                suburb={typeof operator.address === 'object' ? operator.address.suburb : (operator.suburb || (operator.serviceAreas[0] ? suburbs.find(s => s.slug === operator.serviceAreas[0])?.name : 'Sydney'))}
-                postcode={typeof operator.address === 'object' ? operator.address.postcode : operator.postcode}
+                suburb={operator.address && typeof operator.address === 'object' ? operator.address.suburb : (operator.suburb || (operator.serviceAreas && operator.serviceAreas[0] ? suburbs.find(s => s.slug === operator.serviceAreas[0])?.name : 'Sydney'))}
+                postcode={operator.address && typeof operator.address === 'object' ? operator.address.postcode : operator.postcode}
                 phone={operator.phone}
                 showNAP={true}
               />
