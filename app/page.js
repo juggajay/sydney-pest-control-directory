@@ -152,8 +152,8 @@ const faqData = [
     answer: 'General pest control in Sydney typically costs $150-$350 for a standard 3-4 bedroom home. Termite inspections range from $250-$500, while termite treatments can cost $2,000-$5,000+ depending on the property size and treatment method required. Factors affecting price include property size, pest type, severity of infestation, and whether it\'s a one-time treatment or ongoing service plan.',
   },
   {
-    question: 'Are all operators on this site licensed?',
-    answer: 'Yes, all operators listed on our platform are verified against the NSW EPA pesticide license register. We verify each operator\'s license status before they can appear in our directory, and continuously monitor for any changes. Look for the "EPA Verified" badge on operator profiles to confirm their license is current and valid.',
+    question: 'Are operators on this site licensed?',
+    answer: 'Operators listed on our directory can verify their NSW EPA license to earn a "Verified" badge on their profile. This badge confirms we\'ve checked their license against the EPA register. Operators without a badge may still be licensed - they simply haven\'t completed our verification process yet.',
   },
   {
     question: 'How do I get a quote for pest control?',
@@ -161,7 +161,7 @@ const faqData = [
   },
   {
     question: 'What should I look for when choosing a pest controller?',
-    answer: 'Look for the EPA Verified badge, read customer reviews, check their years of experience, and ensure they offer the specific service you need. We also recommend getting multiple quotes to compare pricing and service inclusions. Ask about warranties, what chemicals they use, and whether they offer ongoing maintenance plans.',
+    answer: 'Look for operators with the Verified badge, read customer reviews, check their years of experience, and ensure they offer the specific service you need. We also recommend getting multiple quotes to compare pricing and service inclusions. Ask about warranties, what chemicals they use, and whether they offer ongoing maintenance plans.',
   },
   {
     question: 'How long does pest control treatment last?',
@@ -244,12 +244,12 @@ export default function HomePage() {
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight animate-fade-in-up">
               Pest Control Sydney
-              <span className="block text-accent-400">{operators.length}+ EPA-Verified Operators</span>
+              <span className="block text-accent-400">{operators.length}+ Local Operators</span>
             </h1>
 
             <p className="text-xl text-white/80 mb-10 max-w-2xl animate-fade-in-up animate-delay-100">
-              Compare quotes from Sydney's verified pest control experts in your suburb.
-              All operators are NSW EPA licensed for termites, cockroaches, rodents, and more.
+              Compare quotes from Sydney's pest control experts in your suburb.
+              Find operators for termites, cockroaches, rodents, and more.
               Same-day service available across Greater Sydney.
             </p>
 
@@ -286,11 +286,11 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="flex items-center gap-4 p-4 rounded-2xl bg-gradient-to-br from-primary-50/50 to-emerald-50/50 border border-primary-100/50">
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary-500 to-primary-600 flex items-center justify-center shadow-lg shadow-primary-500/20">
-                <Shield className="w-7 h-7 text-white" />
+                <Bug className="w-7 h-7 text-white" />
               </div>
               <div>
                 <div className="font-heading font-bold text-3xl text-neutral-900">{operators.length}+</div>
-                <div className="text-sm font-medium text-neutral-600">Licensed Operators</div>
+                <div className="text-sm font-medium text-neutral-600">Local Operators</div>
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 rounded-2xl bg-gradient-to-br from-amber-50/50 to-yellow-50/50 border border-amber-100/50">
@@ -330,7 +330,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between mb-12">
             <div>
               <h2 className="section-heading">Featured Sydney Pest Controllers</h2>
-              <p className="section-subheading">Top-rated pest control operators in Sydney, verified by NSW EPA</p>
+              <p className="section-subheading">Top-rated pest control operators serving Sydney</p>
             </div>
             <Link href="/operators" className="hidden sm:flex btn btn-secondary">
               View All Operators
@@ -466,8 +466,8 @@ export default function HomePage() {
                 {[
                   {
                     icon: Shield,
-                    title: 'EPA License Verification',
-                    description: 'Every operator is verified against the NSW EPA public register. Look for the verified badge.',
+                    title: 'Verified Operators',
+                    description: 'Operators can verify their EPA license to earn a trusted badge. Look for the verified badge on profiles.',
                     color: 'from-emerald-500 to-teal-500',
                     bg: 'from-emerald-50 to-teal-50',
                   },
@@ -522,8 +522,8 @@ export default function HomePage() {
                     <CheckCircle className="w-5 h-5 text-emerald-600" />
                   </div>
                   <div>
-                    <div className="font-semibold text-neutral-900">EPA Verified</div>
-                    <div className="text-sm text-neutral-500">License #PMT-2024</div>
+                    <div className="font-semibold text-neutral-900">Free Quotes</div>
+                    <div className="text-sm text-neutral-500">No obligation</div>
                   </div>
                 </div>
               </div>

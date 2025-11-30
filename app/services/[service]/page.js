@@ -77,8 +77,8 @@ export async function generateMetadata({ params }) {
   const serviceOperators = getOperatorsByService(service.slug || service.id);
   
   return genMeta({
-    title: `${service.name} Services Sydney | Licensed Operators from ${service.priceRange}`,
-    description: `Professional ${service.name.toLowerCase()} services across Sydney from ${service.priceRange}. Compare ${serviceOperators.length}+ EPA-verified operators. Free same-day quotes, 4.8★ customer rating.`,
+    title: `${service.name} Services Sydney | Local Operators from ${service.priceRange}`,
+    description: `Professional ${service.name.toLowerCase()} services across Sydney from ${service.priceRange}. Compare ${serviceOperators.length}+ local operators. Free same-day quotes, 4.8★ customer rating.`,
     path: `/services/${service.slug}`,
   });
 }
@@ -380,8 +380,8 @@ export default function ServicePage({ params }) {
                       <Shield className="w-5 h-5 text-emerald-600" />
                     </div>
                     <div>
-                      <div className="font-medium text-neutral-900">All Operators</div>
-                      <div className="text-sm text-neutral-500">EPA Licensed & Verified</div>
+                      <div className="font-medium text-neutral-900">Verification Available</div>
+                      <div className="text-sm text-neutral-500">Look for the Verified badge</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

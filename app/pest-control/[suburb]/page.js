@@ -42,8 +42,8 @@ export async function generateMetadata({ params }) {
     : 'pest treatment';
 
   const baseMeta = genMeta({
-    title: `Pest Control ${suburb.name} ${suburb.postcode} - ${operators.length}+ Licensed Operators`,
-    description: `Find licensed pest control in ${suburb.name} ${suburb.postcode}. Compare ${operators.length}+ EPA-verified operators for ${commonPestsText}. Free quotes today!`,
+    title: `Pest Control ${suburb.name} ${suburb.postcode} - ${operators.length}+ Local Operators`,
+    description: `Find pest control in ${suburb.name} ${suburb.postcode}. Compare ${operators.length}+ local operators for ${commonPestsText}. Free quotes today!`,
     path: `/pest-control/${suburb.slug}`,
   });
 
@@ -227,8 +227,8 @@ export default function SuburbPage({ params }) {
       answer: `The most common pests in ${suburb.name} include ${(suburb.commonPests || ['cockroaches', 'rodents', 'ants', 'spiders']).join(', ')}. ${suburb.description || ''}`,
     },
     {
-      question: `How do I find a licensed pest controller in ${suburb.name}?`,
-      answer: `All pest controllers listed on our directory for ${suburb.name} are verified against the NSW EPA register. Look for the "EPA Verified" badge to ensure you're hiring a licensed professional.`,
+      question: `How do I find a trusted pest controller in ${suburb.name}?`,
+      answer: `Browse pest controllers on our directory for ${suburb.name}. Operators who verify their EPA license display a "Verified" badge on their profile for extra confidence.`,
     },
   ];
 
@@ -289,8 +289,8 @@ export default function SuburbPage({ params }) {
               </h1>
               
               <p className="text-xl text-white/80 max-w-2xl">
-                Compare {operators.length} licensed pest control operators serving {suburb.name}. 
-                All operators are EPA verified.
+                Compare {operators.length} pest control operators serving {suburb.name}.
+                Get free quotes today.
               </p>
             </div>
 

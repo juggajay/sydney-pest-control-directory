@@ -17,25 +17,23 @@ const testProfileUrl = `${siteUrl}/operator/test-pest-control`;
 
 const emailBody = `Hi {{operator_name}},
 
-I'm Jayson from Pest Arrest — Sydney's EPA-verified pest control directory.
+I've added your business to Pest Arrest — Sydney's pest control directory.
 
-We've created a free profile for your business:
-{{profile_url}}
+Your free listing: {{profile_url}}
 
-Your profile shows your EPA license verification, service areas, and helps Sydney homeowners find you when searching for pest control.
+WANT TO STAND OUT?
 
-Quick favor: Would you consider adding a link to your profile from your website? This helps your customers verify your EPA credentials and builds trust.
+Verified operators get an "EPA Verified" badge on their profile. This shows customers you're properly licensed.
 
-You can either:
-1. Link directly to your profile: {{profile_url}}
-2. Embed our "EPA Verified" badge (code below)
+To get verified, just do ONE of these:
 
-Badge Embed Code:
-<a href="{{profile_url}}" target="_blank">
-  <img src="https://www.pestarrest.com.au/badges/epa-verified.png" alt="EPA Verified - Pest Arrest" width="150">
-</a>
+1. Reply with your EPA license number(s) — PMT, Timber Pest, Fumigator, or any other licenses you hold
 
-If you'd like any changes to your profile — updated services, contact info, or photos — just reply to this email.
+2. OR add a link to your Pest Arrest profile from your website
+
+Either option takes 2 minutes.
+
+If you have multiple licenses, send them all — we can add badges for each one.
 
 Cheers,
 Jayson
@@ -66,7 +64,7 @@ async function sendTestEmails() {
       const { data, error } = await resend.emails.send({
         from: 'Jayson <jayson@pestarrest.com.au>',
         to: recipient.email,
-        subject: `Your free EPA-verified profile on Pest Arrest, ${recipient.name}`,
+        subject: `Your free listing on Pest Arrest + verification badge, ${recipient.name}`,
         html: body.replace(/\n/g, '<br>'),
       });
 

@@ -40,8 +40,8 @@ export async function generateMetadata({ params }) {
   const reviews = getReviewsForOperator(operator.id);
   
   return genMeta({
-    title: `${operator.businessName} - EPA Licensed Pest Control`,
-    description: `${operator.description} ★ ${operator.rating}/5 (${operator.reviewCount} reviews). EPA License: ${operator.licenseNumber}. Serving ${operator.serviceAreas.length} Sydney suburbs.`,
+    title: `${operator.businessName} - Pest Control Sydney`,
+    description: `${operator.description} ★ ${operator.rating}/5 (${operator.reviewCount} reviews). Serving ${operator.serviceAreas.length} Sydney suburbs.`,
     path: `/operator/${operator.slug}`,
   });
 }

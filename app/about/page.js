@@ -7,18 +7,18 @@ import { operators, suburbs } from '../../lib/data';
 
 export const metadata = {
   title: 'About Us | Sydney Pest Control Directory',
-  description: 'Sydney Pest Control Directory connects homeowners with licensed, EPA-verified pest control professionals across Sydney. Learn about our mission to make finding trusted pest control simple.',
-  keywords: 'about sydney pest control directory, pest control Sydney, licensed pest controllers, EPA verified operators',
+  description: 'Sydney Pest Control Directory connects homeowners with pest control professionals across Sydney. Learn about our mission to make finding trusted pest control simple.',
+  keywords: 'about sydney pest control directory, pest control Sydney, pest controllers',
   openGraph: {
     title: 'About Us | Sydney Pest Control Directory',
-    description: 'Connecting Sydney homeowners with licensed, EPA-verified pest control professionals since 2024.',
+    description: 'Connecting Sydney homeowners with pest control professionals since 2024.',
     type: 'website',
   },
 };
 
 export default function AboutPage() {
   const stats = [
-    { number: `${operators.length}+`, label: 'Licensed Operators', icon: Shield },
+    { number: `${operators.length}+`, label: 'Local Operators', icon: Shield },
     { number: `${suburbs.length}+`, label: 'Suburbs Covered', icon: MapPin },
     { number: '4.8', label: 'Average Rating', icon: Star },
     { number: '10K+', label: 'Happy Customers', icon: Users },
@@ -28,7 +28,7 @@ export default function AboutPage() {
     {
       icon: Shield,
       title: 'Trust & Transparency',
-      description: 'Every operator on our platform is verified against the NSW EPA pesticide license register. We never list unverified operators.',
+      description: 'Operators can verify their EPA license to earn a trusted badge. Look for the verified badge on profiles for extra confidence.',
     },
     {
       icon: Users,
@@ -62,7 +62,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-xl text-primary-100 max-w-3xl">
             We're on a mission to make finding trusted pest control in Sydney simple,
-            transparent, and stress-free. Every operator on our platform is EPA-verified.
+            transparent, and stress-free. Operators can earn verification by confirming their EPA license.
           </p>
         </div>
       </section>

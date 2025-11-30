@@ -6,11 +6,11 @@ import { generateWebsiteSchema, generateOrganizationSchema, siteConfig } from '.
 export const metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Pest Arrest | Sydney Pest Control Directory | EPA-Verified Operators',
+    default: 'Pest Arrest | Sydney Pest Control Directory | Compare & Get Quotes',
     template: `%s | ${siteConfig.name}`,
   },
-  description: 'Find licensed pest control in Sydney. Compare 200+ EPA-verified operators. Get free quotes in 24hrs for termite, cockroach & rodent control. 4.8★ rated!',
-  keywords: ['pest control sydney', 'pest arrest', 'pest control directory sydney', 'find pest control sydney', 'compare pest control sydney', 'licensed pest control', 'EPA verified pest control', 'pest control near me', 'sydney pest control services'],
+  description: 'Find pest control in Sydney. Compare 75+ local operators. Get free quotes in 24hrs for termite, cockroach & rodent control. 4.8★ rated!',
+  keywords: ['pest control sydney', 'pest arrest', 'pest control directory sydney', 'find pest control sydney', 'compare pest control sydney', 'pest control near me', 'sydney pest control services'],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   publisher: siteConfig.name,
@@ -24,8 +24,8 @@ export const metadata = {
     locale: 'en_AU',
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} | Find Licensed Pest Controllers in Sydney`,
-    description: 'Find EPA-verified pest control services across Sydney. Compare quotes from 200+ licensed operators.',
+    title: `${siteConfig.name} | Find Pest Control in Sydney`,
+    description: 'Find pest control services across Sydney. Compare quotes from 75+ local operators.',
     images: [
       {
         url: '/og-image.png',
@@ -38,7 +38,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: siteConfig.name,
-    description: 'Find EPA-verified pest control services across Sydney',
+    description: 'Find pest control services across Sydney',
     images: ['/og-image.png'],
   },
   robots: {

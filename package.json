@@ -10,6 +10,7 @@
     "lint": "next lint",
     "seed-outreach": "npx tsx scripts/seedQueue.ts",
     "scrape-operators": "npx tsx scripts/scrapeOperators.ts",
+    "scrape-directories": "npx tsx scripts/scrapeYellowPages.ts",
     "sync-operators": "npx tsx scripts/syncOperators.ts"
   },
   "dependencies": {

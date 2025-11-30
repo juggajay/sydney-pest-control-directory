@@ -7,8 +7,8 @@ import OperatorsList from '../../components/OperatorsList';
 export async function generateMetadata() {
   const { operators } = await import('../../lib/data');
   return {
-    title: `${operators.length} EPA-Licensed Pest Control Operators Sydney`,
-    description: `Browse ${operators.length} EPA-verified pest control operators serving Sydney. Compare licensed professionals for termites, cockroaches, rodents, spiders and more. Get free quotes today.`,
+    title: `${operators.length} Pest Control Operators Sydney | Compare & Get Quotes`,
+    description: `Browse ${operators.length} pest control operators serving Sydney. Compare professionals for termites, cockroaches, rodents, spiders and more. Get free quotes today.`,
   };
 }
 
@@ -31,8 +31,8 @@ export default function OperatorsPage() {
               Find Pest Control Operators
             </h1>
             <p className="text-xl text-white/80">
-              Browse {operators.length} EPA-licensed pest control operators serving Sydney.
-              All operators verified against the NSW EPA register.
+              Browse {operators.length} pest control operators serving Sydney.
+              Verified operators display an EPA badge on their profile.
             </p>
           </div>
         </div>
@@ -48,8 +48,8 @@ export default function OperatorsPage() {
       <section className="py-8 bg-stone-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <p className="text-lg text-stone-600 max-w-4xl">
-            Browse our directory of EPA-licensed pest control operators serving Greater Sydney.
-            Every operator is verified against the NSW EPA pesticide register, so you can book with confidence.
+            Browse our directory of pest control operators serving Greater Sydney.
+            Operators can verify their EPA license to earn a trusted badge on their profile.
             Compare profiles, check service areas, and request free quotes from multiple operators.
           </p>
         </div>
