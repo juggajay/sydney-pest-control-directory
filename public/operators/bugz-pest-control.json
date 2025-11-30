@@ -1,30 +1,54 @@
 {
+  "id": 81,
   "slug": "bugz-pest-control",
   "businessName": "Bugz Pest Control",
   "tradingName": "Bugz Pest Control",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": null,
   "phone": "1800 020 225",
+  "phoneVerified": false,
   "email": null,
   "website": "https://bugz.com.au",
-  "address": {
-    "suburb": "Cronulla",
-    "postcode": "2230",
-    "state": "NSW"
-  },
-  "license": {
-    "number": null,
-    "type": "Pest Management Technician",
-    "status": "active",
-    "verified": false
-  },
-  "rating": 0,
-  "reviewCount": 0,
+  "websiteVerified": false,
+  "address": "167 Belgrave Esplanade",
+  "suburb": "Sylvania Waters",
+  "postcode": "2224",
+  "postcodeVerified": false,
+  "region": "sutherland-shire",
+  "description": "Bugz Pest Control is a family-owned pest control company based in Sylvania Waters. They offer residential and commercial pest control with a 6-month guarantee on general pest treatments. Services include rodent, termite, cockroach, and bed bug control using eco-responsible products.",
+  "shortDescription": "Family-owned pest control in Sylvania Waters.",
   "services": [
-    "general-pest-control"
+    "general-pest-control",
+    "termite-control",
+    "rodent-control",
+    "cockroach-control",
+    "bed-bug-control"
   ],
   "serviceAreas": [
-    "cronulla"
+    "sylvania-waters",
+    "cronulla",
+    "miranda",
+    "caringbah",
+    "sutherland"
   ],
-  "description": "Bugz Pest Control provides professional pest control services in Cronulla and surrounding areas.",
-  "shortDescription": "Professional pest control in Cronulla.",
-  "featured": false
+  "rating": 0,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 70,
+    "verifiedFields": 10,
+    "totalFields": 15,
+    "issues": ["Missing rating data", "Missing years in business"],
+    "lastVerified": "2025-12-01T00:00:00.000Z"
+  }
 }

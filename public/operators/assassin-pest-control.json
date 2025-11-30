@@ -1,30 +1,46 @@
 {
+  "id": 80,
   "slug": "assassin-pest-control",
   "businessName": "Assassin Pest Control",
   "tradingName": "Assassin Pest Control",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": null,
   "phone": "0407 737 843",
+  "phoneVerified": false,
   "email": null,
   "website": "https://assassinpestcontrol.com.au",
-  "address": {
-    "suburb": "Glenmore Park",
-    "postcode": "2745",
-    "state": "NSW"
-  },
-  "license": {
-    "number": null,
-    "type": "Pest Management Technician",
-    "status": "active",
-    "verified": false
-  },
-  "rating": 0,
-  "reviewCount": 0,
+  "websiteVerified": false,
+  "address": "11 Eliza Place",
+  "suburb": "Glenmore Park",
+  "postcode": "2745",
+  "postcodeVerified": false,
+  "region": "penrith",
+  "description": "Assassin Pest Control has been providing professional pest control services in Glenmore Park and Western Sydney since 1996. Family-owned business with over 29 years of experience.",
+  "shortDescription": "Professional pest control in Glenmore Park.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "glenmore-park"
   ],
-  "description": "Assassin Pest Control provides professional pest control services in Glenmore Park and surrounding areas.",
-  "shortDescription": "Professional pest control in Glenmore Park.",
-  "featured": false
+  "rating": 0,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": 29,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 75,
+    "verifiedFields": 11,
+    "totalFields": 15,
+    "issues": ["Missing rating data"],
+    "lastVerified": "2025-12-01T00:00:00.000Z"
+  }
 }

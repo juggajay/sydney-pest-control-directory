@@ -1,30 +1,46 @@
 {
+  "id": 79,
   "slug": "advantage-pest-control",
   "businessName": "Advantage Pest Control",
   "tradingName": "Advantage Pest Control",
+  "licenseNumber": null,
+  "licenseType": "Pest Management Technician",
+  "licenseStatus": "Active",
+  "licenseExpiry": null,
+  "epaVerified": false,
+  "verifiedAt": null,
   "phone": "0411 571 700",
+  "phoneVerified": false,
   "email": null,
   "website": "http://www.advantagepestcontrol.com.au/",
-  "address": {
-    "suburb": "Sutherland",
-    "postcode": null,
-    "state": "NSW"
-  },
-  "license": {
-    "number": null,
-    "type": "Pest Management Technician",
-    "status": "active",
-    "verified": false
-  },
-  "rating": 0,
-  "reviewCount": 0,
+  "websiteVerified": false,
+  "address": null,
+  "suburb": "Sutherland",
+  "postcode": "2232",
+  "postcodeVerified": false,
+  "region": "sutherland-shire",
+  "description": "Advantage Pest Control provides professional pest control services in Sutherland and surrounding areas.",
+  "shortDescription": "Professional pest control in Sutherland.",
   "services": [
     "general-pest-control"
   ],
   "serviceAreas": [
     "sutherland"
   ],
-  "description": "Advantage Pest Control provides professional pest control services in Sutherland and surrounding areas.",
-  "shortDescription": "Professional pest control in Sutherland.",
-  "featured": false
+  "rating": 0,
+  "ratingSource": null,
+  "reviewCount": 0,
+  "yearsInBusiness": null,
+  "featured": false,
+  "tier": "basic",
+  "features": [],
+  "operatingHours": null,
+  "pricing": null,
+  "dataQuality": {
+    "score": 50,
+    "verifiedFields": 5,
+    "totalFields": 15,
+    "issues": ["Missing rating data", "Missing years in business"],
+    "lastVerified": "2025-12-01T00:00:00.000Z"
+  }
 }
