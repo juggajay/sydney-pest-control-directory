@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import {
   MapPin, Shield, Star, Clock, ChevronRight,
   Bug, CheckCircle, AlertTriangle, Calendar, ArrowRight,
-  Home, Building, Thermometer, Search
+  Home, Building, Thermometer, Search, Phone
 } from 'lucide-react';
 import {
   suburbs,
