@@ -12,46 +12,37 @@ const supabase = supabaseUrl && supabaseKey ? createClient(supabaseUrl, supabase
 
 const DEFAULT_INITIAL_BODY = `Hi {{operator_name}},
 
-I'm Jayson from Pest Arrest — Sydney's EPA-verified pest control directory.
+I'm Jayson from Pest Arrest — we've listed your business on our Sydney pest control directory.
 
-We've created a free profile for your business:
-{{profile_url}}
+Your profile: {{profile_url}}
 
-Your profile shows your EPA license verification, service areas, and helps Sydney homeowners find you when searching for pest control.
+We verify all operators against the NSW EPA register, so homeowners know they're hiring licensed professionals.
 
-Quick favor: Would you consider adding a link to your profile from your website? This helps your customers verify your EPA credentials and builds trust.
+Would you consider linking to your profile from your website? It helps build trust with your customers.
 
-You can either:
-1. Link directly to your profile: {{profile_url}}
-2. Embed our "EPA Verified" badge (code below)
+If you'd like to add our verification badge to your site, here's the code:
 
-Badge Embed Code:
-<a href="{{profile_url}}" target="_blank">
-  <img src="https://www.pestarrest.com.au/badges/epa-verified.png" alt="EPA Verified - Pest Arrest" width="150">
-</a>
+&lt;a href="{{profile_url}}"&gt;&lt;img src="https://www.pestarrest.com.au/badges/epa-verified.png" alt="EPA Verified - Pest Arrest" width="150"&gt;&lt;/a&gt;
 
-If you'd like any changes to your profile — updated services, contact info, or photos — just reply to this email.
+Happy to make any updates to your listing — just reply to this email.
 
 Cheers,
 Jayson
-Pest Arrest
 https://www.pestarrest.com.au`;
 
 const DEFAULT_FOLLOWUP_BODY = `Hi {{operator_name}},
 
-Just following up on my email last week about your Pest Arrest profile.
+Just checking in — did you see your Pest Arrest profile?
 
-Your profile: {{profile_url}}
+{{profile_url}}
 
-If you have a moment, adding a link from your website helps both of us — it builds trust with your customers and helps us grow the directory.
+If you have a moment, adding a link from your website would help both of us. No pressure either way.
 
-Here's the badge code again if useful:
-<a href="{{profile_url}}"><img src="https://www.pestarrest.com.au/badges/epa-verified.png" alt="EPA Verified" width="150"></a>
-
-No pressure — happy to help with any profile updates either way.
+Let me know if you'd like any changes to your listing.
 
 Cheers,
-Jayson`;
+Jayson
+https://www.pestarrest.com.au`;
 
 export default function NewCampaignPage() {
   const router = useRouter();

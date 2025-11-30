@@ -70,6 +70,9 @@ export async function sendOutreachEmail({
     const personalizedSubject = personalizeTemplate(subject, operatorName, profileUrl);
     let personalizedBody = personalizeTemplate(body, operatorName, profileUrl);
 
+    // Generate plain text version for better deliverability
+    const plainTextBody = generatePlainText(operatorName, profileUrl, emailType);
+
     // Generate unique tracking ID
     const trackingId = uuidv4();
 
@@ -80,12 +83,13 @@ export async function sendOutreachEmail({
     const trackingPixel = `<img src="${siteUrl}/api/outreach/track/open?id=${trackingId}" width="1" height="1" style="display:none;" alt="" />`;
     personalizedBody += trackingPixel;
 
-    // Send email via Resend
+    // Send email via Resend with both HTML and plain text
     const { data: emailData, error: emailError } = await resend.emails.send({
       from: 'Jayson <jayson@pestarrest.com.au>',
       to: recipientEmail,
       subject: personalizedSubject,
       html: personalizedBody,
+      text: plainTextBody,
     });
 
     if (emailError) {
@@ -148,6 +152,40 @@ function wrapLinksWithTracking(html: string, trackingId: string): string {
     const encodedUrl = encodeURIComponent(url);
     return `href="${siteUrl}/api/outreach/track/click?id=${trackingId}&url=${encodedUrl}"`;
   });
+}
+
+function generatePlainText(operatorName: string, profileUrl: string, emailType: 'initial' | 'followup'): string {
+  if (emailType === 'initial') {
+    return `Hi ${operatorName},
+
+I'm Jayson from Pest Arrest — we've listed your business on our Sydney pest control directory.
+
+Your profile: ${profileUrl}
+
+We verify all operators against the NSW EPA register, so homeowners know they're hiring licensed professionals.
+
+Would you consider linking to your profile from your website? It helps build trust with your customers.
+
+Happy to make any updates to your listing — just reply to this email.
+
+Cheers,
+Jayson
+https://www.pestarrest.com.au`.trim();
+  } else {
+    return `Hi ${operatorName},
+
+Just checking in — did you see your Pest Arrest profile?
+
+${profileUrl}
+
+If you have a moment, adding a link from your website would help both of us. No pressure either way.
+
+Let me know if you'd like any changes to your listing.
+
+Cheers,
+Jayson
+https://www.pestarrest.com.au`.trim();
+  }
 }
 
 export async function getPendingEmails(limit: number = 20) {

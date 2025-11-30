@@ -2,7 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { sendOutreachEmail, getPendingEmails, getFollowupsDue, delay } from '@/lib/outreach/sendEmail';
 
 const CRON_SECRET = process.env.CRON_SECRET;
-const MAX_EMAILS_PER_RUN = 20;
+// TODO: Increase DAILY_LIMIT to 20 after 2 weeks of sending
+// Starting with 10 for domain warm-up period
+const MAX_EMAILS_PER_RUN = 10;
 const DELAY_BETWEEN_SENDS = 2000; // 2 seconds
 
 export async function POST(request: NextRequest) {

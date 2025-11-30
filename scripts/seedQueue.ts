@@ -71,14 +71,22 @@ async function seedQueue(campaignId: string) {
     return;
   }
 
-  // Prepare queue items
-  const queueItems = newOperators.map((operator, index) => {
-    // Stagger sends - 10 per day at 2 second intervals within batches
-    const sendAfter = new Date();
-    sendAfter.setDate(sendAfter.getDate() + Math.floor(index / 20)); // 20 per day
-    sendAfter.setHours(9, 0, 0, 0); // Start at 9am
+  // Warm-up schedule: gradual increase in sends per day
+  // Day 1-2: 5 emails each, Day 3-4: 10 emails each, then 15/day ongoing
+  const operatorsPerDay = [5, 5, 10, 10, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15];
 
-    return {
+  // Prepare queue items with staggered send dates
+  const queueItems: any[] = [];
+  let dayOffset = 0;
+  let countForDay = 0;
+  let dayLimit = operatorsPerDay[0];
+
+  for (const operator of newOperators) {
+    const sendAfter = new Date();
+    sendAfter.setDate(sendAfter.getDate() + dayOffset);
+    sendAfter.setHours(9, 0, 0, 0); // Start at 9am Sydney time
+
+    queueItems.push({
       campaign_id: campaignId,
       operator_id: operator.id,
       operator_email: operator.email,
@@ -87,8 +95,31 @@ async function seedQueue(campaignId: string) {
       status: 'pending',
       send_after: sendAfter.toISOString(),
       created_at: new Date().toISOString(),
-    };
-  });
+    });
+
+    countForDay++;
+    if (countForDay >= dayLimit) {
+      dayOffset++;
+      countForDay = 0;
+      // Use schedule if available, otherwise default to 15/day
+      dayLimit = operatorsPerDay[dayOffset] || 15;
+    }
+  }
+
+  // Log the warm-up schedule
+  console.log('\nWarm-up schedule:');
+  let scheduled = 0;
+  for (let d = 0; d <= dayOffset; d++) {
+    const limit = operatorsPerDay[d] || 15;
+    const remaining = newOperators.length - scheduled;
+    const forThisDay = Math.min(limit, remaining);
+    if (forThisDay > 0) {
+      const date = new Date();
+      date.setDate(date.getDate() + d);
+      console.log(`  Day ${d + 1} (${date.toLocaleDateString('en-AU')}): ${forThisDay} emails`);
+      scheduled += forThisDay;
+    }
+  }
 
   // Insert in batches of 100
   const batchSize = 100;
@@ -109,7 +140,7 @@ async function seedQueue(campaignId: string) {
   }
 
   console.log(`\nComplete! Added ${inserted} operators to the queue.`);
-  console.log(`Emails will be sent over ${Math.ceil(newOperators.length / 20)} days.`);
+  console.log(`Emails will be sent over ${dayOffset + 1} days with gradual warm-up.`);
 }
 
 // Get campaign ID from command line args
