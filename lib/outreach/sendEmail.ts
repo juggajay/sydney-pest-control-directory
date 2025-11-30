@@ -58,12 +58,13 @@ export async function sendOutreachEmail({
     }
 
     // Get subject and body based on email type
+    // Database uses email_subject/email_body for initial, followup_subject/followup_body for followup
     const subject = emailType === 'initial'
-      ? campaign.initial_subject
+      ? campaign.email_subject
       : campaign.followup_subject;
 
     const body = emailType === 'initial'
-      ? campaign.initial_body
+      ? campaign.email_body
       : campaign.followup_body;
 
     // Personalize the template
@@ -158,29 +159,38 @@ function generatePlainText(operatorName: string, profileUrl: string, emailType: 
   if (emailType === 'initial') {
     return `Hi ${operatorName},
 
-I'm Jayson from Pest Arrest — we've listed your business on our Sydney pest control directory.
+I've added your business to Pest Arrest — Sydney's pest control directory.
 
-Your profile: ${profileUrl}
+Your free listing: ${profileUrl}
 
-We verify all operators against the NSW EPA register, so homeowners know they're hiring licensed professionals.
+WANT TO STAND OUT?
 
-Would you consider linking to your profile from your website? It helps build trust with your customers.
+Verified operators get an "EPA Verified" badge on their profile. This shows customers you're properly licensed.
 
-Happy to make any updates to your listing — just reply to this email.
+To get verified, just do ONE of these:
+
+1. Reply with your EPA license number(s) — PMT, Timber Pest, Fumigator, or any other licenses you hold
+
+2. OR add a link to your Pest Arrest profile from your website
+
+Either option takes 2 minutes.
+
+If you have multiple licenses, send them all — we can add badges for each one.
 
 Cheers,
 Jayson
+Pest Arrest
 https://www.pestarrest.com.au`.trim();
   } else {
     return `Hi ${operatorName},
 
-Just checking in — did you see your Pest Arrest profile?
+Quick follow-up — did you see your free listing on Pest Arrest?
 
 ${profileUrl}
 
-If you have a moment, adding a link from your website would help both of us. No pressure either way.
+Want the "EPA Verified" badge? Just reply with your license number(s) or add a link to us from your site.
 
-Let me know if you'd like any changes to your listing.
+No pressure — your free listing stays active either way.
 
 Cheers,
 Jayson

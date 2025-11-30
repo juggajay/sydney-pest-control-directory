@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed-outreach": "npx tsx scripts/seedQueue.ts"
+    "seed-outreach": "npx tsx scripts/seedQueue.ts",
+    "scrape-operators": "npx tsx scripts/scrapeOperators.ts",
+    "sync-operators": "npx tsx scripts/syncOperators.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.84.0",

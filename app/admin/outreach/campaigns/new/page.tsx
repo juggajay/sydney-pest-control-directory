@@ -12,33 +12,46 @@ const supabase = supabaseUrl && supabaseKey ? createClient(supabaseUrl, supabase
 
 const DEFAULT_INITIAL_BODY = `Hi {{operator_name}},
 
-I'm Jayson from Pest Arrest — we've listed your business on our Sydney pest control directory.
+I've added your business to Pest Arrest — Sydney's pest control directory.
 
-Your profile: {{profile_url}}
+Your free listing: {{profile_url}}
 
-We verify all operators against the NSW EPA register, so homeowners know they're hiring licensed professionals.
+<strong>WANT TO STAND OUT?</strong>
 
-Would you consider linking to your profile from your website? It helps build trust with your customers.
+Verified operators get an "EPA Verified" badge on their profile. This badge shows potential customers you're properly licensed — building trust and helping you win more jobs.
 
-If you'd like to add our verification badge to your site, here's the code:
+To get verified, just do ONE of these:
 
-&lt;a href="{{profile_url}}"&gt;&lt;img src="https://www.pestarrest.com.au/badges/epa-verified.png" alt="EPA Verified - Pest Arrest" width="150"&gt;&lt;/a&gt;
+<strong>1. Reply with your EPA license number(s)</strong>
+   - PMT (Pest Management Technician)
+   - Timber Pest license
+   - Fumigator license
+   - Any other relevant licenses
 
-Happy to make any updates to your listing — just reply to this email.
+<strong>2. OR add a link to your Pest Arrest profile from your website</strong>
+
+Either option takes 2 minutes and gets you the verified badge.
+
+If you have multiple licenses, send them all — we can add badges for each one.
+
+Questions? Just reply to this email.
 
 Cheers,
 Jayson
+Pest Arrest
 https://www.pestarrest.com.au`;
 
 const DEFAULT_FOLLOWUP_BODY = `Hi {{operator_name}},
 
-Just checking in — did you see your Pest Arrest profile?
+Quick follow-up — did you see your free listing on Pest Arrest?
 
 {{profile_url}}
 
-If you have a moment, adding a link from your website would help both of us. No pressure either way.
+If you'd like the "EPA Verified" badge on your profile, just reply with your license number(s) or add a link to us from your site.
 
-Let me know if you'd like any changes to your listing.
+Verified operators get highlighted in search results and show customers they're properly licensed.
+
+No pressure either way — your free listing stays active regardless.
 
 Cheers,
 Jayson
@@ -51,8 +64,8 @@ export default function NewCampaignPage() {
 
   const [formData, setFormData] = useState({
     name: '',
-    initial_subject: 'Your free EPA-verified profile on Pest Arrest, {{operator_name}}',
-    initial_body: DEFAULT_INITIAL_BODY,
+    email_subject: 'Your Business is Listed on Pest Arrest',
+    email_body: DEFAULT_INITIAL_BODY,
     followup_days: 7,
     followup_subject: 'Quick follow-up: Your Pest Arrest profile',
     followup_body: DEFAULT_FOLLOWUP_BODY,
@@ -86,12 +99,11 @@ export default function NewCampaignPage() {
         .insert({
           name: formData.name,
           status,
-          initial_subject: formData.initial_subject,
-          initial_body: formData.initial_body,
+          email_subject: formData.email_subject,
+          email_body: formData.email_body,
           followup_days: formData.followup_days,
           followup_subject: formData.followup_subject,
           followup_body: formData.followup_body,
-          created_at: new Date().toISOString(),
         })
         .select()
         .single();
@@ -155,8 +167,8 @@ export default function NewCampaignPage() {
                 </label>
                 <input
                   type="text"
-                  name="initial_subject"
-                  value={formData.initial_subject}
+                  name="email_subject"
+                  value={formData.email_subject}
                   onChange={handleChange}
                   className="input"
                   placeholder="Use {{operator_name}} for personalization"
@@ -171,8 +183,8 @@ export default function NewCampaignPage() {
                   Email Body (HTML)
                 </label>
                 <textarea
-                  name="initial_body"
-                  value={formData.initial_body}
+                  name="email_body"
+                  value={formData.email_body}
                   onChange={handleChange}
                   rows={15}
                   className="input font-mono text-sm"
