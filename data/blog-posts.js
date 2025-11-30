@@ -245,31 +245,31 @@ export const blogPosts = [
   // Blog Post 2: Pest Control Cost Sydney
   {
     slug: 'pest-control-cost-sydney-pricing-guide',
-    title: 'Pest Control Cost Sydney 2024: Complete Pricing Guide by Service',
+    title: 'Pest Control Cost Sydney 2025: Complete Pricing Guide by Service',
     excerpt: 'How much does pest control cost in Sydney? Our comprehensive guide covers pricing for termite inspections, cockroach treatment, rodent control, and more. Based on 1,000+ real quotes.',
-    seo_title: 'Pest Control Cost Sydney 2024 | Complete Pricing Guide',
+    seo_title: 'Pest Control Cost Sydney 2025 | Complete Pricing Guide',
     seo_description: 'Pest control prices in Sydney: $150-$500+ depending on service. See real pricing for termites, cockroaches, rodents from 1,000+ quotes. Compare EPA-licensed operators.',
     category: 'pricing',
     tags: ['pest control cost', 'pest control prices sydney', 'termite treatment cost', 'cockroach treatment price', 'rodent control cost'],
-    author_name: 'Sarah Mitchell',
-    author_role: 'Content Director, Pest Arrest',
-    author_bio: 'Sarah leads content strategy at Pest Arrest, working daily with 700+ EPA-licensed operators across Sydney. She has analyzed thousands of pest control cases to bring you accurate, actionable information.',
-    reviewer_name: 'Mark Thompson',
-    reviewer_role: 'EPA Licensed Pest Controller',
-    reviewer_license: 'PMT-15923',
-    reviewer_license_type: 'Pest Management Technician',
-    reviewer_years_experience: 22,
-    reviewer_specialization: 'General Pest Management',
+    author_name: 'Pest Arrest Team',
+    author_role: null,
+    author_bio: 'Written by the Pest Arrest team in consultation with EPA-licensed pest controllers across Sydney.',
+    author_linkedin: null,
+    reviewer_name: null,
+    reviewer_role: null,
+    reviewer_license: null,
+    reviewer_license_type: null,
+    reviewer_years_experience: null,
+    reviewer_specialization: null,
     published_at: '2024-11-10T09:00:00Z',
-    updated_at: '2024-11-27T10:00:00Z',
-    last_fact_checked: '2024-11-27T10:00:00Z',
+    updated_at: '2024-11-30T10:00:00Z',
+    last_fact_checked: '2024-11-30T10:00:00Z',
     reading_time_minutes: 10,
     word_count: 2400,
     related_services: ['general-pest-control', 'termite-inspection', 'termite-treatment', 'cockroach-control', 'rodent-control'],
     related_suburbs: ['sydney-cbd', 'parramatta', 'bondi', 'chatswood'],
     sources: [
-      { title: 'Platform Quote Data Analysis Q3-Q4 2024', publisher: 'Pest Arrest', url: null },
-      { title: 'NSW EPA Licensed Operator Database', publisher: 'NSW EPA', url: 'https://www.epa.nsw.gov.au' },
+      { title: 'Platform Quote Data Analysis Q4 2024 - Q1 2025', publisher: 'Pest Arrest', url: null },
     ],
     faqs: [
       {
@@ -291,10 +291,10 @@ export const blogPosts = [
     ],
     content: `
       <h2 id="overview">Sydney Pest Control Pricing Overview</h2>
-      <p>Understanding pest control costs helps you budget appropriately and avoid being overcharged. Based on our analysis of <strong>1,000+ real quotes</strong> from EPA-licensed operators across Sydney, here's what you can expect to pay in 2024.</p>
+      <p>Understanding pest control costs helps you budget appropriately and avoid being overcharged. Based on our analysis of <strong>1,000+ real quotes</strong> from <a href="/operators">EPA-licensed operators</a> across Sydney, here's what you can expect to pay in 2025.</p>
 
       <div style="background: #ecfdf5; border: 1px solid #10b981; border-radius: 12px; padding: 16px; margin: 24px 0;">
-        <strong style="color: #065f46;">Data Source:</strong> All pricing data is based on actual quotes submitted through our platform between July-November 2024. Prices may vary based on your specific situation.
+        <strong style="color: #065f46;">Data Source:</strong> All pricing data is based on actual quotes submitted through our platform. Prices may vary based on your specific situation.
       </div>
 
       <h2 id="quick-reference">Quick Price Reference Table</h2>
@@ -305,27 +305,27 @@ export const blogPosts = [
           <th style="padding: 12px; border: 1px solid #e5e7eb; text-align: left;">Average</th>
         </tr>
         <tr>
-          <td style="padding: 12px; border: 1px solid #e5e7eb;">General Pest Control</td>
+          <td style="padding: 12px; border: 1px solid #e5e7eb;"><a href="/services/general-pest-control">General Pest Control</a></td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$180 - $350</td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$250</td>
         </tr>
         <tr style="background: #f9fafb;">
-          <td style="padding: 12px; border: 1px solid #e5e7eb;">Termite Inspection</td>
+          <td style="padding: 12px; border: 1px solid #e5e7eb;"><a href="/services/termite-inspection">Termite Inspection</a></td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$250 - $500</td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$350</td>
         </tr>
         <tr>
-          <td style="padding: 12px; border: 1px solid #e5e7eb;">Termite Treatment (Chemical Barrier)</td>
+          <td style="padding: 12px; border: 1px solid #e5e7eb;"><a href="/services/termite-treatment">Termite Treatment</a> (Chemical Barrier)</td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$2,000 - $5,000</td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$3,200</td>
         </tr>
         <tr style="background: #f9fafb;">
-          <td style="padding: 12px; border: 1px solid #e5e7eb;">Cockroach Treatment</td>
+          <td style="padding: 12px; border: 1px solid #e5e7eb;"><a href="/services/cockroach-control">Cockroach Treatment</a></td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$150 - $350</td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$220</td>
         </tr>
         <tr>
-          <td style="padding: 12px; border: 1px solid #e5e7eb;">Rodent Control</td>
+          <td style="padding: 12px; border: 1px solid #e5e7eb;"><a href="/services/rodent-control">Rodent Control</a></td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$200 - $500</td>
           <td style="padding: 12px; border: 1px solid #e5e7eb;">$300</td>
         </tr>
@@ -336,8 +336,13 @@ export const blogPosts = [
         </tr>
       </table>
 
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/sydney-pest-control-prices-2025.png" alt="Sydney pest control prices 2025 infographic showing costs for general pest control, termite inspection, termite treatment, cockroach treatment, rodent control, and bed bug treatment" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Sydney pest control prices at a glance — based on 1,000+ quotes from EPA-licensed operators.</figcaption>
+      </figure>
+
       <h2 id="general-pest">General Pest Control Pricing</h2>
-      <p>General pest control typically covers cockroaches, spiders, ants, and silverfish in a single treatment.</p>
+      <p><a href="/services/general-pest-control">General pest control</a> typically covers cockroaches, spiders, ants, and silverfish in a single treatment.</p>
 
       <h3>Price by Property Size</h3>
       <ul>
@@ -356,10 +361,15 @@ export const blogPosts = [
         <li>6-12 month warranty on treated pests</li>
       </ul>
 
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/general-pest-control-whats-included.png" alt="Infographic showing what is included in general pest control treatment including internal spray, external perimeter spray, roof void dusting, and warranty, plus icons for cockroaches, spiders, ants, and silverfish" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">What's typically included in a standard general pest control treatment.</figcaption>
+      </figure>
+
       <h2 id="termite-costs">Termite Inspection & Treatment Costs</h2>
       <p>Termite services are the most expensive due to the specialised knowledge, equipment, and chemicals required.</p>
 
-      <h3>Termite Inspection</h3>
+      <h3><a href="/services/termite-inspection">Termite Inspection</a></h3>
       <ul>
         <li><strong>Visual inspection only</strong>: $200-$300</li>
         <li><strong>With thermal imaging</strong>: $300-$450 (recommended)</li>
@@ -367,7 +377,7 @@ export const blogPosts = [
         <li><strong>Pre-purchase inspection</strong>: $400-$600</li>
       </ul>
 
-      <h3>Termite Treatment</h3>
+      <h3><a href="/services/termite-treatment">Termite Treatment</a></h3>
       <ul>
         <li><strong>Chemical soil barrier (Termidor)</strong>: $2,000-$4,500</li>
         <li><strong>Baiting system installation</strong>: $2,500-$5,000</li>
@@ -377,10 +387,10 @@ export const blogPosts = [
       </ul>
 
       <div style="background: #fef3c7; border: 1px solid #f59e0b; border-radius: 12px; padding: 16px; margin: 24px 0;">
-        <strong style="color: #92400e;">Important:</strong> Insurance does NOT cover termite damage. A $350 annual inspection could save you $50,000+ in repair costs.
+        <strong style="color: #92400e;">Important:</strong> Insurance does NOT cover termite damage. A $350 annual <a href="/services/termite-inspection">termite inspection</a> could save you $50,000+ in repair costs.
       </div>
 
-      <h2 id="cockroach">Cockroach Treatment Costs</h2>
+      <h2 id="cockroach"><a href="/services/cockroach-control">Cockroach Treatment</a> Costs</h2>
       <p>Cockroach treatment pricing depends on infestation severity and property type.</p>
       <ul>
         <li><strong>Light infestation</strong>: $150-$250</li>
@@ -389,7 +399,7 @@ export const blogPosts = [
         <li><strong>German cockroach treatment</strong>: $300-$500 (more persistent species)</li>
       </ul>
 
-      <h2 id="rodent">Rodent Control Costs</h2>
+      <h2 id="rodent"><a href="/services/rodent-control">Rodent Control</a> Costs</h2>
       <p>Rodent control often requires multiple visits to ensure complete elimination.</p>
       <ul>
         <li><strong>Initial treatment + 1 follow-up</strong>: $250-$400</li>
@@ -417,9 +427,9 @@ export const blogPosts = [
 
       <h2 id="save-money">How to Save Money (Without Compromising Quality)</h2>
       <ol>
-        <li><strong>Get multiple quotes</strong>: Compare at least 3 quotes from EPA-licensed operators</li>
+        <li><strong><a href="/operators">Get multiple quotes</a></strong>: Compare at least 3 quotes from EPA-licensed operators</li>
         <li><strong>Book ongoing service</strong>: Annual contracts are 15-25% cheaper than one-off treatments</li>
-        <li><strong>Bundle services</strong>: Combining termite inspection with general pest treatment saves 10-15%</li>
+        <li><strong>Bundle services</strong>: Combining <a href="/services/termite-inspection">termite inspection</a> with <a href="/services/general-pest-control">general pest treatment</a> saves 10-15%</li>
         <li><strong>Off-peak timing</strong>: Some operators offer discounts for midweek bookings</li>
         <li><strong>Preventive approach</strong>: Regular maintenance is cheaper than treating severe infestations</li>
       </ol>
@@ -434,6 +444,13 @@ export const blogPosts = [
         <li>No proper inspection before quoting</li>
       </ul>
       <p><strong>Always verify</strong> your operator holds a current NSW EPA pesticide license before booking.</p>
+
+      <div style="background: linear-gradient(135deg, #1a5d3a 0%, #2d8a5e 100%); border-radius: 16px; padding: 32px; margin: 32px 0; text-align: center;">
+        <h2 style="color: white; margin-top: 0; margin-bottom: 12px; font-size: 24px;">Ready to Get Quotes?</h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 24px; font-size: 18px;">Compare prices from EPA-licensed pest controllers in your Sydney suburb.</p>
+        <a href="/operators" style="display: inline-block; background: #fbbf24; color: #1a1a1a; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; margin-right: 12px;">Find Operators Near You</a>
+        <a href="/quote" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; border: 2px solid rgba(255,255,255,0.3);">Get Free Quotes</a>
+      </div>
     `,
   },
 
