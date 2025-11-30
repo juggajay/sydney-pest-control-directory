@@ -234,10 +234,12 @@ export default function ServicePage({ params }) {
                   <Repeat className="w-5 h-5 text-white/70" />
                   <span className="text-white/90">{service.frequency}</span>
                 </div>
-                <div className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur rounded-lg">
-                  <Users className="w-5 h-5 text-white/70" />
-                  <span className="text-white/90">{serviceOperators.length} Operators</span>
-                </div>
+                {serviceOperators.length > 0 && (
+                  <div className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur rounded-lg">
+                    <Users className="w-5 h-5 text-white/70" />
+                    <span className="text-white/90">{serviceOperators.length} Operators</span>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -402,8 +404,8 @@ export default function ServicePage({ params }) {
                 <div className="flex flex-wrap gap-2">
                   {suburbs.slice(0, 10).map((suburb) => (
                     <Link
-                      key={suburb.slug}
-                      href={`/pest-control/${suburb.slug}`}
+                      key={suburb.id || suburb.slug}
+                      href={`/pest-control/${suburb.id || suburb.slug}`}
                       className="px-3 py-1.5 rounded-full text-sm bg-neutral-100 text-neutral-700 hover:bg-primary-100 hover:text-primary-700 transition-colors"
                     >
                       {suburb.name}

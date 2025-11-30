@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Shield, Mail, MapPin, Facebook, Instagram, Linkedin, Zap } from 'lucide-react';
+import { Shield, Mail, MapPin, Zap } from 'lucide-react';
 import { siteConfig } from '../lib/seo';
 
 const footerLinks = {
@@ -79,18 +79,6 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Social Links */}
-            <div className="flex items-center gap-4 mt-6">
-              <a href="#" className="w-10 h-10 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary-500 hover:text-white transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary-500 hover:text-white transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary-500 hover:text-white transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Services */}

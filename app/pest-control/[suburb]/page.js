@@ -539,12 +539,12 @@ export default function SuburbPage({ params }) {
           </h2>
           <div className="flex flex-wrap gap-3">
             {suburbs
-              .filter(s => s.region === suburb.region && s.slug !== suburb.slug)
+              .filter(s => s.region === suburb.region && (s.id || s.slug) !== (suburb.id || suburb.slug))
               .slice(0, 12)
               .map((nearbySuburb) => (
                 <Link
-                  key={nearbySuburb.slug}
-                  href={`/pest-control/${nearbySuburb.slug}`}
+                  key={nearbySuburb.id || nearbySuburb.slug}
+                  href={`/pest-control/${nearbySuburb.id || nearbySuburb.slug}`}
                   className="px-4 py-2 rounded-full bg-white border border-neutral-200 text-neutral-700 hover:border-primary-300 hover:text-primary-600 transition-colors"
                 >
                   {nearbySuburb.name}

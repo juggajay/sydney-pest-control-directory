@@ -23,8 +23,8 @@ export default function ServiceAreasCard({ serviceAreas }) {
       <div className="flex flex-wrap gap-2">
         {displayedAreas.map((suburb) => (
           <Link
-            key={suburb.slug}
-            href={`/pest-control/${suburb.slug}`}
+            key={suburb.id || suburb.slug}
+            href={`/pest-control/${suburb.id || suburb.slug}`}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-neutral-100 text-neutral-700 hover:bg-primary-100 hover:text-primary-700 transition-colors text-sm"
           >
             <MapPin className="w-3 h-3" />
