@@ -7,7 +7,7 @@ import OperatorsList from '../../components/OperatorsList';
 export async function generateMetadata() {
   const { operators } = await import('../../lib/data');
   return {
-    title: `${operators.length} EPA-Licensed Pest Control Operators Sydney | Pest Arrest`,
+    title: `${operators.length} EPA-Licensed Pest Control Operators Sydney`,
     description: `Browse ${operators.length} EPA-verified pest control operators serving Sydney. Compare licensed professionals for termites, cockroaches, rodents, spiders and more. Get free quotes today.`,
   };
 }
