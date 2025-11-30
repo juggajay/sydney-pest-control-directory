@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Shield, Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Zap } from 'lucide-react';
+import { Shield, Mail, MapPin, Facebook, Instagram, Linkedin, Zap } from 'lucide-react';
 import { siteConfig } from '../lib/seo';
 
 const footerLinks = {
@@ -69,10 +69,6 @@ export default function Footer() {
             </p>
             
             <div className="space-y-3">
-              <a href="tel:1300277378" className="flex items-center gap-3 text-sm hover:text-white transition-colors">
-                <Phone className="w-4 h-4 text-primary-400" />
-                {siteConfig.phone}
-              </a>
               <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-3 text-sm hover:text-white transition-colors">
                 <Mail className="w-4 h-4 text-primary-400" />
                 {siteConfig.email}

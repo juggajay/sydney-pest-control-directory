@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { MapPin, ChevronRight, Star, Shield, Phone, Clock, Building, TreeDeciduous, Waves, Home, ArrowRight } from 'lucide-react';
+import { MapPin, ChevronRight, Star, Shield, Clock, Building, TreeDeciduous, Waves, Home, ArrowRight, Search } from 'lucide-react';
 import { suburbs, operators } from '../../../lib/data';
 
 // Region data
@@ -258,8 +258,8 @@ export default function RegionPage({ params }) {
                           {op.yearsInBusiness}+ years
                         </span>
                         <span className="flex items-center gap-1">
-                          <Phone className="w-4 h-4" />
-                          Quick response
+                          <Shield className="w-4 h-4" />
+                          EPA Verified
                         </span>
                       </div>
                     </Link>
@@ -330,13 +330,13 @@ export default function RegionPage({ params }) {
                 Get Free Quotes
                 <ArrowRight className="w-5 h-5" />
               </Link>
-              <a
-                href="tel:1300737834"
+              <Link
+                href="/operators"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold transition-colors"
               >
-                <Phone className="w-5 h-5" />
-                1300 PEST FIND
-              </a>
+                <Search className="w-5 h-5" />
+                Find Operators
+              </Link>
             </div>
           </div>
         </section>

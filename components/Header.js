@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, ChevronDown, Phone, Shield, Bug, Search, MapPin, Zap } from 'lucide-react';
+import { Menu, X, ChevronDown, Shield, Bug, Search, MapPin, Zap } from 'lucide-react';
 import { siteConfig } from '../lib/seo';
 
 const services = [
@@ -198,17 +198,6 @@ export default function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <a
-              href="tel:1300277378"
-              className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm transition-colors ${
-                isScrolled
-                  ? 'text-neutral-700 hover:text-primary-600'
-                  : 'text-white/90 hover:text-white'
-              }`}
-            >
-              <Phone className="w-4 h-4" />
-              <span className="hidden xl:inline">{siteConfig.phone}</span>
-            </a>
             <Link
               href="/quote"
               className="btn btn-primary btn-sm"
@@ -294,13 +283,6 @@ export default function Header() {
             </div>
 
             <div className="border-t border-neutral-100 pt-4 flex flex-col gap-3">
-              <a
-                href="tel:1300277378"
-                className="flex items-center justify-center gap-2 p-3 rounded-xl border border-neutral-200 text-neutral-700 font-medium"
-              >
-                <Phone className="w-4 h-4" />
-                {siteConfig.phone}
-              </a>
               <Link
                 href="/quote"
                 onClick={() => setIsMobileMenuOpen(false)}

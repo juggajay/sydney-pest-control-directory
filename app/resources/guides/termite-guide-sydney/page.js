@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {
   Shield, CheckCircle, AlertTriangle, Bug, Home, Calendar,
-  DollarSign, MapPin, ArrowRight, Phone, FileText, Thermometer,
+  DollarSign, MapPin, ArrowRight, FileText, Thermometer,
   Droplets, Eye, Clock
 } from 'lucide-react';
 import { generateBreadcrumbSchema, generateFAQSchema, siteConfig } from '../../../../lib/seo';

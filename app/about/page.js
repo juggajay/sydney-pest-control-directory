@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {
   Shield, Users, Award, Target, CheckCircle, Star,
-  Building, MapPin, Clock, Phone, ArrowRight
+  Building, MapPin, Clock, ArrowRight
 } from 'lucide-react';
 import { operators, suburbs } from '../../lib/data';
 

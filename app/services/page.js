@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Bug, Shield, ChevronRight, Search, DollarSign, ArrowRight, Phone } from 'lucide-react';
+import { Bug, Shield, ChevronRight, Search, DollarSign, ArrowRight } from 'lucide-react';
 import { services } from '../../lib/data';
 import { generateMetadata as genMeta } from '../../lib/seo';
 
@@ -66,10 +66,10 @@ export default function ServicesPage() {
                 Get Free Quotes
                 <ArrowRight className="w-5 h-5" />
               </Link>
-              <a href="tel:1300737834" className="btn btn-lg bg-white/10 text-white hover:bg-white/20 gap-2">
-                <Phone className="w-5 h-5" />
-                1300 PEST FIND
-              </a>
+              <Link href="/operators" className="btn btn-lg bg-white/10 text-white hover:bg-white/20 gap-2">
+                <Search className="w-5 h-5" />
+                Find Operators
+              </Link>
             </div>
           </div>
         </div>

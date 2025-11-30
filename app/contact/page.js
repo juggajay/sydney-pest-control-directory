@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import {
-  Phone, Mail, MapPin, Clock, MessageSquare,
+  Mail, MapPin, Clock, MessageSquare,
   HelpCircle, Building, ArrowRight
 } from 'lucide-react';
 
@@ -18,19 +18,11 @@ export const metadata = {
 export default function ContactPage() {
   const contactMethods = [
     {
-      icon: Phone,
-      title: 'Phone',
-      description: 'Speak to our team',
-      value: '1300 PEST FIND',
-      subValue: '1300 737 834',
-      action: 'tel:1300737834',
-    },
-    {
       icon: Mail,
       title: 'Email',
       description: 'Send us a message',
-      value: 'hello@sydneypestcontrol.com.au',
-      action: 'mailto:hello@sydneypestcontrol.com.au',
+      value: 'hello@pestarrest.com.au',
+      action: 'mailto:hello@pestarrest.com.au',
     },
     {
       icon: Clock,
@@ -38,6 +30,13 @@ export default function ContactPage() {
       description: 'Customer support',
       value: 'Mon-Fri: 8am - 6pm',
       subValue: 'Sat: 9am - 2pm',
+    },
+    {
+      icon: MapPin,
+      title: 'Location',
+      description: 'Based in Sydney',
+      value: 'Sydney, NSW',
+      subValue: 'Serving all suburbs',
     },
   ];
 
@@ -75,7 +74,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-primary-100 max-w-3xl">
             Have a question or need assistance? Our team is here to help.
-            Reach out via phone, email, or the form below.
+            Reach out via email or the form below.
           </p>
         </div>
       </section>

@@ -170,9 +170,8 @@ export default function TermsPage() {
                 For questions about these Terms of Service, please contact us:
               </p>
               <div className="bg-neutral-50 rounded-lg p-6 border border-neutral-200">
-                <p className="text-neutral-700 font-medium mb-2">Sydney Pest Control Directory</p>
-                <p className="text-neutral-600">Email: legal@sydneypestcontrol.com.au</p>
-                <p className="text-neutral-600">Phone: 1300 737 834</p>
+                <p className="text-neutral-700 font-medium mb-2">Pest Arrest</p>
+                <p className="text-neutral-600">Email: legal@pestarrest.com.au</p>
               </div>
             </div>
           </div>

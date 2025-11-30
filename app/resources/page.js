@@ -11,7 +11,6 @@ import {
   Home,
   Leaf,
   Thermometer,
-  Phone,
   BookOpen,
   Search,
   ArrowRight

@@ -49,7 +49,7 @@ export default function PrivacyPage() {
               </p>
               <ul className="list-disc list-inside text-neutral-600 mb-6 space-y-2">
                 <li>Submit a quote request form</li>
-                <li>Contact us via email or phone</li>
+                <li>Contact us via email or our contact form</li>
                 <li>Sign up for our newsletter</li>
                 <li>Leave a review for a pest control operator</li>
                 <li>Register as a pest control operator</li>
@@ -171,9 +171,8 @@ export default function PrivacyPage() {
                 If you have questions about this Privacy Policy or our privacy practices, please contact us:
               </p>
               <div className="bg-neutral-50 rounded-lg p-6 border border-neutral-200">
-                <p className="text-neutral-700 font-medium mb-2">Sydney Pest Control Directory</p>
-                <p className="text-neutral-600">Email: privacy@sydneypestcontrol.com.au</p>
-                <p className="text-neutral-600">Phone: 1300 737 834</p>
+                <p className="text-neutral-700 font-medium mb-2">Pest Arrest</p>
+                <p className="text-neutral-600">Email: privacy@pestarrest.com.au</p>
               </div>
             </div>
           </div>

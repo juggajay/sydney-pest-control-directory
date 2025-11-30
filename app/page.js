@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import {
-  Search, MapPin, Shield, Star, Clock, Phone, ChevronRight,
+  Search, MapPin, Shield, Star, Clock, ChevronRight,
   Bug, CheckCircle, Users, Award, Zap, ArrowRight, Building,
   Home, TreeDeciduous, Waves
 } from 'lucide-react';
@@ -562,10 +562,10 @@ export default function HomePage() {
               Get Free Quotes
               <ArrowRight className="w-5 h-5" />
             </Link>
-            <a href="tel:1300737834" className="btn btn-lg bg-white/10 text-white hover:bg-white/20 gap-2 w-full sm:w-auto">
-              <Phone className="w-5 h-5" />
-              1300 PEST FIND
-            </a>
+            <Link href="/operators" className="btn btn-lg bg-white/10 text-white hover:bg-white/20 gap-2 w-full sm:w-auto">
+              <Search className="w-5 h-5" />
+              Find Operators
+            </Link>
           </div>
         </div>
       </section>
