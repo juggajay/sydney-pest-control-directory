@@ -11,27 +11,27 @@ export const blogPosts = [
     seo_description: 'Identify termites in your Sydney home with our expert visual guide. Learn to spot mud tubes, timber damage, swarmers & get free inspection quotes from EPA-licensed operators.',
     category: 'pest-identification',
     tags: ['termites', 'termite identification', 'termite signs', 'white ants', 'timber pest', 'termite damage'],
-    author_name: 'Sarah Mitchell',
-    author_role: 'Content Director, Pest Arrest',
-    author_bio: 'Sarah leads content strategy at Pest Arrest, working daily with 700+ EPA-licensed operators across Sydney. She has analyzed thousands of pest control cases to bring you accurate, actionable information.',
-    author_linkedin: 'https://linkedin.com/in/sarahmitchell',
-    reviewer_name: 'David Chen',
-    reviewer_role: 'EPA Licensed Pest Controller',
-    reviewer_license: 'PMT-12847',
-    reviewer_license_type: 'Pest Management Technician',
-    reviewer_years_experience: 18,
-    reviewer_specialization: 'Termite Management',
+    author_name: 'Pest Arrest Team',
+    author_role: null,
+    author_bio: 'Written by the Pest Arrest team in consultation with EPA-licensed pest controllers across Sydney.',
+    author_linkedin: null,
+    reviewer_name: null,
+    reviewer_role: null,
+    reviewer_license: null,
+    reviewer_license_type: null,
+    reviewer_years_experience: null,
+    reviewer_specialization: null,
     published_at: '2024-11-15T09:00:00Z',
-    updated_at: '2024-11-28T14:30:00Z',
-    last_fact_checked: '2024-11-28T14:30:00Z',
+    updated_at: '2024-11-30T10:00:00Z',
+    last_fact_checked: '2024-11-30T10:00:00Z',
     reading_time_minutes: 12,
     word_count: 2800,
     related_services: ['termite-inspection', 'termite-treatment'],
     related_suburbs: ['bondi', 'parramatta', 'castle-hill', 'manly'],
     sources: [
-      { title: 'AS 3660.2-2017 Termite Management', publisher: 'Standards Australia', url: 'https://www.standards.org.au' },
-      { title: 'Termite Biology and Behaviour', publisher: 'CSIRO', url: 'https://www.csiro.au' },
-      { title: 'NSW Pesticide Act Regulations', publisher: 'NSW EPA', url: 'https://www.epa.nsw.gov.au' },
+      { title: 'AS 3660.2-2017 Termite Management in New and Existing Buildings', publisher: 'Standards Australia', url: 'https://www.standards.org.au/standards-catalogue/sa-snz/building/ts-049/as--3660-dot-2-2017' },
+      { title: 'Termites in Australia', publisher: 'CSIRO', url: 'https://www.csiro.au/en/research/animals/insects/termites' },
+      { title: 'Pesticide Licensing - Pest Management', publisher: 'NSW Environment Protection Authority', url: 'https://www.epa.nsw.gov.au/licensing-and-regulation/licences-concurrences-certifications/pesticide-licences' },
     ],
     faqs: [
       {
@@ -63,6 +63,11 @@ export const blogPosts = [
       <h2 id="mud-tubes">Sign #1: Mud Tubes (Most Reliable Indicator)</h2>
       <p>Mud tubes are the most definitive sign of subterranean termite activity - the most common and destructive termite type in Sydney.</p>
 
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/termite-mud-tubes-sydney.png" alt="Termite mud tubes on concrete block foundation wall with Australian 20 cent coin for scale" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Termite mud tubes on a foundation wall — typically pencil-width diameter. 20 cent coin shown for scale.</figcaption>
+      </figure>
+
       <h3>What Are Mud Tubes?</h3>
       <p>Mud tubes are protective tunnels built by termites from soil, wood particles, and saliva. They create sheltered pathways between their underground colony and food sources (your timber). Tubes are typically 5-10mm wide - about the diameter of a pencil.</p>
 
@@ -79,11 +84,16 @@ export const blogPosts = [
       <p>If you find a mud tube, break off a small section in the middle (about 5cm). Check back in a few days:</p>
       <ul>
         <li><strong>Tube repaired</strong> = Active termite infestation</li>
-        <li><strong>Tube not repaired</strong> = May be inactive, but still requires professional inspection</li>
+        <li><strong>Tube not repaired</strong> = May be inactive, but still requires professional <a href="/services/termite-inspection">termite inspection</a></li>
       </ul>
 
       <h2 id="timber-damage">Sign #2: Timber Damage Patterns</h2>
       <p>Termites consume timber from the inside out, often leaving a thin veneer of paint or timber on the surface. This makes damage invisible until it's severe.</p>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/termite-timber-damage-cross-section.png" alt="Cross-section of timber beam showing internal termite damage galleries and tunnels" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Termite damage inside a timber beam — hollowed galleries often invisible from the outside until severe.</figcaption>
+      </figure>
 
       <h3>How to Check for Timber Damage</h3>
       <ol>
@@ -91,6 +101,11 @@ export const blogPosts = [
         <li><strong>Press test</strong>: Gently press on timber surfaces. If they feel soft or give way easily, termites may have eaten the interior.</li>
         <li><strong>Visual inspection</strong>: Look for bubbling, cracking, or uneven paint on timber surfaces.</li>
       </ol>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/termite-tap-test-skirting-board.png" alt="Homeowner using screwdriver handle to tap test white skirting board for termite damage" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">The tap test: use a screwdriver handle to tap skirting boards and listen for hollow sounds.</figcaption>
+      </figure>
 
       <h3>Common Damage Locations in Sydney Homes</h3>
       <ul>
@@ -134,13 +149,23 @@ export const blogPosts = [
         </tr>
       </table>
 
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/termite-vs-ant-comparison.png" alt="Diagram comparing termite and ant anatomy showing differences in antennae, waist, and wings" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Key differences between termites and ants: straight vs bent antennae, thick vs pinched waist, equal vs unequal wings.</figcaption>
+      </figure>
+
       <h3>What Discarded Wings Mean</h3>
       <p>Finding piles of small, translucent wings near windows, doors, or light sources indicates a swarm has occurred nearby. This means:</p>
       <ul>
         <li>A mature colony (3+ years old) exists nearby</li>
         <li>New colonies may be establishing in your area</li>
-        <li>Urgent professional inspection is recommended</li>
+        <li>Urgent professional <a href="/services/termite-inspection">termite inspection</a> is recommended</li>
       </ul>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/termite-swarmer-wings-windowsill.png" alt="Discarded termite swarmer wings on white windowsill indicating nearby termite colony" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">Discarded termite wings on a windowsill — a sign that a mature colony exists nearby.</figcaption>
+      </figure>
 
       <h2 id="other-signs">Other Warning Signs</h2>
 
@@ -154,7 +179,12 @@ export const blogPosts = [
       <p>While less common in Sydney (subterranean termites are more prevalent), drywood termites leave small piles of wood-coloured pellets near infested timber.</p>
 
       <h2 id="high-risk-areas">High-Risk Areas in Sydney Homes</h2>
-      <p>Based on analysis of thousands of inspections, these areas are most commonly affected:</p>
+      <p>Based on analysis of thousands of inspections across suburbs like <a href="/pest-control/bondi">Bondi</a>, <a href="/pest-control/parramatta">Parramatta</a>, <a href="/pest-control/castle-hill">Castle Hill</a>, and <a href="/pest-control/manly">Manly</a>, these areas are most commonly affected:</p>
+
+      <figure style="margin: 24px 0;">
+        <img src="/images/blog/termite-high-risk-areas-house-diagram.png" alt="House cross-section diagram showing six high-risk termite areas including foundation, subfloor, bathroom walls, door frames, pipes, and roof timbers" style="width: 100%; border-radius: 12px;" />
+        <figcaption style="font-size: 14px; color: #6b7280; margin-top: 8px; text-align: center;">High-risk termite areas in a typical Sydney home.</figcaption>
+      </figure>
 
       <h3>Highest Risk</h3>
       <ul>
@@ -182,6 +212,8 @@ export const blogPosts = [
         <li>Unexplained timber damage</li>
       </ul>
 
+      <p><strong>Don't delay.</strong> The sooner you get a professional <a href="/services/termite-inspection">termite inspection</a>, the better your chances of preventing major structural damage. If termites are confirmed, prompt <a href="/services/termite-treatment">termite treatment</a> is essential.</p>
+
       <h3>Professional Inspection Costs in Sydney</h3>
       <p>Based on our platform data from 500+ quotes:</p>
       <ul>
@@ -197,9 +229,16 @@ export const blogPosts = [
         <li><strong>Reduce moisture</strong>: Fix leaking taps, pipes, and air conditioning units</li>
         <li><strong>Improve ventilation</strong>: Ensure subfloor areas have adequate airflow</li>
         <li><strong>Remove timber contact</strong>: Keep garden beds, mulch, and firewood away from foundations</li>
-        <li><strong>Annual inspections</strong>: Australian Standard AS 3660 recommends yearly inspections</li>
+        <li><strong>Annual inspections</strong>: Australian Standard AS 3660 recommends yearly <a href="/services/termite-inspection">termite inspections</a></li>
         <li><strong>Maintain barriers</strong>: If you have a chemical barrier, don't breach it with landscaping</li>
       </ol>
+
+      <div style="background: linear-gradient(135deg, #1a5d3a 0%, #2d8a5e 100%); border-radius: 16px; padding: 32px; margin: 32px 0; text-align: center;">
+        <h2 style="color: white; margin-top: 0; margin-bottom: 12px; font-size: 24px;">Need a Termite Inspection?</h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 24px; font-size: 18px;">Find EPA-licensed termite inspectors in your Sydney suburb.</p>
+        <a href="/operators" style="display: inline-block; background: #fbbf24; color: #1a1a1a; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; margin-right: 12px;">Find Operators Near You</a>
+        <a href="/quote" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 16px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; border: 2px solid rgba(255,255,255,0.3);">Get Free Quotes</a>
+      </div>
     `,
   },
 
