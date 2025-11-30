@@ -21,6 +21,44 @@ import {
   siteConfig
 } from '../../../lib/seo';
 
+// Blog post mapping for related articles by service
+const serviceBlogMapping = {
+  'termite-inspection': [
+    { slug: 'how-to-identify-termites-sydney', title: 'How to Identify Termites in Your Sydney Home', excerpt: 'Learn to spot the early warning signs of termite infestation. Our expert guide covers mud tubes, timber damage, swarmers, and when to call a professional.' },
+    { slug: 'pest-control-cost-sydney-pricing-guide', title: 'Pest Control Cost Sydney 2025: Complete Pricing Guide', excerpt: 'How much does pest control cost in Sydney? See real pricing for termite inspections, treatments, and more.' },
+  ],
+  'termite-treatment': [
+    { slug: 'how-to-identify-termites-sydney', title: 'How to Identify Termites in Your Sydney Home', excerpt: 'Learn to spot the early warning signs of termite infestation. Our expert guide covers mud tubes, timber damage, swarmers, and when to call a professional.' },
+    { slug: 'pest-control-cost-sydney-pricing-guide', title: 'Pest Control Cost Sydney 2025: Complete Pricing Guide', excerpt: 'How much does pest control cost in Sydney? See real pricing for termite inspections, treatments, and more.' },
+  ],
+  'general-pest-control': [
+    { slug: 'pest-control-cost-sydney-pricing-guide', title: 'Pest Control Cost Sydney 2025: Complete Pricing Guide', excerpt: 'How much does pest control cost in Sydney? Our comprehensive guide covers pricing for all services.' },
+    { slug: 'spring-pest-prevention-checklist-sydney', title: 'Spring Pest Prevention Checklist for Sydney Homeowners', excerpt: 'Spring is peak pest season in Sydney. Our expert checklist covers termite swarm prevention, cockroach control, spider management, and rodent exclusion.' },
+  ],
+  'cockroach-control': [
+    { slug: 'cockroach-infestation-identification-treatment-sydney', title: 'Cockroach Infestation: Identification & Treatment Sydney', excerpt: 'Learn to identify different cockroach species and discover effective treatment options from EPA-licensed experts.' },
+    { slug: 'pest-control-cost-sydney-pricing-guide', title: 'Pest Control Cost Sydney 2025: Complete Pricing Guide', excerpt: 'How much does cockroach treatment cost in Sydney? See real pricing based on 1,000+ quotes.' },
+  ],
+  'rodent-control': [
+    { slug: 'signs-rodents-in-roof-sydney', title: 'Signs You Have Rodents in Your Roof Sydney', excerpt: 'Hearing scratching in your ceiling? Learn how to identify rats vs possums, understand the health risks, and discover effective solutions.' },
+    { slug: 'pest-control-cost-sydney-pricing-guide', title: 'Pest Control Cost Sydney 2025: Complete Pricing Guide', excerpt: 'How much does rodent control cost in Sydney? See real pricing for rat and mouse treatments.' },
+  ],
+  'spider-control': [
+    { slug: 'spring-pest-prevention-checklist-sydney', title: 'Spring Pest Prevention Checklist for Sydney Homeowners', excerpt: 'Spring triggers spider mating season. Learn how to reduce spider habitat and when to call a professional.' },
+    { slug: 'pest-control-cost-sydney-pricing-guide', title: 'Pest Control Cost Sydney 2025: Complete Pricing Guide', excerpt: 'How much does spider control cost in Sydney? See real pricing from EPA-licensed operators.' },
+  ],
+};
+
+// Default blog posts for services without specific mapping
+const defaultBlogPosts = [
+  { slug: 'pest-control-cost-sydney-pricing-guide', title: 'Pest Control Cost Sydney 2025: Complete Pricing Guide', excerpt: 'How much does pest control cost in Sydney? Our comprehensive guide covers pricing for all services.' },
+  { slug: 'spring-pest-prevention-checklist-sydney', title: 'Spring Pest Prevention Checklist for Sydney Homeowners', excerpt: 'Spring is peak pest season in Sydney. Our expert checklist covers prevention tips for all common pests.' },
+];
+
+function getRelatedBlogPosts(serviceSlug) {
+  return serviceBlogMapping[serviceSlug] || defaultBlogPosts;
+}
+
 // Generate static params for all services
 export async function generateStaticParams() {
   return services.map((service) => ({
@@ -257,32 +295,44 @@ export default function ServicePage({ params }) {
                 </div>
               </div>
 
-              {/* Operators */}
-              <div>
-                <h2 className="text-2xl font-heading font-bold text-neutral-900 mb-6">
-                  Operators Offering {service.name}
-                </h2>
-                
-                {serviceOperators.length > 0 ? (
+              {/* Operators - Only show if operators exist */}
+              {serviceOperators.length > 0 && (
+                <div>
+                  <h2 className="text-2xl font-heading font-bold text-neutral-900 mb-6">
+                    Operators Offering {service.name}
+                  </h2>
                   <div className="grid sm:grid-cols-2 gap-4">
                     {serviceOperators.map((operator) => (
                       <OperatorCard key={operator.id} operator={operator} />
                     ))}
                   </div>
-                ) : (
-                  <div className="card p-8 text-center">
-                    <AlertCircle className="w-12 h-12 text-amber-500 mx-auto mb-4" />
-                    <h3 className="text-lg font-semibold text-neutral-900 mb-2">
-                      No operators found for this service
-                    </h3>
-                    <p className="text-neutral-600 mb-6">
-                      We're expanding our network. Request a quote and we'll help you find the right operator.
-                    </p>
-                    <Link href="/quote" className="btn btn-primary">
-                      Request Quote
+                </div>
+              )}
+
+              {/* Related Articles */}
+              <div className="card p-8">
+                <h2 className="text-2xl font-heading font-bold text-neutral-900 mb-4">
+                  Related Articles
+                </h2>
+                <div className="space-y-4">
+                  {getRelatedBlogPosts(service.slug || service.id).map((post) => (
+                    <Link
+                      key={post.slug}
+                      href={`/blog/${post.slug}`}
+                      className="flex items-start gap-4 p-4 rounded-xl hover:bg-neutral-50 transition-colors group"
+                    >
+                      <div className="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center flex-shrink-0 group-hover:bg-primary-200 transition-colors">
+                        <Bug className="w-5 h-5 text-primary-600" />
+                      </div>
+                      <div>
+                        <h3 className="font-semibold text-neutral-900 group-hover:text-primary-600 transition-colors mb-1">
+                          {post.title}
+                        </h3>
+                        <p className="text-sm text-neutral-600 line-clamp-2">{post.excerpt}</p>
+                      </div>
                     </Link>
-                  </div>
-                )}
+                  ))}
+                </div>
               </div>
             </div>
 

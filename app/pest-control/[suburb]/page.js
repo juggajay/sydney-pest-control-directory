@@ -464,6 +464,48 @@ export default function SuburbPage({ params }) {
                   View all services →
                 </Link>
               </div>
+
+              {/* Helpful Resources - Blog Links */}
+              <div className="card p-6">
+                <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-4">
+                  Helpful Resources
+                </h3>
+                <div className="space-y-3">
+                  <Link
+                    href="/blog/how-to-identify-termites-sydney"
+                    className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 transition-colors group"
+                  >
+                    <Bug className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-medium text-neutral-900 group-hover:text-primary-600 transition-colors block">How to Identify Termites</span>
+                      <span className="text-xs text-neutral-500">Visual guide & warning signs</span>
+                    </div>
+                  </Link>
+                  <Link
+                    href="/blog/pest-control-cost-sydney-pricing-guide"
+                    className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 transition-colors group"
+                  >
+                    <Bug className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-medium text-neutral-900 group-hover:text-primary-600 transition-colors block">Pest Control Pricing Guide</span>
+                      <span className="text-xs text-neutral-500">2025 Sydney price comparison</span>
+                    </div>
+                  </Link>
+                  <Link
+                    href="/blog/spring-pest-prevention-checklist-sydney"
+                    className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 transition-colors group"
+                  >
+                    <Bug className="w-5 h-5 text-primary-600 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-medium text-neutral-900 group-hover:text-primary-600 transition-colors block">Spring Pest Prevention</span>
+                      <span className="text-xs text-neutral-500">Seasonal checklist for homeowners</span>
+                    </div>
+                  </Link>
+                </div>
+                <Link href="/blog" className="block text-center text-sm text-primary-600 font-medium mt-4 hover:text-primary-700">
+                  View all articles →
+                </Link>
+              </div>
             </aside>
           </div>
         </div>
