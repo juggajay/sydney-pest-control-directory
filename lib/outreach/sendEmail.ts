@@ -157,40 +157,34 @@ function wrapLinksWithTracking(html: string, trackingId: string): string {
 
 function generatePlainText(operatorName: string, profileUrl: string, emailType: 'initial' | 'followup'): string {
   if (emailType === 'initial') {
-    return `Hi ${operatorName},
+    return `Hey there!
 
-I've added your business to Pest Arrest — Sydney's pest control directory.
+I hope this finds you well. I'm Jayson — I run Pest Arrest, a new directory helping Sydney locals find trusted pest control operators.
 
-Your free listing: ${profileUrl}
-
-WANT TO STAND OUT?
-
-Verified operators get an "EPA Verified" badge on their profile. This shows customers you're properly licensed.
-
-To get verified, just do ONE of these:
-
-1. Reply with your EPA license number(s) — PMT, Timber Pest, Fumigator, or any other licenses you hold
-
-2. OR add a link to your Pest Arrest profile from your website
-
-Either option takes 2 minutes.
-
-If you have multiple licenses, send them all — we can add badges for each one.
-
-Cheers,
-Jayson
-Pest Arrest
-https://www.pestarrest.com.au`.trim();
-  } else {
-    return `Hi ${operatorName},
-
-Quick follow-up — did you see your free listing on Pest Arrest?
+I came across your business and thought you'd be a great fit, so I've created a free profile for you:
 
 ${profileUrl}
 
-Want the "EPA Verified" badge? Just reply with your license number(s) or add a link to us from your site.
+Have a look when you get a chance and let me know if anything needs updating — happy to tweak the description, add services, or fix any details.
 
-No pressure — your free listing stays active either way.
+One quick thing: if you'd like an "EPA Verified" badge on your listing (helps build trust with customers), just reply with your license number and I'll add it for you. No stress if not — your listing stays active either way.
+
+Would love to hear how business is going for you at the moment. Always keen to chat with local operators.
+
+Cheers,
+Jayson
+
+P.S. If this isn't relevant to you, no worries at all — just let me know and I won't email again.`.trim();
+  } else {
+    return `Hey ${operatorName},
+
+Just wanted to check in — did you get a chance to see your listing on Pest Arrest?
+
+${profileUrl}
+
+Happy to make any updates if needed. And the offer still stands for the verified badge if you want to send through your license number.
+
+Hope you're having a good week!
 
 Cheers,
 Jayson

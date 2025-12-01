@@ -10,48 +10,34 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON || '';
 const supabase = supabaseUrl && supabaseKey ? createClient(supabaseUrl, supabaseKey) : null;
 
-const DEFAULT_INITIAL_BODY = `Hi {{operator_name}},
+const DEFAULT_INITIAL_BODY = `Hey there!
 
-I've added your business to Pest Arrest — Sydney's pest control directory.
+I hope this finds you well. I'm Jayson — I run Pest Arrest, a new directory helping Sydney locals find trusted pest control operators.
 
-Your free listing: {{profile_url}}
+I came across your business and thought you'd be a great fit, so I've created a free profile for you:
 
-<strong>WANT TO STAND OUT?</strong>
+<strong>{{profile_url}}</strong>
 
-Verified operators get an "EPA Verified" badge on their profile. This badge shows potential customers you're properly licensed — building trust and helping you win more jobs.
+Have a look when you get a chance and let me know if anything needs updating — happy to tweak the description, add services, or fix any details.
 
-To get verified, just do ONE of these:
+<strong>One quick thing:</strong> if you'd like an "EPA Verified" badge on your listing (helps build trust with customers), just reply with your license number and I'll add it for you. No stress if not — your listing stays active either way.
 
-<strong>1. Reply with your EPA license number(s)</strong>
-   - PMT (Pest Management Technician)
-   - Timber Pest license
-   - Fumigator license
-   - Any other relevant licenses
-
-<strong>2. OR add a link to your Pest Arrest profile from your website</strong>
-
-Either option takes 2 minutes and gets you the verified badge.
-
-If you have multiple licenses, send them all — we can add badges for each one.
-
-Questions? Just reply to this email.
+Would love to hear how business is going for you at the moment. Always keen to chat with local operators.
 
 Cheers,
 Jayson
-Pest Arrest
-https://www.pestarrest.com.au`;
 
-const DEFAULT_FOLLOWUP_BODY = `Hi {{operator_name}},
+<em>P.S. If this isn't relevant to you, no worries at all — just let me know and I won't email again.</em>`;
 
-Quick follow-up — did you see your free listing on Pest Arrest?
+const DEFAULT_FOLLOWUP_BODY = `Hey {{operator_name}},
+
+Just wanted to check in — did you get a chance to see your listing on Pest Arrest?
 
 {{profile_url}}
 
-If you'd like the "EPA Verified" badge on your profile, just reply with your license number(s) or add a link to us from your site.
+Happy to make any updates if needed. And the offer still stands for the verified badge if you want to send through your license number.
 
-Verified operators get highlighted in search results and show customers they're properly licensed.
-
-No pressure either way — your free listing stays active regardless.
+Hope you're having a good week!
 
 Cheers,
 Jayson
@@ -64,7 +50,7 @@ export default function NewCampaignPage() {
 
   const [formData, setFormData] = useState({
     name: '',
-    email_subject: 'Your Business is Listed on Pest Arrest',
+    email_subject: 'Quick question about {{operator_name}}',
     email_body: DEFAULT_INITIAL_BODY,
     followup_days: 7,
     followup_subject: 'Quick follow-up: Your Pest Arrest profile',
