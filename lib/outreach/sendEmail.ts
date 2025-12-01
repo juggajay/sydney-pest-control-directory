@@ -84,13 +84,18 @@ export async function sendOutreachEmail({
     const trackingPixel = `<img src="${siteUrl}/api/outreach/track/open?id=${trackingId}" width="1" height="1" style="display:none;" alt="" />`;
     personalizedBody += trackingPixel;
 
-    // Send email via Resend with both HTML and plain text
+    // Send email via Resend with deliverability optimizations
     const { data: emailData, error: emailError } = await resend.emails.send({
-      from: 'Jayson <jayson@pestarrest.com.au>',
+      from: 'Jayson from Pest Arrest <jayson@pestarrest.com.au>',
       to: recipientEmail,
+      replyTo: 'jayson@pestarrest.com.au',
       subject: personalizedSubject,
       html: personalizedBody,
       text: plainTextBody,
+      headers: {
+        'List-Unsubscribe': `<mailto:unsubscribe@pestarrest.com.au?subject=Unsubscribe>, <${siteUrl}/unsubscribe>`,
+        'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
+      },
     });
 
     if (emailError) {

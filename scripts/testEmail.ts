@@ -1,6 +1,5 @@
 import { Resend } from 'resend';
 import * as dotenv from 'dotenv';
-import { v4 as uuidv4 } from 'uuid';
 
 // Load environment variables
 dotenv.config({ path: '.env.local' });
@@ -15,64 +14,37 @@ const testEmails = [
 
 const testProfileUrl = `${siteUrl}/operator/test-pest-control`;
 
-const emailBody = `Hi {{operator_name}},
+// Ultra-simple personal email - no links in body, no footer
+const getEmailBody = (operatorName: string) => `Hey there,
 
-I've added your business to Pest Arrest — Sydney's pest control directory.
+I'm Jayson. I run a small pest control directory for Sydney called Pest Arrest.
 
-Your free listing: {{profile_url}}
+I came across ${operatorName} and created a free listing for you on the site. Wanted to check if you'd like me to send you the link to review it?
 
-WANT TO STAND OUT?
-
-Verified operators get an "EPA Verified" badge on their profile. This shows customers you're properly licensed.
-
-To get verified, just do ONE of these:
-
-1. Reply with your EPA license number(s) — PMT, Timber Pest, Fumigator, or any other licenses you hold
-
-2. OR add a link to your Pest Arrest profile from your website
-
-Either option takes 2 minutes.
-
-If you have multiple licenses, send them all — we can add badges for each one.
+Happy to make any changes if needed.
 
 Cheers,
-Jayson
-Pest Arrest
-https://www.pestarrest.com.au`;
+Jayson`;
 
 async function sendTestEmails() {
-  console.log('Sending test emails...\n');
+  console.log('Sending test emails (deliverability optimized)...\n');
 
   for (const recipient of testEmails) {
-    const trackingId = uuidv4();
-
-    // Personalize
-    let body = emailBody
-      .replace(/\{\{operator_name\}\}/g, recipient.name)
-      .replace(/\{\{profile_url\}\}/g, testProfileUrl);
-
-    // Add tracking pixel
-    body += `\n\n<img src="${siteUrl}/api/outreach/track/open?id=${trackingId}" width="1" height="1" style="display:none;" alt="" />`;
-
-    // Wrap links with click tracking
-    body = body.replace(
-      /href="(https?:\/\/(?:www\.)?pestarrest\.com\.au[^"]*)"/g,
-      (match, url) => `href="${siteUrl}/api/outreach/track/click?id=${trackingId}&url=${encodeURIComponent(url)}"`
-    );
+    const body = getEmailBody(recipient.name);
 
     try {
+      // Ultra minimal - like a real personal email
       const { data, error } = await resend.emails.send({
         from: 'Jayson <jayson@pestarrest.com.au>',
         to: recipient.email,
-        subject: `Your free listing on Pest Arrest + verification badge, ${recipient.name}`,
-        html: body.replace(/\n/g, '<br>'),
+        subject: `${recipient.name}`,
+        text: body,
       });
 
       if (error) {
         console.error(`Failed to send to ${recipient.email}:`, error);
       } else {
         console.log(`✓ Sent to ${recipient.email} (ID: ${data?.id})`);
-        console.log(`  Tracking ID: ${trackingId}\n`);
       }
     } catch (err) {
       console.error(`Error sending to ${recipient.email}:`, err);
@@ -82,7 +54,7 @@ async function sendTestEmails() {
     await new Promise(resolve => setTimeout(resolve, 1000));
   }
 
-  console.log('Done!');
+  console.log('\nDone!');
 }
 
 sendTestEmails();

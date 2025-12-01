@@ -218,18 +218,20 @@ export default function OperatorPage({ params }) {
               </div>
             </div>
 
-            {/* License & Business Card */}
+            {/* Business Info Card */}
             <div className="lg:w-80">
               <div className="card p-6 bg-white/95 backdrop-blur">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center">
-                    <Shield className="w-6 h-6 text-emerald-600" />
+                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${operator.epaVerified ? 'bg-emerald-100' : 'bg-neutral-100'}`}>
+                    <Shield className={`w-6 h-6 ${operator.epaVerified ? 'text-emerald-600' : 'text-neutral-400'}`} />
                   </div>
                   <div>
                     <div className="font-semibold text-neutral-900">
-                      {operator.licenseNumber ? 'EPA Licensed' : 'Licensed Operator'}
+                      {operator.epaVerified ? 'EPA Verified' : 'Pest Control Operator'}
                     </div>
-                    <div className="text-sm text-neutral-500">Verified Business</div>
+                    <div className="text-sm text-neutral-500">
+                      {operator.epaVerified ? 'License Verified' : 'Awaiting Verification'}
+                    </div>
                   </div>
                 </div>
 
